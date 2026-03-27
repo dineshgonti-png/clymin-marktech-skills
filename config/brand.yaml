@@ -542,7 +542,7 @@ deployment:
 # ANALYTICS
 # ============================================================
 analytics:
-  ga4_id: "G-XXXXXXXXXX"
+  ga4_id: "G-NDT8R389CC"
   search_console_verified: false
 
 # ============================================================
