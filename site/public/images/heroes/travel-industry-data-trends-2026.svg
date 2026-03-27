@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg38" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg38)"/>
+  <path d="M0 0 L80 0 L0 80 Z" fill="#FF6B35" opacity="0.15"/>
+  <path d="M1200 630 L1120 630 L1200 550 Z" fill="#FF6B35" opacity="0.15"/>
+  <!-- Title -->
+  <text x="80" y="120" font-family="Inter, system-ui, sans-serif" font-size="48" font-weight="700" fill="#FFFFFF">Travel Industry</text>
+  <text x="80" y="175" font-family="Inter, system-ui, sans-serif" font-size="48" font-weight="700" fill="#FF6B35">Data Trends 2026</text>
+  <text x="80" y="210" font-family="Inter, system-ui, sans-serif" font-size="16" fill="#FFD166" letter-spacing="3">HOSPITALITY INTELLIGENCE</text>
+  <!-- Trend lines chart -->
+  <rect x="600" y="60" width="540" height="280" rx="10" fill="#232345" stroke="#4ECDC4" stroke-width="1" opacity="0.8"/>
+  <text x="630" y="90" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#888">TRAVEL DATA GROWTH 2022-2026</text>
+  <!-- Grid lines -->
+  <line x1="630" y1="110" x2="1110" y2="110" stroke="#333" stroke-width="0.5"/>
+  <line x1="630" y1="160" x2="1110" y2="160" stroke="#333" stroke-width="0.5"/>
+  <line x1="630" y1="210" x2="1110" y2="210" stroke="#333" stroke-width="0.5"/>
+  <line x1="630" y1="260" x2="1110" y2="260" stroke="#333" stroke-width="0.5"/>
+  <!-- Year labels -->
+  <text x="660" y="310" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#666">2022</text>
+  <text x="770" y="310" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#666">2023</text>
+  <text x="880" y="310" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#666">2024</text>
+  <text x="990" y="310" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#666">2025</text>
+  <text x="1080" y="310" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#FFD166" font-weight="700">2026</text>
+  <!-- AI Adoption line -->
+  <polyline points="660,260 770,240 880,210 990,170 1100,120" fill="none" stroke="#FF6B35" stroke-width="3"/>
+  <circle cx="1100" cy="120" r="5" fill="#FF6B35"/>
+  <text x="1010" y="112" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#FF6B35">AI Adoption</text>
+  <!-- Data Volume line -->
+  <polyline points="660,270 770,255 880,230 990,190 1100,140" fill="none" stroke="#4ECDC4" stroke-width="3"/>
+  <circle cx="1100" cy="140" r="5" fill="#4ECDC4"/>
+  <text x="1010" y="155" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#4ECDC4">Data Volume</text>
+  <!-- RevPAR Impact line -->
+  <polyline points="660,275 770,265 880,250 990,220 1100,180" fill="none" stroke="#FFD166" stroke-width="3"/>
+  <circle cx="1100" cy="180" r="5" fill="#FFD166"/>
+  <text x="1005" y="195" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#FFD166">RevPAR Impact</text>
+  <!-- 5 Trend icons -->
+  <circle cx="120" cy="320" r="30" fill="#FF6B35" opacity="0.2" stroke="#FF6B35" stroke-width="1.5"/>
+  <text x="108" y="326" font-family="Inter, system-ui, sans-serif" font-size="18" fill="#FF6B35">AI</text>
+  <text x="170" y="326" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#ccc">Rate Intelligence</text>
+  <circle cx="120" cy="390" r="30" fill="#4ECDC4" opacity="0.2" stroke="#4ECDC4" stroke-width="1.5"/>
+  <text x="112" y="394" font-family="Inter, system-ui, sans-serif" font-size="14" fill="#4ECDC4">RT</text>
+  <text x="170" y="396" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#ccc">Distribution Monitor</text>
+  <circle cx="120" cy="460" r="30" fill="#FFD166" opacity="0.2" stroke="#FFD166" stroke-width="1.5"/>
+  <text x="112" y="464" font-family="Inter, system-ui, sans-serif" font-size="14" fill="#FFD166">ML</text>
+  <text x="170" y="466" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#ccc">Demand Forecasting</text>
+  <circle cx="120" cy="530" r="30" fill="#FFFFFF" opacity="0.1" stroke="#FFFFFF" stroke-width="1"/>
+  <text x="114" y="534" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#FFFFFF">⚖</text>
+  <text x="170" y="536" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#ccc">Ethics Standards</text>
+  <!-- Stats -->
+  <rect x="600" y="380" width="160" height="80" rx="8" fill="#232345" stroke="#FF6B35" stroke-width="1"/>
+  <text x="620" y="410" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#888">MARKET SIZE</text>
+  <text x="620" y="440" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="700" fill="#FF6B35">$1.2T</text>
+  <rect x="790" y="380" width="160" height="80" rx="8" fill="#232345" stroke="#4ECDC4" stroke-width="1"/>
+  <text x="810" y="410" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#888">DATA GROWTH</text>
+  <text x="810" y="440" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="700" fill="#4ECDC4">+340%</text>
+  <rect x="980" y="380" width="160" height="80" rx="8" fill="#232345" stroke="#FFD166" stroke-width="1"/>
+  <text x="1000" y="410" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#888">AI ADOPTION</text>
+  <text x="1000" y="440" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="700" fill="#FFD166">67%</text>
+  <!-- Globe hint -->
+  <circle cx="450" cy="450" r="100" fill="none" stroke="#4ECDC4" stroke-width="0.5" opacity="0.3"/>
+  <ellipse cx="450" cy="450" rx="60" ry="100" fill="none" stroke="#4ECDC4" stroke-width="0.5" opacity="0.3"/>
+  <line x1="350" y1="430" x2="550" y2="430" stroke="#4ECDC4" stroke-width="0.5" opacity="0.3"/>
+  <line x1="350" y1="470" x2="550" y2="470" stroke="#4ECDC4" stroke-width="0.5" opacity="0.3"/>
+  <!-- Brand -->
+  <text x="1100" y="610" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="600" fill="#FF6B35" text-anchor="end">Clymin</text>
+</svg>

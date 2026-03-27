@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="cartGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FF6B35" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#FFD166" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="arrowGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFD166"/>
+      <stop offset="100%" stop-color="#FF6B35"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#1a1a2e"/>
+
+  <!-- Hex grid pattern background -->
+  <g opacity="0.03">
+    <polygon points="640,80 670,60 700,80 700,120 670,140 640,120" fill="none" stroke="#FFFFFF" stroke-width="1"/>
+    <polygon points="700,80 730,60 760,80 760,120 730,140 700,120" fill="none" stroke="#FFFFFF" stroke-width="1"/>
+    <polygon points="760,80 790,60 820,80 820,120 790,140 760,120" fill="none" stroke="#FFFFFF" stroke-width="1"/>
+    <polygon points="670,140 700,120 730,140 730,180 700,200 670,180" fill="none" stroke="#FFFFFF" stroke-width="1"/>
+    <polygon points="730,140 760,120 790,140 790,180 760,200 730,180" fill="none" stroke="#FFFFFF" stroke-width="1"/>
+    <polygon points="790,140 820,120 850,140 850,180 820,200 790,180" fill="none" stroke="#FFFFFF" stroke-width="1"/>
+  </g>
+
+  <!-- Background radial glow -->
+  <circle cx="800" cy="350" r="300" fill="#FF6B35" opacity="0.04"/>
+  <circle cx="850" cy="300" r="150" fill="#FFD166" opacity="0.03"/>
+
+  <!-- Marketplace grid -->
+  <g transform="translate(620, 180)">
+    <!-- Grid of product boxes -->
+    <rect x="0" y="0" width="70" height="70" rx="6" fill="#FFFFFF" opacity="0.06" stroke="#FFFFFF" stroke-width="0.5" stroke-opacity="0.08"/>
+    <rect x="80" y="0" width="70" height="70" rx="6" fill="#FFFFFF" opacity="0.06" stroke="#FFFFFF" stroke-width="0.5" stroke-opacity="0.08"/>
+    <rect x="160" y="0" width="70" height="70" rx="6" fill="#FFFFFF" opacity="0.06" stroke="#FFFFFF" stroke-width="0.5" stroke-opacity="0.08"/>
+    <rect x="240" y="0" width="70" height="70" rx="6" fill="#FF6B35" opacity="0.1" stroke="#FF6B35" stroke-width="1" stroke-opacity="0.2"/>
+    <rect x="320" y="0" width="70" height="70" rx="6" fill="#FFFFFF" opacity="0.06" stroke="#FFFFFF" stroke-width="0.5" stroke-opacity="0.08"/>
+
+    <rect x="0" y="80" width="70" height="70" rx="6" fill="#FFFFFF" opacity="0.06" stroke="#FFFFFF" stroke-width="0.5" stroke-opacity="0.08"/>
+    <rect x="80" y="80" width="70" height="70" rx="6" fill="#FFD166" opacity="0.08" stroke="#FFD166" stroke-width="0.5" stroke-opacity="0.15"/>
+    <rect x="160" y="80" width="70" height="70" rx="6" fill="#FFFFFF" opacity="0.06" stroke="#FFFFFF" stroke-width="0.5" stroke-opacity="0.08"/>
+    <rect x="240" y="80" width="70" height="70" rx="6" fill="#FFFFFF" opacity="0.06" stroke="#FFFFFF" stroke-width="0.5" stroke-opacity="0.08"/>
+    <rect x="320" y="80" width="70" height="70" rx="6" fill="#FF6B35" opacity="0.08" stroke="#FF6B35" stroke-width="0.5" stroke-opacity="0.12"/>
+
+    <rect x="0" y="160" width="70" height="70" rx="6" fill="#FF6B35" opacity="0.08" stroke="#FF6B35" stroke-width="0.5" stroke-opacity="0.12"/>
+    <rect x="80" y="160" width="70" height="70" rx="6" fill="#FFFFFF" opacity="0.06" stroke="#FFFFFF" stroke-width="0.5" stroke-opacity="0.08"/>
+    <rect x="160" y="160" width="70" height="70" rx="6" fill="#FFD166" opacity="0.06" stroke="#FFD166" stroke-width="0.5" stroke-opacity="0.1"/>
+    <rect x="240" y="160" width="70" height="70" rx="6" fill="#FFFFFF" opacity="0.06" stroke="#FFFFFF" stroke-width="0.5" stroke-opacity="0.08"/>
+    <rect x="320" y="160" width="70" height="70" rx="6" fill="#FFFFFF" opacity="0.06" stroke="#FFFFFF" stroke-width="0.5" stroke-opacity="0.08"/>
+
+    <!-- Data extraction dots on highlighted cells -->
+    <circle cx="275" cy="35" r="4" fill="#FF6B35" opacity="0.8"/>
+    <circle cx="115" cy="115" r="4" fill="#FFD166" opacity="0.7"/>
+    <circle cx="35" cy="195" r="3" fill="#FF6B35" opacity="0.6"/>
+    <circle cx="355" cy="115" r="3" fill="#FF6B35" opacity="0.5"/>
+    <circle cx="195" cy="195" r="3" fill="#FFD166" opacity="0.5"/>
+  </g>
+
+  <!-- Data extraction arrows flowing out -->
+  <g>
+    <!-- Arrow 1 -->
+    <line x1="895" y1="215" x2="1020" y2="180" stroke="#FF6B35" stroke-width="2" opacity="0.4"/>
+    <polygon points="1020,175 1030,180 1020,185" fill="#FF6B35" opacity="0.5"/>
+
+    <!-- Arrow 2 -->
+    <line x1="920" y1="300" x2="1050" y2="290" stroke="#FFD166" stroke-width="2" opacity="0.35"/>
+    <polygon points="1050,285 1060,290 1050,295" fill="#FFD166" opacity="0.45"/>
+
+    <!-- Arrow 3 -->
+    <line x1="910" y1="385" x2="1030" y2="400" stroke="#FF6B35" stroke-width="1.5" opacity="0.3"/>
+    <polygon points="1030,395 1040,400 1030,405" fill="#FF6B35" opacity="0.4"/>
+  </g>
+
+  <!-- Shopping cart abstract shape -->
+  <g transform="translate(1040, 160)" opacity="0.25">
+    <!-- Cart body -->
+    <path d="M0,30 L15,30 L30,80 L80,80 L90,40 L25,40" fill="none" stroke="#FF6B35" stroke-width="3" stroke-linejoin="round"/>
+    <!-- Wheels -->
+    <circle cx="40" cy="95" r="8" fill="none" stroke="#FF6B35" stroke-width="2.5"/>
+    <circle cx="72" cy="95" r="8" fill="none" stroke="#FF6B35" stroke-width="2.5"/>
+    <!-- Items in cart -->
+    <rect x="35" y="50" width="18" height="22" rx="2" fill="#FFD166" opacity="0.4"/>
+    <rect x="58" y="55" width="16" height="17" rx="2" fill="#FF6B35" opacity="0.3"/>
+  </g>
+
+  <!-- Data collected indicators -->
+  <g transform="translate(1040, 290)">
+    <rect x="0" y="0" width="100" height="20" rx="10" fill="#FF6B35" opacity="0.15"/>
+    <rect x="0" y="0" width="75" height="20" rx="10" fill="#FF6B35" opacity="0.25"/>
+    <text x="12" y="14" font-family="Inter, system-ui, sans-serif" font-size="10" fill="#FFFFFF" opacity="0.5">2,451 items</text>
+
+    <rect x="0" y="30" width="100" height="20" rx="10" fill="#FFD166" opacity="0.1"/>
+    <rect x="0" y="30" width="60" height="20" rx="10" fill="#FFD166" opacity="0.2"/>
+    <text x="12" y="44" font-family="Inter, system-ui, sans-serif" font-size="10" fill="#FFFFFF" opacity="0.5">1,203 prices</text>
+  </g>
+
+  <!-- Floating particles -->
+  <circle cx="580" cy="250" r="3" fill="#FFD166" opacity="0.2"/>
+  <circle cx="560" cy="400" r="4" fill="#FF6B35" opacity="0.15"/>
+  <circle cx="1100" cy="480" r="3" fill="#FFD166" opacity="0.2"/>
+  <rect x="1080" y="130" width="10" height="10" rx="2" fill="#FF6B35" opacity="0.12" transform="rotate(45,1085,135)"/>
+
+  <!-- Accent line -->
+  <line x1="80" y1="530" x2="420" y2="530" stroke="#FF6B35" stroke-width="2" opacity="0.3"/>
+  <circle cx="80" cy="530" r="4" fill="#FF6B35" opacity="0.5"/>
+
+  <!-- Title text -->
+  <text x="80" y="140" font-family="Inter, system-ui, sans-serif" font-size="52" font-weight="800" fill="#FFFFFF" letter-spacing="-1">Walmart Product</text>
+  <text x="80" y="200" font-family="Inter, system-ui, sans-serif" font-size="52" font-weight="800" fill="#FF6B35" letter-spacing="-1">Scraping</text>
+
+  <!-- Subtitle -->
+  <text x="80" y="240" font-family="Inter, system-ui, sans-serif" font-size="18" fill="#FFFFFF" opacity="0.5">Collect product data from the largest marketplace</text>
+
+  <!-- Clymin brand -->
+  <text x="1120" y="600" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="600" fill="#FF6B35" text-anchor="end" letter-spacing="2">Clymin</text>
+</svg>

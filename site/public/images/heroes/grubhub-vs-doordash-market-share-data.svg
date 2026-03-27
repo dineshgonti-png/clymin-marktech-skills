@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg57" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg57)"/>
+  <path d="M0 0 L80 0 L0 80 Z" fill="#FF6B35" opacity="0.15"/>
+  <path d="M1200 630 L1120 630 L1200 550 Z" fill="#FF6B35" opacity="0.15"/>
+  <!-- Title -->
+  <text x="80" y="110" font-family="Inter, system-ui, sans-serif" font-size="44" font-weight="700" fill="#FFFFFF">Grubhub vs DoorDash</text>
+  <text x="80" y="165" font-family="Inter, system-ui, sans-serif" font-size="44" font-weight="700" fill="#FF6B35">Market Share Data</text>
+  <text x="80" y="200" font-family="Inter, system-ui, sans-serif" font-size="16" fill="#FFD166" letter-spacing="3">FOOD DELIVERY INTELLIGENCE</text>
+  <!-- Market share donut chart -->
+  <circle cx="850" cy="200" r="100" fill="none" stroke="#333" stroke-width="30"/>
+  <!-- DoorDash segment (67%) -->
+  <circle cx="850" cy="200" r="100" fill="none" stroke="#FF6B35" stroke-width="30" stroke-dasharray="421 209" stroke-dashoffset="0" transform="rotate(-90 850 200)"/>
+  <!-- Uber Eats segment (23%) -->
+  <circle cx="850" cy="200" r="100" fill="none" stroke="#4ECDC4" stroke-width="30" stroke-dasharray="144.5 485.5" stroke-dashoffset="-421" transform="rotate(-90 850 200)"/>
+  <!-- Grubhub segment (8%) -->
+  <circle cx="850" cy="200" r="100" fill="none" stroke="#FFD166" stroke-width="30" stroke-dasharray="50.3 579.7" stroke-dashoffset="-565.5" transform="rotate(-90 850 200)"/>
+  <!-- Center label -->
+  <text x="820" y="195" font-family="Inter, system-ui, sans-serif" font-size="14" fill="#888">US Market</text>
+  <text x="830" y="215" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF">2026</text>
+  <!-- Legend -->
+  <rect x="1000" y="140" width="12" height="12" fill="#FF6B35" rx="2"/>
+  <text x="1020" y="151" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#ccc">DoorDash 67%</text>
+  <rect x="1000" y="165" width="12" height="12" fill="#4ECDC4" rx="2"/>
+  <text x="1020" y="176" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#ccc">Uber Eats 23%</text>
+  <rect x="1000" y="190" width="12" height="12" fill="#FFD166" rx="2"/>
+  <text x="1020" y="201" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#ccc">Grubhub 8%</text>
+  <rect x="1000" y="215" width="12" height="12" fill="#666" rx="2"/>
+  <text x="1020" y="226" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#ccc">Others 2%</text>
+  <!-- Key metrics -->
+  <rect x="80" y="280" width="250" height="100" rx="8" fill="#232345" stroke="#FF6B35" stroke-width="1.5"/>
+  <text x="100" y="310" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#888">DOORDASH RESTAURANTS</text>
+  <text x="100" y="345" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="700" fill="#FF6B35">900K+</text>
+  <text x="100" y="368" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#ccc">nationwide coverage</text>
+  <rect x="350" y="280" width="250" height="100" rx="8" fill="#232345" stroke="#FFD166" stroke-width="1.5"/>
+  <text x="370" y="310" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#888">GRUBHUB RESTAURANTS</text>
+  <text x="370" y="345" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="700" fill="#FFD166">365K</text>
+  <text x="370" y="368" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#ccc">partnered focus</text>
+  <rect x="80" y="400" width="250" height="100" rx="8" fill="#232345" stroke="#4ECDC4" stroke-width="1.5"/>
+  <text x="100" y="430" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#888">MARKET SIZE</text>
+  <text x="100" y="465" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="700" fill="#4ECDC4">$218B</text>
+  <text x="100" y="488" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#ccc">GMV in 2025</text>
+  <rect x="350" y="400" width="250" height="100" rx="8" fill="#232345" stroke="#FFFFFF" stroke-width="1" opacity="0.8"/>
+  <text x="370" y="430" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#888">DATA POINTS SCRAPED</text>
+  <text x="370" y="465" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">15+</text>
+  <text x="370" y="488" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#ccc">platforms covered</text>
+  <!-- Trend chart area -->
+  <rect x="650" y="350" width="490" height="180" rx="10" fill="#232345" stroke="#FF6B35" stroke-width="1" opacity="0.7"/>
+  <text x="680" y="380" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#888">MARKET SHARE TREND 2020-2026</text>
+  <!-- DoorDash trend (rising) -->
+  <polyline points="690,490 770,470 850,450 930,430 1010,420 1090,410" fill="none" stroke="#FF6B35" stroke-width="2.5"/>
+  <!-- Grubhub trend (declining) -->
+  <polyline points="690,410 770,430 850,450 930,470 1010,480 1090,490" fill="none" stroke="#FFD166" stroke-width="2.5"/>
+  <!-- Brand -->
+  <text x="1100" y="610" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="600" fill="#FF6B35" text-anchor="end">Clymin</text>
+</svg>

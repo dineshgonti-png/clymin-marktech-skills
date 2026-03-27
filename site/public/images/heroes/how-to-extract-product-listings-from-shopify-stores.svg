@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#0f3460"/>
+    </linearGradient>
+    <linearGradient id="pipeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF6B35;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#FFD166;stop-opacity:0.4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad2)"/>
+
+  <!-- Dot grid pattern -->
+  <g opacity="0.06" fill="#FFFFFF">
+    <circle cx="50" cy="50" r="1.5"/><circle cx="100" cy="50" r="1.5"/><circle cx="150" cy="50" r="1.5"/><circle cx="200" cy="50" r="1.5"/><circle cx="250" cy="50" r="1.5"/>
+    <circle cx="50" cy="100" r="1.5"/><circle cx="100" cy="100" r="1.5"/><circle cx="150" cy="100" r="1.5"/><circle cx="200" cy="100" r="1.5"/><circle cx="250" cy="100" r="1.5"/>
+    <circle cx="50" cy="150" r="1.5"/><circle cx="100" cy="150" r="1.5"/><circle cx="150" cy="150" r="1.5"/><circle cx="200" cy="150" r="1.5"/><circle cx="250" cy="150" r="1.5"/>
+    <circle cx="950" cy="450" r="1.5"/><circle cx="1000" cy="450" r="1.5"/><circle cx="1050" cy="450" r="1.5"/><circle cx="1100" cy="450" r="1.5"/><circle cx="1150" cy="450" r="1.5"/>
+    <circle cx="950" cy="500" r="1.5"/><circle cx="1000" cy="500" r="1.5"/><circle cx="1050" cy="500" r="1.5"/><circle cx="1100" cy="500" r="1.5"/><circle cx="1150" cy="500" r="1.5"/>
+    <circle cx="950" cy="550" r="1.5"/><circle cx="1000" cy="550" r="1.5"/><circle cx="1050" cy="550" r="1.5"/><circle cx="1100" cy="550" r="1.5"/><circle cx="1150" cy="550" r="1.5"/>
+  </g>
+
+  <!-- Shopify store shape (storefront) -->
+  <g transform="translate(700, 120)" opacity="0.6">
+    <!-- Store roof -->
+    <polygon points="0,40 80,0 160,40" fill="none" stroke="#FFD166" stroke-width="2"/>
+    <!-- Store body -->
+    <rect x="10" y="40" width="140" height="100" fill="none" stroke="#FFD166" stroke-width="1.5" rx="2"/>
+    <!-- Store window -->
+    <rect x="25" y="55" width="45" height="35" fill="none" stroke="#FFD166" stroke-width="1" opacity="0.5"/>
+    <rect x="85" y="55" width="45" height="35" fill="none" stroke="#FFD166" stroke-width="1" opacity="0.5"/>
+    <!-- Store door -->
+    <rect x="55" y="100" width="40" height="40" fill="none" stroke="#FFD166" stroke-width="1" opacity="0.5"/>
+  </g>
+
+  <!-- Product card 1 being extracted -->
+  <g transform="translate(900, 140)">
+    <rect x="0" y="0" width="90" height="110" rx="6" fill="#1a1a2e" stroke="#FF6B35" stroke-width="1.5" opacity="0.8"/>
+    <rect x="10" y="10" width="70" height="45" rx="3" fill="#FF6B35" opacity="0.15"/>
+    <rect x="10" y="65" width="50" height="8" rx="2" fill="#FFFFFF" opacity="0.3"/>
+    <rect x="10" y="80" width="35" height="8" rx="2" fill="#FFD166" opacity="0.4"/>
+    <rect x="10" y="95" width="25" height="8" rx="2" fill="#FF6B35" opacity="0.3"/>
+  </g>
+
+  <!-- Product card 2 being extracted -->
+  <g transform="translate(1010, 170)">
+    <rect x="0" y="0" width="90" height="110" rx="6" fill="#1a1a2e" stroke="#FF6B35" stroke-width="1.5" opacity="0.6"/>
+    <rect x="10" y="10" width="70" height="45" rx="3" fill="#FF6B35" opacity="0.1"/>
+    <rect x="10" y="65" width="50" height="8" rx="2" fill="#FFFFFF" opacity="0.2"/>
+    <rect x="10" y="80" width="35" height="8" rx="2" fill="#FFD166" opacity="0.3"/>
+    <rect x="10" y="95" width="25" height="8" rx="2" fill="#FF6B35" opacity="0.2"/>
+  </g>
+
+  <!-- Extraction arrows -->
+  <g opacity="0.5">
+    <line x1="860" y1="180" x2="895" y2="175" stroke="#FF6B35" stroke-width="2" stroke-dasharray="5,3"/>
+    <polygon points="895,175 888,170 888,180" fill="#FF6B35"/>
+    <line x1="870" y1="210" x2="1005" y2="210" stroke="#FF6B35" stroke-width="2" stroke-dasharray="5,3"/>
+    <polygon points="1005,210 998,205 998,215" fill="#FF6B35"/>
+  </g>
+
+  <!-- Code brackets -->
+  <g transform="translate(720, 310)" opacity="0.35">
+    <text fill="#FF6B35" font-family="monospace" font-size="40" font-weight="700">{</text>
+  </g>
+  <g transform="translate(1100, 310)" opacity="0.35">
+    <text fill="#FF6B35" font-family="monospace" font-size="40" font-weight="700">}</text>
+  </g>
+
+  <!-- Data pipeline visualization -->
+  <g transform="translate(700, 380)">
+    <!-- Pipeline tube -->
+    <rect x="0" y="0" width="400" height="24" rx="12" fill="none" stroke="url(#pipeGrad)" stroke-width="2"/>
+    <!-- Data flowing through pipeline -->
+    <rect x="20" y="6" width="30" height="12" rx="6" fill="#FF6B35" opacity="0.6"/>
+    <rect x="70" y="6" width="30" height="12" rx="6" fill="#FFD166" opacity="0.5"/>
+    <rect x="120" y="6" width="30" height="12" rx="6" fill="#FF6B35" opacity="0.4"/>
+    <rect x="180" y="6" width="30" height="12" rx="6" fill="#FFD166" opacity="0.3"/>
+    <rect x="240" y="6" width="30" height="12" rx="6" fill="#FF6B35" opacity="0.3"/>
+    <rect x="300" y="6" width="30" height="12" rx="6" fill="#FFD166" opacity="0.2"/>
+    <rect x="350" y="6" width="30" height="12" rx="6" fill="#FF6B35" opacity="0.15"/>
+    <!-- Arrow at end -->
+    <polygon points="410,12 400,4 400,20" fill="#FFD166" opacity="0.4"/>
+  </g>
+
+  <!-- Code snippet decoration -->
+  <g transform="translate(750, 440)" opacity="0.25">
+    <rect x="0" y="0" width="300" height="120" rx="8" fill="#0a0a1a" stroke="#FF6B35" stroke-width="1"/>
+    <circle cx="16" cy="16" r="4" fill="#FF6B35"/>
+    <circle cx="30" cy="16" r="4" fill="#FFD166"/>
+    <circle cx="44" cy="16" r="4" fill="#FFFFFF" opacity="0.3"/>
+    <rect x="15" y="35" width="120" height="6" rx="3" fill="#FF6B35" opacity="0.4"/>
+    <rect x="15" y="50" width="180" height="6" rx="3" fill="#FFFFFF" opacity="0.2"/>
+    <rect x="15" y="65" width="90" height="6" rx="3" fill="#FFD166" opacity="0.3"/>
+    <rect x="15" y="80" width="150" height="6" rx="3" fill="#FFFFFF" opacity="0.15"/>
+    <rect x="15" y="95" width="60" height="6" rx="3" fill="#FF6B35" opacity="0.3"/>
+  </g>
+
+  <!-- Decorative angular shape top-left -->
+  <polygon points="0,0 200,0 0,200" fill="#FF6B35" opacity="0.03"/>
+
+  <!-- Left accent bar -->
+  <rect x="60" y="180" width="4" height="120" rx="2" fill="#FF6B35" opacity="0.6"/>
+
+  <!-- Title text -->
+  <text x="80" y="240" fill="#FFFFFF" font-family="Inter, system-ui, sans-serif" font-size="52" font-weight="700" letter-spacing="-1">Extract Shopify</text>
+  <text x="80" y="300" fill="#FFFFFF" font-family="Inter, system-ui, sans-serif" font-size="52" font-weight="700" letter-spacing="-1">Listings</text>
+
+  <!-- Subtitle -->
+  <text x="80" y="345" fill="#FFFFFF" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="400" opacity="0.5">Product Data Extraction &amp; Pipeline</text>
+
+  <!-- Orange accent line -->
+  <rect x="80" y="360" width="180" height="3" rx="1.5" fill="#FF6B35"/>
+
+  <!-- Brand text bottom-right -->
+  <text x="1140" y="600" fill="#FF6B35" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="600" text-anchor="end">Clymin</text>
+</svg>

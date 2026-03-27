@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bgGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="orangeGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF6B35"/>
+      <stop offset="100%" style="stop-color:#FFD166"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad1)"/>
+
+  <!-- Subtle grid pattern -->
+  <g opacity="0.05" stroke="#FFFFFF" stroke-width="0.5">
+    <line x1="0" y1="100" x2="1200" y2="100"/>
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="0" y1="400" x2="1200" y2="400"/>
+    <line x1="0" y1="500" x2="1200" y2="500"/>
+    <line x1="200" y1="0" x2="200" y2="630"/>
+    <line x1="400" y1="0" x2="400" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/>
+    <line x1="800" y1="0" x2="800" y2="630"/>
+    <line x1="1000" y1="0" x2="1000" y2="630"/>
+  </g>
+
+  <!-- Decorative circles top-right -->
+  <circle cx="1050" cy="80" r="60" fill="none" stroke="#FF6B35" stroke-width="1" opacity="0.2"/>
+  <circle cx="1050" cy="80" r="40" fill="none" stroke="#FFD166" stroke-width="1" opacity="0.15"/>
+  <circle cx="1050" cy="80" r="20" fill="#FF6B35" opacity="0.1"/>
+
+  <!-- Price tag 1 -->
+  <g transform="translate(700, 180)">
+    <polygon points="0,15 15,0 80,0 80,50 0,50" fill="none" stroke="#FF6B35" stroke-width="2" opacity="0.7"/>
+    <circle cx="18" cy="18" r="5" fill="#FF6B35" opacity="0.7"/>
+    <text x="40" y="32" fill="#FFD166" font-family="Inter, system-ui, sans-serif" font-size="14" text-anchor="middle" font-weight="600">$49</text>
+  </g>
+
+  <!-- Price tag 2 -->
+  <g transform="translate(830, 220)">
+    <polygon points="0,15 15,0 80,0 80,50 0,50" fill="none" stroke="#FFD166" stroke-width="2" opacity="0.6"/>
+    <circle cx="18" cy="18" r="5" fill="#FFD166" opacity="0.6"/>
+    <text x="40" y="32" fill="#FFFFFF" font-family="Inter, system-ui, sans-serif" font-size="14" text-anchor="middle" font-weight="600">$52</text>
+  </g>
+
+  <!-- Price tag 3 -->
+  <g transform="translate(960, 160)">
+    <polygon points="0,15 15,0 80,0 80,50 0,50" fill="none" stroke="#FF6B35" stroke-width="2" opacity="0.5"/>
+    <circle cx="18" cy="18" r="5" fill="#FF6B35" opacity="0.5"/>
+    <text x="40" y="32" fill="#FFD166" font-family="Inter, system-ui, sans-serif" font-size="14" text-anchor="middle" font-weight="600">$47</text>
+  </g>
+
+  <!-- Tracking lines connecting price tags -->
+  <polyline points="780,205 870,245 1000,185" fill="none" stroke="#FF6B35" stroke-width="2" opacity="0.4" stroke-dasharray="6,4"/>
+  <circle cx="780" cy="205" r="4" fill="#FF6B35" opacity="0.6"/>
+  <circle cx="870" cy="245" r="4" fill="#FFD166" opacity="0.6"/>
+  <circle cx="1000" cy="185" r="4" fill="#FF6B35" opacity="0.6"/>
+
+  <!-- Target/crosshair icon -->
+  <g transform="translate(900, 380)" opacity="0.3">
+    <circle cx="0" cy="0" r="40" fill="none" stroke="#FF6B35" stroke-width="2"/>
+    <circle cx="0" cy="0" r="25" fill="none" stroke="#FF6B35" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="10" fill="none" stroke="#FFD166" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="3" fill="#FFD166"/>
+    <line x1="-50" y1="0" x2="-15" y2="0" stroke="#FF6B35" stroke-width="1.5"/>
+    <line x1="15" y1="0" x2="50" y2="0" stroke="#FF6B35" stroke-width="1.5"/>
+    <line x1="0" y1="-50" x2="0" y2="-15" stroke="#FF6B35" stroke-width="1.5"/>
+    <line x1="0" y1="15" x2="0" y2="50" stroke="#FF6B35" stroke-width="1.5"/>
+  </g>
+
+  <!-- Timeline with data points at bottom -->
+  <g transform="translate(650, 480)">
+    <line x1="0" y1="0" x2="450" y2="0" stroke="#FFFFFF" stroke-width="1" opacity="0.2"/>
+    <!-- Data points on timeline -->
+    <circle cx="0" cy="0" r="4" fill="#FF6B35"/>
+    <line x1="0" y1="0" x2="0" y2="-30" stroke="#FF6B35" stroke-width="1" opacity="0.5"/>
+    <circle cx="75" cy="0" r="4" fill="#FFD166"/>
+    <line x1="75" y1="0" x2="75" y2="-50" stroke="#FFD166" stroke-width="1" opacity="0.5"/>
+    <circle cx="150" cy="0" r="4" fill="#FF6B35"/>
+    <line x1="150" y1="0" x2="150" y2="-20" stroke="#FF6B35" stroke-width="1" opacity="0.5"/>
+    <circle cx="225" cy="0" r="4" fill="#FFD166"/>
+    <line x1="225" y1="0" x2="225" y2="-45" stroke="#FFD166" stroke-width="1" opacity="0.5"/>
+    <circle cx="300" cy="0" r="4" fill="#FF6B35"/>
+    <line x1="300" y1="0" x2="300" y2="-35" stroke="#FF6B35" stroke-width="1" opacity="0.5"/>
+    <circle cx="375" cy="0" r="4" fill="#FFD166"/>
+    <line x1="375" y1="0" x2="375" y2="-55" stroke="#FFD166" stroke-width="1" opacity="0.5"/>
+    <circle cx="450" cy="0" r="4" fill="#FF6B35"/>
+    <line x1="450" y1="0" x2="450" y2="-25" stroke="#FF6B35" stroke-width="1" opacity="0.5"/>
+    <!-- Trend line -->
+    <polyline points="0,-30 75,-50 150,-20 225,-45 300,-35 375,-55 450,-25" fill="none" stroke="url(#orangeGrad1)" stroke-width="2" opacity="0.6"/>
+  </g>
+
+  <!-- Binoculars icon (simplified geometric) -->
+  <g transform="translate(750, 350)" opacity="0.2">
+    <circle cx="0" cy="0" r="22" fill="none" stroke="#FFD166" stroke-width="2"/>
+    <circle cx="35" cy="0" r="22" fill="none" stroke="#FFD166" stroke-width="2"/>
+    <rect x="5" y="-8" width="25" height="16" rx="4" fill="none" stroke="#FFD166" stroke-width="1.5"/>
+  </g>
+
+  <!-- Floating data dots -->
+  <circle cx="680" cy="130" r="3" fill="#FF6B35" opacity="0.4"/>
+  <circle cx="720" cy="310" r="2" fill="#FFD166" opacity="0.3"/>
+  <circle cx="1100" cy="280" r="3" fill="#FF6B35" opacity="0.3"/>
+  <circle cx="1050" cy="450" r="2" fill="#FFD166" opacity="0.4"/>
+  <circle cx="650" cy="400" r="2" fill="#FF6B35" opacity="0.3"/>
+
+  <!-- Left accent bar -->
+  <rect x="60" y="180" width="4" height="120" rx="2" fill="url(#orangeGrad1)" opacity="0.6"/>
+
+  <!-- Title text -->
+  <text x="80" y="240" fill="#FFFFFF" font-family="Inter, system-ui, sans-serif" font-size="52" font-weight="700" letter-spacing="-1">Track Competitor</text>
+  <text x="80" y="300" fill="#FFFFFF" font-family="Inter, system-ui, sans-serif" font-size="52" font-weight="700" letter-spacing="-1">Pricing</text>
+
+  <!-- Subtitle -->
+  <text x="80" y="345" fill="#FFFFFF" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="400" opacity="0.5">E-commerce Price Monitoring &amp; Analysis</text>
+
+  <!-- Orange accent line under title -->
+  <rect x="80" y="360" width="180" height="3" rx="1.5" fill="#FF6B35"/>
+
+  <!-- Brand text bottom-right -->
+  <text x="1140" y="600" fill="#FF6B35" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="600" text-anchor="end">Clymin</text>
+</svg>

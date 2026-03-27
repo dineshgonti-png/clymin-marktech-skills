@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&amp;display=swap');
+    </style>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- Title -->
+  <text x="600" y="55" font-family="Inter, sans-serif" font-weight="700" font-size="40" fill="#ffffff" text-anchor="middle">Travel Data Types</text>
+  <text x="600" y="100" font-family="Inter, sans-serif" font-weight="400" font-size="18" fill="#ffffff" text-anchor="middle" opacity="0.6">Comprehensive data categories from booking platforms</text>
+  <!-- Central hub -->
+  <circle cx="600" cy="350" r="55" fill="#16213e" stroke="#FF6B35" stroke-width="2.5"/>
+  <text x="600" y="345" font-family="Inter, sans-serif" font-size="12" fill="#FF6B35" text-anchor="middle" font-weight="700">Data</text>
+  <text x="600" y="362" font-family="Inter, sans-serif" font-size="12" fill="#FF6B35" text-anchor="middle" font-weight="700">Hub</text>
+  <!-- Category icon boxes in a grid pattern around the hub -->
+  <!-- Top row -->
+  <!-- Rates icon -->
+  <rect x="170" y="150" width="130" height="100" rx="10" fill="#16213e" stroke="#FF6B35" stroke-width="1.5"/>
+  <text x="235" y="190" font-family="Inter, sans-serif" font-size="24" fill="#FF6B35" text-anchor="middle" opacity="0.6">$</text>
+  <text x="235" y="218" font-family="Inter, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" opacity="0.7">Room Rates</text>
+  <text x="235" y="235" font-family="Inter, sans-serif" font-size="9" fill="#ffffff" text-anchor="middle" opacity="0.4">Nightly pricing data</text>
+  <!-- Arrow to hub -->
+  <line x1="300" y1="240" x2="555" y2="320" stroke="#FF6B35" stroke-width="1.5" opacity="0.4" stroke-dasharray="4,3"/>
+  <circle cx="400" cy="270" r="2" fill="#FF6B35" opacity="0.5"/>
+  <!-- Calendar icon -->
+  <rect x="370" y="150" width="130" height="100" rx="10" fill="#16213e" stroke="#FF6B35" stroke-width="1.5"/>
+  <rect x="400" y="175" width="70" height="50" rx="4" fill="none" stroke="#FF6B35" stroke-width="1" opacity="0.5"/>
+  <line x1="400" y1="190" x2="470" y2="190" stroke="#FF6B35" stroke-width="0.5" opacity="0.4"/>
+  <rect x="408" y="196" width="10" height="8" rx="1" fill="#FF6B35" opacity="0.3"/>
+  <rect x="422" y="196" width="10" height="8" rx="1" fill="#FF6B35" opacity="0.5"/>
+  <rect x="436" y="196" width="10" height="8" rx="1" fill="#FF6B35" opacity="0.3"/>
+  <rect x="450" y="196" width="10" height="8" rx="1" fill="#FF6B35" opacity="0.4"/>
+  <rect x="408" y="208" width="10" height="8" rx="1" fill="#FF6B35" opacity="0.4"/>
+  <rect x="422" y="208" width="10" height="8" rx="1" fill="#FF6B35" opacity="0.3"/>
+  <text x="435" y="235" font-family="Inter, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" opacity="0.7">Availability</text>
+  <line x1="435" y1="250" x2="570" y2="320" stroke="#FF6B35" stroke-width="1.5" opacity="0.35" stroke-dasharray="4,3"/>
+  <!-- Reviews icon -->
+  <rect x="700" y="150" width="130" height="100" rx="10" fill="#16213e" stroke="#FF6B35" stroke-width="1.5"/>
+  <text x="765" y="185" font-family="Inter, sans-serif" font-size="14" fill="#FF6B35" text-anchor="middle" opacity="0.6">&#9733;&#9733;&#9733;&#9733;&#9734;</text>
+  <rect x="730" y="195" width="70" height="20" rx="4" fill="#FF6B35" opacity="0.1"/>
+  <text x="765" y="209" font-family="Inter, sans-serif" font-size="9" fill="#ffffff" text-anchor="middle" opacity="0.4">4.5 / 5.0</text>
+  <text x="765" y="235" font-family="Inter, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" opacity="0.7">Reviews</text>
+  <line x1="740" y1="250" x2="640" y2="320" stroke="#FF6B35" stroke-width="1.5" opacity="0.35" stroke-dasharray="4,3"/>
+  <!-- Amenity icon -->
+  <rect x="900" y="150" width="130" height="100" rx="10" fill="#16213e" stroke="#FF6B35" stroke-width="1.5"/>
+  <text x="965" y="190" font-family="Inter, sans-serif" font-size="18" fill="#FF6B35" text-anchor="middle" opacity="0.5">&#9881;</text>
+  <text x="945" y="210" font-family="Inter, sans-serif" font-size="9" fill="#FF6B35" opacity="0.4">WiFi</text>
+  <text x="985" y="210" font-family="Inter, sans-serif" font-size="9" fill="#FF6B35" opacity="0.4">Pool</text>
+  <text x="965" y="235" font-family="Inter, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" opacity="0.7">Amenities</text>
+  <line x1="930" y1="250" x2="650" y2="330" stroke="#FF6B35" stroke-width="1.5" opacity="0.3" stroke-dasharray="4,3"/>
+  <circle cx="800" cy="285" r="2" fill="#FF6B35" opacity="0.4"/>
+  <!-- Bottom row -->
+  <!-- Photos icon -->
+  <rect x="170" y="400" width="130" height="100" rx="10" fill="#16213e" stroke="#FF6B35" stroke-width="1.5"/>
+  <rect x="200" y="420" width="45" height="35" rx="3" fill="#FF6B35" opacity="0.15" stroke="#FF6B35" stroke-width="0.5"/>
+  <rect x="215" y="430" width="45" height="35" rx="3" fill="#FF6B35" opacity="0.2" stroke="#FF6B35" stroke-width="0.5"/>
+  <text x="235" y="475" font-family="Inter, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" opacity="0.7">Photos</text>
+  <text x="235" y="490" font-family="Inter, sans-serif" font-size="9" fill="#ffffff" text-anchor="middle" opacity="0.4">Image metadata</text>
+  <line x1="300" y1="430" x2="555" y2="370" stroke="#FF6B35" stroke-width="1.5" opacity="0.35" stroke-dasharray="4,3"/>
+  <!-- Location icon -->
+  <rect x="370" y="400" width="130" height="100" rx="10" fill="#16213e" stroke="#FF6B35" stroke-width="1.5"/>
+  <circle cx="435" cy="435" r="8" fill="none" stroke="#FF6B35" stroke-width="1.5" opacity="0.5"/>
+  <circle cx="435" cy="433" r="3" fill="#FF6B35" opacity="0.5"/>
+  <path d="M435,443 L435,450" stroke="#FF6B35" stroke-width="1.5" opacity="0.5"/>
+  <text x="435" y="475" font-family="Inter, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" opacity="0.7">Location</text>
+  <text x="435" y="490" font-family="Inter, sans-serif" font-size="9" fill="#ffffff" text-anchor="middle" opacity="0.4">GPS coordinates</text>
+  <line x1="460" y1="400" x2="575" y2="370" stroke="#FF6B35" stroke-width="1.5" opacity="0.35" stroke-dasharray="4,3"/>
+  <!-- Policies icon -->
+  <rect x="700" y="400" width="130" height="100" rx="10" fill="#16213e" stroke="#FF6B35" stroke-width="1.5"/>
+  <rect x="740" y="418" width="50" height="8" rx="2" fill="#FF6B35" opacity="0.3"/>
+  <rect x="740" y="430" width="40" height="8" rx="2" fill="#FF6B35" opacity="0.25"/>
+  <rect x="740" y="442" width="45" height="8" rx="2" fill="#FF6B35" opacity="0.2"/>
+  <text x="765" y="475" font-family="Inter, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" opacity="0.7">Policies</text>
+  <text x="765" y="490" font-family="Inter, sans-serif" font-size="9" fill="#ffffff" text-anchor="middle" opacity="0.4">Cancel / check-in</text>
+  <line x1="730" y1="400" x2="635" y2="375" stroke="#FF6B35" stroke-width="1.5" opacity="0.35" stroke-dasharray="4,3"/>
+  <!-- Competitors icon -->
+  <rect x="900" y="400" width="130" height="100" rx="10" fill="#16213e" stroke="#FF6B35" stroke-width="1.5"/>
+  <rect x="930" y="420" width="20" height="30" rx="2" fill="#FF6B35" opacity="0.2"/>
+  <rect x="955" y="415" width="20" height="35" rx="2" fill="#FF6B35" opacity="0.3"/>
+  <rect x="980" y="425" width="20" height="25" rx="2" fill="#FF6B35" opacity="0.25"/>
+  <text x="965" y="475" font-family="Inter, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" opacity="0.7">Competitors</text>
+  <text x="965" y="490" font-family="Inter, sans-serif" font-size="9" fill="#ffffff" text-anchor="middle" opacity="0.4">Market intelligence</text>
+  <line x1="930" y1="420" x2="650" y2="370" stroke="#FF6B35" stroke-width="1.5" opacity="0.3" stroke-dasharray="4,3"/>
+  <!-- Floating particles around hub -->
+  <circle cx="550" cy="300" r="2.5" fill="#FF6B35" opacity="0.5"/>
+  <circle cx="650" cy="310" r="2" fill="#FF6B35" opacity="0.4"/>
+  <circle cx="580" cy="400" r="2.5" fill="#FF6B35" opacity="0.45"/>
+  <circle cx="620" cy="290" r="2" fill="#FF6B35" opacity="0.5"/>
+  <!-- Clymin branding -->
+  <text x="1150" y="600" font-family="Inter, sans-serif" font-weight="700" font-size="22" fill="#FF6B35" text-anchor="end">Clymin</text>
+</svg>

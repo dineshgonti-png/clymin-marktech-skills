@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg56" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg56)"/>
+  <path d="M0 0 L80 0 L0 80 Z" fill="#FF6B35" opacity="0.15"/>
+  <path d="M1200 630 L1120 630 L1200 550 Z" fill="#FF6B35" opacity="0.15"/>
+  <!-- Title -->
+  <text x="80" y="110" font-family="Inter, system-ui, sans-serif" font-size="44" font-weight="700" fill="#FFFFFF">Trulia vs Zillow</text>
+  <text x="80" y="165" font-family="Inter, system-ui, sans-serif" font-size="44" font-weight="700" fill="#FF6B35">Market Analysis Data</text>
+  <text x="80" y="200" font-family="Inter, system-ui, sans-serif" font-size="16" fill="#FFD166" letter-spacing="3">PLATFORM COMPARISON</text>
+  <!-- Data categories -->
+  <rect x="620" y="80" width="520" height="220" rx="10" fill="#232345" stroke="#4ECDC4" stroke-width="1" opacity="0.8"/>
+  <text x="650" y="110" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#888">DATA COVERAGE OVERLAP</text>
+  <!-- Venn diagram -->
+  <circle cx="800" cy="195" r="80" fill="#4ECDC4" opacity="0.15" stroke="#4ECDC4" stroke-width="1.5"/>
+  <circle cx="900" cy="195" r="80" fill="#FF6B35" opacity="0.15" stroke="#FF6B35" stroke-width="1.5"/>
+  <text x="750" y="185" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#4ECDC4">Crime</text>
+  <text x="750" y="200" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#4ECDC4">Commute</text>
+  <text x="750" y="215" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#4ECDC4">Noise</text>
+  <text x="840" y="185" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#FFD166">Listings</text>
+  <text x="840" y="200" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#FFD166">Photos</text>
+  <text x="840" y="215" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#FFD166">Schools</text>
+  <text x="920" y="185" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#FF6B35">Zestimate</text>
+  <text x="920" y="200" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#FF6B35">Tax Data</text>
+  <text x="920" y="215" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#FF6B35">Rentals</text>
+  <!-- Labels -->
+  <text x="750" y="270" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" fill="#4ECDC4">TRULIA</text>
+  <text x="920" y="270" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" fill="#FF6B35">ZILLOW</text>
+  <!-- Feature comparison cards -->
+  <rect x="80" y="280" width="250" height="100" rx="8" fill="#232345" stroke="#4ECDC4" stroke-width="1.5"/>
+  <text x="100" y="310" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#888">TRULIA UNIQUE</text>
+  <text x="100" y="335" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#4ECDC4">Neighborhood Intel</text>
+  <text x="100" y="360" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#ccc">Crime, commute, amenities</text>
+  <rect x="350" y="280" width="250" height="100" rx="8" fill="#232345" stroke="#FF6B35" stroke-width="1.5"/>
+  <text x="370" y="310" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#888">ZILLOW UNIQUE</text>
+  <text x="370" y="335" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#FF6B35">Property Valuations</text>
+  <text x="370" y="360" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#ccc">Zestimate, tax, rent est.</text>
+  <!-- Stats -->
+  <rect x="620" y="340" width="160" height="80" rx="8" fill="#232345" stroke="#4ECDC4" stroke-width="1"/>
+  <text x="640" y="370" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#888">TRULIA VISITORS</text>
+  <text x="640" y="400" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="700" fill="#4ECDC4">28M+</text>
+  <rect x="800" y="340" width="160" height="80" rx="8" fill="#232345" stroke="#FF6B35" stroke-width="1"/>
+  <text x="820" y="370" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#888">ZILLOW VISITORS</text>
+  <text x="820" y="400" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="700" fill="#FF6B35">36M+</text>
+  <rect x="980" y="340" width="160" height="80" rx="8" fill="#232345" stroke="#FFD166" stroke-width="1"/>
+  <text x="1000" y="370" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#888">COMBINED</text>
+  <text x="1000" y="400" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="700" fill="#FFD166">97%</text>
+  <!-- Recommendation -->
+  <rect x="80" y="430" width="520" height="50" rx="8" fill="#FFD166" opacity="0.1" stroke="#FFD166" stroke-width="1"/>
+  <text x="110" y="462" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#FFD166">RECOMMENDATION: Extract from both for maximum coverage</text>
+  <!-- Brand -->
+  <text x="1100" y="610" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="600" fill="#FF6B35" text-anchor="end">Clymin</text>
+</svg>

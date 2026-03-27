@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bgGrad5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#1a1a40"/>
+    </linearGradient>
+    <radialGradient id="glowGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FF6B35;stop-opacity:0.1"/>
+      <stop offset="100%" style="stop-color:#FF6B35;stop-opacity:0"/>
+    </radialGradient>
+    <linearGradient id="nodeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B35"/>
+      <stop offset="100%" style="stop-color:#FFD166"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad5)"/>
+
+  <!-- Central glow -->
+  <ellipse cx="900" cy="300" rx="350" ry="300" fill="url(#glowGrad)"/>
+
+  <!-- Neural network / brain shape made of nodes and connections -->
+  <!-- Brain outline suggestion (abstract) -->
+  <g transform="translate(800, 120)" opacity="0.12">
+    <path d="M120,0 Q200,-10 220,60 Q240,120 200,160 Q250,180 240,240 Q230,300 160,310 Q140,320 100,310 Q30,300 20,240 Q10,180 60,160 Q20,120 40,60 Q60,-10 120,0 Z" fill="none" stroke="#FF6B35" stroke-width="2"/>
+  </g>
+
+  <!-- Neural network nodes and connections -->
+  <g>
+    <!-- Layer 1 (input) -->
+    <circle cx="730" cy="160" r="6" fill="#FF6B35" opacity="0.5"/>
+    <circle cx="730" cy="220" r="6" fill="#FF6B35" opacity="0.5"/>
+    <circle cx="730" cy="280" r="6" fill="#FF6B35" opacity="0.5"/>
+    <circle cx="730" cy="340" r="6" fill="#FF6B35" opacity="0.5"/>
+    <circle cx="730" cy="400" r="6" fill="#FF6B35" opacity="0.5"/>
+
+    <!-- Layer 2 (hidden) -->
+    <circle cx="850" cy="180" r="7" fill="#FFD166" opacity="0.5"/>
+    <circle cx="850" cy="250" r="7" fill="#FFD166" opacity="0.5"/>
+    <circle cx="850" cy="320" r="7" fill="#FFD166" opacity="0.5"/>
+    <circle cx="850" cy="390" r="7" fill="#FFD166" opacity="0.5"/>
+
+    <!-- Layer 3 (hidden) -->
+    <circle cx="960" cy="200" r="8" fill="#FF6B35" opacity="0.6"/>
+    <circle cx="960" cy="280" r="8" fill="#FF6B35" opacity="0.6"/>
+    <circle cx="960" cy="360" r="8" fill="#FF6B35" opacity="0.6"/>
+
+    <!-- Layer 4 (output) -->
+    <circle cx="1070" cy="240" r="9" fill="#FFD166" opacity="0.6"/>
+    <circle cx="1070" cy="330" r="9" fill="#FFD166" opacity="0.6"/>
+
+    <!-- Connections layer 1 to 2 -->
+    <g stroke="#FF6B35" stroke-width="0.5" opacity="0.15">
+      <line x1="736" y1="160" x2="843" y2="180"/>
+      <line x1="736" y1="160" x2="843" y2="250"/>
+      <line x1="736" y1="220" x2="843" y2="180"/>
+      <line x1="736" y1="220" x2="843" y2="250"/>
+      <line x1="736" y1="220" x2="843" y2="320"/>
+      <line x1="736" y1="280" x2="843" y2="250"/>
+      <line x1="736" y1="280" x2="843" y2="320"/>
+      <line x1="736" y1="340" x2="843" y2="320"/>
+      <line x1="736" y1="340" x2="843" y2="390"/>
+      <line x1="736" y1="400" x2="843" y2="390"/>
+      <line x1="736" y1="400" x2="843" y2="320"/>
+    </g>
+
+    <!-- Connections layer 2 to 3 -->
+    <g stroke="#FFD166" stroke-width="0.5" opacity="0.15">
+      <line x1="857" y1="180" x2="952" y2="200"/>
+      <line x1="857" y1="180" x2="952" y2="280"/>
+      <line x1="857" y1="250" x2="952" y2="200"/>
+      <line x1="857" y1="250" x2="952" y2="280"/>
+      <line x1="857" y1="250" x2="952" y2="360"/>
+      <line x1="857" y1="320" x2="952" y2="280"/>
+      <line x1="857" y1="320" x2="952" y2="360"/>
+      <line x1="857" y1="390" x2="952" y2="360"/>
+      <line x1="857" y1="390" x2="952" y2="280"/>
+    </g>
+
+    <!-- Connections layer 3 to 4 -->
+    <g stroke="#FF6B35" stroke-width="0.7" opacity="0.2">
+      <line x1="968" y1="200" x2="1061" y2="240"/>
+      <line x1="968" y1="200" x2="1061" y2="330"/>
+      <line x1="968" y1="280" x2="1061" y2="240"/>
+      <line x1="968" y1="280" x2="1061" y2="330"/>
+      <line x1="968" y1="360" x2="1061" y2="330"/>
+      <line x1="968" y1="360" x2="1061" y2="240"/>
+    </g>
+  </g>
+
+  <!-- Price elements on nodes -->
+  <g font-family="Inter, system-ui, sans-serif" font-size="8" fill="#FFFFFF" opacity="0.4">
+    <text x="730" y="148" text-anchor="middle">$</text>
+    <text x="730" y="268" text-anchor="middle">$</text>
+    <text x="730" y="388" text-anchor="middle">$</text>
+    <text x="1070" y="228" text-anchor="middle" font-size="10" fill="#FFD166" opacity="0.6">$$</text>
+  </g>
+
+  <!-- Dashboard panel (top-right) -->
+  <g transform="translate(1020, 440)" opacity="0.25">
+    <rect x="0" y="0" width="140" height="100" rx="6" fill="#0a0a1a" stroke="#FF6B35" stroke-width="1"/>
+    <!-- Mini bar chart -->
+    <rect x="15" y="60" width="14" height="25" fill="#FF6B35" opacity="0.6"/>
+    <rect x="35" y="45" width="14" height="40" fill="#FFD166" opacity="0.5"/>
+    <rect x="55" y="50" width="14" height="35" fill="#FF6B35" opacity="0.6"/>
+    <rect x="75" y="35" width="14" height="50" fill="#FFD166" opacity="0.5"/>
+    <rect x="95" y="25" width="14" height="60" fill="#FF6B35" opacity="0.6"/>
+    <!-- Title bar -->
+    <rect x="10" y="10" width="60" height="6" rx="3" fill="#FFFFFF" opacity="0.3"/>
+  </g>
+
+  <!-- Dashboard panel (bottom-center) -->
+  <g transform="translate(750, 470)" opacity="0.2">
+    <rect x="0" y="0" width="160" height="90" rx="6" fill="#0a0a1a" stroke="#FFD166" stroke-width="1"/>
+    <!-- Mini line chart -->
+    <polyline points="15,60 35,40 55,55 75,30 95,45 115,25 135,35" fill="none" stroke="#FFD166" stroke-width="1.5"/>
+    <circle cx="75" cy="30" r="3" fill="#FFD166"/>
+    <circle cx="135" cy="35" r="3" fill="#FF6B35"/>
+    <!-- Title bar -->
+    <rect x="10" y="10" width="50" height="5" rx="2.5" fill="#FFFFFF" opacity="0.3"/>
+  </g>
+
+  <!-- Pulsing rings around key nodes -->
+  <circle cx="960" cy="280" r="18" fill="none" stroke="#FF6B35" stroke-width="0.5" opacity="0.2"/>
+  <circle cx="960" cy="280" r="28" fill="none" stroke="#FF6B35" stroke-width="0.5" opacity="0.1"/>
+  <circle cx="1070" cy="240" r="20" fill="none" stroke="#FFD166" stroke-width="0.5" opacity="0.15"/>
+  <circle cx="1070" cy="330" r="20" fill="none" stroke="#FFD166" stroke-width="0.5" opacity="0.15"/>
+
+  <!-- Floating abstract data points -->
+  <circle cx="680" cy="130" r="2" fill="#FF6B35" opacity="0.3"/>
+  <circle cx="700" cy="460" r="2" fill="#FFD166" opacity="0.25"/>
+  <circle cx="1140" cy="160" r="3" fill="#FF6B35" opacity="0.2"/>
+  <circle cx="1120" cy="400" r="2" fill="#FFD166" opacity="0.3"/>
+
+  <!-- Corner accents -->
+  <line x1="30" y1="30" x2="30" y2="70" stroke="#FF6B35" stroke-width="1.5" opacity="0.15"/>
+  <line x1="30" y1="30" x2="70" y2="30" stroke="#FF6B35" stroke-width="1.5" opacity="0.15"/>
+  <line x1="1170" y1="560" x2="1170" y2="600" stroke="#FFD166" stroke-width="1.5" opacity="0.15"/>
+  <line x1="1130" y1="600" x2="1170" y2="600" stroke="#FFD166" stroke-width="1.5" opacity="0.15"/>
+
+  <!-- Left accent bar -->
+  <rect x="60" y="180" width="4" height="120" rx="2" fill="url(#nodeGrad)" opacity="0.6"/>
+
+  <!-- Title text -->
+  <text x="80" y="240" fill="#FFFFFF" font-family="Inter, system-ui, sans-serif" font-size="52" font-weight="700" letter-spacing="-1">Price</text>
+  <text x="80" y="300" fill="#FFFFFF" font-family="Inter, system-ui, sans-serif" font-size="52" font-weight="700" letter-spacing="-1">Intelligence</text>
+
+  <!-- Subtitle -->
+  <text x="80" y="345" fill="#FFFFFF" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="400" opacity="0.5">AI-Powered Pricing Analytics &amp; Insights</text>
+
+  <!-- Orange accent line -->
+  <rect x="80" y="360" width="180" height="3" rx="1.5" fill="#FF6B35"/>
+
+  <!-- Brand text bottom-right -->
+  <text x="1140" y="600" fill="#FF6B35" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="600" text-anchor="end">Clymin</text>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg53" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg53)"/>
+  <path d="M0 0 L80 0 L0 80 Z" fill="#FF6B35" opacity="0.15"/>
+  <path d="M1200 630 L1120 630 L1200 550 Z" fill="#FF6B35" opacity="0.15"/>
+  <!-- Title -->
+  <text x="80" y="120" font-family="Inter, system-ui, sans-serif" font-size="48" font-weight="700" fill="#FFFFFF">Is It Legal to Scrape</text>
+  <text x="80" y="175" font-family="Inter, system-ui, sans-serif" font-size="48" font-weight="700" fill="#FF6B35">OTA Websites?</text>
+  <text x="80" y="210" font-family="Inter, system-ui, sans-serif" font-size="16" fill="#FFD166" letter-spacing="3">COMPLIANCE GUIDE</text>
+  <!-- Scale of justice icon -->
+  <line x1="850" y1="100" x2="850" y2="220" stroke="#4ECDC4" stroke-width="3"/>
+  <line x1="750" y1="100" x2="950" y2="100" stroke="#4ECDC4" stroke-width="3"/>
+  <circle cx="850" cy="90" r="10" fill="#4ECDC4"/>
+  <!-- Left scale pan -->
+  <path d="M720,140 L750,100 L780,140" fill="none" stroke="#4ECDC4" stroke-width="2"/>
+  <ellipse cx="750" cy="145" rx="35" ry="8" fill="#4ECDC4" opacity="0.3" stroke="#4ECDC4" stroke-width="1"/>
+  <text x="730" y="170" font-family="Inter, system-ui, sans-serif" font-size="10" fill="#4ECDC4">LEGAL</text>
+  <!-- Right scale pan (lower) -->
+  <path d="M920,160 L950,100 L980,160" fill="none" stroke="#FF6B35" stroke-width="2"/>
+  <ellipse cx="950" cy="165" rx="35" ry="8" fill="#FF6B35" opacity="0.3" stroke="#FF6B35" stroke-width="1"/>
+  <text x="930" y="190" font-family="Inter, system-ui, sans-serif" font-size="10" fill="#FF6B35">RISK</text>
+  <!-- Base -->
+  <rect x="830" y="220" width="40" height="10" rx="3" fill="#4ECDC4" opacity="0.5"/>
+  <!-- Legal framework cards -->
+  <rect x="620" y="260" width="250" height="70" rx="8" fill="#232345" stroke="#4ECDC4" stroke-width="1.5"/>
+  <text x="640" y="285" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#4ECDC4">hiQ v. LinkedIn (2022)</text>
+  <text x="640" y="310" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#ccc">Public data scraping protected</text>
+  <rect x="890" y="260" width="250" height="70" rx="8" fill="#232345" stroke="#FFD166" stroke-width="1.5"/>
+  <text x="910" y="285" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#FFD166">Ryanair v. PR Aviation</text>
+  <text x="910" y="310" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#ccc">Non-copyrighted data OK</text>
+  <!-- Compliance checklist -->
+  <rect x="80" y="300" width="420" height="220" rx="10" fill="#232345" stroke="#FF6B35" stroke-width="1" opacity="0.8"/>
+  <text x="110" y="330" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" fill="#FF6B35">COMPLIANCE CHECKLIST</text>
+  <text x="110" y="360" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#4ECDC4">✓</text>
+  <text x="135" y="360" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#ccc">Rate-limited extraction</text>
+  <text x="110" y="388" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#4ECDC4">✓</text>
+  <text x="135" y="388" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#ccc">Public data only</text>
+  <text x="110" y="416" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#4ECDC4">✓</text>
+  <text x="135" y="416" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#ccc">No personal data collection</text>
+  <text x="110" y="444" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#4ECDC4">✓</text>
+  <text x="135" y="444" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#ccc">Robots.txt compliance</text>
+  <text x="110" y="472" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#4ECDC4">✓</text>
+  <text x="135" y="472" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#ccc">Business-justified purpose</text>
+  <text x="110" y="500" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#4ECDC4">✓</text>
+  <text x="135" y="500" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#ccc">190+ country coverage</text>
+  <!-- Jurisdiction badges -->
+  <rect x="620" y="370" width="100" height="35" rx="6" fill="#FF6B35" opacity="0.2" stroke="#FF6B35" stroke-width="1"/>
+  <text x="645" y="393" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#FF6B35">US</text>
+  <rect x="740" y="370" width="100" height="35" rx="6" fill="#4ECDC4" opacity="0.2" stroke="#4ECDC4" stroke-width="1"/>
+  <text x="770" y="393" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#4ECDC4">EU</text>
+  <rect x="860" y="370" width="100" height="35" rx="6" fill="#FFD166" opacity="0.2" stroke="#FFD166" stroke-width="1"/>
+  <text x="882" y="393" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#FFD166">APAC</text>
+  <!-- Brand -->
+  <text x="1100" y="610" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="600" fill="#FF6B35" text-anchor="end">Clymin</text>
+</svg>

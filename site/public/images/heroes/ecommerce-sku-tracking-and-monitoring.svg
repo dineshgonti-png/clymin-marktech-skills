@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="pulseGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF6B35" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FF6B35" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#FF6B35" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="skuHighlight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FF6B35" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#FFD166" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#1a1a2e"/>
+
+  <!-- Subtle scanline effect -->
+  <g opacity="0.02">
+    <line x1="0" y1="100" x2="1200" y2="100" stroke="#FFFFFF" stroke-width="1"/>
+    <line x1="0" y1="200" x2="1200" y2="200" stroke="#FFFFFF" stroke-width="1"/>
+    <line x1="0" y1="300" x2="1200" y2="300" stroke="#FFFFFF" stroke-width="1"/>
+    <line x1="0" y1="400" x2="1200" y2="400" stroke="#FFFFFF" stroke-width="1"/>
+    <line x1="0" y1="500" x2="1200" y2="500" stroke="#FFFFFF" stroke-width="1"/>
+  </g>
+
+  <!-- Background glow -->
+  <circle cx="700" cy="380" r="280" fill="#FF6B35" opacity="0.03"/>
+
+  <!-- SKU Grid of boxes -->
+  <g transform="translate(560, 170)">
+    <!-- Row 1 -->
+    <rect x="0" y="0" width="100" height="55" rx="5" fill="#FFFFFF" opacity="0.06" stroke="#FFFFFF" stroke-width="0.5" stroke-opacity="0.1"/>
+    <text x="12" y="22" font-family="monospace" font-size="9" fill="#FFFFFF" opacity="0.25">SKU-0041</text>
+    <rect x="12" y="30" width="50" height="4" rx="2" fill="#FF6B35" opacity="0.2"/>
+    <rect x="12" y="38" width="35" height="4" rx="2" fill="#FFFFFF" opacity="0.08"/>
+
+    <rect x="115" y="0" width="100" height="55" rx="5" fill="url(#skuHighlight)" stroke="#FF6B35" stroke-width="1" stroke-opacity="0.3"/>
+    <text x="127" y="22" font-family="monospace" font-size="9" fill="#FF6B35" opacity="0.6">SKU-0042</text>
+    <rect x="127" y="30" width="60" height="4" rx="2" fill="#FF6B35" opacity="0.4"/>
+    <rect x="127" y="38" width="40" height="4" rx="2" fill="#FFD166" opacity="0.2"/>
+    <!-- Active indicator -->
+    <circle cx="200" cy="14" r="4" fill="#FF6B35" opacity="0.7"/>
+
+    <rect x="230" y="0" width="100" height="55" rx="5" fill="#FFFFFF" opacity="0.06" stroke="#FFFFFF" stroke-width="0.5" stroke-opacity="0.1"/>
+    <text x="242" y="22" font-family="monospace" font-size="9" fill="#FFFFFF" opacity="0.25">SKU-0043</text>
+    <rect x="242" y="30" width="45" height="4" rx="2" fill="#FFD166" opacity="0.15"/>
+    <rect x="242" y="38" width="55" height="4" rx="2" fill="#FFFFFF" opacity="0.08"/>
+
+    <rect x="345" y="0" width="100" height="55" rx="5" fill="#FFFFFF" opacity="0.06" stroke="#FFFFFF" stroke-width="0.5" stroke-opacity="0.1"/>
+    <text x="357" y="22" font-family="monospace" font-size="9" fill="#FFFFFF" opacity="0.25">SKU-0044</text>
+    <rect x="357" y="30" width="55" height="4" rx="2" fill="#FFFFFF" opacity="0.1"/>
+    <rect x="357" y="38" width="30" height="4" rx="2" fill="#FFFFFF" opacity="0.06"/>
+
+    <!-- Row 2 -->
+    <rect x="0" y="70" width="100" height="55" rx="5" fill="#FFFFFF" opacity="0.06" stroke="#FFFFFF" stroke-width="0.5" stroke-opacity="0.1"/>
+    <text x="12" y="92" font-family="monospace" font-size="9" fill="#FFFFFF" opacity="0.25">SKU-0045</text>
+    <rect x="12" y="100" width="40" height="4" rx="2" fill="#FFFFFF" opacity="0.1"/>
+
+    <rect x="115" y="70" width="100" height="55" rx="5" fill="#FFFFFF" opacity="0.06" stroke="#FFFFFF" stroke-width="0.5" stroke-opacity="0.1"/>
+    <text x="127" y="92" font-family="monospace" font-size="9" fill="#FFFFFF" opacity="0.25">SKU-0046</text>
+    <rect x="127" y="100" width="55" height="4" rx="2" fill="#FFD166" opacity="0.12"/>
+
+    <rect x="230" y="70" width="100" height="55" rx="5" fill="url(#skuHighlight)" stroke="#FFD166" stroke-width="1" stroke-opacity="0.2"/>
+    <text x="242" y="92" font-family="monospace" font-size="9" fill="#FFD166" opacity="0.5">SKU-0047</text>
+    <rect x="242" y="100" width="65" height="4" rx="2" fill="#FFD166" opacity="0.3"/>
+    <circle cx="315" cy="84" r="4" fill="#FFD166" opacity="0.6"/>
+
+    <rect x="345" y="70" width="100" height="55" rx="5" fill="#FFFFFF" opacity="0.06" stroke="#FFFFFF" stroke-width="0.5" stroke-opacity="0.1"/>
+    <text x="357" y="92" font-family="monospace" font-size="9" fill="#FFFFFF" opacity="0.25">SKU-0048</text>
+    <rect x="357" y="100" width="48" height="4" rx="2" fill="#FFFFFF" opacity="0.08"/>
+
+    <!-- Row 3 -->
+    <rect x="0" y="140" width="100" height="55" rx="5" fill="#FFFFFF" opacity="0.06" stroke="#FFFFFF" stroke-width="0.5" stroke-opacity="0.1"/>
+    <text x="12" y="162" font-family="monospace" font-size="9" fill="#FFFFFF" opacity="0.25">SKU-0049</text>
+
+    <rect x="115" y="140" width="100" height="55" rx="5" fill="#FFFFFF" opacity="0.06" stroke="#FFFFFF" stroke-width="0.5" stroke-opacity="0.1"/>
+    <text x="127" y="162" font-family="monospace" font-size="9" fill="#FFFFFF" opacity="0.25">SKU-0050</text>
+
+    <rect x="230" y="140" width="100" height="55" rx="5" fill="#FFFFFF" opacity="0.06" stroke="#FFFFFF" stroke-width="0.5" stroke-opacity="0.1"/>
+    <text x="242" y="162" font-family="monospace" font-size="9" fill="#FFFFFF" opacity="0.25">SKU-0051</text>
+
+    <rect x="345" y="140" width="100" height="55" rx="5" fill="url(#skuHighlight)" stroke="#FF6B35" stroke-width="1" stroke-opacity="0.2"/>
+    <text x="357" y="162" font-family="monospace" font-size="9" fill="#FF6B35" opacity="0.5">SKU-0052</text>
+    <circle cx="430" cy="154" r="4" fill="#FF6B35" opacity="0.5"/>
+  </g>
+
+  <!-- Tracking connection lines between highlighted SKUs -->
+  <g>
+    <!-- Line from SKU-0042 to SKU-0047 -->
+    <line x1="730" y1="225" x2="730" y2="240" stroke="#FF6B35" stroke-width="1.5" opacity="0.3"/>
+    <line x1="730" y1="240" x2="845" y2="240" stroke="#FF6B35" stroke-width="1.5" opacity="0.3"/>
+    <circle cx="787" cy="240" r="2" fill="#FF6B35" opacity="0.5"/>
+
+    <!-- Line from SKU-0047 to SKU-0052 -->
+    <line x1="845" y1="254" x2="845" y2="280" stroke="#FFD166" stroke-width="1.5" opacity="0.25"/>
+    <line x1="845" y1="280" x2="960" y2="280" stroke="#FFD166" stroke-width="1.5" opacity="0.25"/>
+    <line x1="960" y1="280" x2="960" y2="310" stroke="#FFD166" stroke-width="1.5" opacity="0.25"/>
+    <circle cx="902" cy="280" r="2" fill="#FFD166" opacity="0.4"/>
+  </g>
+
+  <!-- Real-time monitoring heartbeat line -->
+  <g transform="translate(560, 430)">
+    <polyline points="0,30 40,30 55,30 65,10 75,50 85,20 95,35 105,30 150,30 170,30 180,8 190,52 200,25 210,32 220,30 280,30 340,30 355,30 365,5 375,55 385,22 395,33 405,30 500,30"
+      fill="none" stroke="#FF6B35" stroke-width="2" opacity="0.5"/>
+    <!-- Glow dot at end -->
+    <circle cx="500" cy="30" r="5" fill="#FF6B35" opacity="0.4"/>
+    <circle cx="500" cy="30" r="3" fill="#FF6B35" opacity="0.8"/>
+  </g>
+
+  <!-- Status labels -->
+  <g transform="translate(560, 490)">
+    <circle cx="0" cy="6" r="4" fill="#FF6B35" opacity="0.7"/>
+    <text x="12" y="10" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#FFFFFF" opacity="0.35">LIVE TRACKING</text>
+    <circle cx="130" cy="6" r="4" fill="#FFD166" opacity="0.5"/>
+    <text x="142" y="10" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#FFFFFF" opacity="0.35">3 ALERTS</text>
+  </g>
+
+  <!-- Accent line -->
+  <line x1="80" y1="530" x2="400" y2="530" stroke="#FF6B35" stroke-width="2" opacity="0.3"/>
+  <circle cx="80" cy="530" r="4" fill="#FF6B35" opacity="0.5"/>
+
+  <!-- Title text -->
+  <text x="80" y="140" font-family="Inter, system-ui, sans-serif" font-size="52" font-weight="800" fill="#FFFFFF" letter-spacing="-1">SKU Tracking &amp;</text>
+  <text x="80" y="200" font-family="Inter, system-ui, sans-serif" font-size="52" font-weight="800" fill="#FF6B35" letter-spacing="-1">Monitoring</text>
+
+  <!-- Subtitle -->
+  <text x="80" y="240" font-family="Inter, system-ui, sans-serif" font-size="18" fill="#FFFFFF" opacity="0.5">Real-time product tracking across every channel</text>
+
+  <!-- Clymin brand -->
+  <text x="1120" y="600" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="600" fill="#FF6B35" text-anchor="end" letter-spacing="2">Clymin</text>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&amp;display=swap');
+    </style>
+  </defs>
+  <rect width="1200" height="630" fill="#1a1a2e"/>
+  <!-- Divider line -->
+  <line x1="600" y1="80" x2="600" y2="500" stroke="#FF6B35" stroke-width="3" stroke-dasharray="8,6"/>
+  <!-- VS circle -->
+  <circle cx="600" cy="290" r="40" fill="#FF6B35"/>
+  <text x="600" y="300" font-family="Inter, sans-serif" font-weight="700" font-size="28" fill="#1a1a2e" text-anchor="middle">VS</text>
+  <!-- Left side: Scraping code -->
+  <rect x="60" y="140" width="440" height="280" rx="12" fill="#16213e" stroke="#FF6B35" stroke-width="1.5" opacity="0.9"/>
+  <!-- Code lines -->
+  <rect x="85" y="170" width="180" height="8" rx="4" fill="#FF6B35" opacity="0.7"/>
+  <rect x="85" y="192" width="260" height="8" rx="4" fill="#ffffff" opacity="0.3"/>
+  <rect x="105" y="214" width="220" height="8" rx="4" fill="#ffffff" opacity="0.2"/>
+  <rect x="105" y="236" width="300" height="8" rx="4" fill="#FF6B35" opacity="0.4"/>
+  <rect x="85" y="258" width="240" height="8" rx="4" fill="#ffffff" opacity="0.3"/>
+  <rect x="105" y="280" width="280" height="8" rx="4" fill="#ffffff" opacity="0.2"/>
+  <rect x="85" y="302" width="200" height="8" rx="4" fill="#FF6B35" opacity="0.5"/>
+  <rect x="85" y="324" width="320" height="8" rx="4" fill="#ffffff" opacity="0.25"/>
+  <rect x="85" y="346" width="160" height="8" rx="4" fill="#ffffff" opacity="0.3"/>
+  <rect x="85" y="368" width="240" height="8" rx="4" fill="#FF6B35" opacity="0.35"/>
+  <!-- Data flow arrows left -->
+  <path d="M420 200 L460 200" stroke="#FF6B35" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <path d="M420 260 L460 260" stroke="#FF6B35" stroke-width="2" fill="none"/>
+  <path d="M420 320 L460 320" stroke="#FF6B35" stroke-width="2" fill="none"/>
+  <text x="280" y="125" font-family="Inter, sans-serif" font-weight="700" font-size="20" fill="#ffffff" text-anchor="middle" opacity="0.8">RATE SCRAPING</text>
+  <!-- Right side: Dashboard -->
+  <rect x="700" y="140" width="440" height="280" rx="12" fill="#16213e" stroke="#FF6B35" stroke-width="1.5" opacity="0.9"/>
+  <!-- Dashboard header bar -->
+  <rect x="720" y="160" width="400" height="30" rx="6" fill="#FF6B35" opacity="0.2"/>
+  <circle cx="738" cy="175" r="6" fill="#FF6B35" opacity="0.6"/>
+  <circle cx="758" cy="175" r="6" fill="#ffffff" opacity="0.3"/>
+  <circle cx="778" cy="175" r="6" fill="#ffffff" opacity="0.2"/>
+  <!-- Chart bars -->
+  <rect x="740" y="320" width="35" height="80" rx="4" fill="#FF6B35" opacity="0.6"/>
+  <rect x="790" y="280" width="35" height="120" rx="4" fill="#FF6B35" opacity="0.5"/>
+  <rect x="840" y="300" width="35" height="100" rx="4" fill="#FF6B35" opacity="0.7"/>
+  <rect x="890" y="260" width="35" height="140" rx="4" fill="#FF6B35" opacity="0.4"/>
+  <rect x="940" y="290" width="35" height="110" rx="4" fill="#FF6B35" opacity="0.55"/>
+  <rect x="990" y="310" width="35" height="90" rx="4" fill="#FF6B35" opacity="0.65"/>
+  <rect x="1040" y="270" width="35" height="130" rx="4" fill="#FF6B35" opacity="0.45"/>
+  <!-- Mini cards -->
+  <rect x="720" y="210" width="120" height="50" rx="6" fill="#ffffff" opacity="0.08"/>
+  <rect x="860" y="210" width="120" height="50" rx="6" fill="#ffffff" opacity="0.08"/>
+  <rect x="1000" y="210" width="120" height="50" rx="6" fill="#ffffff" opacity="0.08"/>
+  <text x="920" y="125" font-family="Inter, sans-serif" font-weight="700" font-size="20" fill="#ffffff" text-anchor="middle" opacity="0.8">RATE SHOPPING</text>
+  <!-- Title -->
+  <text x="600" y="60" font-family="Inter, sans-serif" font-weight="700" font-size="38" fill="#ffffff" text-anchor="middle">Hotel Rate Scraping vs Rate Shopping Tools</text>
+  <!-- Subtitle -->
+  <text x="600" y="540" font-family="Inter, sans-serif" font-weight="400" font-size="18" fill="#ffffff" text-anchor="middle" opacity="0.6">Which approach delivers better competitive pricing intelligence?</text>
+  <!-- Clymin branding -->
+  <text x="1150" y="600" font-family="Inter, sans-serif" font-weight="700" font-size="22" fill="#FF6B35" text-anchor="end">Clymin</text>
+</svg>

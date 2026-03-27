@@ -1,0 +1,964 @@
+---
+/**
+ * BaseLayout.astro
+ * The core layout for all /resources pages.
+ * Fully config-driven — all brand values loaded from brand.yaml via brand.ts.
+ * Includes: meta tags, JSON-LD schema, hero, metrics, FAQ, CTA.
+ */
+import { generateHeroPattern } from '../lib/patterns';
+import { brand } from '../lib/brand';
+
+const {
+  title,
+  metaTitle,
+  metaDescription,
+  canonicalUrl,
+  schemaType = 'Article',
+  faqs = [],
+  slug,
+  keywords = {},
+  pageType = 'blog-post',
+  segment = '',
+  createdDate = '',
+  updatedDate = '',
+  ogImage = '',
+  showMetricsBar = false,
+} = Astro.props;
+
+const siteUrl = brand.business.website || 'https://localhost';
+const fullUrl = `${siteUrl}/resources/${slug}`;
+const effectiveTitle = metaTitle || title;
+const heroSVG = generateHeroPattern(slug, segment);
+const ogImageUrl = ogImage ? `${siteUrl}${ogImage}` : `${siteUrl}/logo.png`;
+const showMetrics = showMetricsBar;
+const showLayoutFAQ = faqs.length > 0 && pageType !== 'faq';
+
+// Proof points for metrics bar (filtered by display_in_metrics_bar)
+const metricsBarItems = (brand.differentiator?.proof_points || [])
+  .filter((p: any) => p.display_in_metrics_bar);
+
+// Process slot HTML to enhance visual elements (process flows, etc.)
+const rawHtml = await Astro.slots.render('default');
+
+function enhanceContent(html: string): string {
+  // Pass 1: Replace "Step N: Title." paragraphs with visual step elements
+  let enhanced = html.replace(
+    /<p><strong>Step\s+(\d+):\s*(.+?)\.<\/strong>\s*([\s\S]*?)<\/p>/g,
+    '<!--STEP--><div class="process-step"><div class="step-marker"><span>$1</span></div><div class="step-body"><h4>$2</h4><p>$3</p></div></div><!--/STEP-->'
+  );
+
+  // Pass 2: Wrap consecutive step blocks in a process-flow container
+  enhanced = enhanced.replace(
+    /(<!--STEP-->[\s\S]*?<!--\/STEP-->(?:\s*<!--STEP-->[\s\S]*?<!--\/STEP-->)*)/g,
+    '<div class="process-flow">$1</div>'
+  );
+
+  // Clean up markers
+  enhanced = enhanced.replace(/<!--\/?STEP-->/g, '');
+
+  // Strip IMAGE generation comments from rendered output
+  enhanced = enhanced.replace(/<!--\s*IMAGE:[\s\S]*?-->/g, '');
+
+  return enhanced;
+}
+
+const enhancedHtml = enhanceContent(rawHtml);
+
+// Testimonials — cycle based on slug
+const testimonials = brand.clients?.named || [];
+const testimonialIndex = testimonials.length > 0
+  ? slug.split('').reduce((acc: number, c: string) => acc + c.charCodeAt(0), 0) % testimonials.length
+  : 0;
+const testimonial = testimonials[testimonialIndex] || null;
+
+// Page type labels and links for breadcrumb
+const pageTypes = brand.content_config?.page_types || [];
+const landingPageType = pageTypes.find((pt: any) => pt.type === 'landing-page');
+const typeBreadcrumbs: Record<string, { label: string; href: string }> = {
+  'landing-page': { label: landingPageType?.label || 'Services', href: `${siteUrl}/services` },
+  'blog-post': { label: 'Resources', href: '/resources' },
+  'guide': { label: 'Resources', href: '/resources' },
+  'faq': { label: 'Resources', href: '/resources' },
+  'comparison': { label: 'Resources', href: '/resources' },
+};
+const breadcrumb = typeBreadcrumbs[pageType] || { label: 'Resources', href: '/resources' };
+
+// Build FAQ Schema
+const faqSchema = faqs.length > 0 ? {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqs.map((faq: { q: string; a: string }) => ({
+    "@type": "Question",
+    "name": faq.q,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": faq.a
+    }
+  }))
+} : null;
+
+// Build Organization Schema
+const locations = brand.locations?.primary || [];
+const orgSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": brand.business.name,
+  "url": siteUrl,
+  "logo": `${siteUrl}/logo.png`,
+  "description": brand.business.description,
+  "foundingDate": String(brand.business.founded),
+  "address": locations.map((loc: any) => ({
+    "@type": "PostalAddress",
+    "addressLocality": loc.city,
+    ...(loc.address ? { "streetAddress": loc.address } : {}),
+    "addressCountry": loc.country
+  })),
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "email": brand.business.email,
+    "contactType": "sales",
+    "availableLanguage": ["English"]
+  },
+  "sameAs": [brand.social_profiles?.linkedin_company].filter(Boolean)
+};
+
+// Build page-specific schema
+const pageSchema = schemaType === 'Service' ? {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": title,
+  "description": metaDescription,
+  "provider": { "@type": "Organization", "name": brand.business.name, "url": siteUrl },
+  "serviceType": brand.services?.[0]?.name || "Services",
+  ...(ogImage ? { "image": ogImageUrl } : {}),
+  ...(createdDate ? { "datePublished": createdDate } : {}),
+  ...(updatedDate || createdDate ? { "dateModified": updatedDate || createdDate } : {}),
+  "areaServed": { "@type": "Place", "name": (brand.locations?.service_regions || []).join(', ') }
+} : {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": title,
+  "description": metaDescription,
+  "url": fullUrl,
+  "datePublished": createdDate,
+  "dateModified": updatedDate || createdDate,
+  "author": { "@type": "Organization", "name": brand.business.name },
+  "publisher": { "@type": "Organization", "name": brand.business.name, "url": siteUrl },
+  ...(ogImage ? { "image": ogImageUrl } : {})
+};
+
+// Build BreadcrumbList Schema
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+    { "@type": "ListItem", "position": 2, "name": breadcrumb.label, "item": breadcrumb.href.startsWith('http') ? breadcrumb.href : `${siteUrl}${breadcrumb.href}` },
+    { "@type": "ListItem", "position": 3, "name": title }
+  ]
+};
+
+// Build CSS :root variables from brand config
+const colors = brand.design?.colors || {};
+const fonts = brand.design?.fonts || {};
+const radii = brand.design?.radii || {};
+
+const cssVars = `
+:root {
+  --primary: ${colors.primary || '#015941'};
+  --primary-hover: ${colors.primary_hover || '#0c1e1b'};
+  --accent-yellow: ${colors.accent_1 || '#ebeb41'};
+  --accent-peach: ${colors.accent_2 || '#ffc091'};
+  --dark: ${colors.dark || '#0c1e1b'};
+  --white: #ffffff;
+  --bg-light: ${colors.bg_light || '#f3f9f3'};
+  --border: ${colors.border || '#e5ede5'};
+  --text-primary: ${colors.text_primary || '#0c1e1b'};
+  --text-body: ${colors.text_body || '#31423f'};
+  --text-secondary: ${colors.text_secondary || '#4a5957'};
+  --text-muted: ${colors.text_muted || '#859794'};
+  --shadow: 0 13px 40px ${colors.dark || '#0c1e1b'}14;
+  --shadow-sm: 0 4px 16px ${colors.dark || '#0c1e1b'}0a;
+  --radius-btn: ${radii.button || '16px'};
+  --radius-card: ${radii.card || '10px'};
+  --radius-sm: ${radii.small || '8px'};
+  --font-heading: '${fonts.heading?.family || 'Outfit'}', ${fonts.heading?.fallback || 'sans-serif'};
+  --font-body: '${fonts.body?.family || 'Archivo'}', ${fonts.body?.fallback || 'sans-serif'};
+  --max-width: 820px;
+  --max-width-wide: 1100px;
+}`;
+
+// Build Google Fonts URL
+const headingImport = fonts.heading?.google_import || 'Outfit:wght@400;500;600;700';
+const bodyImport = fonts.body?.google_import || 'Archivo:wght@400;500;600';
+const fontsUrl = `https://fonts.googleapis.com/css2?family=${headingImport}&family=${bodyImport}&display=swap`;
+
+// Navigation
+const headerLogoLink = brand.navigation?.header?.logo_link || siteUrl;
+const headerCtaText = brand.navigation?.header?.cta_text || 'Book a Call';
+const headerCtaLink = brand.navigation?.header?.cta_link || brand.business.booking_link || '#';
+const headerBookingText = brand.navigation?.header?.cta2_text || brand.cta?.secondary_button?.text || '';
+const headerBookingLink = brand.navigation?.header?.cta2_link || brand.cta?.secondary_button?.link || '#';
+const footerLinks = brand.navigation?.footer?.links || [];
+const copyrightHolder = brand.navigation?.footer?.copyright_holder || brand.business.legal_entity || brand.business.name;
+
+// Logo text
+const logoPrimary = brand.design?.logo_text?.primary || brand.business.name || 'Brand';
+const logoAccent = brand.design?.logo_text?.accent || '';
+
+// CTA
+const ctaHeading = brand.cta?.heading || 'Ready to Get Started?';
+const ctaSubheading = brand.cta?.subheading || '';
+const ctaPrimaryText = brand.cta?.primary_button?.text || 'Book a Consultation';
+const ctaPrimaryLink = brand.cta?.primary_button?.link || brand.business.booking_link || '#';
+const ctaSecondaryText = brand.cta?.secondary_button?.text || 'Book a Meeting';
+const ctaSecondaryLink = brand.cta?.secondary_button?.link || brand.business.booking_link || '#';
+const ctaTertiaryText = brand.cta?.tertiary_button?.text || '';
+const ctaTertiaryLink = brand.cta?.tertiary_button?.link || `mailto:${brand.business.email}`;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary Meta -->
+  <title>{effectiveTitle}</title>
+  <meta name="description" content={metaDescription} />
+  <link rel="canonical" href={fullUrl} />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content={pageType === 'landing-page' ? 'website' : 'article'} />
+  <meta property="og:title" content={effectiveTitle} />
+  <meta property="og:description" content={metaDescription} />
+  <meta property="og:url" content={fullUrl} />
+  <meta property="og:site_name" content={brand.business.name} />
+  <meta property="og:image" content={ogImageUrl} />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={effectiveTitle} />
+  <meta name="twitter:description" content={metaDescription} />
+  <meta name="twitter:image" content={ogImageUrl} />
+
+  <!-- AI Crawler Hints -->
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <meta name="generator" content={`${brand.business.name} Resources`} />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href={fontsUrl} rel="stylesheet" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json" set:html={JSON.stringify(orgSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(pageSchema)} />
+  {faqSchema && (
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  )}
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+
+  <style is:global set:html={cssVars + `
+
+    /* ========================================
+       BASE RESET
+       ======================================== */
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: var(--font-body);
+      font-size: 17px;
+      color: var(--text-body);
+      line-height: 1.75;
+      background: var(--white);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    img { max-width: 100%; height: auto; }
+
+    /* ========================================
+       SITE HEADER
+       ======================================== */
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--white);
+      border-bottom: 1px solid var(--border);
+      box-shadow: var(--shadow-sm);
+    }
+    .header-inner {
+      max-width: var(--max-width-wide);
+      margin: 0 auto;
+      padding: 14px 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .logo-text {
+      font-family: var(--font-heading);
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--dark);
+      text-decoration: none;
+      letter-spacing: -0.5px;
+    }
+    .logo-text span { color: var(--primary); }
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .header-booking {
+      font-family: var(--font-body);
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--primary);
+      background: transparent;
+      border: 2px solid var(--primary);
+      padding: 8px 20px;
+      border-radius: var(--radius-btn);
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+    .header-booking:hover {
+      background: var(--primary);
+      color: var(--white);
+      text-decoration: none;
+    }
+    .header-cta {
+      font-family: var(--font-body);
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--white);
+      background: var(--primary);
+      padding: 10px 24px;
+      border-radius: var(--radius-btn);
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .header-cta:hover { background: var(--dark); text-decoration: none; }
+
+    /* ========================================
+       HERO SECTION
+       ======================================== */
+    .hero {
+      position: relative;
+      background: var(--dark);
+      padding: 70px 30px 55px;
+      overflow: hidden;
+      border-bottom-left-radius: 80px;
+    }
+    .hero-pattern {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      pointer-events: none;
+    }
+    .hero-pattern :global(svg) {
+      width: 100%;
+      height: 100%;
+    }
+    .hero-content {
+      position: relative;
+      z-index: 1;
+      max-width: var(--max-width);
+      margin: 0 auto;
+    }
+    .hero .breadcrumb {
+      font-size: 14px;
+      color: var(--text-muted);
+      margin-bottom: 20px;
+    }
+    .hero .breadcrumb a {
+      color: var(--text-muted);
+      text-decoration: none;
+    }
+    .hero .breadcrumb a:hover { color: var(--white); }
+    .hero h1 {
+      font-family: var(--font-heading);
+      font-size: 44px;
+      font-weight: 600;
+      color: var(--white);
+      line-height: 1.15;
+      letter-spacing: -1.5px;
+      margin-bottom: 16px;
+    }
+    .hero-subtitle {
+      font-size: 17px;
+      color: rgba(255,255,255,0.7);
+      line-height: 1.6;
+      max-width: 600px;
+    }
+    .hero-accent {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 4px;
+      background: var(--accent-yellow);
+    }
+
+    /* ========================================
+       METRICS BAR
+       ======================================== */
+    .metrics-bar {
+      max-width: var(--max-width-wide);
+      margin: -30px auto 0;
+      padding: 0 30px;
+      position: relative;
+      z-index: 2;
+    }
+    .metrics-inner {
+      background: var(--white);
+      border-radius: var(--radius-card);
+      box-shadow: var(--shadow);
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      padding: 28px 0;
+    }
+    .metric-item {
+      text-align: center;
+      padding: 8px 16px;
+      border-right: 1px solid var(--border);
+    }
+    .metric-item:last-child { border-right: none; }
+    .metric-value {
+      font-family: var(--font-heading);
+      font-size: 34px;
+      font-weight: 700;
+      color: var(--primary);
+      letter-spacing: -1px;
+      line-height: 1.2;
+    }
+    .metric-label {
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--text-secondary);
+      margin-top: 4px;
+    }
+
+    /* ========================================
+       ARTICLE CONTENT
+       ======================================== */
+    .content-wrapper {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 50px 30px 20px;
+    }
+    .content h2 {
+      font-family: var(--font-heading);
+      font-size: 28px;
+      font-weight: 600;
+      color: var(--text-primary);
+      line-height: 1.25;
+      letter-spacing: -0.5px;
+      margin: 48px 0 16px;
+    }
+    .content h2:first-child { margin-top: 0; }
+    .content h3 {
+      font-family: var(--font-heading);
+      font-size: 20px;
+      font-weight: 600;
+      color: var(--text-primary);
+      line-height: 1.35;
+      margin: 32px 0 10px;
+    }
+    .content p {
+      margin-bottom: 18px;
+      color: var(--text-body);
+    }
+    .content [id] {
+      scroll-margin-top: 80px;
+    }
+    .content a {
+      color: var(--primary);
+      text-decoration: underline;
+      text-decoration-color: color-mix(in srgb, var(--primary) 30%, transparent);
+      text-underline-offset: 2px;
+      font-weight: 500;
+      transition: text-decoration-color 0.2s;
+    }
+    .content a:hover { text-decoration-color: var(--primary); }
+    .content strong { color: var(--text-primary); font-weight: 600; }
+
+    .content ul, .content ol {
+      margin: 0 0 18px 24px;
+      color: var(--text-body);
+    }
+    .content li { margin-bottom: 6px; }
+
+    /* Tables */
+    .content table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 24px 0;
+      border-radius: var(--radius-sm);
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+    }
+    .content th, .content td {
+      padding: 12px 16px;
+      text-align: left;
+      border-bottom: 1px solid var(--border);
+    }
+    .content th {
+      background: var(--bg-light);
+      font-weight: 600;
+      color: var(--text-primary);
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .content td { font-size: 15px; }
+
+    /* Inline content images */
+    .content img {
+      display: block;
+      margin: 28px auto;
+      border-radius: var(--radius-card);
+      box-shadow: var(--shadow);
+      max-width: 100%;
+      height: auto;
+    }
+    .content .image-caption,
+    .content img + em {
+      display: block;
+      text-align: center;
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-top: -20px;
+      margin-bottom: 24px;
+      font-style: italic;
+    }
+    .content .infographic {
+      max-width: var(--max-width-wide);
+      margin: 32px auto;
+      text-align: center;
+    }
+    .content .infographic img {
+      max-width: 100%;
+      box-shadow: var(--shadow);
+      border-radius: var(--radius-card);
+    }
+
+    /* Blockquotes */
+    .content blockquote {
+      background: var(--bg-light);
+      border-left: 4px solid var(--primary);
+      border-radius: 0 var(--radius-card) var(--radius-card) 0;
+      padding: 24px 28px;
+      margin: 32px 0;
+      box-shadow: var(--shadow-sm);
+    }
+    .content blockquote p {
+      font-style: italic;
+      color: var(--text-primary);
+      font-size: 16px;
+      line-height: 1.7;
+      margin-bottom: 0;
+    }
+
+    /* ========================================
+       PROCESS FLOW TIMELINE
+       ======================================== */
+    .process-flow {
+      background: var(--bg-light);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-card);
+      padding: 32px 28px;
+      margin: 24px 0 28px;
+      position: relative;
+    }
+    .process-flow::before {
+      content: '';
+      position: absolute;
+      left: 51px;
+      top: 56px;
+      bottom: 56px;
+      width: 2px;
+      background: var(--primary);
+      opacity: 0.15;
+      border-radius: 1px;
+    }
+    .process-step {
+      display: grid;
+      grid-template-columns: 48px 1fr;
+      gap: 20px;
+      align-items: start;
+      position: relative;
+    }
+    .process-step + .process-step {
+      margin-top: 28px;
+    }
+    .step-marker {
+      width: 48px;
+      height: 48px;
+      background: var(--primary);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      position: relative;
+      z-index: 1;
+      box-shadow: 0 0 0 6px var(--bg-light);
+    }
+    .step-marker span {
+      font-family: var(--font-heading);
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--accent-yellow);
+    }
+    .step-body {
+      padding-top: 4px;
+    }
+    .step-body h4 {
+      font-family: var(--font-heading);
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 0 0 6px;
+      line-height: 1.35;
+    }
+    .step-body p {
+      font-size: 15px;
+      color: var(--text-body);
+      line-height: 1.7;
+      margin: 0;
+    }
+
+    /* ========================================
+       FAQ SECTION
+       ======================================== */
+    .faq-section {
+      background: var(--bg-light);
+      padding: 70px 30px;
+      margin-top: 40px;
+    }
+    .faq-inner {
+      max-width: var(--max-width);
+      margin: 0 auto;
+    }
+    .faq-section-title {
+      font-family: var(--font-heading);
+      font-size: 32px;
+      font-weight: 600;
+      color: var(--text-primary);
+      letter-spacing: -1px;
+      margin-bottom: 32px;
+    }
+    .faq-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .faq-item {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-card);
+      padding: 24px 28px;
+      transition: box-shadow 0.3s;
+    }
+    .faq-item:hover { box-shadow: var(--shadow); }
+    .faq-item h3 {
+      font-family: var(--font-heading);
+      font-size: 17px;
+      font-weight: 600;
+      color: var(--text-primary);
+      line-height: 1.4;
+      margin-bottom: 10px;
+    }
+    .faq-item p {
+      font-size: 15px;
+      color: var(--text-secondary);
+      line-height: 1.7;
+      margin: 0;
+    }
+
+    /* ========================================
+       CTA SECTION
+       ======================================== */
+    .cta-section {
+      background: var(--primary);
+      padding: 70px 30px;
+      text-align: center;
+      border-top-right-radius: 80px;
+    }
+    .cta-inner {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .cta-section h2 {
+      font-family: var(--font-heading);
+      font-size: 32px;
+      font-weight: 600;
+      color: var(--white);
+      letter-spacing: -1px;
+      margin-bottom: 12px;
+    }
+    .cta-section p {
+      font-size: 17px;
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 28px;
+    }
+    .cta-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .btn-cta-primary {
+      font-family: var(--font-body);
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--dark);
+      background: var(--white);
+      padding: 14px 28px;
+      border-radius: var(--radius-btn);
+      text-decoration: none;
+      transition: all 0.3s;
+    }
+    .btn-cta-primary:hover { background: var(--accent-yellow); text-decoration: none; }
+    .btn-cta-outline {
+      font-family: var(--font-body);
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--white);
+      background: transparent;
+      border: 2px solid rgba(255,255,255,0.5);
+      padding: 12px 28px;
+      border-radius: var(--radius-btn);
+      text-decoration: none;
+      transition: all 0.3s;
+    }
+    .btn-cta-outline:hover {
+      border-color: var(--white);
+      background: rgba(255,255,255,0.1);
+      text-decoration: none;
+    }
+
+    /* ========================================
+       TESTIMONIAL STRIP
+       ======================================== */
+    .testimonial-strip {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 40px 30px;
+      text-align: center;
+    }
+    .testimonial-strip blockquote {
+      font-style: italic;
+      font-size: 18px;
+      color: var(--text-primary);
+      line-height: 1.7;
+      max-width: 650px;
+      margin: 0 auto 16px;
+    }
+    .testimonial-strip cite {
+      font-style: normal;
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text-secondary);
+    }
+    .testimonial-strip cite span {
+      color: var(--text-muted);
+      font-weight: 400;
+    }
+
+    /* ========================================
+       FOOTER
+       ======================================== */
+    .site-footer {
+      background: var(--dark);
+      padding: 40px 30px;
+    }
+    .footer-inner {
+      max-width: var(--max-width-wide);
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+    .footer-brand {
+      font-family: var(--font-heading);
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--white);
+    }
+    .footer-brand span { color: var(--primary); opacity: 0.8; }
+    .footer-links {
+      display: flex;
+      gap: 24px;
+      list-style: none;
+    }
+    .footer-links a {
+      font-size: 14px;
+      color: var(--text-muted);
+      text-decoration: none;
+    }
+    .footer-links a:hover { color: var(--white); }
+    .footer-copy {
+      font-size: 13px;
+      color: var(--text-muted);
+      width: 100%;
+      text-align: center;
+      margin-top: 16px;
+      padding-top: 16px;
+      border-top: 1px solid rgba(255,255,255,0.1);
+    }
+
+    /* ========================================
+       RESPONSIVE
+       ======================================== */
+    @media (max-width: 768px) {
+      .hero { padding: 50px 20px 40px; border-bottom-left-radius: 40px; }
+      .hero h1 { font-size: 30px; letter-spacing: -1px; }
+      .hero-subtitle { font-size: 15px; }
+
+      .metrics-inner { grid-template-columns: repeat(2, 1fr); gap: 0; }
+      .metric-item { padding: 16px 8px; border-bottom: 1px solid var(--border); }
+      .metric-item:nth-child(odd) { border-right: 1px solid var(--border); }
+      .metric-item:nth-child(even) { border-right: none; }
+      .metric-item:nth-last-child(-n+2) { border-bottom: none; }
+      .metric-value { font-size: 28px; }
+
+      .content-wrapper { padding: 30px 20px 20px; }
+      .content h2 { font-size: 23px; margin-top: 36px; }
+      .content h3 { font-size: 18px; }
+
+      .process-flow { padding: 24px 20px; }
+      .process-flow::before { left: 39px; top: 48px; bottom: 48px; }
+      .process-step { grid-template-columns: 40px 1fr; gap: 16px; }
+      .step-marker { width: 40px; height: 40px; box-shadow: 0 0 0 5px var(--bg-light); }
+      .step-marker span { font-size: 18px; }
+      .step-body h4 { font-size: 16px; }
+
+      .faq-section { padding: 50px 20px; }
+      .faq-section-title { font-size: 26px; }
+      .faq-item { padding: 20px; }
+
+      .cta-section { padding: 50px 20px; border-top-right-radius: 40px; }
+      .cta-section h2 { font-size: 26px; }
+      .cta-buttons { flex-direction: column; align-items: center; }
+
+      .footer-inner { justify-content: center; text-align: center; }
+      .footer-links { flex-wrap: wrap; justify-content: center; }
+    }
+
+    @media (max-width: 480px) {
+      .hero h1 { font-size: 26px; }
+      .header-inner { padding: 12px 16px; }
+      .logo-text { font-size: 18px; }
+      .header-booking { font-size: 12px; padding: 6px 12px; }
+      .header-cta { font-size: 13px; padding: 8px 16px; }
+    }
+  `} />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href={headerLogoLink} class="logo-text">{logoPrimary}{logoAccent && <span>{' '}{logoAccent}</span>}</a>
+      <div class="header-actions">
+        {headerBookingText && <a href={headerBookingLink} class="header-booking" target="_blank">{headerBookingText}</a>}
+        <a href={headerCtaLink} class="header-cta">{headerCtaText}</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-pattern" set:html={heroSVG} />
+    <div class="hero-content">
+      <nav class="breadcrumb">
+        <a href={siteUrl}>Home</a> &rsaquo;
+        <a href={breadcrumb.href}>{breadcrumb.label}</a> &rsaquo;
+        <span style="color: rgba(255,255,255,0.6);">{title}</span>
+      </nav>
+      <h1>{title}</h1>
+      <p class="hero-subtitle">{metaDescription}</p>
+    </div>
+    <div class="hero-accent"></div>
+  </section>
+
+  <!-- Metrics Bar (opt-in via frontmatter) -->
+  {showMetrics && metricsBarItems.length > 0 && (
+    <section class="metrics-bar">
+      <div class="metrics-inner">
+        {metricsBarItems.map((item: any) => (
+          <div class="metric-item">
+            <div class="metric-value">{item.metric}</div>
+            <div class="metric-label">{item.label}</div>
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <!-- Article Content -->
+  <main class="content-wrapper">
+    <article class="content">
+      <Fragment set:html={enhancedHtml} />
+    </article>
+  </main>
+
+  <!-- Testimonial Strip -->
+  {testimonial && (
+    <section class="testimonial-strip">
+      <blockquote>&ldquo;{testimonial.testimonial}&rdquo;</blockquote>
+      <cite>{testimonial.contact_name} <span>&mdash; {testimonial.contact_role}, {testimonial.name}</span></cite>
+    </section>
+  )}
+
+  <!-- FAQ Section -->
+  {showLayoutFAQ && (
+    <section class="faq-section">
+      <div class="faq-inner">
+        <h2 class="faq-section-title">Frequently Asked Questions</h2>
+        <div class="faq-grid">
+          {faqs.map((faq: { q: string; a: string }) => (
+            <div class="faq-item">
+              <h3>{faq.q}</h3>
+              <p>{faq.a}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="cta-inner">
+      <h2>{ctaHeading}</h2>
+      {ctaSubheading && <p>{ctaSubheading}</p>}
+      <div class="cta-buttons">
+        <a href={ctaPrimaryLink} class="btn-cta-primary">{ctaPrimaryText}</a>
+        <a href={ctaSecondaryLink} class="btn-cta-outline">{ctaSecondaryText}</a>
+        {ctaTertiaryText && <a href={ctaTertiaryLink} class="btn-cta-outline">{ctaTertiaryText}</a>}
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">{logoPrimary}{logoAccent && <span>{' '}{logoAccent}</span>}</div>
+      <nav>
+        <ul class="footer-links">
+          {footerLinks.map((link: any) => (
+            <li><a href={link.href}>{link.label}</a></li>
+          ))}
+        </ul>
+      </nav>
+      <div class="footer-copy">&copy; {new Date().getFullYear()} {copyrightHolder}. All rights reserved.</div>
+    </div>
+  </footer>
+
+</body>
+</html>

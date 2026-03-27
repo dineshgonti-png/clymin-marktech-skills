@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="podiumGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FF6B35" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#1a1a2e" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFD166"/>
+      <stop offset="100%" stop-color="#FF6B35"/>
+    </linearGradient>
+    <linearGradient id="trophyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFD166"/>
+      <stop offset="100%" stop-color="#FF6B35" stop-opacity="0.8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#1a1a2e"/>
+
+  <!-- Subtle grid pattern -->
+  <g opacity="0.06">
+    <line x1="0" y1="0" x2="0" y2="630" stroke="#FFFFFF" stroke-width="1" transform="translate(100,0)"/>
+    <line x1="0" y1="0" x2="0" y2="630" stroke="#FFFFFF" stroke-width="1" transform="translate(200,0)"/>
+    <line x1="0" y1="0" x2="0" y2="630" stroke="#FFFFFF" stroke-width="1" transform="translate(300,0)"/>
+    <line x1="0" y1="0" x2="0" y2="630" stroke="#FFFFFF" stroke-width="1" transform="translate(400,0)"/>
+    <line x1="0" y1="0" x2="0" y2="630" stroke="#FFFFFF" stroke-width="1" transform="translate(500,0)"/>
+    <line x1="0" y1="0" x2="0" y2="630" stroke="#FFFFFF" stroke-width="1" transform="translate(600,0)"/>
+    <line x1="0" y1="0" x2="0" y2="630" stroke="#FFFFFF" stroke-width="1" transform="translate(700,0)"/>
+    <line x1="0" y1="0" x2="0" y2="630" stroke="#FFFFFF" stroke-width="1" transform="translate(800,0)"/>
+    <line x1="0" y1="0" x2="0" y2="630" stroke="#FFFFFF" stroke-width="1" transform="translate(900,0)"/>
+    <line x1="0" y1="0" x2="0" y2="630" stroke="#FFFFFF" stroke-width="1" transform="translate(1000,0)"/>
+    <line x1="0" y1="0" x2="0" y2="630" stroke="#FFFFFF" stroke-width="1" transform="translate(1100,0)"/>
+  </g>
+
+  <!-- Background glow -->
+  <circle cx="750" cy="380" r="280" fill="#FF6B35" opacity="0.05"/>
+  <circle cx="750" cy="380" r="180" fill="#FFD166" opacity="0.04"/>
+
+  <!-- Podium - 2nd place (left) -->
+  <rect x="620" y="380" width="120" height="150" fill="#FFFFFF" opacity="0.08" rx="4"/>
+  <rect x="620" y="380" width="120" height="4" fill="#FFFFFF" opacity="0.2" rx="2"/>
+  <text x="680" y="440" font-family="Inter, system-ui, sans-serif" font-size="36" font-weight="700" fill="#FFFFFF" opacity="0.4" text-anchor="middle">2</text>
+  <!-- Star ratings for 2nd -->
+  <g transform="translate(655, 460)" opacity="0.3">
+    <polygon points="8,0 10,6 16,6 11,10 13,16 8,12 3,16 5,10 0,6 6,6" fill="#FFD166"/>
+    <polygon points="28,0 30,6 36,6 31,10 33,16 28,12 23,16 25,10 20,6 26,6" fill="#FFD166"/>
+    <polygon points="48,0 50,6 56,6 51,10 53,16 48,12 43,16 45,10 40,6 46,6" fill="#FFD166"/>
+  </g>
+
+  <!-- Podium - 1st place (center) -->
+  <rect x="750" y="320" width="140" height="210" fill="url(#podiumGrad)" rx="4"/>
+  <rect x="750" y="320" width="140" height="4" fill="#FF6B35" rx="2"/>
+  <text x="820" y="395" font-family="Inter, system-ui, sans-serif" font-size="48" font-weight="800" fill="#FF6B35" text-anchor="middle">1</text>
+  <!-- Star ratings for 1st -->
+  <g transform="translate(785, 415)">
+    <polygon points="8,0 10,6 16,6 11,10 13,16 8,12 3,16 5,10 0,6 6,6" fill="#FFD166"/>
+    <polygon points="24,0 26,6 32,6 27,10 29,16 24,12 19,16 21,10 16,6 22,6" fill="#FFD166"/>
+    <polygon points="40,0 42,6 48,6 43,10 45,16 40,12 35,16 37,10 32,6 38,6" fill="#FFD166"/>
+    <polygon points="56,0 58,6 64,6 59,10 61,16 56,12 51,16 53,10 48,6 54,6" fill="#FFD166"/>
+    <polygon points="72,0 74,6 80,6 75,10 77,16 72,12 67,16 69,10 64,6 70,6" fill="#FFD166"/>
+  </g>
+
+  <!-- Podium - 3rd place (right) -->
+  <rect x="900" y="420" width="120" height="110" fill="#FFFFFF" opacity="0.05" rx="4"/>
+  <rect x="900" y="420" width="120" height="4" fill="#FFFFFF" opacity="0.12" rx="2"/>
+  <text x="960" y="475" font-family="Inter, system-ui, sans-serif" font-size="32" font-weight="700" fill="#FFFFFF" opacity="0.25" text-anchor="middle">3</text>
+  <!-- Star ratings for 3rd -->
+  <g transform="translate(940, 490)" opacity="0.2">
+    <polygon points="6,0 8,5 13,5 9,8 10,13 6,10 2,13 4,8 0,5 5,5" fill="#FFD166"/>
+    <polygon points="22,0 24,5 29,5 25,8 26,13 22,10 18,13 20,8 16,5 21,5" fill="#FFD166"/>
+  </g>
+
+  <!-- Trophy shape above #1 -->
+  <g transform="translate(790, 240)">
+    <!-- Cup body -->
+    <path d="M20,0 L40,0 Q55,0 55,15 L55,35 Q55,60 30,70 Q5,60 5,35 L5,15 Q5,0 20,0 Z" fill="url(#trophyGrad)" opacity="0.8"/>
+    <!-- Cup handles -->
+    <path d="M5,12 Q-10,12 -10,28 Q-10,42 5,42" fill="none" stroke="#FFD166" stroke-width="3" opacity="0.5"/>
+    <path d="M55,12 Q70,12 70,28 Q70,42 55,42" fill="none" stroke="#FFD166" stroke-width="3" opacity="0.5"/>
+    <!-- Cup base -->
+    <rect x="20" y="70" width="20" height="8" fill="#FFD166" opacity="0.6" rx="1"/>
+    <rect x="12" y="78" width="36" height="5" fill="#FFD166" opacity="0.4" rx="2"/>
+  </g>
+
+  <!-- Decorative floating elements -->
+  <circle cx="580" cy="300" r="4" fill="#FF6B35" opacity="0.4"/>
+  <circle cx="1050" cy="350" r="3" fill="#FFD166" opacity="0.3"/>
+  <circle cx="1080" cy="280" r="6" fill="#FF6B35" opacity="0.2"/>
+  <circle cx="600" cy="250" r="5" fill="#FFD166" opacity="0.25"/>
+  <rect x="560" y="450" width="20" height="20" rx="3" fill="#FF6B35" opacity="0.1" transform="rotate(45,570,460)"/>
+  <rect x="1060" cy="450" width="15" height="15" rx="2" fill="#FFD166" opacity="0.1" transform="rotate(30,1067,457)"/>
+
+  <!-- Data points decorative -->
+  <g opacity="0.15">
+    <circle cx="650" cy="340" r="2" fill="#FFFFFF"/>
+    <circle cx="700" cy="355" r="2" fill="#FFFFFF"/>
+    <circle cx="930" cy="390" r="2" fill="#FFFFFF"/>
+    <circle cx="980" cy="370" r="2" fill="#FFFFFF"/>
+    <circle cx="1020" cy="400" r="2" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Horizontal accent line -->
+  <line x1="80" y1="530" x2="400" y2="530" stroke="#FF6B35" stroke-width="2" opacity="0.3"/>
+  <circle cx="80" cy="530" r="4" fill="#FF6B35" opacity="0.5"/>
+
+  <!-- Title text -->
+  <text x="80" y="140" font-family="Inter, system-ui, sans-serif" font-size="52" font-weight="800" fill="#FFFFFF" letter-spacing="-1">Best Product Data</text>
+  <text x="80" y="200" font-family="Inter, system-ui, sans-serif" font-size="52" font-weight="800" fill="#FF6B35" letter-spacing="-1">Scraping</text>
+
+  <!-- Subtitle -->
+  <text x="80" y="240" font-family="Inter, system-ui, sans-serif" font-size="18" fill="#FFFFFF" opacity="0.5">Compare top providers and find the right solution</text>
+
+  <!-- Clymin brand -->
+  <text x="1120" y="600" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="600" fill="#FF6B35" text-anchor="end" letter-spacing="2">Clymin</text>
+</svg>

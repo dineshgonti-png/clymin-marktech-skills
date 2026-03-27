@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bgGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="orangeGrad1" x1="0%" y1="0%" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FF6B35"/>
+      <stop offset="100%" stop-color="#FFD166"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad1)"/>
+
+  <!-- Subtle grid pattern -->
+  <g opacity="0.06" stroke="#FFFFFF" stroke-width="0.5">
+    <line x1="0" y1="0" x2="0" y2="630"/><line x1="60" y1="0" x2="60" y2="630"/>
+    <line x1="120" y1="0" x2="120" y2="630"/><line x1="180" y1="0" x2="180" y2="630"/>
+    <line x1="240" y1="0" x2="240" y2="630"/><line x1="300" y1="0" x2="300" y2="630"/>
+    <line x1="360" y1="0" x2="360" y2="630"/><line x1="420" y1="0" x2="420" y2="630"/>
+    <line x1="480" y1="0" x2="480" y2="630"/><line x1="540" y1="0" x2="540" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/><line x1="660" y1="0" x2="660" y2="630"/>
+    <line x1="720" y1="0" x2="720" y2="630"/><line x1="780" y1="0" x2="780" y2="630"/>
+    <line x1="840" y1="0" x2="840" y2="630"/><line x1="900" y1="0" x2="900" y2="630"/>
+    <line x1="960" y1="0" x2="960" y2="630"/><line x1="1020" y1="0" x2="1020" y2="630"/>
+    <line x1="1080" y1="0" x2="1080" y2="630"/><line x1="1140" y1="0" x2="1140" y2="630"/>
+    <line x1="0" y1="60" x2="1200" y2="60"/><line x1="0" y1="120" x2="1200" y2="120"/>
+    <line x1="0" y1="180" x2="1200" y2="180"/><line x1="0" y1="240" x2="1200" y2="240"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/><line x1="0" y1="360" x2="1200" y2="360"/>
+    <line x1="0" y1="420" x2="1200" y2="420"/><line x1="0" y1="480" x2="1200" y2="480"/>
+    <line x1="0" y1="540" x2="1200" y2="540"/>
+  </g>
+
+  <!-- Decorative corner accent top-left -->
+  <polygon points="0,0 180,0 0,180" fill="#FF6B35" opacity="0.08"/>
+  <polygon points="0,0 100,0 0,100" fill="#FF6B35" opacity="0.12"/>
+
+  <!-- Data collection funnel lines -->
+  <g opacity="0.15" stroke="#FFD166" stroke-width="1" fill="none" stroke-dasharray="6,4">
+    <path d="M700,180 Q750,315 820,315"/>
+    <path d="M700,280 Q750,315 820,315"/>
+    <path d="M700,380 Q750,315 820,315"/>
+    <path d="M700,480 Q750,400 820,400"/>
+    <path d="M700,130 Q750,250 820,250"/>
+  </g>
+
+  <!-- Data type cards - Price Tag -->
+  <g transform="translate(680, 120)">
+    <rect x="0" y="0" width="90" height="90" rx="12" fill="#1a1a2e" stroke="#FF6B35" stroke-width="2" opacity="0.9"/>
+    <text x="45" y="40" fill="#FF6B35" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="700" text-anchor="middle">$</text>
+    <text x="45" y="65" fill="#FFFFFF" font-family="Inter, system-ui, sans-serif" font-size="10" text-anchor="middle" opacity="0.7">Price</text>
+    <!-- Tag shape -->
+    <circle cx="25" cy="28" r="4" fill="none" stroke="#FF6B35" stroke-width="1.5" opacity="0.5"/>
+  </g>
+
+  <!-- Star Rating -->
+  <g transform="translate(800, 100)">
+    <rect x="0" y="0" width="90" height="90" rx="12" fill="#1a1a2e" stroke="#FFD166" stroke-width="2" opacity="0.9"/>
+    <g transform="translate(45, 38)" fill="#FFD166">
+      <polygon points="0,-12 3,-4 12,-4 5,2 7,11 0,6 -7,11 -5,2 -12,-4 -3,-4" transform="scale(0.9)"/>
+    </g>
+    <text x="45" y="65" fill="#FFFFFF" font-family="Inter, system-ui, sans-serif" font-size="10" text-anchor="middle" opacity="0.7">Rating</text>
+  </g>
+
+  <!-- Product Image icon -->
+  <g transform="translate(920, 130)">
+    <rect x="0" y="0" width="90" height="90" rx="12" fill="#1a1a2e" stroke="#FF6B35" stroke-width="2" opacity="0.9"/>
+    <rect x="22" y="22" width="46" height="34" rx="4" fill="none" stroke="#FF6B35" stroke-width="1.5"/>
+    <circle cx="36" cy="34" r="5" fill="none" stroke="#FFD166" stroke-width="1.2"/>
+    <polyline points="22,50 38,40 50,46 68,32" fill="none" stroke="#FF6B35" stroke-width="1.2"/>
+    <text x="45" y="72" fill="#FFFFFF" font-family="Inter, system-ui, sans-serif" font-size="10" text-anchor="middle" opacity="0.7">Image</text>
+  </g>
+
+  <!-- Text Block -->
+  <g transform="translate(740, 240)">
+    <rect x="0" y="0" width="90" height="90" rx="12" fill="#1a1a2e" stroke="#FFD166" stroke-width="2" opacity="0.9"/>
+    <line x1="22" y1="28" x2="68" y2="28" stroke="#FFD166" stroke-width="2" stroke-linecap="round"/>
+    <line x1="22" y1="38" x2="60" y2="38" stroke="#FFD166" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+    <line x1="22" y1="48" x2="55" y2="48" stroke="#FFD166" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+    <text x="45" y="72" fill="#FFFFFF" font-family="Inter, system-ui, sans-serif" font-size="10" text-anchor="middle" opacity="0.7">Text</text>
+  </g>
+
+  <!-- Inventory Count -->
+  <g transform="translate(870, 260)">
+    <rect x="0" y="0" width="90" height="90" rx="12" fill="#1a1a2e" stroke="#FF6B35" stroke-width="2" opacity="0.9"/>
+    <text x="45" y="42" fill="#FF6B35" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="700" text-anchor="middle">247</text>
+    <text x="45" y="65" fill="#FFFFFF" font-family="Inter, system-ui, sans-serif" font-size="10" text-anchor="middle" opacity="0.7">Stock</text>
+  </g>
+
+  <!-- Central collection circle -->
+  <circle cx="1060" cy="230" r="60" fill="none" stroke="#FF6B35" stroke-width="2" opacity="0.3"/>
+  <circle cx="1060" cy="230" r="40" fill="none" stroke="#FFD166" stroke-width="1.5" opacity="0.2"/>
+  <circle cx="1060" cy="230" r="20" fill="#FF6B35" opacity="0.15"/>
+
+  <!-- Connecting flow lines from cards to collection -->
+  <g stroke="#FF6B35" stroke-width="1.2" fill="none" opacity="0.25" stroke-dasharray="4,3">
+    <path d="M770,165 Q900,180 1000,230"/>
+    <path d="M890,145 Q960,170 1000,220"/>
+    <path d="M1010,175 L1020,210"/>
+    <path d="M830,285 Q940,270 1000,240"/>
+    <path d="M960,305 Q1000,280 1020,250"/>
+  </g>
+
+  <!-- Question mark decorations -->
+  <text x="1100" y="420" fill="#FF6B35" font-family="Inter, system-ui, sans-serif" font-size="80" font-weight="700" opacity="0.06">?</text>
+  <text x="650" y="560" fill="#FFD166" font-family="Inter, system-ui, sans-serif" font-size="120" font-weight="700" opacity="0.04">?</text>
+
+  <!-- Floating dots -->
+  <circle cx="1140" cy="120" r="3" fill="#FFD166" opacity="0.3"/>
+  <circle cx="1100" cy="80" r="2" fill="#FF6B35" opacity="0.4"/>
+  <circle cx="660" cy="90" r="2.5" fill="#FFD166" opacity="0.25"/>
+  <circle cx="1150" cy="350" r="2" fill="#FF6B35" opacity="0.3"/>
+
+  <!-- Bottom decorative bar -->
+  <rect x="80" y="560" width="200" height="3" rx="1.5" fill="#FF6B35" opacity="0.3"/>
+  <rect x="80" y="560" width="80" height="3" rx="1.5" fill="#FF6B35" opacity="0.6"/>
+
+  <!-- Title Text -->
+  <text x="80" y="200" fill="#FFFFFF" font-family="Inter, system-ui, sans-serif" font-size="52" font-weight="800" letter-spacing="-1">What Can You</text>
+  <text x="80" y="270" fill="#FFFFFF" font-family="Inter, system-ui, sans-serif" font-size="52" font-weight="800" letter-spacing="-1">Scrape?</text>
+
+  <!-- Subtitle -->
+  <text x="80" y="320" fill="#FFFFFF" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="400" opacity="0.5">E-commerce data types &amp; collection methods</text>
+
+  <!-- FAQ badge -->
+  <rect x="80" y="130" width="60" height="26" rx="13" fill="#FF6B35" opacity="0.15"/>
+  <text x="110" y="148" fill="#FF6B35" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" text-anchor="middle">FAQ</text>
+
+  <!-- Clymin brand -->
+  <text x="1140" y="600" fill="#FF6B35" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" text-anchor="end" opacity="0.8">Clymin</text>
+</svg>

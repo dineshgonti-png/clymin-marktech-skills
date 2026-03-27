@@ -1,0 +1,429 @@
+# ============================================================
+# BRAND MEMORY CONFIGURATION — EXAMPLE
+# This is a fully filled-in example using a fictional company.
+# Copy this to brand.yaml and replace with your own details.
+# ============================================================
+
+business:
+  name: "TechHire Labs"
+  legal_entity: "TechHire Labs Inc."
+  tagline: "Engineering talent, delivered."
+  tagline_alt: "The smarter way to hire engineers."
+  description: >
+    TechHire Labs is an AI-powered recruitment agency that specializes in
+    placing engineering talent at startups and scale-ups. We combine machine
+    learning sourcing with hands-on technical screening to deliver candidates
+    who ship code from day one.
+  positioning: "We are the go-to hiring partner for engineering-led companies that refuse to compromise on talent quality."
+  founded: 2022
+  employee_count: "25-75"
+  experience: "15+ years of combined engineering recruitment and talent operations experience"
+  website: "https://www.techhirelabs.com"
+  email: "hello@techhirelabs.com"
+  booking_link: "https://calendly.com/techhirelabs/intro"
+
+founders:
+  - name: "Jordan McAllister"
+    role: "Co-founder & CEO"
+    linkedin: "https://www.linkedin.com/in/jordanmcallister/"
+  - name: "Priya Chakraborty"
+    role: "Co-founder & CTO"
+    linkedin: "https://www.linkedin.com/in/priyachakraborty/"
+
+values:
+  - name: "Precision"
+    description: "Every hire matters. We screen ruthlessly so our clients never have to."
+  - name: "Speed"
+    description: "Engineering teams can't wait months. We close roles in days, not quarters."
+  - name: "Transparency"
+    description: "No hidden fees, no ghosting, no inflated candidate counts. Just honest recruiting."
+
+locations:
+  primary:
+    - city: "Austin"
+      country: "USA"
+      address: "400 West 2nd Street, Suite 310, Austin, TX 78701"
+    - city: "London"
+      country: "UK"
+      address: "71 Queen Victoria Street, London EC4V 4AY"
+  service_regions:
+    - "North America (US and Canada)"
+    - "Europe (UK, Germany, Netherlands, Nordics)"
+    - "Remote-first companies (global)"
+
+# ============================================================
+# CORE DIFFERENTIATOR — USE IN ALL CONTENT
+# ============================================================
+differentiator:
+  name: "Triple-Screen Process"
+  description: >
+    Every candidate passes three independent evaluations before reaching a
+    client: an AI skills assessment, a live coding session with a senior
+    engineer, and a culture-fit interview with a trained behavioral assessor.
+    Only candidates who clear all three screens make the shortlist.
+  proof_points:
+    - metric: "95%"
+      label: "Offer Acceptance Rate"
+      meaning: "95 out of 100 candidates who receive offers accept them"
+      display_in_metrics_bar: true
+    - metric: "2:1"
+      label: "Interview-to-Hire Ratio"
+      meaning: "Clients hire 1 out of every 2 candidates we present"
+      display_in_metrics_bar: true
+    - metric: "8x"
+      label: "Faster AI Sourcing"
+      meaning: "Our AI identifies qualified candidates 8x faster than manual sourcing"
+      display_in_metrics_bar: true
+    - metric: "14 Days"
+      label: "Average Time to Close"
+      meaning: "From intake call to signed offer in under two weeks"
+      display_in_metrics_bar: true
+
+# ============================================================
+# PROCESS — YOUR WORKFLOW STEPS
+# ============================================================
+process:
+  - step: 1
+    name: "Intake & Role Calibration"
+    detail: >
+      A 60-minute deep-dive with the hiring manager and eng lead to define
+      the role, tech stack, team culture, and non-negotiable skills. We build
+      a calibrated scorecard before sourcing begins.
+  - step: 2
+    name: "AI-Powered Sourcing"
+    detail: >
+      Our proprietary engine scans GitHub, LinkedIn, Stack Overflow, and 15+
+      niche communities to build a longlist scored on technical depth, career
+      trajectory, and role fit.
+  - step: 3
+    name: "Triple-Screen Evaluation"
+    detail: >
+      Candidates complete an AI skills assessment, a live coding session with
+      one of our senior engineers, and a behavioral interview. Only those who
+      pass all three screens advance.
+  - step: 4
+    name: "Shortlist Delivery & Offer Support"
+    detail: >
+      Client receives 3-5 thoroughly vetted candidates with detailed
+      assessment reports. We manage scheduling, offer negotiation, and
+      onboarding coordination through day one.
+
+# ============================================================
+# SERVICES
+# ============================================================
+services:
+  - name: "Engineering Recruitment"
+    description: "End-to-end hiring for software engineers, from junior to staff level"
+    typical_roles: ["Backend Engineers", "Frontend Engineers", "Full-Stack Developers", "Mobile Engineers", "DevOps Engineers"]
+
+  - name: "Engineering Leadership Search"
+    description: "Executive-level search for technical leaders who can build and scale teams"
+    typical_roles: ["VP Engineering", "CTO", "Engineering Director", "Principal Engineer", "Head of Platform"]
+
+  - name: "AI & Data Team Building"
+    description: "Specialized recruitment for machine learning, data science, and AI infrastructure roles"
+    typical_roles: ["ML Engineers", "Data Scientists", "MLOps Engineers", "AI Researchers", "Data Engineers"]
+
+  - name: "Embedded Recruiting"
+    description: "A TechHire Labs recruiter works inside your team on a monthly retainer to handle ongoing hiring needs"
+    typical_roles: ["Any engineering role", "Ongoing monthly mandate", "Typically 3-6 month engagement"]
+
+# ============================================================
+# TARGET SEGMENTS (in priority order for content)
+# ============================================================
+target_segments:
+  - priority: 1
+    name: "Series A Startups"
+    key: "series-a"
+    description: >
+      Seed to Series A startups making their first 5-20 engineering hires.
+      Founders are deeply involved in hiring decisions and need a partner
+      who understands the urgency and constraints of early-stage building.
+    buyer_titles: ["CTO", "Founder/CEO", "VP Engineering", "Head of Engineering"]
+    pain_points:
+      - "Founders spending 40% of their time recruiting instead of building product"
+      - "Can't compete with FAANG compensation packages"
+      - "No internal recruiting team or employer brand"
+      - "First engineering manager hire is make-or-break"
+      - "Need senior engineers who can operate without heavy process"
+    keywords_seed:
+      - "startup recruitment agency Austin"
+      - "hire engineers for Series A startup"
+      - "engineering recruitment agency for startups"
+      - "how to hire first engineers startup"
+      - "startup technical recruiter"
+
+  - priority: 2
+    name: "Scale-ups (Series B-D)"
+    key: "scale-up"
+    description: >
+      Series B through D companies scaling from 50 to 500+ engineers. Internal
+      recruiting is overwhelmed. Need a partner who can maintain quality bar
+      while ramping hiring velocity significantly.
+    buyer_titles: ["VP Engineering", "Head of Talent", "CTO", "Director of Engineering"]
+    pain_points:
+      - "Internal recruiters are at capacity and can't scale fast enough"
+      - "Quality of hire drops as hiring volume increases"
+      - "Specialized roles (ML, infra, security) sit open for months"
+      - "High candidate dropout rate between offer and start date"
+      - "Need to hire across multiple locations and time zones"
+    keywords_seed:
+      - "scale-up engineering recruitment"
+      - "hire engineers fast Series B"
+      - "technical recruitment agency for growing companies"
+      - "bulk engineering hiring without losing quality"
+      - "embedded recruiting for scale-ups"
+
+  - priority: 3
+    name: "Mid-Market Enterprise"
+    key: "enterprise"
+    description: >
+      Established technology companies (500-5000 employees) with ongoing
+      engineering hiring needs. Typically have internal TA teams but need
+      agency support for hard-to-fill or surge roles.
+    buyer_titles: ["Director of Talent Acquisition", "CHRO", "SVP Engineering", "Hiring Manager"]
+    pain_points:
+      - "Traditional agencies send too many unqualified resumes"
+      - "Niche roles (staff engineer, principal, platform) go unfilled for quarters"
+      - "Need agency that understands technical depth, not just keyword matching"
+      - "Compliance and structured interview process requirements"
+      - "Looking for a long-term strategic partner, not transactional placements"
+    keywords_seed:
+      - "enterprise engineering recruitment agency"
+      - "IT staffing company Austin Texas"
+      - "technical recruitment agency London UK"
+      - "hire staff engineers enterprise"
+      - "recruitment partner for technology companies"
+
+# ============================================================
+# TARGET INDUSTRIES
+# ============================================================
+target_industries:
+  - "SaaS & Cloud Software"
+  - "Fintech & Financial Services"
+  - "Health Tech & Digital Health"
+  - "AI & Machine Learning"
+  - "Developer Tools & Infrastructure"
+  - "E-commerce & Marketplace"
+
+# ============================================================
+# BRAND VOICE
+# ============================================================
+brand_voice:
+  tone: "Professional but approachable. Direct and data-driven. Confident without being salesy."
+  personality: "Like a sharp engineering manager who moonlights as a recruiter — technically fluent, no-nonsense, and genuinely helpful."
+
+  do:
+    - "Use specific numbers and metrics (95% acceptance rate, 14-day close, 2:1 ratio)"
+    - "Reference the Triple-Screen Process as a unique differentiator"
+    - "Speak to pain points directly — name the problem before offering the solution"
+    - "Use 'we' and 'our team' — personal, not corporate"
+    - "Include market-specific context (US visa sponsorship, UK right-to-work, remote compensation bands)"
+    - "Position AI as a tool that accelerates human judgment, never replaces it"
+
+  dont:
+    - "Use corporate jargon (synergy, leverage, ecosystem, paradigm, holistic)"
+    - "Make vague claims without proof points"
+    - "Sound like every other recruitment agency"
+    - "Overpromise about AI capabilities"
+    - "Badmouth competitors by name"
+    - "Use excessive exclamation marks or hype language"
+
+  sample_phrasing:
+    bad: "We leverage cutting-edge AI to holistically transform the talent acquisition ecosystem."
+    good: "Most recruitment is keyword matching with extra steps. We built TechHire Labs to actually evaluate whether someone can do the job."
+
+# ============================================================
+# CLIENTS (social proof / testimonials)
+# ============================================================
+clients:
+  named:
+    - name: "Stackline"
+      industry: "Developer Tools"
+      contact_name: "Marcus Chen"
+      contact_role: "CTO"
+      testimonial: "TechHire Labs filled three senior backend roles in 11 days. Their candidates had already been technically vetted — our team just had to decide who fit best."
+    - name: "Medvault"
+      industry: "Health Tech"
+      contact_name: "Sarah Okonkwo"
+      contact_role: "VP Engineering"
+      testimonial: "We'd been trying to hire an ML engineer for four months. TechHire Labs found us three qualified candidates in the first week. We hired two of them."
+    - name: "Finch Payments"
+      industry: "Fintech"
+      contact_name: "David Larsson"
+      contact_role: "Head of Talent"
+      testimonial: "The Triple-Screen Process is real. Every candidate they sent could actually code, which sounds basic but is shockingly rare with other agencies."
+  industries_served_count: "12+"
+  platforms_scanned: "20+"
+  parameters_evaluated: "150+"
+
+social_profiles:
+  linkedin_company: "https://www.linkedin.com/company/techhire-labs/"
+  crunchbase: ""
+  twitter: ""
+
+# ============================================================
+# COMPETITORS (for research agent)
+# ============================================================
+competitors:
+  primary:
+    - { name: "Riviera Talent", url: "https://www.rivieratalent.com" }
+    - { name: "CodeBridge Recruiting", url: "https://www.codebridgerecruiting.com" }
+  secondary:
+    - { name: "Apexon Staffing", url: "https://www.apexonstaffing.com" }
+    - { name: "NovaTech Search", url: "https://www.novatechsearch.io" }
+
+# ============================================================
+# INTEGRATIONS (for technical credibility)
+# ============================================================
+integrations:
+  - "Greenhouse"
+  - "Lever"
+  - "Ashby"
+  - "Linear"
+  - "Slack"
+
+# ============================================================
+# PRICING (internal reference — do NOT publish exact numbers)
+# ============================================================
+pricing:
+  model: "Retained search with milestone payments"
+  note: "Do NOT publish exact fee percentages in content. Use 'transparent, milestone-based pricing' and direct readers to a consultation call."
+  content_approach: >
+    When pricing comes up in content, acknowledge that retained search
+    fees typically range 20-30% of first-year salary, position TechHire Labs
+    as offering a milestone-based structure that aligns incentives, and
+    always direct to a conversation for custom quotes.
+
+# ============================================================
+# CONTENT INFRASTRUCTURE
+# ============================================================
+content_config:
+  subdirectory: "/resources"
+  base_url: "https://www.techhirelabs.com/resources"
+  page_types:
+    - type: "landing-page"
+      label: "Services"
+      description: "Explore our solutions by role type and region"
+      purpose: "High-intent commercial queries (e.g., 'engineering recruitment agency Austin')"
+      target_count: 30
+    - type: "blog-post"
+      label: "Blog"
+      description: "Hiring strategies, salary data, and market insights"
+      purpose: "Informational queries (e.g., 'how to hire engineers at a Series A startup')"
+      target_count: 35
+    - type: "guide"
+      label: "Guides"
+      description: "Comprehensive playbooks for engineering hiring"
+      purpose: "Long-form resources (e.g., 'complete guide to scaling an engineering team')"
+      target_count: 8
+    - type: "faq"
+      label: "FAQs"
+      description: "Quick answers to common hiring questions"
+      purpose: "Question-based queries (e.g., 'how long does it take to hire a senior engineer')"
+      target_count: 10
+    - type: "comparison"
+      label: "Comparisons"
+      description: "Side-by-side analysis to help you choose"
+      purpose: "vs queries (e.g., 'in-house recruiter vs recruitment agency for startups')"
+      target_count: 7
+
+# ============================================================
+# DESIGN — Drives all visual elements
+# ============================================================
+design:
+  colors:
+    primary: "#0A4D68"
+    primary_hover: "#083D53"
+    accent_1: "#05BFDB"
+    accent_2: "#FF6B6B"
+    dark: "#0B1D26"
+    bg_light: "#F0F8FC"
+    border: "#D6E8F0"
+    text_primary: "#0B1D26"
+    text_body: "#2C3E50"
+    text_secondary: "#5A7184"
+    text_muted: "#8FA3B0"
+
+  segment_colors:
+    series-a: ["#05BFDB", "#FF6B6B"]
+    scale-up: ["#088395", "#05BFDB"]
+    enterprise: ["#0A4D68", "#088395"]
+    _default: ["#05BFDB", "#FF6B6B"]
+
+  fonts:
+    heading:
+      family: "Inter"
+      fallback: "sans-serif"
+      google_import: "Inter:wght@400;500;600;700"
+    body:
+      family: "DM Sans"
+      fallback: "sans-serif"
+      google_import: "DM+Sans:wght@400;500;600"
+
+  radii:
+    button: "12px"
+    card: "10px"
+    small: "6px"
+
+  logo_text:
+    primary: "TechHire"
+    accent: "Labs"
+
+# ============================================================
+# NAVIGATION — Drives header and footer
+# ============================================================
+navigation:
+  header:
+    logo_link: "https://www.techhirelabs.com"
+    cta_text: "Book a Call"
+    cta_link: "https://calendly.com/techhirelabs/intro"
+  footer:
+    links:
+      - label: "About"
+        href: "https://www.techhirelabs.com/about"
+      - label: "Services"
+        href: "https://www.techhirelabs.com/services"
+      - label: "Resources"
+        href: "/resources"
+      - label: "Careers"
+        href: "https://www.techhirelabs.com/careers"
+      - label: "Contact"
+        href: "https://www.techhirelabs.com/contact"
+      - label: "LinkedIn"
+        href: "https://www.linkedin.com/company/techhire-labs/"
+    copyright_holder: "TechHire Labs Inc."
+
+# ============================================================
+# CTA — Drives call-to-action sections on pages
+# ============================================================
+cta:
+  heading: "Ready to Scale Your Team?"
+  subheading: "Tell us what you're building and we'll find the engineers to make it happen."
+  primary_button:
+    text: "Book a Free Consultation"
+    link: "https://calendly.com/techhirelabs/intro"
+  secondary_button:
+    text: "Email Us"
+    link: "mailto:hello@techhirelabs.com"
+  hub:
+    heading: "Need Hiring Help?"
+    subheading: "Talk to our team about your engineering hiring goals."
+
+# ============================================================
+# DEPLOYMENT
+# ============================================================
+deployment:
+  platform: "vercel"
+  project_name: "techhire-labs"
+  domain: "www.techhirelabs.com"
+
+# ============================================================
+# CANONICAL CONTENT REFERENCES
+# ============================================================
+canonical_pages:
+  main_service_page:
+    slug: "engineering-recruitment-agency-austin"
+    anchors:
+      differentiator: "triple-screen"
+      process: "hiring-process"

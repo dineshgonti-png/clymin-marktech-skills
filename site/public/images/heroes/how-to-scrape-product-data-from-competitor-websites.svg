@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bgGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#151530"/>
+    </linearGradient>
+    <marker id="arrowOrange" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0,0 8,3 0,6" fill="#FF6B35" opacity="0.6"/>
+    </marker>
+    <marker id="arrowYellow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0,0 8,3 0,6" fill="#FFD166" opacity="0.6"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad4)"/>
+
+  <!-- Subtle diagonal lines -->
+  <g stroke="#FFFFFF" stroke-width="0.3" opacity="0.03">
+    <line x1="600" y1="0" x2="1200" y2="600"/>
+    <line x1="700" y1="0" x2="1200" y2="500"/>
+    <line x1="800" y1="0" x2="1200" y2="400"/>
+    <line x1="900" y1="0" x2="1200" y2="300"/>
+    <line x1="500" y1="0" x2="1200" y2="630"/>
+  </g>
+
+  <!-- Workflow step 1 - Website shapes (competitor sites) -->
+  <g transform="translate(640, 100)">
+    <!-- Website card 1 -->
+    <rect x="0" y="0" width="70" height="50" rx="6" fill="#1a1a2e" stroke="#FF6B35" stroke-width="1.5" opacity="0.8"/>
+    <rect x="0" y="0" width="70" height="12" rx="6" fill="#FF6B35" opacity="0.2"/>
+    <circle cx="10" cy="6" r="2" fill="#FF6B35" opacity="0.5"/>
+    <circle cx="18" cy="6" r="2" fill="#FFD166" opacity="0.5"/>
+    <circle cx="26" cy="6" r="2" fill="#FFFFFF" opacity="0.2"/>
+    <line x1="8" y1="20" x2="40" y2="20" stroke="#FFFFFF" stroke-width="1" opacity="0.15"/>
+    <line x1="8" y1="28" x2="50" y2="28" stroke="#FFFFFF" stroke-width="1" opacity="0.1"/>
+    <line x1="8" y1="36" x2="35" y2="36" stroke="#FFFFFF" stroke-width="1" opacity="0.1"/>
+    <!-- Step number -->
+    <circle cx="35" cy="-15" r="14" fill="#FF6B35"/>
+    <text x="35" y="-10" fill="#FFFFFF" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" text-anchor="middle">1</text>
+  </g>
+
+  <!-- Website card 2 (slightly offset) -->
+  <g transform="translate(660, 125)" opacity="0.5">
+    <rect x="0" y="0" width="70" height="50" rx="6" fill="#1a1a2e" stroke="#FF6B35" stroke-width="1" opacity="0.5"/>
+    <rect x="0" y="0" width="70" height="12" rx="6" fill="#FF6B35" opacity="0.1"/>
+  </g>
+
+  <!-- Arrow 1->2 -->
+  <line x1="730" y1="140" x2="790" y2="210" stroke="#FF6B35" stroke-width="1.5" marker-end="url(#arrowOrange)" opacity="0.5"/>
+
+  <!-- Step 2 - Scraper/Spider -->
+  <g transform="translate(790, 210)">
+    <rect x="0" y="0" width="90" height="65" rx="8" fill="#1a1a2e" stroke="#FFD166" stroke-width="2" opacity="0.9"/>
+    <!-- Code brackets -->
+    <text x="20" y="30" fill="#FFD166" font-family="monospace" font-size="16" opacity="0.7">&lt;/&gt;</text>
+    <text x="45" y="50" fill="#FFFFFF" font-family="Inter, system-ui, sans-serif" font-size="9" text-anchor="middle" opacity="0.5">Scraper</text>
+    <!-- Step number -->
+    <circle cx="45" cy="-15" r="14" fill="#FF6B35"/>
+    <text x="45" y="-10" fill="#FFFFFF" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" text-anchor="middle">2</text>
+  </g>
+
+  <!-- Arrow 2->3 -->
+  <line x1="890" y1="250" x2="930" y2="300" stroke="#FF6B35" stroke-width="1.5" marker-end="url(#arrowOrange)" opacity="0.5"/>
+
+  <!-- Step 3 - Data Pipeline -->
+  <g transform="translate(920, 300)">
+    <rect x="0" y="0" width="100" height="65" rx="8" fill="#1a1a2e" stroke="#FF6B35" stroke-width="2" opacity="0.9"/>
+    <!-- Pipeline bars -->
+    <rect x="15" y="18" width="45" height="5" rx="2.5" fill="#FF6B35" opacity="0.6"/>
+    <rect x="15" y="28" width="60" height="5" rx="2.5" fill="#FF6B35" opacity="0.4"/>
+    <rect x="15" y="38" width="35" height="5" rx="2.5" fill="#FFD166" opacity="0.5"/>
+    <text x="50" y="58" fill="#FFFFFF" font-family="Inter, system-ui, sans-serif" font-size="9" text-anchor="middle" opacity="0.5">Transform</text>
+    <!-- Step number -->
+    <circle cx="50" cy="-15" r="14" fill="#FF6B35"/>
+    <text x="50" y="-10" fill="#FFFFFF" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" text-anchor="middle">3</text>
+  </g>
+
+  <!-- Arrow 3->4 -->
+  <line x1="1030" y1="340" x2="1050" y2="400" stroke="#FFD166" stroke-width="1.5" marker-end="url(#arrowYellow)" opacity="0.5"/>
+
+  <!-- Step 4 - Database/Storage -->
+  <g transform="translate(1010, 405)">
+    <rect x="0" y="0" width="100" height="65" rx="8" fill="#1a1a2e" stroke="#FFD166" stroke-width="2" opacity="0.9"/>
+    <!-- DB cylinder icon -->
+    <ellipse cx="50" cy="22" rx="20" ry="8" fill="none" stroke="#FFD166" stroke-width="1.5" opacity="0.6"/>
+    <line x1="30" y1="22" x2="30" y2="38" stroke="#FFD166" stroke-width="1.5" opacity="0.6"/>
+    <line x1="70" y1="22" x2="70" y2="38" stroke="#FFD166" stroke-width="1.5" opacity="0.6"/>
+    <ellipse cx="50" cy="38" rx="20" ry="8" fill="none" stroke="#FFD166" stroke-width="1.5" opacity="0.6"/>
+    <text x="50" y="60" fill="#FFFFFF" font-family="Inter, system-ui, sans-serif" font-size="9" text-anchor="middle" opacity="0.5">Store</text>
+    <!-- Step number -->
+    <circle cx="50" cy="-15" r="14" fill="#FF6B35"/>
+    <text x="50" y="-10" fill="#FFFFFF" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" text-anchor="middle">4</text>
+  </g>
+
+  <!-- Dotted connection lines (data flow) -->
+  <g stroke="#FF6B35" stroke-width="1" stroke-dasharray="4,4" opacity="0.2">
+    <path d="M660,170 C660,190 790,190 790,230" fill="none"/>
+    <path d="M880,260 C900,280 920,290 920,310" fill="none"/>
+    <path d="M1020,365 C1040,380 1050,390 1050,405" fill="none"/>
+  </g>
+
+  <!-- Background data flow particles -->
+  <circle cx="760" cy="180" r="2" fill="#FF6B35" opacity="0.4"/>
+  <circle cx="860" cy="280" r="2" fill="#FFD166" opacity="0.3"/>
+  <circle cx="1040" cy="380" r="2" fill="#FF6B35" opacity="0.4"/>
+  <circle cx="700" cy="160" r="1.5" fill="#FFD166" opacity="0.25"/>
+  <circle cx="910" cy="290" r="1.5" fill="#FF6B35" opacity="0.3"/>
+
+  <!-- Decorative corner -->
+  <polygon points="1200,630 1200,530 1100,630" fill="#FF6B35" opacity="0.06"/>
+  <polygon points="0,630 0,560 70,630" fill="#FFD166" opacity="0.04"/>
+
+  <!-- Workflow label -->
+  <text x="640" y="80" fill="#FFFFFF" font-family="Inter, system-ui, sans-serif" font-size="10" opacity="0.3" letter-spacing="3">WORKFLOW</text>
+
+  <!-- Bottom accent bar -->
+  <rect x="80" y="540" width="180" height="3" rx="1.5" fill="#FF6B35" opacity="0.25"/>
+  <rect x="80" y="540" width="90" height="3" rx="1.5" fill="#FF6B35" opacity="0.6"/>
+
+  <!-- Title Text -->
+  <text x="80" y="200" fill="#FFFFFF" font-family="Inter, system-ui, sans-serif" font-size="52" font-weight="800" letter-spacing="-1">Scrape</text>
+  <text x="80" y="270" fill="#FFFFFF" font-family="Inter, system-ui, sans-serif" font-size="52" font-weight="800" letter-spacing="-1">Competitor Data</text>
+
+  <!-- Subtitle -->
+  <text x="80" y="320" fill="#FFFFFF" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="400" opacity="0.5">Step-by-step product data extraction</text>
+
+  <!-- How-to badge -->
+  <rect x="80" y="128" width="80" height="26" rx="13" fill="#FF6B35" opacity="0.15"/>
+  <text x="120" y="146" fill="#FF6B35" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" text-anchor="middle">HOW-TO</text>
+
+  <!-- Clymin brand -->
+  <text x="1140" y="600" fill="#FF6B35" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" text-anchor="end" opacity="0.8">Clymin</text>
+</svg>

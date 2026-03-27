@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&amp;display=swap');
+    </style>
+  </defs>
+  <rect width="1200" height="630" fill="#1a1a2e"/>
+  <!-- Divider -->
+  <line x1="600" y1="100" x2="600" y2="490" stroke="#FF6B35" stroke-width="3" stroke-dasharray="8,6"/>
+  <!-- VS badge -->
+  <circle cx="600" cy="295" r="38" fill="#FF6B35"/>
+  <text x="600" y="305" font-family="Inter, sans-serif" font-weight="700" font-size="26" fill="#1a1a2e" text-anchor="middle">VS</text>
+  <!-- Left: Self-service platform -->
+  <text x="300" y="130" font-family="Inter, sans-serif" font-weight="700" font-size="20" fill="#ffffff" text-anchor="middle" opacity="0.8">SELF-SERVICE PLATFORM</text>
+  <!-- Toolbox metaphor -->
+  <rect x="120" y="160" width="360" height="240" rx="10" fill="#16213e" stroke="#FF6B35" stroke-width="1" opacity="0.8"/>
+  <!-- Tools inside -->
+  <rect x="150" y="185" width="80" height="55" rx="6" fill="#FF6B35" opacity="0.2" stroke="#FF6B35" stroke-width="1"/>
+  <text x="190" y="218" font-family="Inter, sans-serif" font-size="11" fill="#ffffff" text-anchor="middle" opacity="0.7">Proxies</text>
+  <rect x="250" y="185" width="80" height="55" rx="6" fill="#FF6B35" opacity="0.2" stroke="#FF6B35" stroke-width="1"/>
+  <text x="290" y="218" font-family="Inter, sans-serif" font-size="11" fill="#ffffff" text-anchor="middle" opacity="0.7">Browser</text>
+  <rect x="350" y="185" width="80" height="55" rx="6" fill="#FF6B35" opacity="0.2" stroke="#FF6B35" stroke-width="1"/>
+  <text x="390" y="218" font-family="Inter, sans-serif" font-size="11" fill="#ffffff" text-anchor="middle" opacity="0.7">APIs</text>
+  <!-- Person icon (developer needed) -->
+  <circle cx="220" cy="290" r="16" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.5"/>
+  <line x1="220" y1="306" x2="220" y2="340" stroke="#ffffff" stroke-width="1.5" opacity="0.5"/>
+  <line x1="200" y1="320" x2="240" y2="320" stroke="#ffffff" stroke-width="1.5" opacity="0.5"/>
+  <text x="220" y="370" font-family="Inter, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" opacity="0.5">Engineers Required</text>
+  <!-- Wrench icon -->
+  <circle cx="370" cy="300" r="20" fill="none" stroke="#FF6B35" stroke-width="1.5" opacity="0.5"/>
+  <text x="370" y="306" font-family="Inter, sans-serif" font-size="18" fill="#FF6B35" text-anchor="middle" opacity="0.6">&#9881;</text>
+  <text x="370" y="340" font-family="Inter, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" opacity="0.5">DIY Maintenance</text>
+  <!-- Right: Managed service -->
+  <text x="900" y="130" font-family="Inter, sans-serif" font-weight="700" font-size="20" fill="#ffffff" text-anchor="middle" opacity="0.8">MANAGED SERVICE</text>
+  <rect x="720" y="160" width="360" height="240" rx="10" fill="#16213e" stroke="#FF6B35" stroke-width="1" opacity="0.8"/>
+  <!-- Clean data output -->
+  <rect x="750" y="185" width="300" height="40" rx="6" fill="#FF6B35" opacity="0.15"/>
+  <text x="900" y="210" font-family="Inter, sans-serif" font-size="13" fill="#FF6B35" text-anchor="middle" opacity="0.8">Clean Data Delivered</text>
+  <!-- Pipeline arrow -->
+  <path d="M780 260 L1020 260" stroke="#FF6B35" stroke-width="2" opacity="0.6"/>
+  <polygon points="1020,254 1035,260 1020,266" fill="#FF6B35" opacity="0.6"/>
+  <!-- Pipeline stages -->
+  <circle cx="810" cy="260" r="8" fill="#FF6B35" opacity="0.4"/>
+  <circle cx="870" cy="260" r="8" fill="#FF6B35" opacity="0.5"/>
+  <circle cx="930" cy="260" r="8" fill="#FF6B35" opacity="0.6"/>
+  <circle cx="990" cy="260" r="8" fill="#FF6B35" opacity="0.7"/>
+  <text x="810" y="290" font-family="Inter, sans-serif" font-size="10" fill="#ffffff" text-anchor="middle" opacity="0.5">Crawl</text>
+  <text x="870" y="290" font-family="Inter, sans-serif" font-size="10" fill="#ffffff" text-anchor="middle" opacity="0.5">Parse</text>
+  <text x="930" y="290" font-family="Inter, sans-serif" font-size="10" fill="#ffffff" text-anchor="middle" opacity="0.5">Clean</text>
+  <text x="990" y="290" font-family="Inter, sans-serif" font-size="10" fill="#ffffff" text-anchor="middle" opacity="0.5">Deliver</text>
+  <!-- Checkmarks -->
+  <text x="900" y="340" font-family="Inter, sans-serif" font-size="13" fill="#FF6B35" text-anchor="middle" opacity="0.7">Zero Engineering Overhead</text>
+  <text x="900" y="370" font-family="Inter, sans-serif" font-size="13" fill="#FF6B35" text-anchor="middle" opacity="0.7">99.7% Data Accuracy</text>
+  <!-- Title -->
+  <text x="600" y="55" font-family="Inter, sans-serif" font-weight="700" font-size="36" fill="#ffffff" text-anchor="middle">Bright Data vs Managed Scraping for Travel</text>
+  <!-- Subtitle -->
+  <text x="600" y="540" font-family="Inter, sans-serif" font-weight="400" font-size="18" fill="#ffffff" text-anchor="middle" opacity="0.6">Build it yourself or get clean data delivered?</text>
+  <!-- Clymin branding -->
+  <text x="1150" y="600" font-family="Inter, sans-serif" font-weight="700" font-size="22" fill="#FF6B35" text-anchor="end">Clymin</text>
+</svg>

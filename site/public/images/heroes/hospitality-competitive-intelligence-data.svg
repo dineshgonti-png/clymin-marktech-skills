@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&amp;display=swap');
+    </style>
+  </defs>
+  <rect width="1200" height="630" fill="#1a1a2e"/>
+  <!-- Dashboard frame -->
+  <rect x="150" y="120" width="900" height="420" rx="12" fill="#16213e" stroke="#FF6B35" stroke-width="1.5"/>
+  <!-- Top bar -->
+  <rect x="150" y="120" width="900" height="45" rx="12" fill="#FF6B35" opacity="0.1"/>
+  <circle cx="180" cy="142" r="7" fill="#FF6B35" opacity="0.5"/>
+  <circle cx="202" cy="142" r="7" fill="#FF6B35" opacity="0.3"/>
+  <circle cx="224" cy="142" r="7" fill="#FF6B35" opacity="0.2"/>
+  <text x="600" y="148" font-family="Inter, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle" opacity="0.5">Competitive Intelligence Dashboard</text>
+  <!-- Hotel icons in sidebar -->
+  <rect x="170" y="185" width="140" height="340" rx="8" fill="#ffffff" opacity="0.03"/>
+  <!-- Hotel icon 1 -->
+  <rect x="190" y="205" width="100" height="50" rx="4" fill="#16213e" stroke="#FF6B35" stroke-width="1" opacity="0.8"/>
+  <rect x="200" y="215" width="12" height="10" rx="1" fill="#FF6B35" opacity="0.4"/>
+  <rect x="218" y="215" width="12" height="10" rx="1" fill="#FF6B35" opacity="0.3"/>
+  <rect x="236" y="215" width="12" height="10" rx="1" fill="#FF6B35" opacity="0.5"/>
+  <rect x="200" y="232" width="12" height="10" rx="1" fill="#FF6B35" opacity="0.3"/>
+  <rect x="218" y="232" width="12" height="10" rx="1" fill="#FF6B35" opacity="0.4"/>
+  <rect x="236" y="232" width="12" height="10" rx="1" fill="#FF6B35" opacity="0.3"/>
+  <polygon points="185,205 240,180 295,205" fill="none" stroke="#FF6B35" stroke-width="1" opacity="0.6"/>
+  <!-- Hotel icon 2 -->
+  <rect x="190" y="275" width="100" height="50" rx="4" fill="#16213e" stroke="#FF6B35" stroke-width="0.8" opacity="0.6"/>
+  <rect x="200" y="285" width="12" height="10" rx="1" fill="#FF6B35" opacity="0.25"/>
+  <rect x="218" y="285" width="12" height="10" rx="1" fill="#FF6B35" opacity="0.35"/>
+  <rect x="236" y="285" width="12" height="10" rx="1" fill="#FF6B35" opacity="0.25"/>
+  <rect x="200" y="302" width="12" height="10" rx="1" fill="#FF6B35" opacity="0.35"/>
+  <rect x="218" y="302" width="12" height="10" rx="1" fill="#FF6B35" opacity="0.25"/>
+  <rect x="236" y="302" width="12" height="10" rx="1" fill="#FF6B35" opacity="0.35"/>
+  <!-- Hotel icon 3 -->
+  <rect x="190" y="345" width="100" height="50" rx="4" fill="#16213e" stroke="#FF6B35" stroke-width="0.8" opacity="0.5"/>
+  <rect x="200" y="355" width="12" height="10" rx="1" fill="#FF6B35" opacity="0.2"/>
+  <rect x="218" y="355" width="12" height="10" rx="1" fill="#FF6B35" opacity="0.3"/>
+  <rect x="236" y="355" width="12" height="10" rx="1" fill="#FF6B35" opacity="0.2"/>
+  <!-- Main chart area -->
+  <rect x="330" y="185" width="500" height="220" rx="8" fill="#ffffff" opacity="0.03"/>
+  <!-- Line chart -->
+  <polyline points="360,360 400,340 440,350 480,310 520,290 560,300 600,270 640,260 680,280 720,250 760,240 800,255" stroke="#FF6B35" stroke-width="2.5" fill="none" opacity="0.8"/>
+  <polyline points="360,370 400,355 440,360 480,340 520,330 560,335 600,320 640,315 680,325 720,305 760,310 800,300" stroke="#ffffff" stroke-width="1.5" fill="none" opacity="0.3"/>
+  <polyline points="360,380 400,370 440,375 480,355 520,350 560,345 600,340 640,330 680,335 720,325 760,320 800,315" stroke="#ffffff" stroke-width="1.5" fill="none" opacity="0.2"/>
+  <!-- Chart dots -->
+  <circle cx="480" cy="310" r="4" fill="#FF6B35" opacity="0.8"/>
+  <circle cx="600" cy="270" r="4" fill="#FF6B35" opacity="0.8"/>
+  <circle cx="760" cy="240" r="4" fill="#FF6B35" opacity="0.8"/>
+  <!-- Chart labels -->
+  <text x="350" y="210" font-family="Inter, sans-serif" font-size="12" fill="#FF6B35" opacity="0.7">Rate Trends</text>
+  <text x="350" y="395" font-family="Inter, sans-serif" font-size="10" fill="#ffffff" opacity="0.3">Jan</text>
+  <text x="500" y="395" font-family="Inter, sans-serif" font-size="10" fill="#ffffff" opacity="0.3">Mar</text>
+  <text x="650" y="395" font-family="Inter, sans-serif" font-size="10" fill="#ffffff" opacity="0.3">May</text>
+  <text x="800" y="395" font-family="Inter, sans-serif" font-size="10" fill="#ffffff" opacity="0.3">Jul</text>
+  <!-- KPI cards -->
+  <rect x="850" y="185" width="180" height="65" rx="6" fill="#FF6B35" opacity="0.1" stroke="#FF6B35" stroke-width="0.8"/>
+  <text x="940" y="210" font-family="Inter, sans-serif" font-size="11" fill="#ffffff" text-anchor="middle" opacity="0.5">Your ADR</text>
+  <text x="940" y="237" font-family="Inter, sans-serif" font-weight="700" font-size="22" fill="#FF6B35" text-anchor="middle">$247</text>
+  <rect x="850" y="265" width="180" height="65" rx="6" fill="#FF6B35" opacity="0.1" stroke="#FF6B35" stroke-width="0.8"/>
+  <text x="940" y="290" font-family="Inter, sans-serif" font-size="11" fill="#ffffff" text-anchor="middle" opacity="0.5">Comp Set Avg</text>
+  <text x="940" y="317" font-family="Inter, sans-serif" font-weight="700" font-size="22" fill="#ffffff" text-anchor="middle" opacity="0.7">$231</text>
+  <rect x="850" y="345" width="180" height="65" rx="6" fill="#FF6B35" opacity="0.1" stroke="#FF6B35" stroke-width="0.8"/>
+  <text x="940" y="370" font-family="Inter, sans-serif" font-size="11" fill="#ffffff" text-anchor="middle" opacity="0.5">Rate Index</text>
+  <text x="940" y="397" font-family="Inter, sans-serif" font-weight="700" font-size="22" fill="#FF6B35" text-anchor="middle">106.9</text>
+  <!-- Bottom status bar -->
+  <rect x="330" y="420" width="500" height="35" rx="6" fill="#ffffff" opacity="0.03"/>
+  <circle cx="355" cy="437" r="5" fill="#FF6B35" opacity="0.6"/>
+  <text x="370" y="442" font-family="Inter, sans-serif" font-size="11" fill="#ffffff" opacity="0.4">Live monitoring</text>
+  <circle cx="510" cy="437" r="5" fill="#FF6B35" opacity="0.4"/>
+  <text x="525" y="442" font-family="Inter, sans-serif" font-size="11" fill="#ffffff" opacity="0.4">50+ OTAs tracked</text>
+  <circle cx="680" cy="437" r="5" fill="#FF6B35" opacity="0.5"/>
+  <text x="695" y="442" font-family="Inter, sans-serif" font-size="11" fill="#ffffff" opacity="0.4">99.7% accuracy</text>
+  <!-- Title -->
+  <text x="600" y="55" font-family="Inter, sans-serif" font-weight="700" font-size="36" fill="#ffffff" text-anchor="middle">Hospitality Competitive Intelligence Data</text>
+  <text x="600" y="95" font-family="Inter, sans-serif" font-weight="400" font-size="18" fill="#ffffff" text-anchor="middle" opacity="0.6">Complete market visibility for smarter pricing decisions</text>
+  <!-- Clymin branding -->
+  <text x="1150" y="600" font-family="Inter, sans-serif" font-weight="700" font-size="22" fill="#FF6B35" text-anchor="end">Clymin</text>
+</svg>

@@ -1,0 +1,3891 @@
+{
+  "metadata": {
+    "generated_date": "2026-03-13",
+    "total_pages_planned": 105,
+    "by_wave": {
+      "1": 29,
+      "2": 24,
+      "3": 33,
+      "4": 19
+    },
+    "by_type": {
+      "comparison": 10,
+      "landing-page": 38,
+      "blog-post": 37,
+      "faq": 10,
+      "guide": 10
+    },
+    "by_segment": {
+      "ecommerce": 29,
+      "travel": 24,
+      "real-estate": 18,
+      "food-delivery": 15,
+      "financial": 19
+    }
+  },
+  "pages": [
+    {
+      "page_id": "p-001",
+      "cluster_id": "cl-020",
+      "title_suggestion": "Web Scraping Vs Api For Product Data | Clymin",
+      "slug": "web-scraping-vs-api-for-product-data",
+      "page_type": "comparison",
+      "segment": "ecommerce",
+      "primary_keyword": "web scraping vs api for product data",
+      "secondary_keywords": [
+        "scraping vs api comparison",
+        "api vs web scraping for ecommerce",
+        "managed scraping service vs diy web scraping",
+        "bright data vs managed scraping service",
+        "oxylabs vs managed scraping for product data"
+      ],
+      "intent": "comparison",
+      "buyer_stage": "consideration",
+      "target_persona": "Data Engineer",
+      "content_angle": "Provide an objective, data-driven comparison for web scraping vs api for product data. Structure with clear comparison criteria. Position Clymin's managed AI-agentic approach as the recommended option with specific advantages.",
+      "must_include": [
+        "Direct answer: what Clymin offers for web scraping vs api for product data",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Clear comparison criteria table",
+        "Objective pros/cons for each option",
+        "Clymin positioned as recommended option",
+        "Specific differentiators: AI-agentic, managed service, compliance",
+        "FAQ section (3-5 questions in frontmatter)",
+        "CTA: Get a Free Consultation to discuss your needs"
+      ],
+      "internal_links_to": [
+        "p-004",
+        "p-012"
+      ],
+      "word_count_target": 1800,
+      "priority_score": 9,
+      "status": "draft",
+      "wave": 1
+    },
+    {
+      "page_id": "p-002",
+      "cluster_id": "cl-021",
+      "title_suggestion": "Price Monitoring Tools Vs Managed Service | Clymin",
+      "slug": "price-monitoring-tools-vs-managed-service",
+      "page_type": "comparison",
+      "segment": "ecommerce",
+      "primary_keyword": "price monitoring tools vs managed service",
+      "secondary_keywords": [
+        "price monitoring saas vs service",
+        "price tracking tool vs agency"
+      ],
+      "intent": "comparison",
+      "buyer_stage": "evaluation",
+      "target_persona": "Head of E-Commerce",
+      "content_angle": "Provide an objective, data-driven comparison for price monitoring tools vs managed service. Structure with clear comparison criteria. Position Clymin's managed AI-agentic approach as the recommended option with specific advantages.",
+      "must_include": [
+        "Direct answer: what Clymin offers for price monitoring tools vs managed service",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Clear comparison criteria table",
+        "Objective pros/cons for each option",
+        "Clymin positioned as recommended option",
+        "Specific differentiators: AI-agentic, managed service, compliance",
+        "FAQ section (3-5 questions in frontmatter)",
+        "CTA: Get a Free Consultation to discuss your needs"
+      ],
+      "internal_links_to": [
+        "p-004",
+        "p-012"
+      ],
+      "word_count_target": 1800,
+      "priority_score": 9,
+      "status": "draft",
+      "wave": 1
+    },
+    {
+      "page_id": "p-003",
+      "cluster_id": "cl-022",
+      "title_suggestion": "Apify Vs Managed Web Scraping For Ecommerce | Clymin",
+      "slug": "apify-vs-managed-web-scraping-for-ecommerce",
+      "page_type": "comparison",
+      "segment": "ecommerce",
+      "primary_keyword": "apify vs managed web scraping for ecommerce",
+      "secondary_keywords": [
+        "apify alternative for ecommerce",
+        "apify vs scraping service"
+      ],
+      "intent": "comparison",
+      "buyer_stage": "evaluation",
+      "target_persona": "Data Engineer",
+      "content_angle": "Provide an objective, data-driven comparison for apify vs managed web scraping for ecommerce. Structure with clear comparison criteria. Position Clymin's managed AI-agentic approach as the recommended option with specific advantages.",
+      "must_include": [
+        "Direct answer: what Clymin offers for apify vs managed web scraping for ecommerce",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Clear comparison criteria table",
+        "Objective pros/cons for each option",
+        "Clymin positioned as recommended option",
+        "Specific differentiators: AI-agentic, managed service, compliance",
+        "FAQ section (3-5 questions in frontmatter)",
+        "CTA: Get a Free Consultation to discuss your needs"
+      ],
+      "internal_links_to": [
+        "p-004",
+        "p-012"
+      ],
+      "word_count_target": 1800,
+      "priority_score": 9,
+      "status": "draft",
+      "wave": 1
+    },
+    {
+      "page_id": "p-004",
+      "cluster_id": "cl-001",
+      "title_suggestion": "Ecommerce Price Scraping Service | Clymin",
+      "slug": "ecommerce-price-scraping-service",
+      "page_type": "landing-page",
+      "segment": "ecommerce",
+      "primary_keyword": "ecommerce price scraping service",
+      "secondary_keywords": [
+        "price scraping for ecommerce",
+        "ecommerce pricing data extraction",
+        "competitor price monitoring service for ecommerce",
+        "ai web scraping for ecommerce pricing",
+        "real-time ecommerce price monitoring"
+      ],
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "target_persona": "Pricing Manager at online retailer",
+      "content_angle": "Position Clymin as the leading AI-agentic data extraction partner for ecommerce businesses. Lead with proof points (200+ clients, 750+ projects, 100B+ data points). Address the specific pain point: ecommerce price scraping service. Emphasize managed service advantage over DIY tools.",
+      "must_include": [
+        "Direct answer: what Clymin offers for ecommerce price scraping service",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Market context with growth stats for ecommerce",
+        "AI-agentic differentiator (brief, link to canonical page)",
+        "ecommerce-specific challenges and how Clymin solves them",
+        "Proof points: 200+ clients, 750+ projects, 100B+ data points",
+        "Relevant client testimonial",
+        "FAQ section (3-5 questions in frontmatter)",
+        "Contact CTA: Get a Free Consultation"
+      ],
+      "internal_links_to": [
+        "p-024",
+        "p-012"
+      ],
+      "word_count_target": 1500,
+      "priority_score": 10,
+      "status": "draft",
+      "wave": 1
+    },
+    {
+      "page_id": "p-005",
+      "cluster_id": "cl-002",
+      "title_suggestion": "Product Data Extraction Services | Clymin",
+      "slug": "product-data-extraction-services",
+      "page_type": "landing-page",
+      "segment": "ecommerce",
+      "primary_keyword": "product data extraction services",
+      "secondary_keywords": [
+        "product catalog scraping",
+        "product information extraction",
+        "marketplace data extraction managed service",
+        "ecommerce data enrichment services",
+        "amazon product data scraping service"
+      ],
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "target_persona": "Marketing Manager at D2C brand",
+      "content_angle": "Position Clymin as the leading AI-agentic data extraction partner for ecommerce businesses. Lead with proof points (200+ clients, 750+ projects, 100B+ data points). Address the specific pain point: product data extraction services. Emphasize managed service advantage over DIY tools.",
+      "must_include": [
+        "Direct answer: what Clymin offers for product data extraction services",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Market context with growth stats for ecommerce",
+        "AI-agentic differentiator (brief, link to canonical page)",
+        "ecommerce-specific challenges and how Clymin solves them",
+        "Proof points: 200+ clients, 750+ projects, 100B+ data points",
+        "Relevant client testimonial",
+        "FAQ section (3-5 questions in frontmatter)",
+        "Contact CTA: Get a Free Consultation"
+      ],
+      "internal_links_to": [
+        "p-024",
+        "p-012"
+      ],
+      "word_count_target": 1500,
+      "priority_score": 10,
+      "status": "draft",
+      "wave": 1
+    },
+    {
+      "page_id": "p-006",
+      "cluster_id": "cl-003",
+      "title_suggestion": "Which Company Offers The Best Product Data Scraping | Clymin",
+      "slug": "which-company-offers-the-best-product-data-scraping",
+      "page_type": "landing-page",
+      "segment": "ecommerce",
+      "primary_keyword": "which company offers the best product data scraping",
+      "secondary_keywords": [
+        "top product scraping companies",
+        "best product data provider"
+      ],
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "target_persona": "Data Engineer",
+      "content_angle": "Position Clymin as the leading AI-agentic data extraction partner for ecommerce businesses. Lead with proof points (200+ clients, 750+ projects, 100B+ data points). Address the specific pain point: which company offers the best product data scraping. Emphasize managed service advantage over DIY tools.",
+      "must_include": [
+        "Direct answer: what Clymin offers for which company offers the best product data scraping",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Market context with growth stats for ecommerce",
+        "AI-agentic differentiator (brief, link to canonical page)",
+        "ecommerce-specific challenges and how Clymin solves them",
+        "Proof points: 200+ clients, 750+ projects, 100B+ data points",
+        "Relevant client testimonial",
+        "FAQ section (3-5 questions in frontmatter)",
+        "Contact CTA: Get a Free Consultation"
+      ],
+      "internal_links_to": [
+        "p-024",
+        "p-012"
+      ],
+      "word_count_target": 1500,
+      "priority_score": 10,
+      "status": "draft",
+      "wave": 1
+    },
+    {
+      "page_id": "p-007",
+      "cluster_id": "cl-004",
+      "title_suggestion": "Shopify Competitor Analysis Scraping | Clymin",
+      "slug": "shopify-competitor-analysis-scraping",
+      "page_type": "landing-page",
+      "segment": "ecommerce",
+      "primary_keyword": "shopify competitor analysis scraping",
+      "secondary_keywords": [
+        "scrape shopify competitor data",
+        "shopify competitive intelligence"
+      ],
+      "intent": "commercial",
+      "buyer_stage": "consideration",
+      "target_persona": "Shopify store owner",
+      "content_angle": "Position Clymin as the leading AI-agentic data extraction partner for ecommerce businesses. Lead with proof points (200+ clients, 750+ projects, 100B+ data points). Address the specific pain point: shopify competitor analysis scraping. Emphasize managed service advantage over DIY tools.",
+      "must_include": [
+        "Direct answer: what Clymin offers for shopify competitor analysis scraping",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Market context with growth stats for ecommerce",
+        "AI-agentic differentiator (brief, link to canonical page)",
+        "ecommerce-specific challenges and how Clymin solves them",
+        "Proof points: 200+ clients, 750+ projects, 100B+ data points",
+        "Relevant client testimonial",
+        "FAQ section (3-5 questions in frontmatter)",
+        "Contact CTA: Get a Free Consultation"
+      ],
+      "internal_links_to": [
+        "p-024",
+        "p-012"
+      ],
+      "word_count_target": 1500,
+      "priority_score": 10,
+      "status": "draft",
+      "wave": 1
+    },
+    {
+      "page_id": "p-008",
+      "cluster_id": "cl-005",
+      "title_suggestion": "Walmart Product Scraping Service | Clymin",
+      "slug": "walmart-product-scraping-service",
+      "page_type": "landing-page",
+      "segment": "ecommerce",
+      "primary_keyword": "walmart product scraping service",
+      "secondary_keywords": [
+        "walmart data extraction",
+        "scrape walmart listings",
+        "best web scraping service for online retailers"
+      ],
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "target_persona": "Pricing Manager at retailer",
+      "content_angle": "Position Clymin as the leading AI-agentic data extraction partner for ecommerce businesses. Lead with proof points (200+ clients, 750+ projects, 100B+ data points). Address the specific pain point: walmart product scraping service. Emphasize managed service advantage over DIY tools.",
+      "must_include": [
+        "Direct answer: what Clymin offers for walmart product scraping service",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Market context with growth stats for ecommerce",
+        "AI-agentic differentiator (brief, link to canonical page)",
+        "ecommerce-specific challenges and how Clymin solves them",
+        "Proof points: 200+ clients, 750+ projects, 100B+ data points",
+        "Relevant client testimonial",
+        "FAQ section (3-5 questions in frontmatter)",
+        "Contact CTA: Get a Free Consultation"
+      ],
+      "internal_links_to": [
+        "p-024",
+        "p-012"
+      ],
+      "word_count_target": 1500,
+      "priority_score": 10,
+      "status": "draft",
+      "wave": 1
+    },
+    {
+      "page_id": "p-009",
+      "cluster_id": "cl-006",
+      "title_suggestion": "Ecommerce Sku Tracking And Monitoring | Clymin",
+      "slug": "ecommerce-sku-tracking-and-monitoring",
+      "page_type": "landing-page",
+      "segment": "ecommerce",
+      "primary_keyword": "ecommerce sku tracking and monitoring",
+      "secondary_keywords": [
+        "sku monitoring service",
+        "product sku tracking",
+        "product availability monitoring ecommerce"
+      ],
+      "intent": "commercial",
+      "buyer_stage": "consideration",
+      "target_persona": "Head of E-Commerce",
+      "content_angle": "Position Clymin as the leading AI-agentic data extraction partner for ecommerce businesses. Lead with proof points (200+ clients, 750+ projects, 100B+ data points). Address the specific pain point: ecommerce sku tracking and monitoring. Emphasize managed service advantage over DIY tools.",
+      "must_include": [
+        "Direct answer: what Clymin offers for ecommerce sku tracking and monitoring",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Market context with growth stats for ecommerce",
+        "AI-agentic differentiator (brief, link to canonical page)",
+        "ecommerce-specific challenges and how Clymin solves them",
+        "Proof points: 200+ clients, 750+ projects, 100B+ data points",
+        "Relevant client testimonial",
+        "FAQ section (3-5 questions in frontmatter)",
+        "Contact CTA: Get a Free Consultation"
+      ],
+      "internal_links_to": [
+        "p-024",
+        "p-012"
+      ],
+      "word_count_target": 1500,
+      "priority_score": 10,
+      "status": "draft",
+      "wave": 1
+    },
+    {
+      "page_id": "p-010",
+      "cluster_id": "cl-007",
+      "title_suggestion": "Dynamic Pricing Data Collection Service | Clymin",
+      "slug": "dynamic-pricing-data-collection-service",
+      "page_type": "landing-page",
+      "segment": "ecommerce",
+      "primary_keyword": "dynamic pricing data collection service",
+      "secondary_keywords": [
+        "dynamic pricing intelligence",
+        "collect dynamic pricing data"
+      ],
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "target_persona": "Pricing Manager",
+      "content_angle": "Position Clymin as the leading AI-agentic data extraction partner for ecommerce businesses. Lead with proof points (200+ clients, 750+ projects, 100B+ data points). Address the specific pain point: dynamic pricing data collection service. Emphasize managed service advantage over DIY tools.",
+      "must_include": [
+        "Direct answer: what Clymin offers for dynamic pricing data collection service",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Market context with growth stats for ecommerce",
+        "AI-agentic differentiator (brief, link to canonical page)",
+        "ecommerce-specific challenges and how Clymin solves them",
+        "Proof points: 200+ clients, 750+ projects, 100B+ data points",
+        "Relevant client testimonial",
+        "FAQ section (3-5 questions in frontmatter)",
+        "Contact CTA: Get a Free Consultation"
+      ],
+      "internal_links_to": [
+        "p-024",
+        "p-012"
+      ],
+      "word_count_target": 1500,
+      "priority_score": 10,
+      "status": "draft",
+      "wave": 1
+    },
+    {
+      "page_id": "p-011",
+      "cluster_id": "cl-008",
+      "title_suggestion": "Ecommerce Price Scraping San Francisco | Clymin",
+      "slug": "ecommerce-price-scraping-san-francisco",
+      "page_type": "landing-page",
+      "segment": "ecommerce",
+      "primary_keyword": "ecommerce price scraping san francisco",
+      "secondary_keywords": [
+        "price scraping service sf",
+        "san francisco ecommerce data",
+        "ecommerce data scraping api",
+        "web scraping services for ecommerce",
+        "ecommerce data scraping"
+      ],
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "target_persona": "CEO of ecommerce startup",
+      "content_angle": "Position Clymin as the leading AI-agentic data extraction partner for ecommerce businesses. Lead with proof points (200+ clients, 750+ projects, 100B+ data points). Address the specific pain point: ecommerce price scraping san francisco. Emphasize managed service advantage over DIY tools.",
+      "must_include": [
+        "Direct answer: what Clymin offers for ecommerce price scraping san francisco",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Market context with growth stats for ecommerce",
+        "AI-agentic differentiator (brief, link to canonical page)",
+        "ecommerce-specific challenges and how Clymin solves them",
+        "Proof points: 200+ clients, 750+ projects, 100B+ data points",
+        "Relevant client testimonial",
+        "FAQ section (3-5 questions in frontmatter)",
+        "Contact CTA: Get a Free Consultation"
+      ],
+      "internal_links_to": [
+        "p-024",
+        "p-012"
+      ],
+      "word_count_target": 1500,
+      "priority_score": 10,
+      "status": "planned",
+      "wave": 1
+    },
+    {
+      "page_id": "p-012",
+      "cluster_id": "cl-010",
+      "title_suggestion": "How To Monitor Competitor Prices Automatically | Clymin",
+      "slug": "how-to-monitor-competitor-prices-automatically",
+      "page_type": "blog-post",
+      "segment": "ecommerce",
+      "primary_keyword": "how to monitor competitor prices automatically",
+      "secondary_keywords": [
+        "automated price monitoring guide",
+        "track competitor prices"
+      ],
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "target_persona": "Marketing Manager at D2C brand",
+      "content_angle": "Educate Marketing Manager at D2C brand about how to monitor competitor prices automatically. Provide actionable insights backed by data. Naturally position Clymin's AI-agentic approach as the solution. Include industry-specific examples for ecommerce.",
+      "must_include": [
+        "Direct answer: what Clymin offers for how to monitor competitor prices automatically",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Actionable how-to steps or insights",
+        "Data points and statistics from credible sources",
+        "ecommerce-specific examples and use cases",
+        "Current year reference (2026) for freshness",
+        "FAQ section (3-5 questions in frontmatter)",
+        "CTA linking to relevant landing page"
+      ],
+      "internal_links_to": [
+        "p-004",
+        "p-013",
+        "p-014"
+      ],
+      "word_count_target": 1200,
+      "priority_score": 9,
+      "status": "planned",
+      "wave": 1
+    },
+    {
+      "page_id": "p-013",
+      "cluster_id": "cl-012",
+      "title_suggestion": "Ecommerce Competitive Analysis Using Web Scraping | Clymin",
+      "slug": "ecommerce-competitive-analysis-using-web-scraping",
+      "page_type": "blog-post",
+      "segment": "ecommerce",
+      "primary_keyword": "ecommerce competitive analysis using web scraping",
+      "secondary_keywords": [
+        "competitive intelligence ecommerce",
+        "scraping for market analysis",
+        "ecommerce trend analysis with web scraping"
+      ],
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "target_persona": "Strategy Manager",
+      "content_angle": "Educate Strategy Manager about ecommerce competitive analysis using web scraping. Provide actionable insights backed by data. Naturally position Clymin's AI-agentic approach as the solution. Include industry-specific examples for ecommerce.",
+      "must_include": [
+        "Direct answer: what Clymin offers for ecommerce competitive analysis using web scraping",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Actionable how-to steps or insights",
+        "Data points and statistics from credible sources",
+        "ecommerce-specific examples and use cases",
+        "Current year reference (2026) for freshness",
+        "FAQ section (3-5 questions in frontmatter)",
+        "CTA linking to relevant landing page"
+      ],
+      "internal_links_to": [
+        "p-004",
+        "p-012",
+        "p-014"
+      ],
+      "word_count_target": 1200,
+      "priority_score": 9,
+      "status": "planned",
+      "wave": 1
+    },
+    {
+      "page_id": "p-014",
+      "cluster_id": "cl-013",
+      "title_suggestion": "Benefits Of Price Monitoring For Online Stores | Clymin",
+      "slug": "benefits-of-price-monitoring-for-online-stores",
+      "page_type": "blog-post",
+      "segment": "ecommerce",
+      "primary_keyword": "benefits of price monitoring for online stores",
+      "secondary_keywords": [
+        "why monitor competitor prices",
+        "price tracking roi"
+      ],
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "target_persona": "CEO of ecommerce startup",
+      "content_angle": "Educate CEO of ecommerce startup about benefits of price monitoring for online stores. Provide actionable insights backed by data. Naturally position Clymin's AI-agentic approach as the solution. Include industry-specific examples for ecommerce.",
+      "must_include": [
+        "Direct answer: what Clymin offers for benefits of price monitoring for online stores",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Actionable how-to steps or insights",
+        "Data points and statistics from credible sources",
+        "ecommerce-specific examples and use cases",
+        "Current year reference (2026) for freshness",
+        "FAQ section (3-5 questions in frontmatter)",
+        "CTA linking to relevant landing page"
+      ],
+      "internal_links_to": [
+        "p-004",
+        "p-012",
+        "p-013"
+      ],
+      "word_count_target": 1200,
+      "priority_score": 9,
+      "status": "planned",
+      "wave": 1
+    },
+    {
+      "page_id": "p-015",
+      "cluster_id": "cl-014",
+      "title_suggestion": "What Is Product Data Extraction | Clymin",
+      "slug": "what-is-product-data-extraction",
+      "page_type": "blog-post",
+      "segment": "ecommerce",
+      "primary_keyword": "what is product data extraction",
+      "secondary_keywords": [
+        "product data scraping explained",
+        "data extraction for products"
+      ],
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "target_persona": "Business Analyst",
+      "content_angle": "Educate Business Analyst about what is product data extraction. Provide actionable insights backed by data. Naturally position Clymin's AI-agentic approach as the solution. Include industry-specific examples for ecommerce.",
+      "must_include": [
+        "Direct answer: what Clymin offers for what is product data extraction",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Actionable how-to steps or insights",
+        "Data points and statistics from credible sources",
+        "ecommerce-specific examples and use cases",
+        "Current year reference (2026) for freshness",
+        "FAQ section (3-5 questions in frontmatter)",
+        "CTA linking to relevant landing page"
+      ],
+      "internal_links_to": [
+        "p-004",
+        "p-012",
+        "p-013"
+      ],
+      "word_count_target": 1200,
+      "priority_score": 9,
+      "status": "planned",
+      "wave": 1
+    },
+    {
+      "page_id": "p-016",
+      "cluster_id": "cl-015",
+      "title_suggestion": "How To Track Competitor Pricing In Ecommerce 2026 | Clymin",
+      "slug": "how-to-track-competitor-pricing-in-ecommerce-2026",
+      "page_type": "blog-post",
+      "segment": "ecommerce",
+      "primary_keyword": "how to track competitor pricing in ecommerce 2026",
+      "secondary_keywords": [
+        "competitor pricing strategies 2026",
+        "ecommerce pricing trends"
+      ],
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "target_persona": "Marketing Manager",
+      "content_angle": "Educate Marketing Manager about how to track competitor pricing in ecommerce 2026. Provide actionable insights backed by data. Naturally position Clymin's AI-agentic approach as the solution. Include industry-specific examples for ecommerce.",
+      "must_include": [
+        "Direct answer: what Clymin offers for how to track competitor pricing in ecommerce 2026",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Actionable how-to steps or insights",
+        "Data points and statistics from credible sources",
+        "ecommerce-specific examples and use cases",
+        "Current year reference (2026) for freshness",
+        "FAQ section (3-5 questions in frontmatter)",
+        "CTA linking to relevant landing page"
+      ],
+      "internal_links_to": [
+        "p-004",
+        "p-012",
+        "p-013"
+      ],
+      "word_count_target": 1200,
+      "priority_score": 9,
+      "status": "planned",
+      "wave": 1
+    },
+    {
+      "page_id": "p-017",
+      "cluster_id": "cl-017",
+      "title_suggestion": "How To Extract Product Listings From Shopify Stores | Clymin",
+      "slug": "how-to-extract-product-listings-from-shopify-stores",
+      "page_type": "blog-post",
+      "segment": "ecommerce",
+      "primary_keyword": "how to extract product listings from shopify stores",
+      "secondary_keywords": [
+        "shopify scraping guide",
+        "extract shopify product data"
+      ],
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "target_persona": "Data Engineer",
+      "content_angle": "Educate Data Engineer about how to extract product listings from shopify stores. Provide actionable insights backed by data. Naturally position Clymin's AI-agentic approach as the solution. Include industry-specific examples for ecommerce.",
+      "must_include": [
+        "Direct answer: what Clymin offers for how to extract product listings from shopify stores",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Actionable how-to steps or insights",
+        "Data points and statistics from credible sources",
+        "ecommerce-specific examples and use cases",
+        "Current year reference (2026) for freshness",
+        "FAQ section (3-5 questions in frontmatter)",
+        "CTA linking to relevant landing page"
+      ],
+      "internal_links_to": [
+        "p-004",
+        "p-012",
+        "p-013"
+      ],
+      "word_count_target": 1200,
+      "priority_score": 9,
+      "status": "planned",
+      "wave": 1
+    },
+    {
+      "page_id": "p-018",
+      "cluster_id": "cl-018",
+      "title_suggestion": "Web Scraping For Map Pricing Compliance | Clymin",
+      "slug": "web-scraping-for-map-pricing-compliance",
+      "page_type": "blog-post",
+      "segment": "ecommerce",
+      "primary_keyword": "web scraping for map pricing compliance",
+      "secondary_keywords": [
+        "map pricing monitoring",
+        "map policy compliance scraping"
+      ],
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "target_persona": "Head of E-Commerce",
+      "content_angle": "Educate Head of E-Commerce about web scraping for map pricing compliance. Provide actionable insights backed by data. Naturally position Clymin's AI-agentic approach as the solution. Include industry-specific examples for ecommerce.",
+      "must_include": [
+        "Direct answer: what Clymin offers for web scraping for map pricing compliance",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Actionable how-to steps or insights",
+        "Data points and statistics from credible sources",
+        "ecommerce-specific examples and use cases",
+        "Current year reference (2026) for freshness",
+        "FAQ section (3-5 questions in frontmatter)",
+        "CTA linking to relevant landing page"
+      ],
+      "internal_links_to": [
+        "p-004",
+        "p-012",
+        "p-013"
+      ],
+      "word_count_target": 1200,
+      "priority_score": 9,
+      "status": "planned",
+      "wave": 1
+    },
+    {
+      "page_id": "p-019",
+      "cluster_id": "cl-026",
+      "title_suggestion": "Web Scraping For Dropshipping Product Research | Clymin",
+      "slug": "web-scraping-for-dropshipping-product-research",
+      "page_type": "blog-post",
+      "segment": "ecommerce",
+      "primary_keyword": "web scraping for dropshipping product research",
+      "secondary_keywords": [
+        "dropshipping product finder",
+        "scrape products for dropshipping"
+      ],
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "target_persona": "Dropshipping entrepreneur",
+      "content_angle": "Educate Dropshipping entrepreneur about web scraping for dropshipping product research. Provide actionable insights backed by data. Naturally position Clymin's AI-agentic approach as the solution. Include industry-specific examples for ecommerce.",
+      "must_include": [
+        "Direct answer: what Clymin offers for web scraping for dropshipping product research",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Actionable how-to steps or insights",
+        "Data points and statistics from credible sources",
+        "ecommerce-specific examples and use cases",
+        "Current year reference (2026) for freshness",
+        "FAQ section (3-5 questions in frontmatter)",
+        "CTA linking to relevant landing page"
+      ],
+      "internal_links_to": [
+        "p-004",
+        "p-012",
+        "p-013"
+      ],
+      "word_count_target": 1200,
+      "priority_score": 9,
+      "status": "planned",
+      "wave": 1
+    },
+    {
+      "page_id": "p-020",
+      "cluster_id": "cl-009",
+      "title_suggestion": "Price Intelligence Services | Clymin",
+      "slug": "price-intelligence-services",
+      "page_type": "landing-page",
+      "segment": "ecommerce",
+      "primary_keyword": "price intelligence services",
+      "secondary_keywords": [
+        "pricing intelligence platform",
+        "competitive pricing intelligence"
+      ],
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "target_persona": "Pricing Manager",
+      "content_angle": "Position Clymin as the leading AI-agentic data extraction partner for ecommerce businesses. Lead with proof points (200+ clients, 750+ projects, 100B+ data points). Address the specific pain point: price intelligence services. Emphasize managed service advantage over DIY tools.",
+      "must_include": [
+        "Direct answer: what Clymin offers for price intelligence services",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Market context with growth stats for ecommerce",
+        "AI-agentic differentiator (brief, link to canonical page)",
+        "ecommerce-specific challenges and how Clymin solves them",
+        "Proof points: 200+ clients, 750+ projects, 100B+ data points",
+        "Relevant client testimonial",
+        "FAQ section (3-5 questions in frontmatter)",
+        "Contact CTA: Get a Free Consultation"
+      ],
+      "internal_links_to": [
+        "p-024",
+        "p-012"
+      ],
+      "word_count_target": 1500,
+      "priority_score": 9,
+      "status": "planned",
+      "wave": 1
+    },
+    {
+      "page_id": "p-021",
+      "cluster_id": "cl-023",
+      "title_suggestion": "What Data Can You Scrape From Ecommerce Sites | Clymin",
+      "slug": "what-data-can-you-scrape-from-ecommerce-sites",
+      "page_type": "faq",
+      "segment": "ecommerce",
+      "primary_keyword": "what data can you scrape from ecommerce sites",
+      "secondary_keywords": [
+        "ecommerce data types",
+        "what to scrape from online stores",
+        "can you scrape product reviews from ecommerce sites"
+      ],
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "target_persona": "Business Analyst",
+      "content_angle": "Directly answer the question: what data can you scrape from ecommerce sites. Provide a concise, cite-worthy response in the first paragraph. Expand with Clymin-specific details and proof points. Drive to consultation CTA.",
+      "must_include": [
+        "Direct answer: what Clymin offers for what data can you scrape from ecommerce sites",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Concise 50-80 word direct answer in first paragraph",
+        "Expanded explanation with specifics",
+        "Clymin proof points where relevant",
+        "ecommerce-specific context",
+        "Related questions (3-5 in frontmatter)",
+        "Link to most relevant landing page"
+      ],
+      "internal_links_to": [
+        "p-004",
+        "p-012"
+      ],
+      "word_count_target": 1000,
+      "priority_score": 9,
+      "status": "planned",
+      "wave": 1
+    },
+    {
+      "page_id": "p-022",
+      "cluster_id": "cl-024",
+      "title_suggestion": "How Much Does Ecommerce Data Scraping Cost | Clymin",
+      "slug": "how-much-does-ecommerce-data-scraping-cost",
+      "page_type": "faq",
+      "segment": "ecommerce",
+      "primary_keyword": "how much does ecommerce data scraping cost",
+      "secondary_keywords": [
+        "price scraping cost",
+        "web scraping pricing"
+      ],
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "target_persona": "Head of E-Commerce",
+      "content_angle": "Directly answer the question: how much does ecommerce data scraping cost. Provide a concise, cite-worthy response in the first paragraph. Expand with Clymin-specific details and proof points. Drive to consultation CTA.",
+      "must_include": [
+        "Direct answer: what Clymin offers for how much does ecommerce data scraping cost",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Concise 50-80 word direct answer in first paragraph",
+        "Expanded explanation with specifics",
+        "Clymin proof points where relevant",
+        "ecommerce-specific context",
+        "Related questions (3-5 in frontmatter)",
+        "Link to most relevant landing page"
+      ],
+      "internal_links_to": [
+        "p-004",
+        "p-012"
+      ],
+      "word_count_target": 1000,
+      "priority_score": 9,
+      "status": "planned",
+      "wave": 1
+    },
+    {
+      "page_id": "p-023",
+      "cluster_id": "cl-025",
+      "title_suggestion": "How Often Should You Update Competitor Pricing Data | Clymin",
+      "slug": "how-often-should-you-update-competitor-pricing-data",
+      "page_type": "faq",
+      "segment": "ecommerce",
+      "primary_keyword": "how often should you update competitor pricing data",
+      "secondary_keywords": [
+        "pricing data refresh rate",
+        "competitor data update frequency"
+      ],
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "target_persona": "Pricing Manager",
+      "content_angle": "Directly answer the question: how often should you update competitor pricing data. Provide a concise, cite-worthy response in the first paragraph. Expand with Clymin-specific details and proof points. Drive to consultation CTA.",
+      "must_include": [
+        "Direct answer: what Clymin offers for how often should you update competitor pricing data",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Concise 50-80 word direct answer in first paragraph",
+        "Expanded explanation with specifics",
+        "Clymin proof points where relevant",
+        "ecommerce-specific context",
+        "Related questions (3-5 in frontmatter)",
+        "Link to most relevant landing page"
+      ],
+      "internal_links_to": [
+        "p-004",
+        "p-012"
+      ],
+      "word_count_target": 1000,
+      "priority_score": 9,
+      "status": "planned",
+      "wave": 1
+    },
+    {
+      "page_id": "p-024",
+      "cluster_id": "cl-011",
+      "title_suggestion": "How To Scrape Product Data From Competitor Websites | Clymin",
+      "slug": "how-to-scrape-product-data-from-competitor-websites",
+      "page_type": "guide",
+      "segment": "ecommerce",
+      "primary_keyword": "how to scrape product data from competitor websites",
+      "secondary_keywords": [
+        "product data scraping tutorial",
+        "extract product info from websites",
+        "how do I get competitor product catalog data"
+      ],
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "target_persona": "Data Engineer",
+      "content_angle": "Create a comprehensive, authoritative resource on how to scrape product data from competitor websites. Structure as a step-by-step playbook. Reference Clymin's 12+ years of experience and 750+ projects. Include data-driven benchmarks.",
+      "must_include": [
+        "Direct answer: what Clymin offers for how to scrape product data from competitor websites",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Comprehensive step-by-step framework",
+        "Industry benchmarks and data points",
+        "Real-world examples from ecommerce",
+        "Downloadable/actionable takeaways",
+        "Links to 3-5 related landing pages",
+        "FAQ section (3-5 questions in frontmatter)",
+        "Contact CTA for custom consultation"
+      ],
+      "internal_links_to": [
+        "p-004",
+        "p-005",
+        "p-006",
+        "p-007",
+        "p-008"
+      ],
+      "word_count_target": 2500,
+      "priority_score": 9,
+      "status": "planned",
+      "wave": 1
+    },
+    {
+      "page_id": "p-025",
+      "cluster_id": "cl-016",
+      "title_suggestion": "Ecommerce Pricing Strategy With Data Scraping | Clymin",
+      "slug": "ecommerce-pricing-strategy-with-data-scraping",
+      "page_type": "guide",
+      "segment": "ecommerce",
+      "primary_keyword": "ecommerce pricing strategy with data scraping",
+      "secondary_keywords": [
+        "data-driven pricing strategy",
+        "scraping for pricing optimization",
+        "what is the best way to collect ecommerce pricing data at scale"
+      ],
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "target_persona": "Pricing Manager",
+      "content_angle": "Create a comprehensive, authoritative resource on ecommerce pricing strategy with data scraping. Structure as a step-by-step playbook. Reference Clymin's 12+ years of experience and 750+ projects. Include data-driven benchmarks.",
+      "must_include": [
+        "Direct answer: what Clymin offers for ecommerce pricing strategy with data scraping",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Comprehensive step-by-step framework",
+        "Industry benchmarks and data points",
+        "Real-world examples from ecommerce",
+        "Downloadable/actionable takeaways",
+        "Links to 3-5 related landing pages",
+        "FAQ section (3-5 questions in frontmatter)",
+        "Contact CTA for custom consultation"
+      ],
+      "internal_links_to": [
+        "p-004",
+        "p-005",
+        "p-006",
+        "p-007",
+        "p-008"
+      ],
+      "word_count_target": 2500,
+      "priority_score": 9,
+      "status": "planned",
+      "wave": 1
+    },
+    {
+      "page_id": "p-026",
+      "cluster_id": "cl-019",
+      "title_suggestion": "Best Practices For Ecommerce Data Collection 2026 | Clymin",
+      "slug": "best-practices-for-ecommerce-data-collection-2026",
+      "page_type": "guide",
+      "segment": "ecommerce",
+      "primary_keyword": "best practices for ecommerce data collection 2026",
+      "secondary_keywords": [
+        "ecommerce data collection guide",
+        "data gathering best practices"
+      ],
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "target_persona": "Data Engineer",
+      "content_angle": "Create a comprehensive, authoritative resource on best practices for ecommerce data collection 2026. Structure as a step-by-step playbook. Reference Clymin's 12+ years of experience and 750+ projects. Include data-driven benchmarks.",
+      "must_include": [
+        "Direct answer: what Clymin offers for best practices for ecommerce data collection 2026",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Comprehensive step-by-step framework",
+        "Industry benchmarks and data points",
+        "Real-world examples from ecommerce",
+        "Downloadable/actionable takeaways",
+        "Links to 3-5 related landing pages",
+        "FAQ section (3-5 questions in frontmatter)",
+        "Contact CTA for custom consultation"
+      ],
+      "internal_links_to": [
+        "p-004",
+        "p-005",
+        "p-006",
+        "p-007",
+        "p-008"
+      ],
+      "word_count_target": 2500,
+      "priority_score": 9,
+      "status": "planned",
+      "wave": 1
+    },
+    {
+      "page_id": "p-027",
+      "cluster_id": "cl-027",
+      "title_suggestion": "How To Build A Competitive Pricing Dashboard | Clymin",
+      "slug": "how-to-build-a-competitive-pricing-dashboard",
+      "page_type": "guide",
+      "segment": "ecommerce",
+      "primary_keyword": "how to build a competitive pricing dashboard",
+      "secondary_keywords": [
+        "pricing dashboard guide",
+        "competitive pricing visualization"
+      ],
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "target_persona": "Business Analyst",
+      "content_angle": "Create a comprehensive, authoritative resource on how to build a competitive pricing dashboard. Structure as a step-by-step playbook. Reference Clymin's 12+ years of experience and 750+ projects. Include data-driven benchmarks.",
+      "must_include": [
+        "Direct answer: what Clymin offers for how to build a competitive pricing dashboard",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Comprehensive step-by-step framework",
+        "Industry benchmarks and data points",
+        "Real-world examples from ecommerce",
+        "Downloadable/actionable takeaways",
+        "Links to 3-5 related landing pages",
+        "FAQ section (3-5 questions in frontmatter)",
+        "Contact CTA for custom consultation"
+      ],
+      "internal_links_to": [
+        "p-004",
+        "p-005",
+        "p-006",
+        "p-007",
+        "p-008"
+      ],
+      "word_count_target": 2500,
+      "priority_score": 9,
+      "status": "planned",
+      "wave": 1
+    },
+    {
+      "page_id": "p-028",
+      "cluster_id": "cl-028",
+      "title_suggestion": "Is Web Scraping Ecommerce Sites Legal | Clymin",
+      "slug": "is-web-scraping-ecommerce-sites-legal",
+      "page_type": "faq",
+      "segment": "ecommerce",
+      "primary_keyword": "is web scraping ecommerce sites legal",
+      "secondary_keywords": [
+        "legality of web scraping",
+        "web scraping legal issues"
+      ],
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "target_persona": "CEO",
+      "content_angle": "Directly answer the question: is web scraping ecommerce sites legal. Provide a concise, cite-worthy response in the first paragraph. Expand with Clymin-specific details and proof points. Drive to consultation CTA.",
+      "must_include": [
+        "Direct answer: what Clymin offers for is web scraping ecommerce sites legal",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Concise 50-80 word direct answer in first paragraph",
+        "Expanded explanation with specifics",
+        "Clymin proof points where relevant",
+        "ecommerce-specific context",
+        "Related questions (3-5 in frontmatter)",
+        "Link to most relevant landing page"
+      ],
+      "internal_links_to": [
+        "p-004",
+        "p-012"
+      ],
+      "word_count_target": 1000,
+      "priority_score": 8,
+      "status": "planned",
+      "wave": 1
+    },
+    {
+      "page_id": "p-029",
+      "cluster_id": "cl-029",
+      "title_suggestion": "Competitor Price Monitoring | Clymin",
+      "slug": "competitor-price-monitoring",
+      "page_type": "landing-page",
+      "segment": "ecommerce",
+      "primary_keyword": "competitor price monitoring",
+      "secondary_keywords": [
+        "price monitoring tool",
+        "competitive pricing tracker"
+      ],
+      "intent": "commercial",
+      "buyer_stage": "consideration",
+      "target_persona": "Pricing Manager",
+      "content_angle": "Position Clymin as the leading AI-agentic data extraction partner for ecommerce businesses. Lead with proof points (200+ clients, 750+ projects, 100B+ data points). Address the specific pain point: competitor price monitoring. Emphasize managed service advantage over DIY tools.",
+      "must_include": [
+        "Direct answer: what Clymin offers for competitor price monitoring",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Market context with growth stats for ecommerce",
+        "AI-agentic differentiator (brief, link to canonical page)",
+        "ecommerce-specific challenges and how Clymin solves them",
+        "Proof points: 200+ clients, 750+ projects, 100B+ data points",
+        "Relevant client testimonial",
+        "FAQ section (3-5 questions in frontmatter)",
+        "Contact CTA: Get a Free Consultation"
+      ],
+      "internal_links_to": [
+        "p-024",
+        "p-012"
+      ],
+      "word_count_target": 1500,
+      "priority_score": 7,
+      "status": "planned",
+      "wave": 1
+    },
+    {
+      "page_id": "p-030",
+      "cluster_id": "cl-046",
+      "title_suggestion": "Hotel Rate Scraping Vs Rate Shopping Tools | Clymin",
+      "slug": "hotel-rate-scraping-vs-rate-shopping-tools",
+      "page_type": "comparison",
+      "segment": "travel",
+      "primary_keyword": "hotel rate scraping vs rate shopping tools",
+      "secondary_keywords": [
+        "rate shopping vs scraping",
+        "hotel pricing tools comparison",
+        "ota rate monitoring tools vs managed scraping",
+        "web scraping vs gds for hotel data",
+        "should I use a rate shopping tool or custom scraping"
+      ],
+      "intent": "comparison",
+      "buyer_stage": "evaluation",
+      "target_persona": "Revenue Manager",
+      "content_angle": "Provide an objective, data-driven comparison for hotel rate scraping vs rate shopping tools. Structure with clear comparison criteria. Position Clymin's managed AI-agentic approach as the recommended option with specific advantages.",
+      "must_include": [
+        "Direct answer: what Clymin offers for hotel rate scraping vs rate shopping tools",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Clear comparison criteria table",
+        "Objective pros/cons for each option",
+        "Clymin positioned as recommended option",
+        "Specific differentiators: AI-agentic, managed service, compliance",
+        "FAQ section (3-5 questions in frontmatter)",
+        "CTA: Get a Free Consultation to discuss your needs"
+      ],
+      "internal_links_to": [
+        "p-032",
+        "p-036"
+      ],
+      "word_count_target": 1800,
+      "priority_score": 8,
+      "status": "planned",
+      "wave": 2
+    },
+    {
+      "page_id": "p-031",
+      "cluster_id": "cl-047",
+      "title_suggestion": "Bright Data Vs Managed Scraping For Travel | Clymin",
+      "slug": "bright-data-vs-managed-scraping-for-travel",
+      "page_type": "comparison",
+      "segment": "travel",
+      "primary_keyword": "bright data vs managed scraping for travel",
+      "secondary_keywords": [
+        "bright data travel alternative",
+        "travel data scraping comparison"
+      ],
+      "intent": "comparison",
+      "buyer_stage": "evaluation",
+      "target_persona": "CTO",
+      "content_angle": "Provide an objective, data-driven comparison for bright data vs managed scraping for travel. Structure with clear comparison criteria. Position Clymin's managed AI-agentic approach as the recommended option with specific advantages.",
+      "must_include": [
+        "Direct answer: what Clymin offers for bright data vs managed scraping for travel",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Clear comparison criteria table",
+        "Objective pros/cons for each option",
+        "Clymin positioned as recommended option",
+        "Specific differentiators: AI-agentic, managed service, compliance",
+        "FAQ section (3-5 questions in frontmatter)",
+        "CTA: Get a Free Consultation to discuss your needs"
+      ],
+      "internal_links_to": [
+        "p-032",
+        "p-036"
+      ],
+      "word_count_target": 1800,
+      "priority_score": 8,
+      "status": "planned",
+      "wave": 2
+    },
+    {
+      "page_id": "p-032",
+      "cluster_id": "cl-030",
+      "title_suggestion": "Hotel Rate Scraping Service | Clymin",
+      "slug": "hotel-rate-scraping-service",
+      "page_type": "landing-page",
+      "segment": "travel",
+      "primary_keyword": "hotel rate scraping service",
+      "secondary_keywords": [
+        "hotel pricing data extraction",
+        "hotel rate monitoring service",
+        "hotel competitor rate monitoring automation",
+        "flight price scraping service",
+        "real-time hotel availability scraping"
+      ],
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "target_persona": "Revenue Manager at hotel chain",
+      "content_angle": "Position Clymin as the leading AI-agentic data extraction partner for travel businesses. Lead with proof points (200+ clients, 750+ projects, 100B+ data points). Address the specific pain point: hotel rate scraping service. Emphasize managed service advantage over DIY tools.",
+      "must_include": [
+        "Direct answer: what Clymin offers for hotel rate scraping service",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Market context with growth stats for travel",
+        "AI-agentic differentiator (brief, link to canonical page)",
+        "travel-specific challenges and how Clymin solves them",
+        "Proof points: 200+ clients, 750+ projects, 100B+ data points",
+        "Relevant client testimonial",
+        "FAQ section (3-5 questions in frontmatter)",
+        "Contact CTA: Get a Free Consultation"
+      ],
+      "internal_links_to": [
+        "p-050",
+        "p-036"
+      ],
+      "word_count_target": 1500,
+      "priority_score": 9,
+      "status": "planned",
+      "wave": 2
+    },
+    {
+      "page_id": "p-033",
+      "cluster_id": "cl-031",
+      "title_suggestion": "Ota Price Monitoring Service | Clymin",
+      "slug": "ota-price-monitoring-service",
+      "page_type": "landing-page",
+      "segment": "travel",
+      "primary_keyword": "ota price monitoring service",
+      "secondary_keywords": [
+        "ota rate tracking",
+        "online travel agency monitoring"
+      ],
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "target_persona": "Head of Distribution at hotel group",
+      "content_angle": "Position Clymin as the leading AI-agentic data extraction partner for travel businesses. Lead with proof points (200+ clients, 750+ projects, 100B+ data points). Address the specific pain point: ota price monitoring service. Emphasize managed service advantage over DIY tools.",
+      "must_include": [
+        "Direct answer: what Clymin offers for ota price monitoring service",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Market context with growth stats for travel",
+        "AI-agentic differentiator (brief, link to canonical page)",
+        "travel-specific challenges and how Clymin solves them",
+        "Proof points: 200+ clients, 750+ projects, 100B+ data points",
+        "Relevant client testimonial",
+        "FAQ section (3-5 questions in frontmatter)",
+        "Contact CTA: Get a Free Consultation"
+      ],
+      "internal_links_to": [
+        "p-050",
+        "p-036"
+      ],
+      "word_count_target": 1500,
+      "priority_score": 9,
+      "status": "planned",
+      "wave": 2
+    },
+    {
+      "page_id": "p-034",
+      "cluster_id": "cl-032",
+      "title_suggestion": "Travel Data Extraction Services | Clymin",
+      "slug": "travel-data-extraction-services",
+      "page_type": "landing-page",
+      "segment": "travel",
+      "primary_keyword": "travel data extraction services",
+      "secondary_keywords": [
+        "travel industry data scraping",
+        "travel data provider",
+        "travel fare aggregation data service",
+        "recommend a travel data scraping provider",
+        "vacation rental data extraction service"
+      ],
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "target_persona": "CEO of travel tech startup",
+      "content_angle": "Position Clymin as the leading AI-agentic data extraction partner for travel businesses. Lead with proof points (200+ clients, 750+ projects, 100B+ data points). Address the specific pain point: travel data extraction services. Emphasize managed service advantage over DIY tools.",
+      "must_include": [
+        "Direct answer: what Clymin offers for travel data extraction services",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Market context with growth stats for travel",
+        "AI-agentic differentiator (brief, link to canonical page)",
+        "travel-specific challenges and how Clymin solves them",
+        "Proof points: 200+ clients, 750+ projects, 100B+ data points",
+        "Relevant client testimonial",
+        "FAQ section (3-5 questions in frontmatter)",
+        "Contact CTA: Get a Free Consultation"
+      ],
+      "internal_links_to": [
+        "p-050",
+        "p-036"
+      ],
+      "word_count_target": 1500,
+      "priority_score": 9,
+      "status": "planned",
+      "wave": 2
+    },
+    {
+      "page_id": "p-035",
+      "cluster_id": "cl-033",
+      "title_suggestion": "Hospitality Competitive Intelligence Data | Clymin",
+      "slug": "hospitality-competitive-intelligence-data",
+      "page_type": "landing-page",
+      "segment": "travel",
+      "primary_keyword": "hospitality competitive intelligence data",
+      "secondary_keywords": [
+        "hotel competitive intelligence",
+        "hospitality market data"
+      ],
+      "intent": "commercial",
+      "buyer_stage": "consideration",
+      "target_persona": "Strategy Director at hotel group",
+      "content_angle": "Position Clymin as the leading AI-agentic data extraction partner for travel businesses. Lead with proof points (200+ clients, 750+ projects, 100B+ data points). Address the specific pain point: hospitality competitive intelligence data. Emphasize managed service advantage over DIY tools.",
+      "must_include": [
+        "Direct answer: what Clymin offers for hospitality competitive intelligence data",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Market context with growth stats for travel",
+        "AI-agentic differentiator (brief, link to canonical page)",
+        "travel-specific challenges and how Clymin solves them",
+        "Proof points: 200+ clients, 750+ projects, 100B+ data points",
+        "Relevant client testimonial",
+        "FAQ section (3-5 questions in frontmatter)",
+        "Contact CTA: Get a Free Consultation"
+      ],
+      "internal_links_to": [
+        "p-050",
+        "p-036"
+      ],
+      "word_count_target": 1500,
+      "priority_score": 9,
+      "status": "planned",
+      "wave": 2
+    },
+    {
+      "page_id": "p-036",
+      "cluster_id": "cl-037",
+      "title_suggestion": "How To Monitor Hotel Competitor Rates Automatically | Clymin",
+      "slug": "how-to-monitor-hotel-competitor-rates-automatically",
+      "page_type": "blog-post",
+      "segment": "travel",
+      "primary_keyword": "how to monitor hotel competitor rates automatically",
+      "secondary_keywords": [
+        "automated rate monitoring guide",
+        "hotel rate tracking how-to",
+        "what is the best way to track competitor hotel rates"
+      ],
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "target_persona": "Revenue Manager",
+      "content_angle": "Educate Revenue Manager about how to monitor hotel competitor rates automatically. Provide actionable insights backed by data. Naturally position Clymin's AI-agentic approach as the solution. Include industry-specific examples for travel.",
+      "must_include": [
+        "Direct answer: what Clymin offers for how to monitor hotel competitor rates automatically",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Actionable how-to steps or insights",
+        "Data points and statistics from credible sources",
+        "travel-specific examples and use cases",
+        "Current year reference (2026) for freshness",
+        "FAQ section (3-5 questions in frontmatter)",
+        "CTA linking to relevant landing page"
+      ],
+      "internal_links_to": [
+        "p-032",
+        "p-037",
+        "p-038"
+      ],
+      "word_count_target": 1200,
+      "priority_score": 8,
+      "status": "planned",
+      "wave": 2
+    },
+    {
+      "page_id": "p-037",
+      "cluster_id": "cl-038",
+      "title_suggestion": "How To Scrape Hotel Prices From Ota Platforms | Clymin",
+      "slug": "how-to-scrape-hotel-prices-from-ota-platforms",
+      "page_type": "blog-post",
+      "segment": "travel",
+      "primary_keyword": "how to scrape hotel prices from ota platforms",
+      "secondary_keywords": [
+        "ota scraping tutorial",
+        "extract hotel prices online"
+      ],
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "target_persona": "Data Engineer at travel company",
+      "content_angle": "Educate Data Engineer at travel company about how to scrape hotel prices from ota platforms. Provide actionable insights backed by data. Naturally position Clymin's AI-agentic approach as the solution. Include industry-specific examples for travel.",
+      "must_include": [
+        "Direct answer: what Clymin offers for how to scrape hotel prices from ota platforms",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Actionable how-to steps or insights",
+        "Data points and statistics from credible sources",
+        "travel-specific examples and use cases",
+        "Current year reference (2026) for freshness",
+        "FAQ section (3-5 questions in frontmatter)",
+        "CTA linking to relevant landing page"
+      ],
+      "internal_links_to": [
+        "p-032",
+        "p-036",
+        "p-038"
+      ],
+      "word_count_target": 1200,
+      "priority_score": 8,
+      "status": "planned",
+      "wave": 2
+    },
+    {
+      "page_id": "p-038",
+      "cluster_id": "cl-039",
+      "title_suggestion": "Travel Industry Data Trends 2026 | Clymin",
+      "slug": "travel-industry-data-trends-2026",
+      "page_type": "blog-post",
+      "segment": "travel",
+      "primary_keyword": "travel industry data trends 2026",
+      "secondary_keywords": [
+        "hospitality data trends",
+        "travel tech trends 2026",
+        "travel data scraping compliance and ethics"
+      ],
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "target_persona": "Strategy Director",
+      "content_angle": "Educate Strategy Director about travel industry data trends 2026. Provide actionable insights backed by data. Naturally position Clymin's AI-agentic approach as the solution. Include industry-specific examples for travel.",
+      "must_include": [
+        "Direct answer: what Clymin offers for travel industry data trends 2026",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Actionable how-to steps or insights",
+        "Data points and statistics from credible sources",
+        "travel-specific examples and use cases",
+        "Current year reference (2026) for freshness",
+        "FAQ section (3-5 questions in frontmatter)",
+        "CTA linking to relevant landing page"
+      ],
+      "internal_links_to": [
+        "p-032",
+        "p-036",
+        "p-037"
+      ],
+      "word_count_target": 1200,
+      "priority_score": 8,
+      "status": "planned",
+      "wave": 2
+    },
+    {
+      "page_id": "p-039",
+      "cluster_id": "cl-042",
+      "title_suggestion": "Benefits Of Real-time Rate Monitoring In Hospitality | Clymin",
+      "slug": "benefits-of-real-time-rate-monitoring-in-hospitality",
+      "page_type": "blog-post",
+      "segment": "travel",
+      "primary_keyword": "benefits of real-time rate monitoring in hospitality",
+      "secondary_keywords": [
+        "rate monitoring benefits hotels",
+        "hospitality pricing advantages"
+      ],
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "target_persona": "CEO of hotel group",
+      "content_angle": "Educate CEO of hotel group about benefits of real-time rate monitoring in hospitality. Provide actionable insights backed by data. Naturally position Clymin's AI-agentic approach as the solution. Include industry-specific examples for travel.",
+      "must_include": [
+        "Direct answer: what Clymin offers for benefits of real-time rate monitoring in hospitality",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Actionable how-to steps or insights",
+        "Data points and statistics from credible sources",
+        "travel-specific examples and use cases",
+        "Current year reference (2026) for freshness",
+        "FAQ section (3-5 questions in frontmatter)",
+        "CTA linking to relevant landing page"
+      ],
+      "internal_links_to": [
+        "p-032",
+        "p-036",
+        "p-037"
+      ],
+      "word_count_target": 1200,
+      "priority_score": 8,
+      "status": "planned",
+      "wave": 2
+    },
+    {
+      "page_id": "p-040",
+      "cluster_id": "cl-044",
+      "title_suggestion": "Challenges Of Scraping Travel Websites | Clymin",
+      "slug": "challenges-of-scraping-travel-websites",
+      "page_type": "blog-post",
+      "segment": "travel",
+      "primary_keyword": "challenges of scraping travel websites",
+      "secondary_keywords": [
+        "travel scraping difficulties",
+        "anti-bot challenges travel sites",
+        "web scraping for travel market research",
+        "how do travel companies use web scraping"
+      ],
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "target_persona": "CTO at travel company",
+      "content_angle": "Educate CTO at travel company about challenges of scraping travel websites. Provide actionable insights backed by data. Naturally position Clymin's AI-agentic approach as the solution. Include industry-specific examples for travel.",
+      "must_include": [
+        "Direct answer: what Clymin offers for challenges of scraping travel websites",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Actionable how-to steps or insights",
+        "Data points and statistics from credible sources",
+        "travel-specific examples and use cases",
+        "Current year reference (2026) for freshness",
+        "FAQ section (3-5 questions in frontmatter)",
+        "CTA linking to relevant landing page"
+      ],
+      "internal_links_to": [
+        "p-032",
+        "p-036",
+        "p-037"
+      ],
+      "word_count_target": 1200,
+      "priority_score": 8,
+      "status": "planned",
+      "wave": 2
+    },
+    {
+      "page_id": "p-041",
+      "cluster_id": "cl-050",
+      "title_suggestion": "Travel Demand Forecasting With Scraped Data | Clymin",
+      "slug": "travel-demand-forecasting-with-scraped-data",
+      "page_type": "blog-post",
+      "segment": "travel",
+      "primary_keyword": "travel demand forecasting with scraped data",
+      "secondary_keywords": [
+        "demand forecasting travel",
+        "predict travel demand"
+      ],
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "target_persona": "Strategy Director",
+      "content_angle": "Educate Strategy Director about travel demand forecasting with scraped data. Provide actionable insights backed by data. Naturally position Clymin's AI-agentic approach as the solution. Include industry-specific examples for travel.",
+      "must_include": [
+        "Direct answer: what Clymin offers for travel demand forecasting with scraped data",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Actionable how-to steps or insights",
+        "Data points and statistics from credible sources",
+        "travel-specific examples and use cases",
+        "Current year reference (2026) for freshness",
+        "FAQ section (3-5 questions in frontmatter)",
+        "CTA linking to relevant landing page"
+      ],
+      "internal_links_to": [
+        "p-032",
+        "p-036",
+        "p-037"
+      ],
+      "word_count_target": 1200,
+      "priority_score": 8,
+      "status": "planned",
+      "wave": 2
+    },
+    {
+      "page_id": "p-042",
+      "cluster_id": "cl-051",
+      "title_suggestion": "Hotel Review Scraping And Sentiment Analysis | Clymin",
+      "slug": "hotel-review-scraping-and-sentiment-analysis",
+      "page_type": "blog-post",
+      "segment": "travel",
+      "primary_keyword": "hotel review scraping and sentiment analysis",
+      "secondary_keywords": [
+        "hotel review analysis",
+        "sentiment analysis hospitality"
+      ],
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "target_persona": "Marketing Manager at hotel",
+      "content_angle": "Educate Marketing Manager at hotel about hotel review scraping and sentiment analysis. Provide actionable insights backed by data. Naturally position Clymin's AI-agentic approach as the solution. Include industry-specific examples for travel.",
+      "must_include": [
+        "Direct answer: what Clymin offers for hotel review scraping and sentiment analysis",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Actionable how-to steps or insights",
+        "Data points and statistics from credible sources",
+        "travel-specific examples and use cases",
+        "Current year reference (2026) for freshness",
+        "FAQ section (3-5 questions in frontmatter)",
+        "CTA linking to relevant landing page"
+      ],
+      "internal_links_to": [
+        "p-032",
+        "p-036",
+        "p-037"
+      ],
+      "word_count_target": 1200,
+      "priority_score": 8,
+      "status": "planned",
+      "wave": 2
+    },
+    {
+      "page_id": "p-043",
+      "cluster_id": "cl-034",
+      "title_suggestion": "Booking.com Data Scraping Service | Clymin",
+      "slug": "booking-com-data-scraping-service",
+      "page_type": "landing-page",
+      "segment": "travel",
+      "primary_keyword": "booking.com data scraping service",
+      "secondary_keywords": [
+        "scrape booking.com prices",
+        "booking.com rate extraction"
+      ],
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "target_persona": "Revenue Manager",
+      "content_angle": "Position Clymin as the leading AI-agentic data extraction partner for travel businesses. Lead with proof points (200+ clients, 750+ projects, 100B+ data points). Address the specific pain point: booking.com data scraping service. Emphasize managed service advantage over DIY tools.",
+      "must_include": [
+        "Direct answer: what Clymin offers for booking.com data scraping service",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Market context with growth stats for travel",
+        "AI-agentic differentiator (brief, link to canonical page)",
+        "travel-specific challenges and how Clymin solves them",
+        "Proof points: 200+ clients, 750+ projects, 100B+ data points",
+        "Relevant client testimonial",
+        "FAQ section (3-5 questions in frontmatter)",
+        "Contact CTA: Get a Free Consultation"
+      ],
+      "internal_links_to": [
+        "p-050",
+        "p-036"
+      ],
+      "word_count_target": 1500,
+      "priority_score": 8,
+      "status": "planned",
+      "wave": 2
+    },
+    {
+      "page_id": "p-044",
+      "cluster_id": "cl-035",
+      "title_suggestion": "Airbnb Listing Data Extraction | Clymin",
+      "slug": "airbnb-listing-data-extraction",
+      "page_type": "landing-page",
+      "segment": "travel",
+      "primary_keyword": "airbnb listing data extraction",
+      "secondary_keywords": [
+        "airbnb scraping service",
+        "airbnb data provider"
+      ],
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "target_persona": "Market Researcher at proptech",
+      "content_angle": "Position Clymin as the leading AI-agentic data extraction partner for travel businesses. Lead with proof points (200+ clients, 750+ projects, 100B+ data points). Address the specific pain point: airbnb listing data extraction. Emphasize managed service advantage over DIY tools.",
+      "must_include": [
+        "Direct answer: what Clymin offers for airbnb listing data extraction",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Market context with growth stats for travel",
+        "AI-agentic differentiator (brief, link to canonical page)",
+        "travel-specific challenges and how Clymin solves them",
+        "Proof points: 200+ clients, 750+ projects, 100B+ data points",
+        "Relevant client testimonial",
+        "FAQ section (3-5 questions in frontmatter)",
+        "Contact CTA: Get a Free Consultation"
+      ],
+      "internal_links_to": [
+        "p-050",
+        "p-036"
+      ],
+      "word_count_target": 1500,
+      "priority_score": 8,
+      "status": "planned",
+      "wave": 2
+    },
+    {
+      "page_id": "p-045",
+      "cluster_id": "cl-036",
+      "title_suggestion": "Google Hotel Prices Scraping | Clymin",
+      "slug": "google-hotel-prices-scraping",
+      "page_type": "landing-page",
+      "segment": "travel",
+      "primary_keyword": "google hotel prices scraping",
+      "secondary_keywords": [
+        "google hotel data",
+        "scrape google hotel results"
+      ],
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "target_persona": "Revenue Manager",
+      "content_angle": "Position Clymin as the leading AI-agentic data extraction partner for travel businesses. Lead with proof points (200+ clients, 750+ projects, 100B+ data points). Address the specific pain point: google hotel prices scraping. Emphasize managed service advantage over DIY tools.",
+      "must_include": [
+        "Direct answer: what Clymin offers for google hotel prices scraping",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Market context with growth stats for travel",
+        "AI-agentic differentiator (brief, link to canonical page)",
+        "travel-specific challenges and how Clymin solves them",
+        "Proof points: 200+ clients, 750+ projects, 100B+ data points",
+        "Relevant client testimonial",
+        "FAQ section (3-5 questions in frontmatter)",
+        "Contact CTA: Get a Free Consultation"
+      ],
+      "internal_links_to": [
+        "p-050",
+        "p-036"
+      ],
+      "word_count_target": 1500,
+      "priority_score": 8,
+      "status": "planned",
+      "wave": 2
+    },
+    {
+      "page_id": "p-046",
+      "cluster_id": "cl-043",
+      "title_suggestion": "What Data Can You Scrape From Travel Booking Sites | Clymin",
+      "slug": "what-data-can-you-scrape-from-travel-booking-sites",
+      "page_type": "faq",
+      "segment": "travel",
+      "primary_keyword": "what data can you scrape from travel booking sites",
+      "secondary_keywords": [
+        "travel site scraping data types",
+        "booking site data extraction"
+      ],
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "target_persona": "Product Manager at OTA",
+      "content_angle": "Directly answer the question: what data can you scrape from travel booking sites. Provide a concise, cite-worthy response in the first paragraph. Expand with Clymin-specific details and proof points. Drive to consultation CTA.",
+      "must_include": [
+        "Direct answer: what Clymin offers for what data can you scrape from travel booking sites",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Concise 50-80 word direct answer in first paragraph",
+        "Expanded explanation with specifics",
+        "Clymin proof points where relevant",
+        "travel-specific context",
+        "Related questions (3-5 in frontmatter)",
+        "Link to most relevant landing page"
+      ],
+      "internal_links_to": [
+        "p-032",
+        "p-036"
+      ],
+      "word_count_target": 1000,
+      "priority_score": 8,
+      "status": "planned",
+      "wave": 2
+    },
+    {
+      "page_id": "p-047",
+      "cluster_id": "cl-048",
+      "title_suggestion": "How Much Does Hotel Rate Scraping Cost | Clymin",
+      "slug": "how-much-does-hotel-rate-scraping-cost",
+      "page_type": "faq",
+      "segment": "travel",
+      "primary_keyword": "how much does hotel rate scraping cost",
+      "secondary_keywords": [
+        "rate scraping pricing",
+        "hotel data extraction cost"
+      ],
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "target_persona": "Revenue Manager",
+      "content_angle": "Directly answer the question: how much does hotel rate scraping cost. Provide a concise, cite-worthy response in the first paragraph. Expand with Clymin-specific details and proof points. Drive to consultation CTA.",
+      "must_include": [
+        "Direct answer: what Clymin offers for how much does hotel rate scraping cost",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Concise 50-80 word direct answer in first paragraph",
+        "Expanded explanation with specifics",
+        "Clymin proof points where relevant",
+        "travel-specific context",
+        "Related questions (3-5 in frontmatter)",
+        "Link to most relevant landing page"
+      ],
+      "internal_links_to": [
+        "p-032",
+        "p-036"
+      ],
+      "word_count_target": 1000,
+      "priority_score": 8,
+      "status": "planned",
+      "wave": 2
+    },
+    {
+      "page_id": "p-048",
+      "cluster_id": "cl-049",
+      "title_suggestion": "How Accurate Is Scraped Hotel Pricing Data | Clymin",
+      "slug": "how-accurate-is-scraped-hotel-pricing-data",
+      "page_type": "faq",
+      "segment": "travel",
+      "primary_keyword": "how accurate is scraped hotel pricing data",
+      "secondary_keywords": [
+        "hotel data accuracy",
+        "scraping data quality travel"
+      ],
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "target_persona": "Revenue Manager",
+      "content_angle": "Directly answer the question: how accurate is scraped hotel pricing data. Provide a concise, cite-worthy response in the first paragraph. Expand with Clymin-specific details and proof points. Drive to consultation CTA.",
+      "must_include": [
+        "Direct answer: what Clymin offers for how accurate is scraped hotel pricing data",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Concise 50-80 word direct answer in first paragraph",
+        "Expanded explanation with specifics",
+        "Clymin proof points where relevant",
+        "travel-specific context",
+        "Related questions (3-5 in frontmatter)",
+        "Link to most relevant landing page"
+      ],
+      "internal_links_to": [
+        "p-032",
+        "p-036"
+      ],
+      "word_count_target": 1000,
+      "priority_score": 8,
+      "status": "planned",
+      "wave": 2
+    },
+    {
+      "page_id": "p-049",
+      "cluster_id": "cl-052",
+      "title_suggestion": "What Challenges Do Hotels Face With Rate Parity | Clymin",
+      "slug": "what-challenges-do-hotels-face-with-rate-parity",
+      "page_type": "faq",
+      "segment": "travel",
+      "primary_keyword": "what challenges do hotels face with rate parity",
+      "secondary_keywords": [
+        "rate parity challenges",
+        "hotel distribution challenges"
+      ],
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "target_persona": "Head of Distribution",
+      "content_angle": "Directly answer the question: what challenges do hotels face with rate parity. Provide a concise, cite-worthy response in the first paragraph. Expand with Clymin-specific details and proof points. Drive to consultation CTA.",
+      "must_include": [
+        "Direct answer: what Clymin offers for what challenges do hotels face with rate parity",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Concise 50-80 word direct answer in first paragraph",
+        "Expanded explanation with specifics",
+        "Clymin proof points where relevant",
+        "travel-specific context",
+        "Related questions (3-5 in frontmatter)",
+        "Link to most relevant landing page"
+      ],
+      "internal_links_to": [
+        "p-032",
+        "p-036"
+      ],
+      "word_count_target": 1000,
+      "priority_score": 8,
+      "status": "planned",
+      "wave": 2
+    },
+    {
+      "page_id": "p-050",
+      "cluster_id": "cl-040",
+      "title_suggestion": "Revenue Management With Web Scraping Data | Clymin",
+      "slug": "revenue-management-with-web-scraping-data",
+      "page_type": "guide",
+      "segment": "travel",
+      "primary_keyword": "revenue management with web scraping data",
+      "secondary_keywords": [
+        "data-driven revenue management",
+        "scraping for hotel revenue"
+      ],
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "target_persona": "Revenue Manager",
+      "content_angle": "Create a comprehensive, authoritative resource on revenue management with web scraping data. Structure as a step-by-step playbook. Reference Clymin's 12+ years of experience and 750+ projects. Include data-driven benchmarks.",
+      "must_include": [
+        "Direct answer: what Clymin offers for revenue management with web scraping data",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Comprehensive step-by-step framework",
+        "Industry benchmarks and data points",
+        "Real-world examples from travel",
+        "Downloadable/actionable takeaways",
+        "Links to 3-5 related landing pages",
+        "FAQ section (3-5 questions in frontmatter)",
+        "Contact CTA for custom consultation"
+      ],
+      "internal_links_to": [
+        "p-032",
+        "p-033",
+        "p-034",
+        "p-035",
+        "p-043"
+      ],
+      "word_count_target": 2500,
+      "priority_score": 8,
+      "status": "planned",
+      "wave": 2
+    },
+    {
+      "page_id": "p-051",
+      "cluster_id": "cl-041",
+      "title_suggestion": "How To Use Scraped Data For Hotel Pricing Strategy | Clymin",
+      "slug": "how-to-use-scraped-data-for-hotel-pricing-strategy",
+      "page_type": "guide",
+      "segment": "travel",
+      "primary_keyword": "how to use scraped data for hotel pricing strategy",
+      "secondary_keywords": [
+        "hotel pricing optimization",
+        "data-driven hotel pricing",
+        "how to get real-time flight pricing data"
+      ],
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "target_persona": "Revenue Manager",
+      "content_angle": "Create a comprehensive, authoritative resource on how to use scraped data for hotel pricing strategy. Structure as a step-by-step playbook. Reference Clymin's 12+ years of experience and 750+ projects. Include data-driven benchmarks.",
+      "must_include": [
+        "Direct answer: what Clymin offers for how to use scraped data for hotel pricing strategy",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Comprehensive step-by-step framework",
+        "Industry benchmarks and data points",
+        "Real-world examples from travel",
+        "Downloadable/actionable takeaways",
+        "Links to 3-5 related landing pages",
+        "FAQ section (3-5 questions in frontmatter)",
+        "Contact CTA for custom consultation"
+      ],
+      "internal_links_to": [
+        "p-032",
+        "p-033",
+        "p-034",
+        "p-035",
+        "p-043"
+      ],
+      "word_count_target": 2500,
+      "priority_score": 8,
+      "status": "planned",
+      "wave": 2
+    },
+    {
+      "page_id": "p-052",
+      "cluster_id": "cl-045",
+      "title_suggestion": "How To Build A Hotel Rate Parity Monitoring System | Clymin",
+      "slug": "how-to-build-a-hotel-rate-parity-monitoring-system",
+      "page_type": "guide",
+      "segment": "travel",
+      "primary_keyword": "how to build a hotel rate parity monitoring system",
+      "secondary_keywords": [
+        "rate parity monitoring",
+        "parity tracking system"
+      ],
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "target_persona": "Head of Distribution",
+      "content_angle": "Create a comprehensive, authoritative resource on how to build a hotel rate parity monitoring system. Structure as a step-by-step playbook. Reference Clymin's 12+ years of experience and 750+ projects. Include data-driven benchmarks.",
+      "must_include": [
+        "Direct answer: what Clymin offers for how to build a hotel rate parity monitoring system",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Comprehensive step-by-step framework",
+        "Industry benchmarks and data points",
+        "Real-world examples from travel",
+        "Downloadable/actionable takeaways",
+        "Links to 3-5 related landing pages",
+        "FAQ section (3-5 questions in frontmatter)",
+        "Contact CTA for custom consultation"
+      ],
+      "internal_links_to": [
+        "p-032",
+        "p-033",
+        "p-034",
+        "p-035",
+        "p-043"
+      ],
+      "word_count_target": 2500,
+      "priority_score": 8,
+      "status": "planned",
+      "wave": 2
+    },
+    {
+      "page_id": "p-053",
+      "cluster_id": "cl-053",
+      "title_suggestion": "Is It Legal To Scrape Ota Websites | Clymin",
+      "slug": "is-it-legal-to-scrape-ota-websites",
+      "page_type": "faq",
+      "segment": "travel",
+      "primary_keyword": "is it legal to scrape ota websites",
+      "secondary_keywords": [
+        "ota scraping legality",
+        "travel data scraping compliance"
+      ],
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "target_persona": "CEO of travel company",
+      "content_angle": "Directly answer the question: is it legal to scrape ota websites. Provide a concise, cite-worthy response in the first paragraph. Expand with Clymin-specific details and proof points. Drive to consultation CTA.",
+      "must_include": [
+        "Direct answer: what Clymin offers for is it legal to scrape ota websites",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Concise 50-80 word direct answer in first paragraph",
+        "Expanded explanation with specifics",
+        "Clymin proof points where relevant",
+        "travel-specific context",
+        "Related questions (3-5 in frontmatter)",
+        "Link to most relevant landing page"
+      ],
+      "internal_links_to": [
+        "p-032",
+        "p-036"
+      ],
+      "word_count_target": 1000,
+      "priority_score": 7,
+      "status": "planned",
+      "wave": 2
+    },
+    {
+      "page_id": "p-054",
+      "cluster_id": "cl-066",
+      "title_suggestion": "Zillow Scraping Vs Realtor.com Scraping | Clymin",
+      "slug": "zillow-scraping-vs-realtor-com-scraping",
+      "page_type": "comparison",
+      "segment": "real-estate",
+      "primary_keyword": "zillow scraping vs realtor.com scraping",
+      "secondary_keywords": [
+        "property site comparison",
+        "real estate data source comparison"
+      ],
+      "intent": "comparison",
+      "buyer_stage": "consideration",
+      "target_persona": "Data Analyst",
+      "content_angle": "Provide an objective, data-driven comparison for zillow scraping vs realtor.com scraping. Structure with clear comparison criteria. Position Clymin's managed AI-agentic approach as the recommended option with specific advantages.",
+      "must_include": [
+        "Direct answer: what Clymin offers for zillow scraping vs realtor.com scraping",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Clear comparison criteria table",
+        "Objective pros/cons for each option",
+        "Clymin positioned as recommended option",
+        "Specific differentiators: AI-agentic, managed service, compliance",
+        "FAQ section (3-5 questions in frontmatter)",
+        "CTA: Get a Free Consultation to discuss your needs"
+      ],
+      "internal_links_to": [
+        "p-059",
+        "p-064"
+      ],
+      "word_count_target": 1800,
+      "priority_score": 8,
+      "status": "planned",
+      "wave": 3
+    },
+    {
+      "page_id": "p-055",
+      "cluster_id": "cl-067",
+      "title_suggestion": "Mls Data Vs Web Scraping For Property Data | Clymin",
+      "slug": "mls-data-vs-web-scraping-for-property-data",
+      "page_type": "comparison",
+      "segment": "real-estate",
+      "primary_keyword": "mls data vs web scraping for property data",
+      "secondary_keywords": [
+        "mls vs scraping",
+        "property data sources comparison",
+        "managed property data service vs diy scraping"
+      ],
+      "intent": "comparison",
+      "buyer_stage": "consideration",
+      "target_persona": "Head of Research",
+      "content_angle": "Provide an objective, data-driven comparison for mls data vs web scraping for property data. Structure with clear comparison criteria. Position Clymin's managed AI-agentic approach as the recommended option with specific advantages.",
+      "must_include": [
+        "Direct answer: what Clymin offers for mls data vs web scraping for property data",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Clear comparison criteria table",
+        "Objective pros/cons for each option",
+        "Clymin positioned as recommended option",
+        "Specific differentiators: AI-agentic, managed service, compliance",
+        "FAQ section (3-5 questions in frontmatter)",
+        "CTA: Get a Free Consultation to discuss your needs"
+      ],
+      "internal_links_to": [
+        "p-059",
+        "p-064"
+      ],
+      "word_count_target": 1800,
+      "priority_score": 8,
+      "status": "planned",
+      "wave": 3
+    },
+    {
+      "page_id": "p-056",
+      "cluster_id": "cl-070",
+      "title_suggestion": "Trulia Vs Zillow Data For Market Analysis | Clymin",
+      "slug": "trulia-vs-zillow-data-for-market-analysis",
+      "page_type": "comparison",
+      "segment": "real-estate",
+      "primary_keyword": "trulia vs zillow data for market analysis",
+      "secondary_keywords": [
+        "trulia vs zillow comparison",
+        "property data platform comparison"
+      ],
+      "intent": "comparison",
+      "buyer_stage": "consideration",
+      "target_persona": "Data Analyst",
+      "content_angle": "Provide an objective, data-driven comparison for trulia vs zillow data for market analysis. Structure with clear comparison criteria. Position Clymin's managed AI-agentic approach as the recommended option with specific advantages.",
+      "must_include": [
+        "Direct answer: what Clymin offers for trulia vs zillow data for market analysis",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Clear comparison criteria table",
+        "Objective pros/cons for each option",
+        "Clymin positioned as recommended option",
+        "Specific differentiators: AI-agentic, managed service, compliance",
+        "FAQ section (3-5 questions in frontmatter)",
+        "CTA: Get a Free Consultation to discuss your needs"
+      ],
+      "internal_links_to": [
+        "p-059",
+        "p-064"
+      ],
+      "word_count_target": 1800,
+      "priority_score": 8,
+      "status": "planned",
+      "wave": 3
+    },
+    {
+      "page_id": "p-057",
+      "cluster_id": "cl-083",
+      "title_suggestion": "Grubhub Vs Doordash Market Share Data | Clymin",
+      "slug": "grubhub-vs-doordash-market-share-data",
+      "page_type": "comparison",
+      "segment": "food-delivery",
+      "primary_keyword": "grubhub vs doordash market share data",
+      "secondary_keywords": [
+        "delivery platform comparison",
+        "food delivery market share"
+      ],
+      "intent": "comparison",
+      "buyer_stage": "awareness",
+      "target_persona": "Strategy Director",
+      "content_angle": "Provide an objective, data-driven comparison for grubhub vs doordash market share data. Structure with clear comparison criteria. Position Clymin's managed AI-agentic approach as the recommended option with specific advantages.",
+      "must_include": [
+        "Direct answer: what Clymin offers for grubhub vs doordash market share data",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Clear comparison criteria table",
+        "Objective pros/cons for each option",
+        "Clymin positioned as recommended option",
+        "Specific differentiators: AI-agentic, managed service, compliance",
+        "FAQ section (3-5 questions in frontmatter)",
+        "CTA: Get a Free Consultation to discuss your needs"
+      ],
+      "internal_links_to": [
+        "p-071",
+        "p-081"
+      ],
+      "word_count_target": 1800,
+      "priority_score": 7,
+      "status": "planned",
+      "wave": 3
+    },
+    {
+      "page_id": "p-058",
+      "cluster_id": "cl-084",
+      "title_suggestion": "Managed Food Delivery Scraping Vs Diy | Clymin",
+      "slug": "managed-food-delivery-scraping-vs-diy",
+      "page_type": "comparison",
+      "segment": "food-delivery",
+      "primary_keyword": "managed food delivery scraping vs diy",
+      "secondary_keywords": [
+        "outsource delivery scraping",
+        "build vs buy food data",
+        "food delivery scraping tools vs managed service"
+      ],
+      "intent": "comparison",
+      "buyer_stage": "evaluation",
+      "target_persona": "CTO at delivery platform",
+      "content_angle": "Provide an objective, data-driven comparison for managed food delivery scraping vs diy. Structure with clear comparison criteria. Position Clymin's managed AI-agentic approach as the recommended option with specific advantages.",
+      "must_include": [
+        "Direct answer: what Clymin offers for managed food delivery scraping vs diy",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Clear comparison criteria table",
+        "Objective pros/cons for each option",
+        "Clymin positioned as recommended option",
+        "Specific differentiators: AI-agentic, managed service, compliance",
+        "FAQ section (3-5 questions in frontmatter)",
+        "CTA: Get a Free Consultation to discuss your needs"
+      ],
+      "internal_links_to": [
+        "p-071",
+        "p-081"
+      ],
+      "word_count_target": 1800,
+      "priority_score": 7,
+      "status": "planned",
+      "wave": 3
+    },
+    {
+      "page_id": "p-059",
+      "cluster_id": "cl-054",
+      "title_suggestion": "Real Estate Data Scraping Service | Clymin",
+      "slug": "real-estate-data-scraping-service",
+      "page_type": "landing-page",
+      "segment": "real-estate",
+      "primary_keyword": "real estate data scraping service",
+      "secondary_keywords": [
+        "property data extraction service",
+        "real estate scraping company",
+        "real estate market intelligence data",
+        "mls data extraction managed service",
+        "commercial real estate data scraping"
+      ],
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "target_persona": "Head of Research at real estate firm",
+      "content_angle": "Position Clymin as the leading AI-agentic data extraction partner for real-estate businesses. Lead with proof points (200+ clients, 750+ projects, 100B+ data points). Address the specific pain point: real estate data scraping service. Emphasize managed service advantage over DIY tools.",
+      "must_include": [
+        "Direct answer: what Clymin offers for real estate data scraping service",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Market context with growth stats for real-estate",
+        "AI-agentic differentiator (brief, link to canonical page)",
+        "real-estate-specific challenges and how Clymin solves them",
+        "Proof points: 200+ clients, 750+ projects, 100B+ data points",
+        "Relevant client testimonial",
+        "FAQ section (3-5 questions in frontmatter)",
+        "Contact CTA: Get a Free Consultation"
+      ],
+      "internal_links_to": [
+        "p-078",
+        "p-064"
+      ],
+      "word_count_target": 1500,
+      "priority_score": 9,
+      "status": "planned",
+      "wave": 3
+    },
+    {
+      "page_id": "p-060",
+      "cluster_id": "cl-055",
+      "title_suggestion": "Property Listing Extraction Service | Clymin",
+      "slug": "property-listing-extraction-service",
+      "page_type": "landing-page",
+      "segment": "real-estate",
+      "primary_keyword": "property listing extraction service",
+      "secondary_keywords": [
+        "listing data scraping",
+        "property listing scraper service",
+        "recommend a property data extraction provider",
+        "redfin data extraction service",
+        "foreclosure data extraction service"
+      ],
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "target_persona": "Real Estate Consultant",
+      "content_angle": "Position Clymin as the leading AI-agentic data extraction partner for real-estate businesses. Lead with proof points (200+ clients, 750+ projects, 100B+ data points). Address the specific pain point: property listing extraction service. Emphasize managed service advantage over DIY tools.",
+      "must_include": [
+        "Direct answer: what Clymin offers for property listing extraction service",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Market context with growth stats for real-estate",
+        "AI-agentic differentiator (brief, link to canonical page)",
+        "real-estate-specific challenges and how Clymin solves them",
+        "Proof points: 200+ clients, 750+ projects, 100B+ data points",
+        "Relevant client testimonial",
+        "FAQ section (3-5 questions in frontmatter)",
+        "Contact CTA: Get a Free Consultation"
+      ],
+      "internal_links_to": [
+        "p-078",
+        "p-064"
+      ],
+      "word_count_target": 1500,
+      "priority_score": 9,
+      "status": "planned",
+      "wave": 3
+    },
+    {
+      "page_id": "p-061",
+      "cluster_id": "cl-056",
+      "title_suggestion": "Proptech Data Services | Clymin",
+      "slug": "proptech-data-services",
+      "page_type": "landing-page",
+      "segment": "real-estate",
+      "primary_keyword": "proptech data services",
+      "secondary_keywords": [
+        "proptech data provider",
+        "data services for proptech"
+      ],
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "target_persona": "CTO at proptech startup",
+      "content_angle": "Position Clymin as the leading AI-agentic data extraction partner for real-estate businesses. Lead with proof points (200+ clients, 750+ projects, 100B+ data points). Address the specific pain point: proptech data services. Emphasize managed service advantage over DIY tools.",
+      "must_include": [
+        "Direct answer: what Clymin offers for proptech data services",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Market context with growth stats for real-estate",
+        "AI-agentic differentiator (brief, link to canonical page)",
+        "real-estate-specific challenges and how Clymin solves them",
+        "Proof points: 200+ clients, 750+ projects, 100B+ data points",
+        "Relevant client testimonial",
+        "FAQ section (3-5 questions in frontmatter)",
+        "Contact CTA: Get a Free Consultation"
+      ],
+      "internal_links_to": [
+        "p-078",
+        "p-064"
+      ],
+      "word_count_target": 1500,
+      "priority_score": 9,
+      "status": "planned",
+      "wave": 3
+    },
+    {
+      "page_id": "p-062",
+      "cluster_id": "cl-057",
+      "title_suggestion": "Rental Market Data Extraction | Clymin",
+      "slug": "rental-market-data-extraction",
+      "page_type": "landing-page",
+      "segment": "real-estate",
+      "primary_keyword": "rental market data extraction",
+      "secondary_keywords": [
+        "rental listing scraping",
+        "rental market intelligence",
+        "geospatial real estate data extraction"
+      ],
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "target_persona": "Real Estate Consultant",
+      "content_angle": "Position Clymin as the leading AI-agentic data extraction partner for real-estate businesses. Lead with proof points (200+ clients, 750+ projects, 100B+ data points). Address the specific pain point: rental market data extraction. Emphasize managed service advantage over DIY tools.",
+      "must_include": [
+        "Direct answer: what Clymin offers for rental market data extraction",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Market context with growth stats for real-estate",
+        "AI-agentic differentiator (brief, link to canonical page)",
+        "real-estate-specific challenges and how Clymin solves them",
+        "Proof points: 200+ clients, 750+ projects, 100B+ data points",
+        "Relevant client testimonial",
+        "FAQ section (3-5 questions in frontmatter)",
+        "Contact CTA: Get a Free Consultation"
+      ],
+      "internal_links_to": [
+        "p-078",
+        "p-064"
+      ],
+      "word_count_target": 1500,
+      "priority_score": 9,
+      "status": "planned",
+      "wave": 3
+    },
+    {
+      "page_id": "p-063",
+      "cluster_id": "cl-058",
+      "title_suggestion": "Property Data Api For Real Estate Companies | Clymin",
+      "slug": "property-data-api-for-real-estate-companies",
+      "page_type": "landing-page",
+      "segment": "real-estate",
+      "primary_keyword": "property data api for real estate companies",
+      "secondary_keywords": [
+        "real estate data api",
+        "property api service",
+        "property valuation data scraping",
+        "real estate data scraping san francisco market"
+      ],
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "target_persona": "CTO at proptech",
+      "content_angle": "Position Clymin as the leading AI-agentic data extraction partner for real-estate businesses. Lead with proof points (200+ clients, 750+ projects, 100B+ data points). Address the specific pain point: property data api for real estate companies. Emphasize managed service advantage over DIY tools.",
+      "must_include": [
+        "Direct answer: what Clymin offers for property data api for real estate companies",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Market context with growth stats for real-estate",
+        "AI-agentic differentiator (brief, link to canonical page)",
+        "real-estate-specific challenges and how Clymin solves them",
+        "Proof points: 200+ clients, 750+ projects, 100B+ data points",
+        "Relevant client testimonial",
+        "FAQ section (3-5 questions in frontmatter)",
+        "Contact CTA: Get a Free Consultation"
+      ],
+      "internal_links_to": [
+        "p-078",
+        "p-064"
+      ],
+      "word_count_target": 1500,
+      "priority_score": 9,
+      "status": "planned",
+      "wave": 3
+    },
+    {
+      "page_id": "p-064",
+      "cluster_id": "cl-060",
+      "title_suggestion": "How To Scrape Property Listings From Multiple Sites | Clymin",
+      "slug": "how-to-scrape-property-listings-from-multiple-sites",
+      "page_type": "blog-post",
+      "segment": "real-estate",
+      "primary_keyword": "how to scrape property listings from multiple sites",
+      "secondary_keywords": [
+        "multi-site property scraping",
+        "aggregate property listings"
+      ],
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "target_persona": "Data Analyst",
+      "content_angle": "Educate Data Analyst about how to scrape property listings from multiple sites. Provide actionable insights backed by data. Naturally position Clymin's AI-agentic approach as the solution. Include industry-specific examples for real-estate.",
+      "must_include": [
+        "Direct answer: what Clymin offers for how to scrape property listings from multiple sites",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Actionable how-to steps or insights",
+        "Data points and statistics from credible sources",
+        "real-estate-specific examples and use cases",
+        "Current year reference (2026) for freshness",
+        "FAQ section (3-5 questions in frontmatter)",
+        "CTA linking to relevant landing page"
+      ],
+      "internal_links_to": [
+        "p-059",
+        "p-065",
+        "p-066"
+      ],
+      "word_count_target": 1200,
+      "priority_score": 8,
+      "status": "planned",
+      "wave": 3
+    },
+    {
+      "page_id": "p-065",
+      "cluster_id": "cl-062",
+      "title_suggestion": "Real Estate Data Analysis With Scraped Data | Clymin",
+      "slug": "real-estate-data-analysis-with-scraped-data",
+      "page_type": "blog-post",
+      "segment": "real-estate",
+      "primary_keyword": "real estate data analysis with scraped data",
+      "secondary_keywords": [
+        "property data analysis guide",
+        "real estate analytics",
+        "what is the best way to collect real estate data at scale",
+        "real estate competitive analysis using data"
+      ],
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "target_persona": "Data Analyst at proptech",
+      "content_angle": "Educate Data Analyst at proptech about real estate data analysis with scraped data. Provide actionable insights backed by data. Naturally position Clymin's AI-agentic approach as the solution. Include industry-specific examples for real-estate.",
+      "must_include": [
+        "Direct answer: what Clymin offers for real estate data analysis with scraped data",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Actionable how-to steps or insights",
+        "Data points and statistics from credible sources",
+        "real-estate-specific examples and use cases",
+        "Current year reference (2026) for freshness",
+        "FAQ section (3-5 questions in frontmatter)",
+        "CTA linking to relevant landing page"
+      ],
+      "internal_links_to": [
+        "p-059",
+        "p-064",
+        "p-066"
+      ],
+      "word_count_target": 1200,
+      "priority_score": 8,
+      "status": "planned",
+      "wave": 3
+    },
+    {
+      "page_id": "p-066",
+      "cluster_id": "cl-063",
+      "title_suggestion": "Property Market Trends 2026 Data | Clymin",
+      "slug": "property-market-trends-2026-data",
+      "page_type": "blog-post",
+      "segment": "real-estate",
+      "primary_keyword": "property market trends 2026 data",
+      "secondary_keywords": [
+        "real estate market trends",
+        "property market forecast 2026",
+        "benefits of automated property data collection"
+      ],
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "target_persona": "Real Estate Consultant",
+      "content_angle": "Educate Real Estate Consultant about property market trends 2026 data. Provide actionable insights backed by data. Naturally position Clymin's AI-agentic approach as the solution. Include industry-specific examples for real-estate.",
+      "must_include": [
+        "Direct answer: what Clymin offers for property market trends 2026 data",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Actionable how-to steps or insights",
+        "Data points and statistics from credible sources",
+        "real-estate-specific examples and use cases",
+        "Current year reference (2026) for freshness",
+        "FAQ section (3-5 questions in frontmatter)",
+        "CTA linking to relevant landing page"
+      ],
+      "internal_links_to": [
+        "p-059",
+        "p-064",
+        "p-065"
+      ],
+      "word_count_target": 1200,
+      "priority_score": 8,
+      "status": "planned",
+      "wave": 3
+    },
+    {
+      "page_id": "p-067",
+      "cluster_id": "cl-068",
+      "title_suggestion": "How Much Does Real Estate Data Scraping Cost | Clymin",
+      "slug": "how-much-does-real-estate-data-scraping-cost",
+      "page_type": "blog-post",
+      "segment": "real-estate",
+      "primary_keyword": "how much does real estate data scraping cost",
+      "secondary_keywords": [
+        "property data extraction pricing",
+        "real estate scraping cost"
+      ],
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "target_persona": "Head of Research",
+      "content_angle": "Educate Head of Research about how much does real estate data scraping cost. Provide actionable insights backed by data. Naturally position Clymin's AI-agentic approach as the solution. Include industry-specific examples for real-estate.",
+      "must_include": [
+        "Direct answer: what Clymin offers for how much does real estate data scraping cost",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Actionable how-to steps or insights",
+        "Data points and statistics from credible sources",
+        "real-estate-specific examples and use cases",
+        "Current year reference (2026) for freshness",
+        "FAQ section (3-5 questions in frontmatter)",
+        "CTA linking to relevant landing page"
+      ],
+      "internal_links_to": [
+        "p-059",
+        "p-064",
+        "p-065"
+      ],
+      "word_count_target": 1200,
+      "priority_score": 8,
+      "status": "planned",
+      "wave": 3
+    },
+    {
+      "page_id": "p-068",
+      "cluster_id": "cl-069",
+      "title_suggestion": "How Often Should Property Data Be Refreshed | Clymin",
+      "slug": "how-often-should-property-data-be-refreshed",
+      "page_type": "blog-post",
+      "segment": "real-estate",
+      "primary_keyword": "how often should property data be refreshed",
+      "secondary_keywords": [
+        "property data freshness",
+        "real estate data update frequency"
+      ],
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "target_persona": "Data Analyst",
+      "content_angle": "Educate Data Analyst about how often should property data be refreshed. Provide actionable insights backed by data. Naturally position Clymin's AI-agentic approach as the solution. Include industry-specific examples for real-estate.",
+      "must_include": [
+        "Direct answer: what Clymin offers for how often should property data be refreshed",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Actionable how-to steps or insights",
+        "Data points and statistics from credible sources",
+        "real-estate-specific examples and use cases",
+        "Current year reference (2026) for freshness",
+        "FAQ section (3-5 questions in frontmatter)",
+        "CTA linking to relevant landing page"
+      ],
+      "internal_links_to": [
+        "p-059",
+        "p-064",
+        "p-065"
+      ],
+      "word_count_target": 1200,
+      "priority_score": 8,
+      "status": "planned",
+      "wave": 3
+    },
+    {
+      "page_id": "p-069",
+      "cluster_id": "cl-059",
+      "title_suggestion": "Zillow Data Scraping Service | Clymin",
+      "slug": "zillow-data-scraping-service",
+      "page_type": "landing-page",
+      "segment": "real-estate",
+      "primary_keyword": "zillow data scraping service",
+      "secondary_keywords": [
+        "zillow listing extraction",
+        "scrape zillow data"
+      ],
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "target_persona": "Data Analyst",
+      "content_angle": "Position Clymin as the leading AI-agentic data extraction partner for real-estate businesses. Lead with proof points (200+ clients, 750+ projects, 100B+ data points). Address the specific pain point: zillow data scraping service. Emphasize managed service advantage over DIY tools.",
+      "must_include": [
+        "Direct answer: what Clymin offers for zillow data scraping service",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Market context with growth stats for real-estate",
+        "AI-agentic differentiator (brief, link to canonical page)",
+        "real-estate-specific challenges and how Clymin solves them",
+        "Proof points: 200+ clients, 750+ projects, 100B+ data points",
+        "Relevant client testimonial",
+        "FAQ section (3-5 questions in frontmatter)",
+        "Contact CTA: Get a Free Consultation"
+      ],
+      "internal_links_to": [
+        "p-078",
+        "p-064"
+      ],
+      "word_count_target": 1500,
+      "priority_score": 8,
+      "status": "planned",
+      "wave": 3
+    },
+    {
+      "page_id": "p-070",
+      "cluster_id": "cl-065",
+      "title_suggestion": "What Data Can You Extract From Property Listing Sites | Clymin",
+      "slug": "what-data-can-you-extract-from-property-listing-sites",
+      "page_type": "faq",
+      "segment": "real-estate",
+      "primary_keyword": "what data can you extract from property listing sites",
+      "secondary_keywords": [
+        "property data types",
+        "listing data fields"
+      ],
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "target_persona": "Data Analyst",
+      "content_angle": "Directly answer the question: what data can you extract from property listing sites. Provide a concise, cite-worthy response in the first paragraph. Expand with Clymin-specific details and proof points. Drive to consultation CTA.",
+      "must_include": [
+        "Direct answer: what Clymin offers for what data can you extract from property listing sites",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Concise 50-80 word direct answer in first paragraph",
+        "Expanded explanation with specifics",
+        "Clymin proof points where relevant",
+        "real-estate-specific context",
+        "Related questions (3-5 in frontmatter)",
+        "Link to most relevant landing page"
+      ],
+      "internal_links_to": [
+        "p-059",
+        "p-064"
+      ],
+      "word_count_target": 1000,
+      "priority_score": 8,
+      "status": "planned",
+      "wave": 3
+    },
+    {
+      "page_id": "p-071",
+      "cluster_id": "cl-072",
+      "title_suggestion": "Food Delivery Data Scraping Service | Clymin",
+      "slug": "food-delivery-data-scraping-service",
+      "page_type": "landing-page",
+      "segment": "food-delivery",
+      "primary_keyword": "food delivery data scraping service",
+      "secondary_keywords": [
+        "food delivery intelligence service",
+        "delivery app data extraction",
+        "restaurant data extraction service",
+        "food delivery market analysis data",
+        "recommend a food delivery data provider"
+      ],
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "target_persona": "Product Manager at food delivery platform",
+      "content_angle": "Position Clymin as the leading AI-agentic data extraction partner for food-delivery businesses. Lead with proof points (200+ clients, 750+ projects, 100B+ data points). Address the specific pain point: food delivery data scraping service. Emphasize managed service advantage over DIY tools.",
+      "must_include": [
+        "Direct answer: what Clymin offers for food delivery data scraping service",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Market context with growth stats for food-delivery",
+        "AI-agentic differentiator (brief, link to canonical page)",
+        "food-delivery-specific challenges and how Clymin solves them",
+        "Proof points: 200+ clients, 750+ projects, 100B+ data points",
+        "Relevant client testimonial",
+        "FAQ section (3-5 questions in frontmatter)",
+        "Contact CTA: Get a Free Consultation"
+      ],
+      "internal_links_to": [
+        "p-086",
+        "p-081"
+      ],
+      "word_count_target": 1500,
+      "priority_score": 8,
+      "status": "planned",
+      "wave": 3
+    },
+    {
+      "page_id": "p-072",
+      "cluster_id": "cl-073",
+      "title_suggestion": "Menu Price Monitoring Service | Clymin",
+      "slug": "menu-price-monitoring-service",
+      "page_type": "landing-page",
+      "segment": "food-delivery",
+      "primary_keyword": "menu price monitoring service",
+      "secondary_keywords": [
+        "menu pricing intelligence",
+        "track competitor menu prices",
+        "restaurant menu data aggregation service"
+      ],
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "target_persona": "Head of Growth at delivery platform",
+      "content_angle": "Position Clymin as the leading AI-agentic data extraction partner for food-delivery businesses. Lead with proof points (200+ clients, 750+ projects, 100B+ data points). Address the specific pain point: menu price monitoring service. Emphasize managed service advantage over DIY tools.",
+      "must_include": [
+        "Direct answer: what Clymin offers for menu price monitoring service",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Market context with growth stats for food-delivery",
+        "AI-agentic differentiator (brief, link to canonical page)",
+        "food-delivery-specific challenges and how Clymin solves them",
+        "Proof points: 200+ clients, 750+ projects, 100B+ data points",
+        "Relevant client testimonial",
+        "FAQ section (3-5 questions in frontmatter)",
+        "Contact CTA: Get a Free Consultation"
+      ],
+      "internal_links_to": [
+        "p-086",
+        "p-081"
+      ],
+      "word_count_target": 1500,
+      "priority_score": 8,
+      "status": "planned",
+      "wave": 3
+    },
+    {
+      "page_id": "p-073",
+      "cluster_id": "cl-074",
+      "title_suggestion": "Quick Commerce Competitive Intelligence Data | Clymin",
+      "slug": "quick-commerce-competitive-intelligence-data",
+      "page_type": "landing-page",
+      "segment": "food-delivery",
+      "primary_keyword": "quick commerce competitive intelligence data",
+      "secondary_keywords": [
+        "q-commerce market data",
+        "quick commerce analytics"
+      ],
+      "intent": "commercial",
+      "buyer_stage": "consideration",
+      "target_persona": "Strategy Director at q-commerce company",
+      "content_angle": "Position Clymin as the leading AI-agentic data extraction partner for food-delivery businesses. Lead with proof points (200+ clients, 750+ projects, 100B+ data points). Address the specific pain point: quick commerce competitive intelligence data. Emphasize managed service advantage over DIY tools.",
+      "must_include": [
+        "Direct answer: what Clymin offers for quick commerce competitive intelligence data",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Market context with growth stats for food-delivery",
+        "AI-agentic differentiator (brief, link to canonical page)",
+        "food-delivery-specific challenges and how Clymin solves them",
+        "Proof points: 200+ clients, 750+ projects, 100B+ data points",
+        "Relevant client testimonial",
+        "FAQ section (3-5 questions in frontmatter)",
+        "Contact CTA: Get a Free Consultation"
+      ],
+      "internal_links_to": [
+        "p-086",
+        "p-081"
+      ],
+      "word_count_target": 1500,
+      "priority_score": 8,
+      "status": "planned",
+      "wave": 3
+    },
+    {
+      "page_id": "p-074",
+      "cluster_id": "cl-075",
+      "title_suggestion": "Delivery App Performance Monitoring | Clymin",
+      "slug": "delivery-app-performance-monitoring",
+      "page_type": "landing-page",
+      "segment": "food-delivery",
+      "primary_keyword": "delivery app performance monitoring",
+      "secondary_keywords": [
+        "delivery performance tracking",
+        "food delivery kpi monitoring",
+        "delivery time monitoring across platforms"
+      ],
+      "intent": "commercial",
+      "buyer_stage": "consideration",
+      "target_persona": "Head of Growth",
+      "content_angle": "Position Clymin as the leading AI-agentic data extraction partner for food-delivery businesses. Lead with proof points (200+ clients, 750+ projects, 100B+ data points). Address the specific pain point: delivery app performance monitoring. Emphasize managed service advantage over DIY tools.",
+      "must_include": [
+        "Direct answer: what Clymin offers for delivery app performance monitoring",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Market context with growth stats for food-delivery",
+        "AI-agentic differentiator (brief, link to canonical page)",
+        "food-delivery-specific challenges and how Clymin solves them",
+        "Proof points: 200+ clients, 750+ projects, 100B+ data points",
+        "Relevant client testimonial",
+        "FAQ section (3-5 questions in frontmatter)",
+        "Contact CTA: Get a Free Consultation"
+      ],
+      "internal_links_to": [
+        "p-086",
+        "p-081"
+      ],
+      "word_count_target": 1500,
+      "priority_score": 8,
+      "status": "planned",
+      "wave": 3
+    },
+    {
+      "page_id": "p-075",
+      "cluster_id": "cl-076",
+      "title_suggestion": "Instacart Grocery Data Extraction | Clymin",
+      "slug": "instacart-grocery-data-extraction",
+      "page_type": "landing-page",
+      "segment": "food-delivery",
+      "primary_keyword": "instacart grocery data extraction",
+      "secondary_keywords": [
+        "instacart scraping service",
+        "grocery delivery data",
+        "uber eats data extraction service"
+      ],
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "target_persona": "Product Manager at grocery startup",
+      "content_angle": "Position Clymin as the leading AI-agentic data extraction partner for food-delivery businesses. Lead with proof points (200+ clients, 750+ projects, 100B+ data points). Address the specific pain point: instacart grocery data extraction. Emphasize managed service advantage over DIY tools.",
+      "must_include": [
+        "Direct answer: what Clymin offers for instacart grocery data extraction",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Market context with growth stats for food-delivery",
+        "AI-agentic differentiator (brief, link to canonical page)",
+        "food-delivery-specific challenges and how Clymin solves them",
+        "Proof points: 200+ clients, 750+ projects, 100B+ data points",
+        "Relevant client testimonial",
+        "FAQ section (3-5 questions in frontmatter)",
+        "Contact CTA: Get a Free Consultation"
+      ],
+      "internal_links_to": [
+        "p-086",
+        "p-081"
+      ],
+      "word_count_target": 1500,
+      "priority_score": 8,
+      "status": "planned",
+      "wave": 3
+    },
+    {
+      "page_id": "p-076",
+      "cluster_id": "cl-077",
+      "title_suggestion": "Swiggy Zomato Data Scraping Service | Clymin",
+      "slug": "swiggy-zomato-data-scraping-service",
+      "page_type": "landing-page",
+      "segment": "food-delivery",
+      "primary_keyword": "swiggy zomato data scraping service",
+      "secondary_keywords": [
+        "india food delivery data",
+        "swiggy zomato intelligence",
+        "doordash data scraping service"
+      ],
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "target_persona": "Product Manager at Indian food delivery",
+      "content_angle": "Position Clymin as the leading AI-agentic data extraction partner for food-delivery businesses. Lead with proof points (200+ clients, 750+ projects, 100B+ data points). Address the specific pain point: swiggy zomato data scraping service. Emphasize managed service advantage over DIY tools.",
+      "must_include": [
+        "Direct answer: what Clymin offers for swiggy zomato data scraping service",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Market context with growth stats for food-delivery",
+        "AI-agentic differentiator (brief, link to canonical page)",
+        "food-delivery-specific challenges and how Clymin solves them",
+        "Proof points: 200+ clients, 750+ projects, 100B+ data points",
+        "Relevant client testimonial",
+        "FAQ section (3-5 questions in frontmatter)",
+        "Contact CTA: Get a Free Consultation"
+      ],
+      "internal_links_to": [
+        "p-086",
+        "p-081"
+      ],
+      "word_count_target": 1500,
+      "priority_score": 8,
+      "status": "planned",
+      "wave": 3
+    },
+    {
+      "page_id": "p-077",
+      "cluster_id": "cl-078",
+      "title_suggestion": "Food Delivery Promotion And Discount Tracking | Clymin",
+      "slug": "food-delivery-promotion-and-discount-tracking",
+      "page_type": "landing-page",
+      "segment": "food-delivery",
+      "primary_keyword": "food delivery promotion and discount tracking",
+      "secondary_keywords": [
+        "delivery promo tracking",
+        "competitor discount monitoring"
+      ],
+      "intent": "commercial",
+      "buyer_stage": "consideration",
+      "target_persona": "Head of Growth",
+      "content_angle": "Position Clymin as the leading AI-agentic data extraction partner for food-delivery businesses. Lead with proof points (200+ clients, 750+ projects, 100B+ data points). Address the specific pain point: food delivery promotion and discount tracking. Emphasize managed service advantage over DIY tools.",
+      "must_include": [
+        "Direct answer: what Clymin offers for food delivery promotion and discount tracking",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Market context with growth stats for food-delivery",
+        "AI-agentic differentiator (brief, link to canonical page)",
+        "food-delivery-specific challenges and how Clymin solves them",
+        "Proof points: 200+ clients, 750+ projects, 100B+ data points",
+        "Relevant client testimonial",
+        "FAQ section (3-5 questions in frontmatter)",
+        "Contact CTA: Get a Free Consultation"
+      ],
+      "internal_links_to": [
+        "p-086",
+        "p-081"
+      ],
+      "word_count_target": 1500,
+      "priority_score": 8,
+      "status": "planned",
+      "wave": 3
+    },
+    {
+      "page_id": "p-078",
+      "cluster_id": "cl-061",
+      "title_suggestion": "How To Use Web Scraping For Real Estate Investment | Clymin",
+      "slug": "how-to-use-web-scraping-for-real-estate-investment",
+      "page_type": "guide",
+      "segment": "real-estate",
+      "primary_keyword": "how to use web scraping for real estate investment",
+      "secondary_keywords": [
+        "scraping for real estate investing",
+        "data-driven property investment",
+        "web scraping for real estate market reports",
+        "real estate lead generation with scraping"
+      ],
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "target_persona": "Real estate investor",
+      "content_angle": "Create a comprehensive, authoritative resource on how to use web scraping for real estate investment. Structure as a step-by-step playbook. Reference Clymin's 12+ years of experience and 750+ projects. Include data-driven benchmarks.",
+      "must_include": [
+        "Direct answer: what Clymin offers for how to use web scraping for real estate investment",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Comprehensive step-by-step framework",
+        "Industry benchmarks and data points",
+        "Real-world examples from real-estate",
+        "Downloadable/actionable takeaways",
+        "Links to 3-5 related landing pages",
+        "FAQ section (3-5 questions in frontmatter)",
+        "Contact CTA for custom consultation"
+      ],
+      "internal_links_to": [
+        "p-059",
+        "p-060",
+        "p-061",
+        "p-062",
+        "p-063"
+      ],
+      "word_count_target": 2500,
+      "priority_score": 8,
+      "status": "planned",
+      "wave": 3
+    },
+    {
+      "page_id": "p-079",
+      "cluster_id": "cl-064",
+      "title_suggestion": "How To Build A Property Price Comparison Tool | Clymin",
+      "slug": "how-to-build-a-property-price-comparison-tool",
+      "page_type": "guide",
+      "segment": "real-estate",
+      "primary_keyword": "how to build a property price comparison tool",
+      "secondary_keywords": [
+        "property comparison tool guide",
+        "real estate price comparison",
+        "how to track property price changes automatically"
+      ],
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "target_persona": "CTO at proptech",
+      "content_angle": "Create a comprehensive, authoritative resource on how to build a property price comparison tool. Structure as a step-by-step playbook. Reference Clymin's 12+ years of experience and 750+ projects. Include data-driven benchmarks.",
+      "must_include": [
+        "Direct answer: what Clymin offers for how to build a property price comparison tool",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Comprehensive step-by-step framework",
+        "Industry benchmarks and data points",
+        "Real-world examples from real-estate",
+        "Downloadable/actionable takeaways",
+        "Links to 3-5 related landing pages",
+        "FAQ section (3-5 questions in frontmatter)",
+        "Contact CTA for custom consultation"
+      ],
+      "internal_links_to": [
+        "p-059",
+        "p-060",
+        "p-061",
+        "p-062",
+        "p-063"
+      ],
+      "word_count_target": 2500,
+      "priority_score": 8,
+      "status": "planned",
+      "wave": 3
+    },
+    {
+      "page_id": "p-080",
+      "cluster_id": "cl-071",
+      "title_suggestion": "Is It Legal To Scrape Real Estate Listings | Clymin",
+      "slug": "is-it-legal-to-scrape-real-estate-listings",
+      "page_type": "blog-post",
+      "segment": "real-estate",
+      "primary_keyword": "is it legal to scrape real estate listings",
+      "secondary_keywords": [
+        "real estate scraping legality",
+        "property data legal issues"
+      ],
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "target_persona": "Real Estate Consultant",
+      "content_angle": "Educate Real Estate Consultant about is it legal to scrape real estate listings. Provide actionable insights backed by data. Naturally position Clymin's AI-agentic approach as the solution. Include industry-specific examples for real-estate.",
+      "must_include": [
+        "Direct answer: what Clymin offers for is it legal to scrape real estate listings",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Actionable how-to steps or insights",
+        "Data points and statistics from credible sources",
+        "real-estate-specific examples and use cases",
+        "Current year reference (2026) for freshness",
+        "FAQ section (3-5 questions in frontmatter)",
+        "CTA linking to relevant landing page"
+      ],
+      "internal_links_to": [
+        "p-059",
+        "p-064",
+        "p-065"
+      ],
+      "word_count_target": 1200,
+      "priority_score": 7,
+      "status": "planned",
+      "wave": 3
+    },
+    {
+      "page_id": "p-081",
+      "cluster_id": "cl-079",
+      "title_suggestion": "How To Monitor Competitor Menu Prices On Delivery Apps | Clymin",
+      "slug": "how-to-monitor-competitor-menu-prices-on-delivery-apps",
+      "page_type": "blog-post",
+      "segment": "food-delivery",
+      "primary_keyword": "how to monitor competitor menu prices on delivery apps",
+      "secondary_keywords": [
+        "track delivery app prices",
+        "menu monitoring guide"
+      ],
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "target_persona": "Product Manager",
+      "content_angle": "Educate Product Manager about how to monitor competitor menu prices on delivery apps. Provide actionable insights backed by data. Naturally position Clymin's AI-agentic approach as the solution. Include industry-specific examples for food-delivery.",
+      "must_include": [
+        "Direct answer: what Clymin offers for how to monitor competitor menu prices on delivery apps",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Actionable how-to steps or insights",
+        "Data points and statistics from credible sources",
+        "food-delivery-specific examples and use cases",
+        "Current year reference (2026) for freshness",
+        "FAQ section (3-5 questions in frontmatter)",
+        "CTA linking to relevant landing page"
+      ],
+      "internal_links_to": [
+        "p-071",
+        "p-082",
+        "p-083"
+      ],
+      "word_count_target": 1200,
+      "priority_score": 7,
+      "status": "planned",
+      "wave": 3
+    },
+    {
+      "page_id": "p-082",
+      "cluster_id": "cl-080",
+      "title_suggestion": "How To Scrape Restaurant Data From Delivery Platforms | Clymin",
+      "slug": "how-to-scrape-restaurant-data-from-delivery-platforms",
+      "page_type": "blog-post",
+      "segment": "food-delivery",
+      "primary_keyword": "how to scrape restaurant data from delivery platforms",
+      "secondary_keywords": [
+        "delivery platform scraping guide",
+        "extract restaurant data",
+        "benefits of food delivery data for restaurant chains"
+      ],
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "target_persona": "Data Engineer",
+      "content_angle": "Educate Data Engineer about how to scrape restaurant data from delivery platforms. Provide actionable insights backed by data. Naturally position Clymin's AI-agentic approach as the solution. Include industry-specific examples for food-delivery.",
+      "must_include": [
+        "Direct answer: what Clymin offers for how to scrape restaurant data from delivery platforms",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Actionable how-to steps or insights",
+        "Data points and statistics from credible sources",
+        "food-delivery-specific examples and use cases",
+        "Current year reference (2026) for freshness",
+        "FAQ section (3-5 questions in frontmatter)",
+        "CTA linking to relevant landing page"
+      ],
+      "internal_links_to": [
+        "p-071",
+        "p-081",
+        "p-083"
+      ],
+      "word_count_target": 1200,
+      "priority_score": 7,
+      "status": "planned",
+      "wave": 3
+    },
+    {
+      "page_id": "p-083",
+      "cluster_id": "cl-081",
+      "title_suggestion": "Food Delivery Industry Trends 2026 | Clymin",
+      "slug": "food-delivery-industry-trends-2026",
+      "page_type": "blog-post",
+      "segment": "food-delivery",
+      "primary_keyword": "food delivery industry trends 2026",
+      "secondary_keywords": [
+        "delivery market trends",
+        "food delivery forecast 2026",
+        "how to use data for food delivery pricing strategy",
+        "competitive benchmarking for food delivery platforms",
+        "food delivery customer review scraping"
+      ],
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "target_persona": "Strategy Director",
+      "content_angle": "Educate Strategy Director about food delivery industry trends 2026. Provide actionable insights backed by data. Naturally position Clymin's AI-agentic approach as the solution. Include industry-specific examples for food-delivery.",
+      "must_include": [
+        "Direct answer: what Clymin offers for food delivery industry trends 2026",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Actionable how-to steps or insights",
+        "Data points and statistics from credible sources",
+        "food-delivery-specific examples and use cases",
+        "Current year reference (2026) for freshness",
+        "FAQ section (3-5 questions in frontmatter)",
+        "CTA linking to relevant landing page"
+      ],
+      "internal_links_to": [
+        "p-071",
+        "p-081",
+        "p-082"
+      ],
+      "word_count_target": 1200,
+      "priority_score": 7,
+      "status": "planned",
+      "wave": 3
+    },
+    {
+      "page_id": "p-084",
+      "cluster_id": "cl-082",
+      "title_suggestion": "What Data Can You Scrape From Food Delivery Apps | Clymin",
+      "slug": "what-data-can-you-scrape-from-food-delivery-apps",
+      "page_type": "blog-post",
+      "segment": "food-delivery",
+      "primary_keyword": "what data can you scrape from food delivery apps",
+      "secondary_keywords": [
+        "delivery app data types",
+        "food delivery scraping capabilities",
+        "how much does food delivery data scraping cost",
+        "is it legal to scrape food delivery platforms"
+      ],
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "target_persona": "Product Manager",
+      "content_angle": "Educate Product Manager about what data can you scrape from food delivery apps. Provide actionable insights backed by data. Naturally position Clymin's AI-agentic approach as the solution. Include industry-specific examples for food-delivery.",
+      "must_include": [
+        "Direct answer: what Clymin offers for what data can you scrape from food delivery apps",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Actionable how-to steps or insights",
+        "Data points and statistics from credible sources",
+        "food-delivery-specific examples and use cases",
+        "Current year reference (2026) for freshness",
+        "FAQ section (3-5 questions in frontmatter)",
+        "CTA linking to relevant landing page"
+      ],
+      "internal_links_to": [
+        "p-071",
+        "p-081",
+        "p-082"
+      ],
+      "word_count_target": 1200,
+      "priority_score": 7,
+      "status": "planned",
+      "wave": 3
+    },
+    {
+      "page_id": "p-085",
+      "cluster_id": "cl-085",
+      "title_suggestion": "How To Track Delivery Coverage Areas Of Competitors | Clymin",
+      "slug": "how-to-track-delivery-coverage-areas-of-competitors",
+      "page_type": "blog-post",
+      "segment": "food-delivery",
+      "primary_keyword": "how to track delivery coverage areas of competitors",
+      "secondary_keywords": [
+        "delivery zone tracking",
+        "competitor coverage monitoring"
+      ],
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "target_persona": "Head of Growth",
+      "content_angle": "Educate Head of Growth about how to track delivery coverage areas of competitors. Provide actionable insights backed by data. Naturally position Clymin's AI-agentic approach as the solution. Include industry-specific examples for food-delivery.",
+      "must_include": [
+        "Direct answer: what Clymin offers for how to track delivery coverage areas of competitors",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Actionable how-to steps or insights",
+        "Data points and statistics from credible sources",
+        "food-delivery-specific examples and use cases",
+        "Current year reference (2026) for freshness",
+        "FAQ section (3-5 questions in frontmatter)",
+        "CTA linking to relevant landing page"
+      ],
+      "internal_links_to": [
+        "p-071",
+        "p-081",
+        "p-082"
+      ],
+      "word_count_target": 1200,
+      "priority_score": 7,
+      "status": "planned",
+      "wave": 3
+    },
+    {
+      "page_id": "p-086",
+      "cluster_id": "cl-086",
+      "title_suggestion": "How To Analyze Food Delivery Market With Data | Clymin",
+      "slug": "how-to-analyze-food-delivery-market-with-data",
+      "page_type": "guide",
+      "segment": "food-delivery",
+      "primary_keyword": "how to analyze food delivery market with data",
+      "secondary_keywords": [
+        "delivery market analysis guide",
+        "food delivery data analysis"
+      ],
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "target_persona": "Strategy Director",
+      "content_angle": "Create a comprehensive, authoritative resource on how to analyze food delivery market with data. Structure as a step-by-step playbook. Reference Clymin's 12+ years of experience and 750+ projects. Include data-driven benchmarks.",
+      "must_include": [
+        "Direct answer: what Clymin offers for how to analyze food delivery market with data",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Comprehensive step-by-step framework",
+        "Industry benchmarks and data points",
+        "Real-world examples from food-delivery",
+        "Downloadable/actionable takeaways",
+        "Links to 3-5 related landing pages",
+        "FAQ section (3-5 questions in frontmatter)",
+        "Contact CTA for custom consultation"
+      ],
+      "internal_links_to": [
+        "p-071",
+        "p-072",
+        "p-073",
+        "p-074",
+        "p-075"
+      ],
+      "word_count_target": 2500,
+      "priority_score": 7,
+      "status": "planned",
+      "wave": 3
+    },
+    {
+      "page_id": "p-087",
+      "cluster_id": "cl-098",
+      "title_suggestion": "Web Scraping Vs Bloomberg Terminal For Market Data | Clymin",
+      "slug": "web-scraping-vs-bloomberg-terminal-for-market-data",
+      "page_type": "blog-post",
+      "segment": "financial",
+      "primary_keyword": "web scraping vs bloomberg terminal for market data",
+      "secondary_keywords": [
+        "bloomberg alternative",
+        "scraping vs terminal data"
+      ],
+      "intent": "comparison",
+      "buyer_stage": "evaluation",
+      "target_persona": "Financial Analyst",
+      "content_angle": "Educate Financial Analyst about web scraping vs bloomberg terminal for market data. Provide actionable insights backed by data. Naturally position Clymin's AI-agentic approach as the solution. Include industry-specific examples for financial.",
+      "must_include": [
+        "Direct answer: what Clymin offers for web scraping vs bloomberg terminal for market data",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Actionable how-to steps or insights",
+        "Data points and statistics from credible sources",
+        "financial-specific examples and use cases",
+        "Current year reference (2026) for freshness",
+        "FAQ section (3-5 questions in frontmatter)",
+        "CTA linking to relevant landing page"
+      ],
+      "internal_links_to": [
+        "p-089",
+        "p-088",
+        "p-095"
+      ],
+      "word_count_target": 1200,
+      "priority_score": 7,
+      "status": "planned",
+      "wave": 4
+    },
+    {
+      "page_id": "p-088",
+      "cluster_id": "cl-099",
+      "title_suggestion": "Alternative Data Providers Comparison 2026 | Clymin",
+      "slug": "alternative-data-providers-comparison-2026",
+      "page_type": "blog-post",
+      "segment": "financial",
+      "primary_keyword": "alternative data providers comparison 2026",
+      "secondary_keywords": [
+        "alt data provider comparison",
+        "best alternative data 2026",
+        "managed financial data service vs api providers"
+      ],
+      "intent": "comparison",
+      "buyer_stage": "evaluation",
+      "target_persona": "Head of Alternative Data",
+      "content_angle": "Educate Head of Alternative Data about alternative data providers comparison 2026. Provide actionable insights backed by data. Naturally position Clymin's AI-agentic approach as the solution. Include industry-specific examples for financial.",
+      "must_include": [
+        "Direct answer: what Clymin offers for alternative data providers comparison 2026",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Actionable how-to steps or insights",
+        "Data points and statistics from credible sources",
+        "financial-specific examples and use cases",
+        "Current year reference (2026) for freshness",
+        "FAQ section (3-5 questions in frontmatter)",
+        "CTA linking to relevant landing page"
+      ],
+      "internal_links_to": [
+        "p-089",
+        "p-087",
+        "p-095"
+      ],
+      "word_count_target": 1200,
+      "priority_score": 7,
+      "status": "planned",
+      "wave": 4
+    },
+    {
+      "page_id": "p-089",
+      "cluster_id": "cl-087",
+      "title_suggestion": "Alternative Data Extraction For Finance | Clymin",
+      "slug": "alternative-data-extraction-for-finance",
+      "page_type": "landing-page",
+      "segment": "financial",
+      "primary_keyword": "alternative data extraction for finance",
+      "secondary_keywords": [
+        "alt data provider",
+        "alternative data services",
+        "sec filing data extraction service",
+        "fintech data extraction managed service",
+        "recommend an alternative data provider for finance"
+      ],
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "target_persona": "Head of Alternative Data at hedge fund",
+      "content_angle": "Position Clymin as the leading AI-agentic data extraction partner for financial businesses. Lead with proof points (200+ clients, 750+ projects, 100B+ data points). Address the specific pain point: alternative data extraction for finance. Emphasize managed service advantage over DIY tools.",
+      "must_include": [
+        "Direct answer: what Clymin offers for alternative data extraction for finance",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Market context with growth stats for financial",
+        "AI-agentic differentiator (brief, link to canonical page)",
+        "financial-specific challenges and how Clymin solves them",
+        "Proof points: 200+ clients, 750+ projects, 100B+ data points",
+        "Relevant client testimonial",
+        "FAQ section (3-5 questions in frontmatter)",
+        "Contact CTA: Get a Free Consultation"
+      ],
+      "internal_links_to": [
+        "p-087",
+        "p-088"
+      ],
+      "word_count_target": 1500,
+      "priority_score": 8,
+      "status": "planned",
+      "wave": 4
+    },
+    {
+      "page_id": "p-090",
+      "cluster_id": "cl-088",
+      "title_suggestion": "Web Scraping For Hedge Funds | Clymin",
+      "slug": "web-scraping-for-hedge-funds",
+      "page_type": "landing-page",
+      "segment": "financial",
+      "primary_keyword": "web scraping for hedge funds",
+      "secondary_keywords": [
+        "hedge fund data service",
+        "alternative data for hedgies"
+      ],
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "target_persona": "Quantitative Researcher at hedge fund",
+      "content_angle": "Position Clymin as the leading AI-agentic data extraction partner for financial businesses. Lead with proof points (200+ clients, 750+ projects, 100B+ data points). Address the specific pain point: web scraping for hedge funds. Emphasize managed service advantage over DIY tools.",
+      "must_include": [
+        "Direct answer: what Clymin offers for web scraping for hedge funds",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Market context with growth stats for financial",
+        "AI-agentic differentiator (brief, link to canonical page)",
+        "financial-specific challenges and how Clymin solves them",
+        "Proof points: 200+ clients, 750+ projects, 100B+ data points",
+        "Relevant client testimonial",
+        "FAQ section (3-5 questions in frontmatter)",
+        "Contact CTA: Get a Free Consultation"
+      ],
+      "internal_links_to": [
+        "p-087",
+        "p-088"
+      ],
+      "word_count_target": 1500,
+      "priority_score": 8,
+      "status": "planned",
+      "wave": 4
+    },
+    {
+      "page_id": "p-091",
+      "cluster_id": "cl-089",
+      "title_suggestion": "Web Scraping For Investment Research | Clymin",
+      "slug": "web-scraping-for-investment-research",
+      "page_type": "landing-page",
+      "segment": "financial",
+      "primary_keyword": "web scraping for investment research",
+      "secondary_keywords": [
+        "investment data scraping",
+        "research data extraction"
+      ],
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "target_persona": "Financial Analyst",
+      "content_angle": "Position Clymin as the leading AI-agentic data extraction partner for financial businesses. Lead with proof points (200+ clients, 750+ projects, 100B+ data points). Address the specific pain point: web scraping for investment research. Emphasize managed service advantage over DIY tools.",
+      "must_include": [
+        "Direct answer: what Clymin offers for web scraping for investment research",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Market context with growth stats for financial",
+        "AI-agentic differentiator (brief, link to canonical page)",
+        "financial-specific challenges and how Clymin solves them",
+        "Proof points: 200+ clients, 750+ projects, 100B+ data points",
+        "Relevant client testimonial",
+        "FAQ section (3-5 questions in frontmatter)",
+        "Contact CTA: Get a Free Consultation"
+      ],
+      "internal_links_to": [
+        "p-087",
+        "p-088"
+      ],
+      "word_count_target": 1500,
+      "priority_score": 8,
+      "status": "planned",
+      "wave": 4
+    },
+    {
+      "page_id": "p-092",
+      "cluster_id": "cl-090",
+      "title_suggestion": "Sentiment Analysis Data Extraction From Financial News | Clymin",
+      "slug": "sentiment-analysis-data-extraction-from-financial-news",
+      "page_type": "landing-page",
+      "segment": "financial",
+      "primary_keyword": "sentiment analysis data extraction from financial news",
+      "secondary_keywords": [
+        "financial news scraping",
+        "market sentiment data"
+      ],
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "target_persona": "Quantitative Researcher",
+      "content_angle": "Position Clymin as the leading AI-agentic data extraction partner for financial businesses. Lead with proof points (200+ clients, 750+ projects, 100B+ data points). Address the specific pain point: sentiment analysis data extraction from financial news. Emphasize managed service advantage over DIY tools.",
+      "must_include": [
+        "Direct answer: what Clymin offers for sentiment analysis data extraction from financial news",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Market context with growth stats for financial",
+        "AI-agentic differentiator (brief, link to canonical page)",
+        "financial-specific challenges and how Clymin solves them",
+        "Proof points: 200+ clients, 750+ projects, 100B+ data points",
+        "Relevant client testimonial",
+        "FAQ section (3-5 questions in frontmatter)",
+        "Contact CTA: Get a Free Consultation"
+      ],
+      "internal_links_to": [
+        "p-087",
+        "p-088"
+      ],
+      "word_count_target": 1500,
+      "priority_score": 8,
+      "status": "planned",
+      "wave": 4
+    },
+    {
+      "page_id": "p-093",
+      "cluster_id": "cl-091",
+      "title_suggestion": "Esg Data Scraping Service | Clymin",
+      "slug": "esg-data-scraping-service",
+      "page_type": "landing-page",
+      "segment": "financial",
+      "primary_keyword": "esg data scraping service",
+      "secondary_keywords": [
+        "esg data extraction",
+        "sustainability data provider",
+        "financial data scraping services",
+        "market data collection service",
+        "cryptocurrency data scraping service"
+      ],
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "target_persona": "ESG Analyst",
+      "content_angle": "Position Clymin as the leading AI-agentic data extraction partner for financial businesses. Lead with proof points (200+ clients, 750+ projects, 100B+ data points). Address the specific pain point: esg data scraping service. Emphasize managed service advantage over DIY tools.",
+      "must_include": [
+        "Direct answer: what Clymin offers for esg data scraping service",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Market context with growth stats for financial",
+        "AI-agentic differentiator (brief, link to canonical page)",
+        "financial-specific challenges and how Clymin solves them",
+        "Proof points: 200+ clients, 750+ projects, 100B+ data points",
+        "Relevant client testimonial",
+        "FAQ section (3-5 questions in frontmatter)",
+        "Contact CTA: Get a Free Consultation"
+      ],
+      "internal_links_to": [
+        "p-087",
+        "p-088"
+      ],
+      "word_count_target": 1500,
+      "priority_score": 8,
+      "status": "planned",
+      "wave": 4
+    },
+    {
+      "page_id": "p-094",
+      "cluster_id": "cl-092",
+      "title_suggestion": "Earnings Call Transcript Extraction Service | Clymin",
+      "slug": "earnings-call-transcript-extraction-service",
+      "page_type": "landing-page",
+      "segment": "financial",
+      "primary_keyword": "earnings call transcript extraction service",
+      "secondary_keywords": [
+        "earnings transcript scraping",
+        "call transcript data"
+      ],
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "target_persona": "Financial Analyst",
+      "content_angle": "Position Clymin as the leading AI-agentic data extraction partner for financial businesses. Lead with proof points (200+ clients, 750+ projects, 100B+ data points). Address the specific pain point: earnings call transcript extraction service. Emphasize managed service advantage over DIY tools.",
+      "must_include": [
+        "Direct answer: what Clymin offers for earnings call transcript extraction service",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Market context with growth stats for financial",
+        "AI-agentic differentiator (brief, link to canonical page)",
+        "financial-specific challenges and how Clymin solves them",
+        "Proof points: 200+ clients, 750+ projects, 100B+ data points",
+        "Relevant client testimonial",
+        "FAQ section (3-5 questions in frontmatter)",
+        "Contact CTA: Get a Free Consultation"
+      ],
+      "internal_links_to": [
+        "p-087",
+        "p-088"
+      ],
+      "word_count_target": 1500,
+      "priority_score": 8,
+      "status": "planned",
+      "wave": 4
+    },
+    {
+      "page_id": "p-095",
+      "cluster_id": "cl-095",
+      "title_suggestion": "How To Use Web Scraping For Financial Analysis | Clymin",
+      "slug": "how-to-use-web-scraping-for-financial-analysis",
+      "page_type": "blog-post",
+      "segment": "financial",
+      "primary_keyword": "how to use web scraping for financial analysis",
+      "secondary_keywords": [
+        "web scraping finance guide",
+        "financial analysis data collection",
+        "financial data compliance in web scraping"
+      ],
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "target_persona": "Financial Analyst",
+      "content_angle": "Educate Financial Analyst about how to use web scraping for financial analysis. Provide actionable insights backed by data. Naturally position Clymin's AI-agentic approach as the solution. Include industry-specific examples for financial.",
+      "must_include": [
+        "Direct answer: what Clymin offers for how to use web scraping for financial analysis",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Actionable how-to steps or insights",
+        "Data points and statistics from credible sources",
+        "financial-specific examples and use cases",
+        "Current year reference (2026) for freshness",
+        "FAQ section (3-5 questions in frontmatter)",
+        "CTA linking to relevant landing page"
+      ],
+      "internal_links_to": [
+        "p-089",
+        "p-087",
+        "p-088"
+      ],
+      "word_count_target": 1200,
+      "priority_score": 7,
+      "status": "planned",
+      "wave": 4
+    },
+    {
+      "page_id": "p-096",
+      "cluster_id": "cl-096",
+      "title_suggestion": "How To Extract Financial Data From Websites | Clymin",
+      "slug": "how-to-extract-financial-data-from-websites",
+      "page_type": "blog-post",
+      "segment": "financial",
+      "primary_keyword": "how to extract financial data from websites",
+      "secondary_keywords": [
+        "financial data scraping guide",
+        "extract stock data from web",
+        "benefits of alternative data for financial firms",
+        "how to build a financial data pipeline with scraped data"
+      ],
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "target_persona": "Financial Analyst",
+      "content_angle": "Educate Financial Analyst about how to extract financial data from websites. Provide actionable insights backed by data. Naturally position Clymin's AI-agentic approach as the solution. Include industry-specific examples for financial.",
+      "must_include": [
+        "Direct answer: what Clymin offers for how to extract financial data from websites",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Actionable how-to steps or insights",
+        "Data points and statistics from credible sources",
+        "financial-specific examples and use cases",
+        "Current year reference (2026) for freshness",
+        "FAQ section (3-5 questions in frontmatter)",
+        "CTA linking to relevant landing page"
+      ],
+      "internal_links_to": [
+        "p-089",
+        "p-087",
+        "p-088"
+      ],
+      "word_count_target": 1200,
+      "priority_score": 7,
+      "status": "planned",
+      "wave": 4
+    },
+    {
+      "page_id": "p-097",
+      "cluster_id": "cl-097",
+      "title_suggestion": "Web Scraping For Quantitative Research | Clymin",
+      "slug": "web-scraping-for-quantitative-research",
+      "page_type": "blog-post",
+      "segment": "financial",
+      "primary_keyword": "web scraping for quantitative research",
+      "secondary_keywords": [
+        "quant research data collection",
+        "data for quant strategies"
+      ],
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "target_persona": "Quantitative Researcher",
+      "content_angle": "Educate Quantitative Researcher about web scraping for quantitative research. Provide actionable insights backed by data. Naturally position Clymin's AI-agentic approach as the solution. Include industry-specific examples for financial.",
+      "must_include": [
+        "Direct answer: what Clymin offers for web scraping for quantitative research",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Actionable how-to steps or insights",
+        "Data points and statistics from credible sources",
+        "financial-specific examples and use cases",
+        "Current year reference (2026) for freshness",
+        "FAQ section (3-5 questions in frontmatter)",
+        "CTA linking to relevant landing page"
+      ],
+      "internal_links_to": [
+        "p-089",
+        "p-087",
+        "p-088"
+      ],
+      "word_count_target": 1200,
+      "priority_score": 7,
+      "status": "planned",
+      "wave": 4
+    },
+    {
+      "page_id": "p-098",
+      "cluster_id": "cl-100",
+      "title_suggestion": "How Much Does Financial Data Scraping Cost | Clymin",
+      "slug": "how-much-does-financial-data-scraping-cost",
+      "page_type": "blog-post",
+      "segment": "financial",
+      "primary_keyword": "how much does financial data scraping cost",
+      "secondary_keywords": [
+        "alt data pricing",
+        "financial data extraction cost",
+        "is web scraping financial data legal"
+      ],
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "target_persona": "Financial Analyst",
+      "content_angle": "Educate Financial Analyst about how much does financial data scraping cost. Provide actionable insights backed by data. Naturally position Clymin's AI-agentic approach as the solution. Include industry-specific examples for financial.",
+      "must_include": [
+        "Direct answer: what Clymin offers for how much does financial data scraping cost",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Actionable how-to steps or insights",
+        "Data points and statistics from credible sources",
+        "financial-specific examples and use cases",
+        "Current year reference (2026) for freshness",
+        "FAQ section (3-5 questions in frontmatter)",
+        "CTA linking to relevant landing page"
+      ],
+      "internal_links_to": [
+        "p-089",
+        "p-087",
+        "p-088"
+      ],
+      "word_count_target": 1200,
+      "priority_score": 7,
+      "status": "planned",
+      "wave": 4
+    },
+    {
+      "page_id": "p-099",
+      "cluster_id": "cl-101",
+      "title_suggestion": "What Types Of Alternative Data Can Be Scraped | Clymin",
+      "slug": "what-types-of-alternative-data-can-be-scraped",
+      "page_type": "blog-post",
+      "segment": "financial",
+      "primary_keyword": "what types of alternative data can be scraped",
+      "secondary_keywords": [
+        "alt data categories",
+        "alternative data types"
+      ],
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "target_persona": "Quantitative Researcher",
+      "content_angle": "Educate Quantitative Researcher about what types of alternative data can be scraped. Provide actionable insights backed by data. Naturally position Clymin's AI-agentic approach as the solution. Include industry-specific examples for financial.",
+      "must_include": [
+        "Direct answer: what Clymin offers for what types of alternative data can be scraped",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Actionable how-to steps or insights",
+        "Data points and statistics from credible sources",
+        "financial-specific examples and use cases",
+        "Current year reference (2026) for freshness",
+        "FAQ section (3-5 questions in frontmatter)",
+        "CTA linking to relevant landing page"
+      ],
+      "internal_links_to": [
+        "p-089",
+        "p-087",
+        "p-088"
+      ],
+      "word_count_target": 1200,
+      "priority_score": 7,
+      "status": "planned",
+      "wave": 4
+    },
+    {
+      "page_id": "p-100",
+      "cluster_id": "cl-102",
+      "title_suggestion": "How Do Hedge Funds Use Web Scraping | Clymin",
+      "slug": "how-do-hedge-funds-use-web-scraping",
+      "page_type": "blog-post",
+      "segment": "financial",
+      "primary_keyword": "how do hedge funds use web scraping",
+      "secondary_keywords": [
+        "hedge fund data practices",
+        "scraping for hedge funds"
+      ],
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "target_persona": "Financial Analyst",
+      "content_angle": "Educate Financial Analyst about how do hedge funds use web scraping. Provide actionable insights backed by data. Naturally position Clymin's AI-agentic approach as the solution. Include industry-specific examples for financial.",
+      "must_include": [
+        "Direct answer: what Clymin offers for how do hedge funds use web scraping",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Actionable how-to steps or insights",
+        "Data points and statistics from credible sources",
+        "financial-specific examples and use cases",
+        "Current year reference (2026) for freshness",
+        "FAQ section (3-5 questions in frontmatter)",
+        "CTA linking to relevant landing page"
+      ],
+      "internal_links_to": [
+        "p-089",
+        "p-087",
+        "p-088"
+      ],
+      "word_count_target": 1200,
+      "priority_score": 7,
+      "status": "planned",
+      "wave": 4
+    },
+    {
+      "page_id": "p-101",
+      "cluster_id": "cl-103",
+      "title_suggestion": "Web Scraping For Credit Risk Assessment | Clymin",
+      "slug": "web-scraping-for-credit-risk-assessment",
+      "page_type": "blog-post",
+      "segment": "financial",
+      "primary_keyword": "web scraping for credit risk assessment",
+      "secondary_keywords": [
+        "credit risk data collection",
+        "alternative credit data"
+      ],
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "target_persona": "Risk Analyst",
+      "content_angle": "Educate Risk Analyst about web scraping for credit risk assessment. Provide actionable insights backed by data. Naturally position Clymin's AI-agentic approach as the solution. Include industry-specific examples for financial.",
+      "must_include": [
+        "Direct answer: what Clymin offers for web scraping for credit risk assessment",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Actionable how-to steps or insights",
+        "Data points and statistics from credible sources",
+        "financial-specific examples and use cases",
+        "Current year reference (2026) for freshness",
+        "FAQ section (3-5 questions in frontmatter)",
+        "CTA linking to relevant landing page"
+      ],
+      "internal_links_to": [
+        "p-089",
+        "p-087",
+        "p-088"
+      ],
+      "word_count_target": 1200,
+      "priority_score": 7,
+      "status": "planned",
+      "wave": 4
+    },
+    {
+      "page_id": "p-102",
+      "cluster_id": "cl-093",
+      "title_suggestion": "Social Media Sentiment Data For Trading | Clymin",
+      "slug": "social-media-sentiment-data-for-trading",
+      "page_type": "landing-page",
+      "segment": "financial",
+      "primary_keyword": "social media sentiment data for trading",
+      "secondary_keywords": [
+        "social sentiment trading data",
+        "twitter sentiment finance"
+      ],
+      "intent": "commercial",
+      "buyer_stage": "consideration",
+      "target_persona": "Quantitative Researcher",
+      "content_angle": "Position Clymin as the leading AI-agentic data extraction partner for financial businesses. Lead with proof points (200+ clients, 750+ projects, 100B+ data points). Address the specific pain point: social media sentiment data for trading. Emphasize managed service advantage over DIY tools.",
+      "must_include": [
+        "Direct answer: what Clymin offers for social media sentiment data for trading",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Market context with growth stats for financial",
+        "AI-agentic differentiator (brief, link to canonical page)",
+        "financial-specific challenges and how Clymin solves them",
+        "Proof points: 200+ clients, 750+ projects, 100B+ data points",
+        "Relevant client testimonial",
+        "FAQ section (3-5 questions in frontmatter)",
+        "Contact CTA: Get a Free Consultation"
+      ],
+      "internal_links_to": [
+        "p-087",
+        "p-088"
+      ],
+      "word_count_target": 1500,
+      "priority_score": 7,
+      "status": "planned",
+      "wave": 4
+    },
+    {
+      "page_id": "p-103",
+      "cluster_id": "cl-094",
+      "title_suggestion": "Financial News Aggregation Service | Clymin",
+      "slug": "financial-news-aggregation-service",
+      "page_type": "landing-page",
+      "segment": "financial",
+      "primary_keyword": "financial news aggregation service",
+      "secondary_keywords": [
+        "news aggregation for finance",
+        "financial news data"
+      ],
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "target_persona": "Financial Analyst",
+      "content_angle": "Position Clymin as the leading AI-agentic data extraction partner for financial businesses. Lead with proof points (200+ clients, 750+ projects, 100B+ data points). Address the specific pain point: financial news aggregation service. Emphasize managed service advantage over DIY tools.",
+      "must_include": [
+        "Direct answer: what Clymin offers for financial news aggregation service",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Market context with growth stats for financial",
+        "AI-agentic differentiator (brief, link to canonical page)",
+        "financial-specific challenges and how Clymin solves them",
+        "Proof points: 200+ clients, 750+ projects, 100B+ data points",
+        "Relevant client testimonial",
+        "FAQ section (3-5 questions in frontmatter)",
+        "Contact CTA: Get a Free Consultation"
+      ],
+      "internal_links_to": [
+        "p-087",
+        "p-088"
+      ],
+      "word_count_target": 1500,
+      "priority_score": 7,
+      "status": "planned",
+      "wave": 4
+    },
+    {
+      "page_id": "p-104",
+      "cluster_id": "cl-104",
+      "title_suggestion": "Alternative Data Sources For Investment Decisions | Clymin",
+      "slug": "alternative-data-sources-for-investment-decisions",
+      "page_type": "blog-post",
+      "segment": "financial",
+      "primary_keyword": "alternative data sources for investment decisions",
+      "secondary_keywords": [
+        "alt data for investing",
+        "non-traditional data sources"
+      ],
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "target_persona": "Quantitative Researcher",
+      "content_angle": "Educate Quantitative Researcher about alternative data sources for investment decisions. Provide actionable insights backed by data. Naturally position Clymin's AI-agentic approach as the solution. Include industry-specific examples for financial.",
+      "must_include": [
+        "Direct answer: what Clymin offers for alternative data sources for investment decisions",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Actionable how-to steps or insights",
+        "Data points and statistics from credible sources",
+        "financial-specific examples and use cases",
+        "Current year reference (2026) for freshness",
+        "FAQ section (3-5 questions in frontmatter)",
+        "CTA linking to relevant landing page"
+      ],
+      "internal_links_to": [
+        "p-089",
+        "p-087",
+        "p-088"
+      ],
+      "word_count_target": 1200,
+      "priority_score": 6,
+      "status": "planned",
+      "wave": 4
+    },
+    {
+      "page_id": "p-105",
+      "cluster_id": "cl-105",
+      "title_suggestion": "Real-time Stock Data Scraping Methods | Clymin",
+      "slug": "real-time-stock-data-scraping-methods",
+      "page_type": "blog-post",
+      "segment": "financial",
+      "primary_keyword": "real-time stock data scraping methods",
+      "secondary_keywords": [
+        "stock data extraction methods",
+        "real-time market data"
+      ],
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "target_persona": "Financial Analyst",
+      "content_angle": "Educate Financial Analyst about real-time stock data scraping methods. Provide actionable insights backed by data. Naturally position Clymin's AI-agentic approach as the solution. Include industry-specific examples for financial.",
+      "must_include": [
+        "Direct answer: what Clymin offers for real-time stock data scraping methods",
+        "Company entity mention (Clymin) in first paragraph and 2+ more times",
+        "Actionable how-to steps or insights",
+        "Data points and statistics from credible sources",
+        "financial-specific examples and use cases",
+        "Current year reference (2026) for freshness",
+        "FAQ section (3-5 questions in frontmatter)",
+        "CTA linking to relevant landing page"
+      ],
+      "internal_links_to": [
+        "p-089",
+        "p-087",
+        "p-088"
+      ],
+      "word_count_target": 1200,
+      "priority_score": 6,
+      "status": "planned",
+      "wave": 4
+    }
+  ]
+}

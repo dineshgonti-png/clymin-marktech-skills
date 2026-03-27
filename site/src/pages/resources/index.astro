@@ -1,0 +1,675 @@
+---
+/**
+ * Resources Index — Hub page for browsing all published content.
+ * Standalone layout (does NOT use BaseLayout — that's for article pages).
+ * All brand values loaded from brand.yaml via brand.ts.
+ */
+import { getPublishedContent } from '../../lib/content';
+import { brand } from '../../lib/brand';
+
+const pages = getPublishedContent();
+
+const siteUrl = brand.business.website || 'https://localhost';
+const subdirectory = brand.content_config?.subdirectory || '/resources';
+
+// Build groups from brand config page_types
+const pageTypeConfig = brand.content_config?.page_types || [];
+const groups: Record<string, { label: string; description: string; pages: Record<string, any>[] }> = {};
+for (const pt of pageTypeConfig) {
+  groups[pt.type] = { label: pt.label, description: pt.description, pages: [] };
+}
+
+for (const page of pages) {
+  const type = page.frontmatter.type;
+  if (groups[type]) {
+    groups[type].pages.push(page.frontmatter);
+  }
+}
+
+const activeGroups = Object.entries(groups).filter(([, g]) => g.pages.length > 0);
+const totalPages = pages.length;
+
+// Segment labels from brand config
+const segmentLabels: Record<string, string> = {};
+for (const seg of (brand.target_segments || [])) {
+  segmentLabels[seg.key] = seg.name;
+}
+
+// Navigation
+const headerLogoLink = brand.navigation?.header?.logo_link || siteUrl;
+const headerCtaText = brand.navigation?.header?.cta_text || 'Book a Call';
+const headerCtaLink = brand.navigation?.header?.cta_link || brand.business.booking_link || '#';
+const headerBookingText = brand.navigation?.header?.cta2_text || brand.cta?.secondary_button?.text || '';
+const headerBookingLink = brand.navigation?.header?.cta2_link || brand.cta?.secondary_button?.link || '#';
+const footerLinks = brand.navigation?.footer?.links || [];
+const copyrightHolder = brand.navigation?.footer?.copyright_holder || brand.business.legal_entity || brand.business.name;
+
+// Logo text
+const logoPrimary = brand.design?.logo_text?.primary || brand.business.name || 'Brand';
+const logoAccent = brand.design?.logo_text?.accent || '';
+
+// CTA (hub variant)
+const ctaHeading = brand.cta?.hub?.heading || brand.cta?.heading || 'Need Help?';
+const ctaSubheading = brand.cta?.hub?.subheading || brand.cta?.subheading || '';
+const ctaPrimaryText = brand.cta?.primary_button?.text || 'Book a Consultation';
+const ctaPrimaryLink = brand.cta?.primary_button?.link || brand.business.booking_link || '#';
+const ctaSecondaryText = brand.cta?.secondary_button?.text || 'Email Us';
+const ctaSecondaryLink = brand.cta?.secondary_button?.link || `mailto:${brand.business.email}`;
+
+// CSS vars
+const colors = brand.design?.colors || {};
+const fonts = brand.design?.fonts || {};
+const radii = brand.design?.radii || {};
+
+const cssVars = `
+:root {
+  --primary: ${colors.primary || '#015941'};
+  --primary-hover: ${colors.primary_hover || '#0c1e1b'};
+  --accent-yellow: ${colors.accent_1 || '#ebeb41'};
+  --accent-peach: ${colors.accent_2 || '#ffc091'};
+  --dark: ${colors.dark || '#0c1e1b'};
+  --white: #ffffff;
+  --bg-light: ${colors.bg_light || '#f3f9f3'};
+  --border: ${colors.border || '#e5ede5'};
+  --text-primary: ${colors.text_primary || '#0c1e1b'};
+  --text-body: ${colors.text_body || '#31423f'};
+  --text-secondary: ${colors.text_secondary || '#4a5957'};
+  --text-muted: ${colors.text_muted || '#859794'};
+  --shadow: 0 13px 40px ${colors.dark || '#0c1e1b'}14;
+  --shadow-sm: 0 4px 16px ${colors.dark || '#0c1e1b'}0a;
+  --radius-btn: ${radii.button || '16px'};
+  --radius-card: ${radii.card || '10px'};
+  --radius-sm: ${radii.small || '8px'};
+  --font-heading: '${fonts.heading?.family || 'Outfit'}', ${fonts.heading?.fallback || 'sans-serif'};
+  --font-body: '${fonts.body?.family || 'Archivo'}', ${fonts.body?.fallback || 'sans-serif'};
+  --max-width: 1200px;
+}`;
+
+const headingImport = fonts.heading?.google_import || 'Outfit:wght@400;500;600;700';
+const bodyImport = fonts.body?.google_import || 'Archivo:wght@400;500;600';
+const fontsUrl = `https://fonts.googleapis.com/css2?family=${headingImport}&family=${bodyImport}&display=swap`;
+
+const hubTitle = `${brand.content_config?.page_types?.[0]?.label || 'Resources'} | ${brand.business.name}`;
+const hubDescription = brand.business.description || `Resources and guides from ${brand.business.name}`;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>{hubTitle}</title>
+  <meta name="description" content={hubDescription} />
+  <link rel="canonical" href={`${siteUrl}${subdirectory}`} />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content={hubTitle} />
+  <meta property="og:description" content={hubDescription} />
+  <meta property="og:url" content={`${siteUrl}${subdirectory}`} />
+  <meta property="og:site_name" content={brand.business.name} />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={hubTitle} />
+  <meta name="twitter:description" content={hubDescription} />
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href={fontsUrl} rel="stylesheet" />
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": hubTitle,
+    "description": hubDescription,
+    "url": `${siteUrl}${subdirectory}`,
+    "publisher": { "@type": "Organization", "name": brand.business.name, "url": siteUrl },
+    "numberOfItems": totalPages
+  })} />
+
+  <style set:html={cssVars + `
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: var(--font-body);
+      font-size: 17px;
+      color: var(--text-body);
+      line-height: 1.75;
+      background: var(--white);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Header */
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--white);
+      border-bottom: 1px solid var(--border);
+      box-shadow: var(--shadow-sm);
+    }
+    .header-inner {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 14px 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .logo-text {
+      font-family: var(--font-heading);
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--dark);
+      text-decoration: none;
+      letter-spacing: -0.5px;
+    }
+    .logo-text span { color: var(--primary); }
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .header-booking {
+      font-family: var(--font-body);
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--primary);
+      background: transparent;
+      border: 2px solid var(--primary);
+      padding: 8px 20px;
+      border-radius: var(--radius-btn);
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+    .header-booking:hover {
+      background: var(--primary);
+      color: var(--white);
+      text-decoration: none;
+    }
+    .header-cta {
+      font-family: var(--font-body);
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--white);
+      background: var(--primary);
+      padding: 10px 24px;
+      border-radius: var(--radius-btn);
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .header-cta:hover { background: var(--dark); }
+
+    /* Hero */
+    .hub-hero {
+      background: var(--dark);
+      padding: 60px 30px 50px;
+      border-bottom-left-radius: 80px;
+    }
+    .hub-hero-inner {
+      max-width: var(--max-width);
+      margin: 0 auto;
+    }
+    .hub-hero .breadcrumb {
+      font-size: 14px;
+      color: var(--text-muted);
+      margin-bottom: 20px;
+    }
+    .hub-hero .breadcrumb a {
+      color: var(--text-muted);
+      text-decoration: none;
+    }
+    .hub-hero .breadcrumb a:hover { color: var(--white); }
+    .hub-hero h1 {
+      font-family: var(--font-heading);
+      font-size: 42px;
+      font-weight: 600;
+      color: var(--white);
+      letter-spacing: -1.5px;
+      margin-bottom: 12px;
+    }
+    .hub-hero p {
+      font-size: 17px;
+      color: rgba(255,255,255,0.7);
+      max-width: 600px;
+      line-height: 1.6;
+    }
+    .hub-stats {
+      display: flex;
+      gap: 32px;
+      margin-top: 28px;
+    }
+    .hub-stat {
+      display: flex;
+      align-items: baseline;
+      gap: 8px;
+    }
+    .hub-stat-value {
+      font-family: var(--font-heading);
+      font-size: 28px;
+      font-weight: 700;
+      color: var(--accent-yellow);
+    }
+    .hub-stat-label {
+      font-size: 14px;
+      color: rgba(255,255,255,0.5);
+    }
+
+    /* Category navigation */
+    .category-nav {
+      max-width: var(--max-width);
+      margin: -24px auto 0;
+      padding: 0 30px;
+      position: relative;
+      z-index: 2;
+    }
+    .category-nav-inner {
+      background: var(--white);
+      border-radius: var(--radius-card);
+      box-shadow: var(--shadow);
+      display: flex;
+      padding: 0;
+      overflow: hidden;
+    }
+    .category-tab {
+      flex: 1;
+      padding: 18px 16px;
+      text-align: center;
+      text-decoration: none;
+      font-family: var(--font-heading);
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text-secondary);
+      border-bottom: 3px solid transparent;
+      transition: all 0.2s;
+    }
+    .category-tab:hover {
+      color: var(--primary);
+      background: var(--bg-light);
+      border-bottom-color: var(--primary);
+    }
+    .category-tab-count {
+      display: inline-block;
+      background: var(--bg-light);
+      color: var(--primary);
+      font-size: 11px;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 10px;
+      margin-left: 6px;
+    }
+    .category-tab:hover .category-tab-count {
+      background: var(--primary);
+      color: var(--white);
+    }
+
+    /* Content sections */
+    .hub-content {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 50px 30px 40px;
+    }
+
+    .section { margin-bottom: 56px; }
+
+    .section-header {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 2px solid var(--border);
+    }
+    .section-title {
+      font-family: var(--font-heading);
+      font-size: 26px;
+      font-weight: 600;
+      color: var(--text-primary);
+      letter-spacing: -0.5px;
+    }
+    .section-desc {
+      font-size: 14px;
+      color: var(--text-muted);
+    }
+
+    /* Resource cards */
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 20px;
+    }
+
+    .resource-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-card);
+      padding: 28px;
+      text-decoration: none;
+      display: flex;
+      flex-direction: column;
+      transition: all 0.25s ease;
+      position: relative;
+    }
+    .resource-card:hover {
+      border-color: var(--primary);
+      box-shadow: var(--shadow);
+      transform: translateY(-2px);
+    }
+
+    .card-badges {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 14px;
+    }
+    .badge {
+      font-size: 11px;
+      font-weight: 600;
+      padding: 3px 10px;
+      border-radius: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .badge-segment {
+      background: var(--bg-light);
+      color: var(--primary);
+    }
+
+    .card-title {
+      font-family: var(--font-heading);
+      font-size: 19px;
+      font-weight: 600;
+      color: var(--text-primary);
+      line-height: 1.3;
+      margin-bottom: 10px;
+      letter-spacing: -0.3px;
+    }
+    .resource-card:hover .card-title { color: var(--primary); }
+
+    .card-description {
+      font-size: 14px;
+      color: var(--text-secondary);
+      line-height: 1.6;
+      flex-grow: 1;
+      margin-bottom: 16px;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 14px;
+      border-top: 1px solid var(--border);
+    }
+    .card-read {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--primary);
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .card-read-arrow {
+      transition: transform 0.2s;
+    }
+    .resource-card:hover .card-read-arrow {
+      transform: translateX(4px);
+    }
+    .card-keywords {
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+
+    /* Empty state */
+    .empty-state {
+      text-align: center;
+      padding: 80px 30px;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+    .empty-state h2 {
+      font-family: var(--font-heading);
+      font-size: 28px;
+      color: var(--text-primary);
+      margin-bottom: 12px;
+    }
+    .empty-state p {
+      color: var(--text-secondary);
+      margin-bottom: 24px;
+    }
+
+    /* CTA banner */
+    .hub-cta {
+      background: var(--primary);
+      padding: 60px 30px;
+      text-align: center;
+      border-top-right-radius: 80px;
+    }
+    .hub-cta-inner {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .hub-cta h2 {
+      font-family: var(--font-heading);
+      font-size: 28px;
+      font-weight: 600;
+      color: var(--white);
+      letter-spacing: -0.5px;
+      margin-bottom: 10px;
+    }
+    .hub-cta p {
+      font-size: 16px;
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 24px;
+    }
+    .hub-cta-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+    .btn-primary {
+      font-family: var(--font-body);
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--dark);
+      background: var(--white);
+      padding: 12px 24px;
+      border-radius: var(--radius-btn);
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .btn-primary:hover { background: var(--accent-yellow); }
+    .btn-outline {
+      font-family: var(--font-body);
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--white);
+      background: transparent;
+      border: 2px solid rgba(255,255,255,0.4);
+      padding: 10px 24px;
+      border-radius: var(--radius-btn);
+      text-decoration: none;
+      transition: all 0.3s;
+    }
+    .btn-outline:hover { border-color: var(--white); background: rgba(255,255,255,0.1); }
+
+    /* Footer */
+    .site-footer {
+      background: var(--dark);
+      padding: 40px 30px;
+    }
+    .footer-inner {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+    .footer-brand {
+      font-family: var(--font-heading);
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--white);
+    }
+    .footer-brand span { color: var(--primary); opacity: 0.8; }
+    .footer-links {
+      display: flex;
+      gap: 24px;
+      list-style: none;
+    }
+    .footer-links a {
+      font-size: 14px;
+      color: var(--text-muted);
+      text-decoration: none;
+    }
+    .footer-links a:hover { color: var(--white); }
+    .footer-copy {
+      font-size: 13px;
+      color: var(--text-muted);
+      width: 100%;
+      text-align: center;
+      margin-top: 16px;
+      padding-top: 16px;
+      border-top: 1px solid rgba(255,255,255,0.1);
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .hub-hero { padding: 40px 20px; border-bottom-left-radius: 40px; }
+      .hub-hero h1 { font-size: 30px; }
+      .hub-stats { flex-wrap: wrap; gap: 20px; }
+
+      .category-nav { margin-top: -20px; }
+      .category-nav-inner { flex-wrap: wrap; }
+      .category-tab { flex: none; width: 50%; }
+
+      .hub-content { padding: 40px 20px; }
+      .cards-grid { grid-template-columns: 1fr; }
+      .section-header { flex-direction: column; gap: 4px; }
+
+      .hub-cta { padding: 40px 20px; border-top-right-radius: 40px; }
+      .hub-cta-buttons { flex-direction: column; align-items: center; }
+
+      .footer-inner { justify-content: center; text-align: center; }
+      .footer-links { flex-wrap: wrap; justify-content: center; }
+    }
+  `} />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href={headerLogoLink} class="logo-text">{logoPrimary}{logoAccent && <span>{' '}{logoAccent}</span>}</a>
+      <div class="header-actions">
+        {headerBookingText && <a href={headerBookingLink} class="header-booking" target="_blank">{headerBookingText}</a>}
+        <a href={headerCtaLink} class="header-cta">{headerCtaText}</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hub-hero">
+    <div class="hub-hero-inner">
+      <nav class="breadcrumb">
+        <a href={siteUrl}>Home</a> &rsaquo;
+        <span style="color: rgba(255,255,255,0.6);">Resources</span>
+      </nav>
+      <h1>Resources</h1>
+      <p>{hubDescription}</p>
+    </div>
+  </section>
+
+  <!-- Category navigation tabs -->
+  {activeGroups.length > 1 && (
+    <nav class="category-nav">
+      <div class="category-nav-inner">
+        {activeGroups.map(([key, group]) => (
+          <a href={`#${key}`} class="category-tab">
+            {group.label}
+            <span class="category-tab-count">{group.pages.length}</span>
+          </a>
+        ))}
+      </div>
+    </nav>
+  )}
+
+  <!-- Content sections -->
+  <main class="hub-content">
+    {activeGroups.map(([key, group]) => (
+      <section class="section" id={key}>
+        <div class="section-header">
+          <h2 class="section-title">{group.label}</h2>
+          <span class="section-desc">{group.description}</span>
+        </div>
+        <div class="cards-grid">
+          {group.pages.map(page => (
+            <a href={`/resources/${page.slug}`} class="resource-card">
+              <div class="card-badges">
+                {page.segment && segmentLabels[page.segment] && (
+                  <span class="badge badge-segment">{segmentLabels[page.segment]}</span>
+                )}
+              </div>
+              <h3 class="card-title">{page.title}</h3>
+              <p class="card-description">{page.meta_description}</p>
+              <div class="card-footer">
+                <span class="card-read">
+                  Read more <span class="card-read-arrow">&rarr;</span>
+                </span>
+                {page.target_keywords?.primary && (
+                  <span class="card-keywords">{page.target_keywords.primary}</span>
+                )}
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+    ))}
+
+    {pages.length === 0 && (
+      <div class="empty-state">
+        <h2>Resources Coming Soon</h2>
+        <p>We're building expert resources. Check back soon.</p>
+        <a href={ctaPrimaryLink} class="btn-primary">{ctaPrimaryText}</a>
+      </div>
+    )}
+  </main>
+
+  <!-- CTA -->
+  <section class="hub-cta">
+    <div class="hub-cta-inner">
+      <h2>{ctaHeading}</h2>
+      {ctaSubheading && <p>{ctaSubheading}</p>}
+      <div class="hub-cta-buttons">
+        <a href={ctaPrimaryLink} class="btn-primary">{ctaPrimaryText}</a>
+        <a href={ctaSecondaryLink} class="btn-outline">{ctaSecondaryText}</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">{logoPrimary}{logoAccent && <span>{' '}{logoAccent}</span>}</div>
+      <nav>
+        <ul class="footer-links">
+          {footerLinks.map((link: any) => (
+            <li><a href={link.href}>{link.label}</a></li>
+          ))}
+        </ul>
+      </nav>
+      <div class="footer-copy">&copy; {new Date().getFullYear()} {copyrightHolder}. All rights reserved.</div>
+    </div>
+  </footer>
+
+</body>
+</html>

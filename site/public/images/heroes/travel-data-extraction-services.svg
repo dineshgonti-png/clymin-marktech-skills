@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&amp;display=swap');
+    </style>
+  </defs>
+  <rect width="1200" height="630" fill="#1a1a2e"/>
+  <!-- Globe outline -->
+  <circle cx="600" cy="320" r="180" fill="none" stroke="#FF6B35" stroke-width="1.5" opacity="0.3"/>
+  <circle cx="600" cy="320" r="140" fill="none" stroke="#FF6B35" stroke-width="1" opacity="0.2"/>
+  <ellipse cx="600" cy="320" rx="180" ry="60" fill="none" stroke="#FF6B35" stroke-width="1" opacity="0.2"/>
+  <ellipse cx="600" cy="320" rx="120" ry="180" fill="none" stroke="#FF6B35" stroke-width="1" opacity="0.15"/>
+  <!-- Latitude lines -->
+  <ellipse cx="600" cy="250" rx="160" ry="30" fill="none" stroke="#FF6B35" stroke-width="0.5" opacity="0.15"/>
+  <ellipse cx="600" cy="390" rx="160" ry="30" fill="none" stroke="#FF6B35" stroke-width="0.5" opacity="0.15"/>
+  <!-- Data flow arcs from globe to edges -->
+  <!-- Top-left flow -->
+  <path d="M480 200 Q350 150 150 180" stroke="#FF6B35" stroke-width="2" fill="none" opacity="0.5" stroke-dasharray="6,4"/>
+  <rect x="60" y="160" width="100" height="40" rx="6" fill="#16213e" stroke="#FF6B35" stroke-width="1"/>
+  <text x="110" y="185" font-family="Inter, sans-serif" font-size="11" fill="#ffffff" text-anchor="middle" opacity="0.7">Hotels</text>
+  <!-- Top-right flow -->
+  <path d="M720 200 Q850 150 1050 180" stroke="#FF6B35" stroke-width="2" fill="none" opacity="0.5" stroke-dasharray="6,4"/>
+  <rect x="1040" y="160" width="100" height="40" rx="6" fill="#16213e" stroke="#FF6B35" stroke-width="1"/>
+  <text x="1090" y="185" font-family="Inter, sans-serif" font-size="11" fill="#ffffff" text-anchor="middle" opacity="0.7">Airlines</text>
+  <!-- Left flow -->
+  <path d="M420 320 Q300 320 150 290" stroke="#FF6B35" stroke-width="2" fill="none" opacity="0.4" stroke-dasharray="6,4"/>
+  <rect x="60" y="270" width="100" height="40" rx="6" fill="#16213e" stroke="#FF6B35" stroke-width="1"/>
+  <text x="110" y="295" font-family="Inter, sans-serif" font-size="11" fill="#ffffff" text-anchor="middle" opacity="0.7">Rentals</text>
+  <!-- Right flow -->
+  <path d="M780 320 Q900 320 1050 290" stroke="#FF6B35" stroke-width="2" fill="none" opacity="0.4" stroke-dasharray="6,4"/>
+  <rect x="1040" y="270" width="100" height="40" rx="6" fill="#16213e" stroke="#FF6B35" stroke-width="1"/>
+  <text x="1090" y="295" font-family="Inter, sans-serif" font-size="11" fill="#ffffff" text-anchor="middle" opacity="0.7">OTAs</text>
+  <!-- Bottom-left flow -->
+  <path d="M480 440 Q350 490 150 400" stroke="#FF6B35" stroke-width="2" fill="none" opacity="0.5" stroke-dasharray="6,4"/>
+  <rect x="60" y="380" width="100" height="40" rx="6" fill="#16213e" stroke="#FF6B35" stroke-width="1"/>
+  <text x="110" y="405" font-family="Inter, sans-serif" font-size="11" fill="#ffffff" text-anchor="middle" opacity="0.7">Reviews</text>
+  <!-- Bottom-right flow -->
+  <path d="M720 440 Q850 490 1050 400" stroke="#FF6B35" stroke-width="2" fill="none" opacity="0.5" stroke-dasharray="6,4"/>
+  <rect x="1040" y="380" width="100" height="40" rx="6" fill="#16213e" stroke="#FF6B35" stroke-width="1"/>
+  <text x="1090" y="405" font-family="Inter, sans-serif" font-size="11" fill="#ffffff" text-anchor="middle" opacity="0.7">Tours</text>
+  <!-- Data particles on globe -->
+  <circle cx="520" cy="260" r="4" fill="#FF6B35" opacity="0.7"/>
+  <circle cx="680" cy="280" r="4" fill="#FF6B35" opacity="0.5"/>
+  <circle cx="550" cy="380" r="4" fill="#FF6B35" opacity="0.6"/>
+  <circle cx="650" cy="360" r="4" fill="#FF6B35" opacity="0.8"/>
+  <circle cx="480" cy="330" r="4" fill="#FF6B35" opacity="0.5"/>
+  <circle cx="720" cy="340" r="4" fill="#FF6B35" opacity="0.6"/>
+  <circle cx="560" cy="240" r="3" fill="#FF6B35" opacity="0.4"/>
+  <circle cx="640" cy="400" r="3" fill="#FF6B35" opacity="0.5"/>
+  <circle cx="700" cy="250" r="3" fill="#FF6B35" opacity="0.6"/>
+  <circle cx="500" cy="370" r="3" fill="#FF6B35" opacity="0.4"/>
+  <!-- Inner glow -->
+  <circle cx="600" cy="320" r="50" fill="#FF6B35" opacity="0.05"/>
+  <!-- Title -->
+  <text x="600" y="55" font-family="Inter, sans-serif" font-weight="700" font-size="40" fill="#ffffff" text-anchor="middle">Travel Data Extraction Services</text>
+  <text x="600" y="100" font-family="Inter, sans-serif" font-weight="400" font-size="18" fill="#ffffff" text-anchor="middle" opacity="0.6">Global travel intelligence from every platform</text>
+  <!-- Clymin branding -->
+  <text x="1150" y="600" font-family="Inter, sans-serif" font-weight="700" font-size="22" fill="#FF6B35" text-anchor="end">Clymin</text>
+</svg>

@@ -1,0 +1,557 @@
+{
+  "total_pieces": 59,
+  "by_status": {
+    "draft": 59,
+    "review": 0,
+    "published": 0,
+    "needs-update": 0
+  },
+  "by_type": {
+    "landing-page": 18,
+    "blog-post": 18,
+    "guide": 7,
+    "faq": 9,
+    "comparison": 7
+  },
+  "by_segment": {
+    "ecommerce": 29,
+    "travel": 24,
+    "real-estate": 4,
+    "food-delivery": 2
+  },
+  "last_generated": "2026-03-18",
+  "last_published": null,
+  "pages": [
+    {
+      "id": "p-001",
+      "slug": "web-scraping-vs-api-for-product-data",
+      "type": "comparison",
+      "status": "draft",
+      "segment": "ecommerce",
+      "primary_keyword": "web scraping vs api for product data",
+      "created": "2026-03-13"
+    },
+    {
+      "id": "p-002",
+      "slug": "price-monitoring-tools-vs-managed-service",
+      "type": "comparison",
+      "status": "draft",
+      "segment": "ecommerce",
+      "primary_keyword": "price monitoring tools vs managed service",
+      "created": "2026-03-13"
+    },
+    {
+      "id": "p-003",
+      "slug": "apify-vs-managed-web-scraping-for-ecommerce",
+      "type": "comparison",
+      "status": "draft",
+      "segment": "ecommerce",
+      "primary_keyword": "apify vs managed web scraping for ecommerce",
+      "created": "2026-03-13"
+    },
+    {
+      "id": "p-004",
+      "slug": "ecommerce-price-scraping-service",
+      "type": "landing-page",
+      "status": "draft",
+      "segment": "ecommerce",
+      "primary_keyword": "ecommerce price scraping service",
+      "created": "2026-03-13"
+    },
+    {
+      "id": "p-005",
+      "slug": "product-data-extraction-services",
+      "type": "landing-page",
+      "status": "draft",
+      "segment": "ecommerce",
+      "primary_keyword": "product data extraction services",
+      "created": "2026-03-13"
+    },
+    {
+      "id": "p-006",
+      "slug": "which-company-offers-the-best-product-data-scraping",
+      "type": "landing-page",
+      "status": "draft",
+      "segment": "ecommerce",
+      "primary_keyword": "which company offers the best product data scraping",
+      "created": "2026-03-13"
+    },
+    {
+      "id": "p-007",
+      "slug": "shopify-competitor-analysis-scraping",
+      "type": "landing-page",
+      "status": "draft",
+      "segment": "ecommerce",
+      "primary_keyword": "shopify competitor analysis scraping",
+      "created": "2026-03-13"
+    },
+    {
+      "id": "p-008",
+      "slug": "walmart-product-scraping-service",
+      "type": "landing-page",
+      "status": "draft",
+      "segment": "ecommerce",
+      "primary_keyword": "walmart product scraping service",
+      "created": "2026-03-13"
+    },
+    {
+      "id": "p-009",
+      "slug": "ecommerce-sku-tracking-and-monitoring",
+      "type": "landing-page",
+      "status": "draft",
+      "segment": "ecommerce",
+      "primary_keyword": "ecommerce sku tracking and monitoring",
+      "created": "2026-03-13"
+    },
+    {
+      "id": "p-010",
+      "slug": "dynamic-pricing-data-collection-service",
+      "type": "landing-page",
+      "status": "draft",
+      "segment": "ecommerce",
+      "primary_keyword": "dynamic pricing data collection service",
+      "created": "2026-03-13"
+    },
+    {
+      "id": "p-011",
+      "slug": "ecommerce-price-scraping-san-francisco",
+      "type": "landing-page",
+      "status": "draft",
+      "segment": "ecommerce",
+      "primary_keyword": "ecommerce price scraping san francisco",
+      "created": "2026-03-13"
+    },
+    {
+      "id": "p-012",
+      "slug": "how-to-monitor-competitor-prices-automatically",
+      "type": "blog-post",
+      "status": "draft",
+      "segment": "ecommerce",
+      "primary_keyword": "how to monitor competitor prices automatically",
+      "created": "2026-03-13"
+    },
+    {
+      "id": "p-013",
+      "slug": "ecommerce-competitive-analysis-using-web-scraping",
+      "type": "blog-post",
+      "status": "draft",
+      "segment": "ecommerce",
+      "primary_keyword": "ecommerce competitive analysis using web scraping",
+      "created": "2026-03-13"
+    },
+    {
+      "id": "p-014",
+      "slug": "benefits-of-price-monitoring-for-online-stores",
+      "type": "blog-post",
+      "status": "draft",
+      "segment": "ecommerce",
+      "primary_keyword": "benefits of price monitoring for online stores",
+      "created": "2026-03-13"
+    },
+    {
+      "id": "p-015",
+      "slug": "what-is-product-data-extraction",
+      "type": "blog-post",
+      "status": "draft",
+      "segment": "ecommerce",
+      "primary_keyword": "what is product data extraction",
+      "created": "2026-03-13"
+    },
+    {
+      "id": "p-016",
+      "slug": "how-to-track-competitor-pricing-in-ecommerce-2026",
+      "type": "blog-post",
+      "status": "draft",
+      "segment": "ecommerce",
+      "primary_keyword": "how to track competitor pricing in ecommerce 2026",
+      "created": "2026-03-14"
+    },
+    {
+      "id": "p-017",
+      "slug": "how-to-extract-product-listings-from-shopify-stores",
+      "type": "blog-post",
+      "status": "draft",
+      "segment": "ecommerce",
+      "primary_keyword": "how to extract product listings from shopify stores",
+      "created": "2026-03-14"
+    },
+    {
+      "id": "p-018",
+      "slug": "web-scraping-for-map-pricing-compliance",
+      "type": "blog-post",
+      "status": "draft",
+      "segment": "ecommerce",
+      "primary_keyword": "web scraping for map pricing compliance",
+      "created": "2026-03-14"
+    },
+    {
+      "id": "p-019",
+      "slug": "web-scraping-for-dropshipping-product-research",
+      "type": "blog-post",
+      "status": "draft",
+      "segment": "ecommerce",
+      "primary_keyword": "web scraping for dropshipping product research",
+      "created": "2026-03-14"
+    },
+    {
+      "id": "p-020",
+      "slug": "price-intelligence-services",
+      "type": "landing-page",
+      "status": "draft",
+      "segment": "ecommerce",
+      "primary_keyword": "price intelligence services",
+      "created": "2026-03-14"
+    },
+    {
+      "id": "p-021",
+      "slug": "what-data-can-you-scrape-from-ecommerce-sites",
+      "type": "faq",
+      "status": "draft",
+      "segment": "ecommerce",
+      "primary_keyword": "what data can you scrape from ecommerce sites",
+      "created": "2026-03-14"
+    },
+    {
+      "id": "p-022",
+      "slug": "how-much-does-ecommerce-data-scraping-cost",
+      "type": "faq",
+      "status": "draft",
+      "segment": "ecommerce",
+      "primary_keyword": "how much does ecommerce data scraping cost",
+      "created": "2026-03-14"
+    },
+    {
+      "id": "p-023",
+      "slug": "how-often-should-you-update-competitor-pricing-data",
+      "type": "faq",
+      "status": "draft",
+      "segment": "ecommerce",
+      "primary_keyword": "how often should you update competitor pricing data",
+      "created": "2026-03-14"
+    },
+    {
+      "id": "p-024",
+      "slug": "how-to-scrape-product-data-from-competitor-websites",
+      "type": "guide",
+      "status": "draft",
+      "segment": "ecommerce",
+      "primary_keyword": "how to scrape product data from competitor websites",
+      "created": "2026-03-14"
+    },
+    {
+      "id": "p-025",
+      "slug": "ecommerce-pricing-strategy-with-data-scraping",
+      "type": "guide",
+      "status": "draft",
+      "segment": "ecommerce",
+      "primary_keyword": "ecommerce pricing strategy with data scraping",
+      "created": "2026-03-14"
+    },
+    {
+      "id": "p-026",
+      "slug": "best-practices-for-ecommerce-data-collection-2026",
+      "type": "guide",
+      "status": "draft",
+      "segment": "ecommerce",
+      "primary_keyword": "best practices for ecommerce data collection 2026",
+      "created": "2026-03-14"
+    },
+    {
+      "id": "p-027",
+      "slug": "how-to-build-a-competitive-pricing-dashboard",
+      "type": "guide",
+      "status": "draft",
+      "segment": "ecommerce",
+      "primary_keyword": "how to build a competitive pricing dashboard",
+      "created": "2026-03-14"
+    },
+    {
+      "id": "p-028",
+      "slug": "is-web-scraping-ecommerce-sites-legal",
+      "type": "faq",
+      "status": "draft",
+      "segment": "ecommerce",
+      "primary_keyword": "is web scraping ecommerce sites legal",
+      "created": "2026-03-14"
+    },
+    {
+      "id": "p-029",
+      "slug": "competitor-price-monitoring",
+      "type": "landing-page",
+      "status": "draft",
+      "segment": "ecommerce",
+      "primary_keyword": "competitor price monitoring",
+      "created": "2026-03-14"
+    },
+    {
+      "id": "p-030",
+      "slug": "hotel-rate-scraping-vs-rate-shopping-tools",
+      "type": "comparison",
+      "status": "draft",
+      "segment": "travel",
+      "primary_keyword": "hotel rate scraping vs rate shopping tools",
+      "created": "2026-03-17"
+    },
+    {
+      "id": "p-031",
+      "slug": "bright-data-vs-managed-scraping-for-travel",
+      "type": "comparison",
+      "status": "draft",
+      "segment": "travel",
+      "primary_keyword": "bright data vs managed scraping for travel",
+      "created": "2026-03-17"
+    },
+    {
+      "id": "p-032",
+      "slug": "hotel-rate-scraping-service",
+      "type": "landing-page",
+      "status": "draft",
+      "segment": "travel",
+      "primary_keyword": "hotel rate scraping service",
+      "created": "2026-03-17"
+    },
+    {
+      "id": "p-033",
+      "slug": "ota-price-monitoring-service",
+      "type": "landing-page",
+      "status": "draft",
+      "segment": "travel",
+      "primary_keyword": "ota price monitoring service",
+      "created": "2026-03-17"
+    },
+    {
+      "id": "p-034",
+      "slug": "travel-data-extraction-services",
+      "type": "landing-page",
+      "status": "draft",
+      "segment": "travel",
+      "primary_keyword": "travel data extraction services",
+      "created": "2026-03-17"
+    },
+    {
+      "id": "p-035",
+      "slug": "hospitality-competitive-intelligence-data",
+      "type": "landing-page",
+      "status": "draft",
+      "segment": "travel",
+      "primary_keyword": "hospitality competitive intelligence data",
+      "created": "2026-03-17"
+    },
+    {
+      "id": "p-036",
+      "slug": "how-to-monitor-hotel-competitor-rates-automatically",
+      "type": "blog-post",
+      "status": "draft",
+      "segment": "travel",
+      "primary_keyword": "how to monitor hotel competitor rates automatically",
+      "created": "2026-03-17"
+    },
+    {
+      "id": "p-037",
+      "slug": "how-to-scrape-hotel-prices-from-ota-platforms",
+      "type": "blog-post",
+      "status": "draft",
+      "segment": "travel",
+      "primary_keyword": "how to scrape hotel prices from ota platforms",
+      "created": "2026-03-17"
+    },
+    {
+      "id": "p-038",
+      "slug": "travel-industry-data-trends-2026",
+      "type": "blog-post",
+      "status": "draft",
+      "segment": "travel",
+      "primary_keyword": "travel industry data trends 2026",
+      "created": "2026-03-17"
+    },
+    {
+      "id": "p-039",
+      "slug": "benefits-of-real-time-rate-monitoring-in-hospitality",
+      "type": "blog-post",
+      "status": "draft",
+      "segment": "travel",
+      "primary_keyword": "benefits of real-time rate monitoring in hospitality",
+      "created": "2026-03-17"
+    },
+    {
+      "id": "p-040",
+      "slug": "challenges-of-scraping-travel-websites",
+      "type": "blog-post",
+      "status": "draft",
+      "segment": "travel",
+      "primary_keyword": "challenges of scraping travel websites",
+      "created": "2026-03-18"
+    },
+    {
+      "id": "p-041",
+      "slug": "travel-demand-forecasting-with-scraped-data",
+      "type": "blog-post",
+      "status": "draft",
+      "segment": "travel",
+      "primary_keyword": "travel demand forecasting with scraped data",
+      "created": "2026-03-18"
+    },
+    {
+      "id": "p-042",
+      "slug": "hotel-review-scraping-and-sentiment-analysis",
+      "type": "blog-post",
+      "status": "draft",
+      "segment": "travel",
+      "primary_keyword": "hotel review scraping and sentiment analysis",
+      "created": "2026-03-18"
+    },
+    {
+      "id": "p-043",
+      "slug": "booking-com-data-scraping-service",
+      "type": "landing-page",
+      "status": "draft",
+      "segment": "travel",
+      "primary_keyword": "booking.com data scraping service",
+      "created": "2026-03-18"
+    },
+    {
+      "id": "p-044",
+      "slug": "airbnb-listing-data-extraction",
+      "type": "landing-page",
+      "status": "draft",
+      "segment": "travel",
+      "primary_keyword": "airbnb listing data extraction",
+      "created": "2026-03-18"
+    },
+    {
+      "id": "p-045",
+      "slug": "google-hotel-prices-scraping",
+      "type": "landing-page",
+      "status": "draft",
+      "segment": "travel",
+      "primary_keyword": "google hotel prices scraping",
+      "created": "2026-03-18"
+    },
+    {
+      "id": "p-046",
+      "slug": "what-data-can-you-scrape-from-travel-booking-sites",
+      "type": "faq",
+      "status": "draft",
+      "segment": "travel",
+      "primary_keyword": "what data can you scrape from travel booking sites",
+      "created": "2026-03-18"
+    },
+    {
+      "id": "p-047",
+      "slug": "how-much-does-hotel-rate-scraping-cost",
+      "type": "faq",
+      "status": "draft",
+      "segment": "travel",
+      "primary_keyword": "how much does hotel rate scraping cost",
+      "created": "2026-03-18"
+    },
+    {
+      "id": "p-048",
+      "slug": "how-accurate-is-scraped-hotel-pricing-data",
+      "type": "faq",
+      "status": "draft",
+      "segment": "travel",
+      "primary_keyword": "how accurate is scraped hotel pricing data",
+      "created": "2026-03-18"
+    },
+    {
+      "id": "p-049",
+      "slug": "what-challenges-do-hotels-face-with-rate-parity",
+      "type": "faq",
+      "status": "draft",
+      "segment": "travel",
+      "primary_keyword": "what challenges do hotels face with rate parity",
+      "created": "2026-03-18"
+    },
+    {
+      "id": "p-050",
+      "slug": "revenue-management-with-web-scraping-data",
+      "type": "guide",
+      "status": "draft",
+      "segment": "travel",
+      "primary_keyword": "revenue management with web scraping data",
+      "created": "2026-03-18"
+    },
+    {
+      "id": "p-051",
+      "slug": "how-to-use-scraped-data-for-hotel-pricing-strategy",
+      "type": "guide",
+      "status": "draft",
+      "segment": "travel",
+      "primary_keyword": "how to use scraped data for hotel pricing strategy",
+      "created": "2026-03-18"
+    },
+    {
+      "id": "p-052",
+      "slug": "how-to-build-a-hotel-rate-parity-monitoring-system",
+      "type": "guide",
+      "status": "draft",
+      "segment": "travel",
+      "primary_keyword": "how to build a hotel rate parity monitoring system",
+      "created": "2026-03-18"
+    },
+    {
+      "id": "p-053",
+      "slug": "is-it-legal-to-scrape-ota-websites",
+      "type": "faq",
+      "status": "draft",
+      "segment": "travel",
+      "primary_keyword": "is it legal to scrape ota websites",
+      "created": "2026-03-18"
+    },
+    {
+      "id": "p-054",
+      "slug": "zillow-scraping-vs-realtor-com-scraping",
+      "type": "comparison",
+      "status": "draft",
+      "segment": "real-estate",
+      "primary_keyword": "zillow scraping vs realtor.com scraping",
+      "created": "2026-03-18"
+    },
+    {
+      "id": "p-055",
+      "slug": "mls-data-vs-web-scraping-for-property-data",
+      "type": "comparison",
+      "status": "draft",
+      "segment": "real-estate",
+      "primary_keyword": "mls data vs web scraping for property data",
+      "created": "2026-03-18"
+    },
+    {
+      "id": "p-056",
+      "slug": "trulia-vs-zillow-data-for-market-analysis",
+      "type": "comparison",
+      "status": "draft",
+      "segment": "real-estate",
+      "primary_keyword": "trulia vs zillow data for market analysis",
+      "created": "2026-03-18"
+    },
+    {
+      "id": "p-057",
+      "slug": "grubhub-vs-doordash-market-share-data",
+      "type": "comparison",
+      "status": "draft",
+      "segment": "food-delivery",
+      "primary_keyword": "grubhub vs doordash market share data",
+      "created": "2026-03-18"
+    },
+    {
+      "id": "p-058",
+      "slug": "managed-food-delivery-scraping-vs-diy",
+      "type": "comparison",
+      "status": "draft",
+      "segment": "food-delivery",
+      "primary_keyword": "managed food delivery scraping vs diy",
+      "created": "2026-03-18"
+    },
+    {
+      "id": "p-059",
+      "slug": "real-estate-data-scraping-service",
+      "type": "landing-page",
+      "status": "draft",
+      "segment": "real-estate",
+      "primary_keyword": "real estate data scraping service",
+      "created": "2026-03-18"
+    }
+  ]
+}

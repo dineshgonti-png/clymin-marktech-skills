@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0f3460;stop-opacity:0.6"/>
+    </linearGradient>
+    <linearGradient id="orangeGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B35;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FFD166;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg2)"/>
+
+  <!-- Dot pattern background -->
+  <g opacity="0.05" fill="#FFFFFF">
+    <circle cx="30" cy="30" r="1.5"/><circle cx="70" cy="30" r="1.5"/><circle cx="110" cy="30" r="1.5"/><circle cx="150" cy="30" r="1.5"/><circle cx="190" cy="30" r="1.5"/>
+    <circle cx="230" cy="30" r="1.5"/><circle cx="270" cy="30" r="1.5"/><circle cx="310" cy="30" r="1.5"/><circle cx="350" cy="30" r="1.5"/><circle cx="390" cy="30" r="1.5"/>
+    <circle cx="30" cy="70" r="1.5"/><circle cx="70" cy="70" r="1.5"/><circle cx="110" cy="70" r="1.5"/><circle cx="150" cy="70" r="1.5"/><circle cx="190" cy="70" r="1.5"/>
+    <circle cx="830" cy="530" r="1.5"/><circle cx="870" cy="530" r="1.5"/><circle cx="910" cy="530" r="1.5"/><circle cx="950" cy="530" r="1.5"/><circle cx="990" cy="530" r="1.5"/>
+    <circle cx="1030" cy="530" r="1.5"/><circle cx="1070" cy="530" r="1.5"/><circle cx="1110" cy="530" r="1.5"/><circle cx="1150" cy="530" r="1.5"/>
+    <circle cx="830" cy="570" r="1.5"/><circle cx="870" cy="570" r="1.5"/><circle cx="910" cy="570" r="1.5"/><circle cx="950" cy="570" r="1.5"/>
+  </g>
+
+  <!-- Title -->
+  <text x="600" y="100" font-family="Inter, system-ui, sans-serif" font-size="46" font-weight="700" fill="#FFFFFF" text-anchor="middle">Tools vs Managed Service</text>
+  <text x="600" y="140" font-family="Inter, system-ui, sans-serif" font-size="19" fill="#F8F9FA" text-anchor="middle" opacity="0.55">Price Monitoring Solutions Compared</text>
+
+  <!-- LEFT SIDE: Scattered tool icons -->
+  <!-- Wrench 1 -->
+  <g transform="translate(150, 250) rotate(-30)">
+    <rect x="-6" y="-30" width="12" height="40" rx="3" fill="none" stroke="#FF6B35" stroke-width="2" opacity="0.7"/>
+    <circle cx="0" cy="-35" r="10" fill="none" stroke="#FF6B35" stroke-width="2" opacity="0.7"/>
+    <circle cx="0" cy="-35" r="4" fill="#FF6B35" opacity="0.3"/>
+  </g>
+
+  <!-- Gear shape -->
+  <g transform="translate(320, 300)">
+    <circle cx="0" cy="0" r="22" fill="none" stroke="#FFD166" stroke-width="2" opacity="0.6"/>
+    <circle cx="0" cy="0" r="10" fill="none" stroke="#FFD166" stroke-width="1.5" opacity="0.6"/>
+    <rect x="-4" y="-28" width="8" height="12" rx="1" fill="#FFD166" opacity="0.5"/>
+    <rect x="-4" y="16" width="8" height="12" rx="1" fill="#FFD166" opacity="0.5"/>
+    <rect x="-28" y="-4" width="12" height="8" rx="1" fill="#FFD166" opacity="0.5"/>
+    <rect x="16" y="-4" width="12" height="8" rx="1" fill="#FFD166" opacity="0.5"/>
+  </g>
+
+  <!-- Terminal/CLI shape -->
+  <g transform="translate(180, 380)">
+    <rect x="-45" y="-25" width="90" height="50" rx="5" fill="none" stroke="#FF6B35" stroke-width="1.5" opacity="0.6"/>
+    <text x="-35" y="-5" font-family="monospace" font-size="11" fill="#FF6B35" opacity="0.7">$_</text>
+    <line x1="-35" y1="5" x2="15" y2="5" stroke="#FF6B35" stroke-width="1" opacity="0.4"/>
+    <line x1="-35" y1="13" x2="5" y2="13" stroke="#FF6B35" stroke-width="1" opacity="0.3"/>
+  </g>
+
+  <!-- Config file icon -->
+  <g transform="translate(380, 420)">
+    <rect x="-25" y="-20" width="50" height="40" rx="3" fill="none" stroke="#FFD166" stroke-width="1.5" opacity="0.5"/>
+    <line x1="-15" y1="-10" x2="15" y2="-10" stroke="#FFD166" stroke-width="1" opacity="0.4"/>
+    <line x1="-15" y1="-2" x2="10" y2="-2" stroke="#FFD166" stroke-width="1" opacity="0.4"/>
+    <line x1="-15" y1="6" x2="12" y2="6" stroke="#FFD166" stroke-width="1" opacity="0.4"/>
+    <line x1="-15" y1="14" x2="8" y2="14" stroke="#FFD166" stroke-width="1" opacity="0.3"/>
+  </g>
+
+  <!-- Scattered small shapes (screws/bolts) -->
+  <circle cx="120" cy="330" r="5" fill="none" stroke="#FF6B35" stroke-width="1.5" opacity="0.4"/>
+  <line x1="115" y1="330" x2="125" y2="330" stroke="#FF6B35" stroke-width="1" opacity="0.4"/>
+  <line x1="120" y1="325" x2="120" y2="335" stroke="#FF6B35" stroke-width="1" opacity="0.4"/>
+
+  <circle cx="430" cy="260" r="5" fill="none" stroke="#FFD166" stroke-width="1.5" opacity="0.4"/>
+  <line x1="425" y1="260" x2="435" y2="260" stroke="#FFD166" stroke-width="1" opacity="0.4"/>
+  <line x1="430" y1="255" x2="430" y2="265" stroke="#FFD166" stroke-width="1" opacity="0.4"/>
+
+  <!-- Warning/complexity indicators -->
+  <text x="250" y="490" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#FF6B35" text-anchor="middle" opacity="0.5">MANUAL SETUP</text>
+  <line x1="140" y1="478" x2="360" y2="478" stroke="#FF6B35" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- CENTER: VS Divider -->
+  <line x1="600" y1="175" x2="600" y2="270" stroke="#FFFFFF" stroke-width="1" opacity="0.12" stroke-dasharray="4,4"/>
+  <line x1="600" y1="400" x2="600" y2="510" stroke="#FFFFFF" stroke-width="1" opacity="0.12" stroke-dasharray="4,4"/>
+
+  <circle cx="600" cy="340" r="42" fill="#1a1a2e" stroke="url(#orangeGrad2)" stroke-width="2.5"/>
+  <text x="600" y="352" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="800" fill="#FFFFFF" text-anchor="middle">VS</text>
+
+  <!-- RIGHT SIDE: Unified dashboard -->
+  <!-- Dashboard frame -->
+  <rect x="730" y="220" width="350" height="260" rx="10" fill="#FFFFFF" opacity="0.04" stroke="#FFD166" stroke-width="1.5" stroke-opacity="0.5"/>
+
+  <!-- Dashboard header bar -->
+  <rect x="730" y="220" width="350" height="35" rx="10" fill="#FFD166" opacity="0.1"/>
+  <rect x="740" y="228" width="8" height="8" rx="2" fill="#FF6B35" opacity="0.5"/>
+  <rect x="730" y="255" width="350" height="0" rx="0" fill="none" stroke="#FFD166" stroke-width="0.5" stroke-opacity="0.2"/>
+  <circle cx="748" cy="240" r="5" fill="#FF6B35" opacity="0.6"/>
+  <circle cx="764" cy="240" r="5" fill="#FFD166" opacity="0.5"/>
+  <circle cx="780" cy="240" r="5" fill="#FFFFFF" opacity="0.2"/>
+
+  <!-- Chart area -->
+  <polyline points="760,420 800,390 840,400 880,360 920,370 960,330 1000,340 1040,300" fill="none" stroke="#FF6B35" stroke-width="2" opacity="0.7"/>
+  <polyline points="760,430 800,410 840,420 880,385 920,395 960,365 1000,370 1040,340" fill="none" stroke="#FFD166" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Data points on chart -->
+  <circle cx="760" cy="420" r="3" fill="#FF6B35" opacity="0.8"/>
+  <circle cx="840" cy="400" r="3" fill="#FF6B35" opacity="0.8"/>
+  <circle cx="920" cy="370" r="3" fill="#FF6B35" opacity="0.8"/>
+  <circle cx="1000" cy="340" r="3" fill="#FF6B35" opacity="0.8"/>
+  <circle cx="1040" cy="300" r="3" fill="#FF6B35" opacity="0.8"/>
+
+  <!-- Sidebar metrics -->
+  <rect x="745" y="270" width="70" height="35" rx="4" fill="#FF6B35" opacity="0.12"/>
+  <text x="780" y="283" font-family="Inter, system-ui, sans-serif" font-size="9" fill="#FF6B35" text-anchor="middle" opacity="0.7">PRICES</text>
+  <text x="780" y="298" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF" text-anchor="middle" opacity="0.7">24.5K</text>
+
+  <rect x="825" y="270" width="70" height="35" rx="4" fill="#FFD166" opacity="0.1"/>
+  <text x="860" y="283" font-family="Inter, system-ui, sans-serif" font-size="9" fill="#FFD166" text-anchor="middle" opacity="0.7">SKUS</text>
+  <text x="860" y="298" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF" text-anchor="middle" opacity="0.7">8.2K</text>
+
+  <rect x="905" y="270" width="70" height="35" rx="4" fill="#FF6B35" opacity="0.12"/>
+  <text x="940" y="283" font-family="Inter, system-ui, sans-serif" font-size="9" fill="#FF6B35" text-anchor="middle" opacity="0.7">ALERTS</text>
+  <text x="940" y="298" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF" text-anchor="middle" opacity="0.7">47</text>
+
+  <!-- Status indicator -->
+  <circle cx="1050" cy="280" r="6" fill="#4CAF50" opacity="0.7"/>
+  <text x="1050" y="298" font-family="Inter, system-ui, sans-serif" font-size="8" fill="#4CAF50" text-anchor="middle" opacity="0.6">LIVE</text>
+
+  <text x="905" y="510" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#FFD166" text-anchor="middle" opacity="0.5">FULLY MANAGED</text>
+  <line x1="795" y1="498" x2="1015" y2="498" stroke="#FFD166" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- Corner accents -->
+  <rect x="40" y="38" width="30" height="3" rx="1" fill="#FF6B35" opacity="0.5"/>
+  <rect x="40" y="38" width="3" height="30" rx="1" fill="#FF6B35" opacity="0.5"/>
+  <rect x="1130" y="38" width="30" height="3" rx="1" fill="#FF6B35" opacity="0.5"/>
+  <rect x="1157" y="38" width="3" height="30" rx="1" fill="#FF6B35" opacity="0.5"/>
+
+  <!-- Clymin brand -->
+  <text x="1150" y="608" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="600" fill="#FF6B35" text-anchor="end">Clymin</text>
+</svg>

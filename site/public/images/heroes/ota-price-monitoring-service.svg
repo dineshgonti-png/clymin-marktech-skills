@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&amp;display=swap');
+    </style>
+  </defs>
+  <rect width="1200" height="630" fill="#1a1a2e"/>
+  <!-- Central monitoring hub -->
+  <circle cx="600" cy="310" r="80" fill="#16213e" stroke="#FF6B35" stroke-width="2.5"/>
+  <circle cx="600" cy="310" r="55" fill="#16213e" stroke="#FF6B35" stroke-width="1" opacity="0.5"/>
+  <circle cx="600" cy="310" r="30" fill="#FF6B35" opacity="0.2"/>
+  <!-- Radar sweep -->
+  <path d="M600 310 L600 230" stroke="#FF6B35" stroke-width="2" opacity="0.6"/>
+  <path d="M600 310 L660 260" stroke="#FF6B35" stroke-width="1.5" opacity="0.4"/>
+  <!-- Hub label -->
+  <text x="600" y="316" font-family="Inter, sans-serif" font-weight="700" font-size="14" fill="#FF6B35" text-anchor="middle">MONITOR</text>
+  <!-- OTA connection nodes - arranged in circle around hub -->
+  <!-- Node 1: Top -->
+  <rect x="555" y="130" width="90" height="36" rx="8" fill="#16213e" stroke="#FF6B35" stroke-width="1.5"/>
+  <text x="600" y="153" font-family="Inter, sans-serif" font-size="11" fill="#ffffff" text-anchor="middle" opacity="0.8">Booking</text>
+  <line x1="600" y1="166" x2="600" y2="230" stroke="#FF6B35" stroke-width="1.5" opacity="0.5" stroke-dasharray="4,3"/>
+  <!-- Node 2: Top-right -->
+  <rect x="780" y="170" width="90" height="36" rx="8" fill="#16213e" stroke="#FF6B35" stroke-width="1.5"/>
+  <text x="825" y="193" font-family="Inter, sans-serif" font-size="11" fill="#ffffff" text-anchor="middle" opacity="0.8">Expedia</text>
+  <line x1="780" y1="188" x2="680" y2="280" stroke="#FF6B35" stroke-width="1.5" opacity="0.5" stroke-dasharray="4,3"/>
+  <!-- Node 3: Right -->
+  <rect x="830" y="290" width="90" height="36" rx="8" fill="#16213e" stroke="#FF6B35" stroke-width="1.5"/>
+  <text x="875" y="313" font-family="Inter, sans-serif" font-size="11" fill="#ffffff" text-anchor="middle" opacity="0.8">Agoda</text>
+  <line x1="830" y1="308" x2="680" y2="310" stroke="#FF6B35" stroke-width="1.5" opacity="0.5" stroke-dasharray="4,3"/>
+  <!-- Node 4: Bottom-right -->
+  <rect x="780" y="410" width="90" height="36" rx="8" fill="#16213e" stroke="#FF6B35" stroke-width="1.5"/>
+  <text x="825" y="433" font-family="Inter, sans-serif" font-size="11" fill="#ffffff" text-anchor="middle" opacity="0.8">Trip.com</text>
+  <line x1="780" y1="428" x2="680" y2="340" stroke="#FF6B35" stroke-width="1.5" opacity="0.5" stroke-dasharray="4,3"/>
+  <!-- Node 5: Bottom -->
+  <rect x="555" y="440" width="90" height="36" rx="8" fill="#16213e" stroke="#FF6B35" stroke-width="1.5"/>
+  <text x="600" y="463" font-family="Inter, sans-serif" font-size="11" fill="#ffffff" text-anchor="middle" opacity="0.8">Airbnb</text>
+  <line x1="600" y1="440" x2="600" y2="390" stroke="#FF6B35" stroke-width="1.5" opacity="0.5" stroke-dasharray="4,3"/>
+  <!-- Node 6: Bottom-left -->
+  <rect x="330" y="410" width="90" height="36" rx="8" fill="#16213e" stroke="#FF6B35" stroke-width="1.5"/>
+  <text x="375" y="433" font-family="Inter, sans-serif" font-size="11" fill="#ffffff" text-anchor="middle" opacity="0.8">Priceline</text>
+  <line x1="420" y1="428" x2="520" y2="340" stroke="#FF6B35" stroke-width="1.5" opacity="0.5" stroke-dasharray="4,3"/>
+  <!-- Node 7: Left -->
+  <rect x="280" y="290" width="90" height="36" rx="8" fill="#16213e" stroke="#FF6B35" stroke-width="1.5"/>
+  <text x="325" y="313" font-family="Inter, sans-serif" font-size="11" fill="#ffffff" text-anchor="middle" opacity="0.8">Kayak</text>
+  <line x1="370" y1="308" x2="520" y2="310" stroke="#FF6B35" stroke-width="1.5" opacity="0.5" stroke-dasharray="4,3"/>
+  <!-- Node 8: Top-left -->
+  <rect x="330" y="170" width="90" height="36" rx="8" fill="#16213e" stroke="#FF6B35" stroke-width="1.5"/>
+  <text x="375" y="193" font-family="Inter, sans-serif" font-size="11" fill="#ffffff" text-anchor="middle" opacity="0.8">Hotels.com</text>
+  <line x1="420" y1="188" x2="520" y2="280" stroke="#FF6B35" stroke-width="1.5" opacity="0.5" stroke-dasharray="4,3"/>
+  <!-- Pulse dots on connections -->
+  <circle cx="600" cy="200" r="4" fill="#FF6B35" opacity="0.8"/>
+  <circle cx="730" cy="240" r="4" fill="#FF6B35" opacity="0.6"/>
+  <circle cx="755" cy="310" r="4" fill="#FF6B35" opacity="0.7"/>
+  <circle cx="730" cy="380" r="4" fill="#FF6B35" opacity="0.5"/>
+  <circle cx="470" cy="380" r="4" fill="#FF6B35" opacity="0.6"/>
+  <circle cx="445" cy="310" r="4" fill="#FF6B35" opacity="0.8"/>
+  <circle cx="470" cy="240" r="4" fill="#FF6B35" opacity="0.7"/>
+  <!-- Additional small nodes (50+) indicator -->
+  <text x="980" y="310" font-family="Inter, sans-serif" font-size="16" fill="#FF6B35" text-anchor="middle" opacity="0.6">+50 more</text>
+  <text x="980" y="330" font-family="Inter, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" opacity="0.4">platforms</text>
+  <!-- Small dots representing more connections -->
+  <circle cx="940" cy="260" r="3" fill="#FF6B35" opacity="0.3"/>
+  <circle cx="960" cy="275" r="3" fill="#FF6B35" opacity="0.25"/>
+  <circle cx="1000" cy="270" r="3" fill="#FF6B35" opacity="0.35"/>
+  <circle cx="1020" cy="290" r="3" fill="#FF6B35" opacity="0.3"/>
+  <circle cx="950" cy="350" r="3" fill="#FF6B35" opacity="0.25"/>
+  <circle cx="1010" cy="340" r="3" fill="#FF6B35" opacity="0.3"/>
+  <!-- Title -->
+  <text x="600" y="55" font-family="Inter, sans-serif" font-weight="700" font-size="40" fill="#ffffff" text-anchor="middle">OTA Price Monitoring Service</text>
+  <text x="600" y="100" font-family="Inter, sans-serif" font-weight="400" font-size="18" fill="#ffffff" text-anchor="middle" opacity="0.6">Track competitor rates across every booking channel</text>
+  <!-- Clymin branding -->
+  <text x="1150" y="600" font-family="Inter, sans-serif" font-weight="700" font-size="22" fill="#FF6B35" text-anchor="end">Clymin</text>
+</svg>

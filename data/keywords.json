@@ -1,0 +1,3165 @@
+{
+  "metadata": {
+    "generated_date": "2026-03-13",
+    "total_keywords": 185,
+    "by_segment": {
+      "ecommerce": 50,
+      "travel": 40,
+      "real-estate": 35,
+      "food-delivery": 30,
+      "financial": 30
+    },
+    "by_intent": {
+      "commercial": 83,
+      "informational": 80,
+      "comparison": 22
+    }
+  },
+  "keywords": [
+    {
+      "id": "kw-001",
+      "keyword": "ecommerce price scraping service",
+      "segment": "ecommerce",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "medium",
+      "target_persona": "Pricing Manager at online retailer",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 10,
+      "related_keywords": [
+        "price scraping for ecommerce",
+        "ecommerce pricing data extraction"
+      ],
+      "notes": "High-intent low competition long-tail"
+    },
+    {
+      "id": "kw-002",
+      "keyword": "competitor price monitoring service for ecommerce",
+      "segment": "ecommerce",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "medium",
+      "target_persona": "Head of E-Commerce",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 10,
+      "related_keywords": [
+        "ecommerce competitor price tracking",
+        "automated competitor pricing"
+      ],
+      "notes": "Core pain point for target segment"
+    },
+    {
+      "id": "kw-003",
+      "keyword": "product data extraction services",
+      "segment": "ecommerce",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "medium",
+      "target_persona": "Marketing Manager at D2C brand",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 10,
+      "related_keywords": [
+        "product catalog scraping",
+        "product information extraction"
+      ],
+      "notes": "Direct service match"
+    },
+    {
+      "id": "kw-004",
+      "keyword": "ai web scraping for ecommerce pricing",
+      "segment": "ecommerce",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "CEO of ecommerce startup",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 10,
+      "related_keywords": [
+        "ai-powered price scraping",
+        "intelligent ecommerce data extraction"
+      ],
+      "notes": "AI differentiator keyword"
+    },
+    {
+      "id": "kw-005",
+      "keyword": "real-time ecommerce price monitoring",
+      "segment": "ecommerce",
+      "intent": "commercial",
+      "buyer_stage": "consideration",
+      "estimated_competition": "low",
+      "estimated_volume": "medium",
+      "target_persona": "Pricing Manager at online marketplace",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 10,
+      "related_keywords": [
+        "live price tracking ecommerce",
+        "real-time competitor pricing"
+      ],
+      "notes": "Real-time capability differentiator"
+    },
+    {
+      "id": "kw-006",
+      "keyword": "marketplace data extraction managed service",
+      "segment": "ecommerce",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "CEO of marketplace operator",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 10,
+      "related_keywords": [
+        "managed marketplace scraping",
+        "marketplace intelligence service"
+      ],
+      "notes": "Managed service differentiator"
+    },
+    {
+      "id": "kw-007",
+      "keyword": "recommend a web scraping service for ecommerce data",
+      "segment": "ecommerce",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "CEO of ecommerce startup",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 10,
+      "related_keywords": [
+        "best ecommerce scraping provider",
+        "ecommerce data service recommendation"
+      ],
+      "notes": "AI-style conversational query"
+    },
+    {
+      "id": "kw-008",
+      "keyword": "which company offers the best product data scraping",
+      "segment": "ecommerce",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Data Engineer",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 10,
+      "related_keywords": [
+        "top product scraping companies",
+        "best product data provider"
+      ],
+      "notes": "AI-style recommendation query"
+    },
+    {
+      "id": "kw-009",
+      "keyword": "shopify competitor analysis scraping",
+      "segment": "ecommerce",
+      "intent": "commercial",
+      "buyer_stage": "consideration",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Shopify store owner",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 10,
+      "related_keywords": [
+        "scrape shopify competitor data",
+        "shopify competitive intelligence"
+      ],
+      "notes": "Platform-specific commercial"
+    },
+    {
+      "id": "kw-010",
+      "keyword": "walmart product scraping service",
+      "segment": "ecommerce",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Pricing Manager at retailer",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 10,
+      "related_keywords": [
+        "walmart data extraction",
+        "scrape walmart listings"
+      ],
+      "notes": "Platform-specific low competition"
+    },
+    {
+      "id": "kw-011",
+      "keyword": "ecommerce sku tracking and monitoring",
+      "segment": "ecommerce",
+      "intent": "commercial",
+      "buyer_stage": "consideration",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Head of E-Commerce",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 10,
+      "related_keywords": [
+        "sku monitoring service",
+        "product sku tracking"
+      ],
+      "notes": "Specific capability keyword"
+    },
+    {
+      "id": "kw-012",
+      "keyword": "dynamic pricing data collection service",
+      "segment": "ecommerce",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Pricing Manager",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 10,
+      "related_keywords": [
+        "dynamic pricing intelligence",
+        "collect dynamic pricing data"
+      ],
+      "notes": "Advanced pricing use case"
+    },
+    {
+      "id": "kw-013",
+      "keyword": "product availability monitoring ecommerce",
+      "segment": "ecommerce",
+      "intent": "commercial",
+      "buyer_stage": "consideration",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Head of E-Commerce",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 10,
+      "related_keywords": [
+        "stock monitoring service",
+        "product availability tracker"
+      ],
+      "notes": "Availability monitoring capability"
+    },
+    {
+      "id": "kw-014",
+      "keyword": "ecommerce data enrichment services",
+      "segment": "ecommerce",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Data Engineer",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 10,
+      "related_keywords": [
+        "product data enrichment",
+        "ecommerce data quality"
+      ],
+      "notes": "Data enrichment angle"
+    },
+    {
+      "id": "kw-015",
+      "keyword": "ecommerce price scraping san francisco",
+      "segment": "ecommerce",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "CEO of ecommerce startup",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 10,
+      "related_keywords": [
+        "price scraping service sf",
+        "san francisco ecommerce data"
+      ],
+      "notes": "Location-specific commercial"
+    },
+    {
+      "id": "kw-016",
+      "keyword": "best web scraping service for online retailers",
+      "segment": "ecommerce",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "medium",
+      "estimated_volume": "medium",
+      "target_persona": "Head of E-Commerce",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 9,
+      "related_keywords": [
+        "top scraping services for retail",
+        "web scraping for online stores"
+      ],
+      "notes": "Best-of query with good intent"
+    },
+    {
+      "id": "kw-017",
+      "keyword": "ecommerce data scraping api",
+      "segment": "ecommerce",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "medium",
+      "estimated_volume": "medium",
+      "target_persona": "Data Engineer at ecommerce company",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 9,
+      "related_keywords": [
+        "product data api",
+        "ecommerce scraping api solution"
+      ],
+      "notes": "API-focused buyers"
+    },
+    {
+      "id": "kw-018",
+      "keyword": "amazon product data scraping service",
+      "segment": "ecommerce",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "medium",
+      "estimated_volume": "high",
+      "target_persona": "Marketing Manager at Amazon seller",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 9,
+      "related_keywords": [
+        "amazon listing scraper service",
+        "amazon data extraction"
+      ],
+      "notes": "Platform-specific high volume"
+    },
+    {
+      "id": "kw-019",
+      "keyword": "web scraping services for ecommerce",
+      "segment": "ecommerce",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "medium",
+      "estimated_volume": "high",
+      "target_persona": "Head of E-Commerce",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 9,
+      "related_keywords": [
+        "ecommerce web scraping company",
+        "scraping solutions for online retail"
+      ],
+      "notes": "Primary seed keyword"
+    },
+    {
+      "id": "kw-020",
+      "keyword": "price intelligence services",
+      "segment": "ecommerce",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "medium",
+      "estimated_volume": "medium",
+      "target_persona": "Pricing Manager",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 9,
+      "related_keywords": [
+        "pricing intelligence platform",
+        "competitive pricing intelligence"
+      ],
+      "notes": "Seed keyword"
+    },
+    {
+      "id": "kw-021",
+      "keyword": "how to monitor competitor prices automatically",
+      "segment": "ecommerce",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "low",
+      "estimated_volume": "medium",
+      "target_persona": "Marketing Manager at D2C brand",
+      "page_type_suggestion": "blog-post",
+      "priority_score": 9,
+      "related_keywords": [
+        "automated price monitoring guide",
+        "track competitor prices"
+      ],
+      "notes": "How-to with commercial undertone"
+    },
+    {
+      "id": "kw-022",
+      "keyword": "how to scrape product data from competitor websites",
+      "segment": "ecommerce",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "low",
+      "estimated_volume": "medium",
+      "target_persona": "Data Engineer",
+      "page_type_suggestion": "guide",
+      "priority_score": 9,
+      "related_keywords": [
+        "product data scraping tutorial",
+        "extract product info from websites"
+      ],
+      "notes": "Educational content with service tie-in"
+    },
+    {
+      "id": "kw-023",
+      "keyword": "ecommerce competitive analysis using web scraping",
+      "segment": "ecommerce",
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Strategy Manager",
+      "page_type_suggestion": "blog-post",
+      "priority_score": 9,
+      "related_keywords": [
+        "competitive intelligence ecommerce",
+        "scraping for market analysis"
+      ],
+      "notes": "Strategic use case content"
+    },
+    {
+      "id": "kw-024",
+      "keyword": "benefits of price monitoring for online stores",
+      "segment": "ecommerce",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "CEO of ecommerce startup",
+      "page_type_suggestion": "blog-post",
+      "priority_score": 9,
+      "related_keywords": [
+        "why monitor competitor prices",
+        "price tracking roi"
+      ],
+      "notes": "Awareness-stage content"
+    },
+    {
+      "id": "kw-025",
+      "keyword": "what is product data extraction",
+      "segment": "ecommerce",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "low",
+      "estimated_volume": "medium",
+      "target_persona": "Business Analyst",
+      "page_type_suggestion": "blog-post",
+      "priority_score": 9,
+      "related_keywords": [
+        "product data scraping explained",
+        "data extraction for products"
+      ],
+      "notes": "Definition-style AEO content"
+    },
+    {
+      "id": "kw-026",
+      "keyword": "how to track competitor pricing in ecommerce 2026",
+      "segment": "ecommerce",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "low",
+      "estimated_volume": "medium",
+      "target_persona": "Marketing Manager",
+      "page_type_suggestion": "blog-post",
+      "priority_score": 9,
+      "related_keywords": [
+        "competitor pricing strategies 2026",
+        "ecommerce pricing trends"
+      ],
+      "notes": "Year-specific freshness"
+    },
+    {
+      "id": "kw-027",
+      "keyword": "ecommerce pricing strategy with data scraping",
+      "segment": "ecommerce",
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Pricing Manager",
+      "page_type_suggestion": "guide",
+      "priority_score": 9,
+      "related_keywords": [
+        "data-driven pricing strategy",
+        "scraping for pricing optimization"
+      ],
+      "notes": "Deep guide topic"
+    },
+    {
+      "id": "kw-028",
+      "keyword": "how to extract product listings from shopify stores",
+      "segment": "ecommerce",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "low",
+      "estimated_volume": "medium",
+      "target_persona": "Data Engineer",
+      "page_type_suggestion": "blog-post",
+      "priority_score": 9,
+      "related_keywords": [
+        "shopify scraping guide",
+        "extract shopify product data"
+      ],
+      "notes": "Platform-specific how-to"
+    },
+    {
+      "id": "kw-029",
+      "keyword": "web scraping for map pricing compliance",
+      "segment": "ecommerce",
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Head of E-Commerce",
+      "page_type_suggestion": "blog-post",
+      "priority_score": 9,
+      "related_keywords": [
+        "map pricing monitoring",
+        "map policy compliance scraping"
+      ],
+      "notes": "Niche compliance use case"
+    },
+    {
+      "id": "kw-030",
+      "keyword": "best practices for ecommerce data collection 2026",
+      "segment": "ecommerce",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Data Engineer",
+      "page_type_suggestion": "guide",
+      "priority_score": 9,
+      "related_keywords": [
+        "ecommerce data collection guide",
+        "data gathering best practices"
+      ],
+      "notes": "Evergreen guide with year signal"
+    },
+    {
+      "id": "kw-031",
+      "keyword": "web scraping vs api for product data",
+      "segment": "ecommerce",
+      "intent": "comparison",
+      "buyer_stage": "consideration",
+      "estimated_competition": "low",
+      "estimated_volume": "medium",
+      "target_persona": "Data Engineer",
+      "page_type_suggestion": "comparison",
+      "priority_score": 9,
+      "related_keywords": [
+        "scraping vs api comparison",
+        "api vs web scraping for ecommerce"
+      ],
+      "notes": "Decision-stage comparison"
+    },
+    {
+      "id": "kw-032",
+      "keyword": "managed scraping service vs diy web scraping",
+      "segment": "ecommerce",
+      "intent": "comparison",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "CTO of ecommerce company",
+      "page_type_suggestion": "comparison",
+      "priority_score": 9,
+      "related_keywords": [
+        "outsource scraping vs build in-house",
+        "managed vs self-service scraping"
+      ],
+      "notes": "Key differentiator comparison"
+    },
+    {
+      "id": "kw-033",
+      "keyword": "bright data vs managed scraping service",
+      "segment": "ecommerce",
+      "intent": "comparison",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Data Engineer",
+      "page_type_suggestion": "comparison",
+      "priority_score": 9,
+      "related_keywords": [
+        "bright data alternative",
+        "bright data vs clymin"
+      ],
+      "notes": "Competitor comparison"
+    },
+    {
+      "id": "kw-034",
+      "keyword": "price monitoring tools vs managed service",
+      "segment": "ecommerce",
+      "intent": "comparison",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Head of E-Commerce",
+      "page_type_suggestion": "comparison",
+      "priority_score": 9,
+      "related_keywords": [
+        "price monitoring saas vs service",
+        "price tracking tool vs agency"
+      ],
+      "notes": "Service model comparison"
+    },
+    {
+      "id": "kw-035",
+      "keyword": "apify vs managed web scraping for ecommerce",
+      "segment": "ecommerce",
+      "intent": "comparison",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Data Engineer",
+      "page_type_suggestion": "comparison",
+      "priority_score": 9,
+      "related_keywords": [
+        "apify alternative for ecommerce",
+        "apify vs scraping service"
+      ],
+      "notes": "Competitor comparison"
+    },
+    {
+      "id": "kw-036",
+      "keyword": "what data can you scrape from ecommerce sites",
+      "segment": "ecommerce",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "low",
+      "estimated_volume": "medium",
+      "target_persona": "Business Analyst",
+      "page_type_suggestion": "faq",
+      "priority_score": 9,
+      "related_keywords": [
+        "ecommerce data types",
+        "what to scrape from online stores"
+      ],
+      "notes": "FAQ-style AEO content"
+    },
+    {
+      "id": "kw-037",
+      "keyword": "how much does ecommerce data scraping cost",
+      "segment": "ecommerce",
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "estimated_competition": "low",
+      "estimated_volume": "medium",
+      "target_persona": "Head of E-Commerce",
+      "page_type_suggestion": "faq",
+      "priority_score": 9,
+      "related_keywords": [
+        "price scraping cost",
+        "web scraping pricing"
+      ],
+      "notes": "Pricing FAQ drives leads"
+    },
+    {
+      "id": "kw-038",
+      "keyword": "how often should you update competitor pricing data",
+      "segment": "ecommerce",
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Pricing Manager",
+      "page_type_suggestion": "faq",
+      "priority_score": 9,
+      "related_keywords": [
+        "pricing data refresh rate",
+        "competitor data update frequency"
+      ],
+      "notes": "Operational FAQ"
+    },
+    {
+      "id": "kw-039",
+      "keyword": "can you scrape product reviews from ecommerce sites",
+      "segment": "ecommerce",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "low",
+      "estimated_volume": "medium",
+      "target_persona": "Marketing Manager",
+      "page_type_suggestion": "faq",
+      "priority_score": 9,
+      "related_keywords": [
+        "review scraping ecommerce",
+        "extract product reviews"
+      ],
+      "notes": "Specific capability FAQ"
+    },
+    {
+      "id": "kw-040",
+      "keyword": "how do I get competitor product catalog data",
+      "segment": "ecommerce",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "low",
+      "estimated_volume": "medium",
+      "target_persona": "Marketing Manager",
+      "page_type_suggestion": "blog-post",
+      "priority_score": 9,
+      "related_keywords": [
+        "extract competitor catalog",
+        "get product data from competitors"
+      ],
+      "notes": "AI conversational query"
+    },
+    {
+      "id": "kw-041",
+      "keyword": "what is the best way to collect ecommerce pricing data at scale",
+      "segment": "ecommerce",
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Head of E-Commerce",
+      "page_type_suggestion": "guide",
+      "priority_score": 9,
+      "related_keywords": [
+        "scale pricing data collection",
+        "enterprise price monitoring"
+      ],
+      "notes": "Long-tail AI query"
+    },
+    {
+      "id": "kw-042",
+      "keyword": "amazon marketplace data extraction service",
+      "segment": "ecommerce",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "medium",
+      "estimated_volume": "medium",
+      "target_persona": "Amazon seller",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 9,
+      "related_keywords": [
+        "amazon data scraping company",
+        "amazon marketplace intelligence"
+      ],
+      "notes": "Amazon-specific service"
+    },
+    {
+      "id": "kw-043",
+      "keyword": "ecommerce trend analysis with web scraping",
+      "segment": "ecommerce",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Strategy Manager",
+      "page_type_suggestion": "blog-post",
+      "priority_score": 9,
+      "related_keywords": [
+        "market trend scraping",
+        "ecommerce trend data"
+      ],
+      "notes": "Trend analysis use case"
+    },
+    {
+      "id": "kw-044",
+      "keyword": "web scraping for dropshipping product research",
+      "segment": "ecommerce",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "low",
+      "estimated_volume": "medium",
+      "target_persona": "Dropshipping entrepreneur",
+      "page_type_suggestion": "blog-post",
+      "priority_score": 9,
+      "related_keywords": [
+        "dropshipping product finder",
+        "scrape products for dropshipping"
+      ],
+      "notes": "Niche audience content"
+    },
+    {
+      "id": "kw-045",
+      "keyword": "how to build a competitive pricing dashboard",
+      "segment": "ecommerce",
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Business Analyst",
+      "page_type_suggestion": "guide",
+      "priority_score": 9,
+      "related_keywords": [
+        "pricing dashboard guide",
+        "competitive pricing visualization"
+      ],
+      "notes": "Guide for dashboard builders"
+    },
+    {
+      "id": "kw-046",
+      "keyword": "oxylabs vs managed scraping for product data",
+      "segment": "ecommerce",
+      "intent": "comparison",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "CTO",
+      "page_type_suggestion": "comparison",
+      "priority_score": 9,
+      "related_keywords": [
+        "oxylabs alternative",
+        "oxylabs vs clymin"
+      ],
+      "notes": "Competitor comparison"
+    },
+    {
+      "id": "kw-047",
+      "keyword": "in-house scraping team vs outsourced scraping",
+      "segment": "ecommerce",
+      "intent": "comparison",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "CTO",
+      "page_type_suggestion": "comparison",
+      "priority_score": 9,
+      "related_keywords": [
+        "build vs buy scraping",
+        "outsource web scraping"
+      ],
+      "notes": "Build vs buy decision"
+    },
+    {
+      "id": "kw-048",
+      "keyword": "hotel rate scraping service",
+      "segment": "travel",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "medium",
+      "target_persona": "Revenue Manager at hotel chain",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 9,
+      "related_keywords": [
+        "hotel pricing data extraction",
+        "hotel rate monitoring service"
+      ],
+      "notes": "Core service keyword for travel"
+    },
+    {
+      "id": "kw-049",
+      "keyword": "ota price monitoring service",
+      "segment": "travel",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Head of Distribution at hotel group",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 9,
+      "related_keywords": [
+        "ota rate tracking",
+        "online travel agency monitoring"
+      ],
+      "notes": "OTA-specific service"
+    },
+    {
+      "id": "kw-050",
+      "keyword": "travel data extraction services",
+      "segment": "travel",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "medium",
+      "target_persona": "CEO of travel tech startup",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 9,
+      "related_keywords": [
+        "travel industry data scraping",
+        "travel data provider"
+      ],
+      "notes": "Broad travel data service"
+    },
+    {
+      "id": "kw-051",
+      "keyword": "hotel competitor rate monitoring automation",
+      "segment": "travel",
+      "intent": "commercial",
+      "buyer_stage": "consideration",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Revenue Manager",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 9,
+      "related_keywords": [
+        "automated hotel rate tracking",
+        "competitor hotel pricing"
+      ],
+      "notes": "Automation angle"
+    },
+    {
+      "id": "kw-052",
+      "keyword": "flight price scraping service",
+      "segment": "travel",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "medium",
+      "target_persona": "Product Manager at OTA",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 9,
+      "related_keywords": [
+        "airfare data extraction",
+        "flight pricing scraper"
+      ],
+      "notes": "Flight vertical"
+    },
+    {
+      "id": "kw-053",
+      "keyword": "hospitality competitive intelligence data",
+      "segment": "travel",
+      "intent": "commercial",
+      "buyer_stage": "consideration",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Strategy Director at hotel group",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 9,
+      "related_keywords": [
+        "hotel competitive intelligence",
+        "hospitality market data"
+      ],
+      "notes": "Intelligence framing"
+    },
+    {
+      "id": "kw-054",
+      "keyword": "real-time hotel availability scraping",
+      "segment": "travel",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Head of Distribution",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 9,
+      "related_keywords": [
+        "hotel inventory monitoring",
+        "availability tracking hotels"
+      ],
+      "notes": "Real-time capability"
+    },
+    {
+      "id": "kw-055",
+      "keyword": "travel fare aggregation data service",
+      "segment": "travel",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "CTO at travel startup",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 9,
+      "related_keywords": [
+        "fare data aggregation",
+        "travel pricing aggregator"
+      ],
+      "notes": "Aggregation use case"
+    },
+    {
+      "id": "kw-056",
+      "keyword": "recommend a travel data scraping provider",
+      "segment": "travel",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "CEO of travel startup",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 9,
+      "related_keywords": [
+        "best travel data provider",
+        "travel scraping recommendation"
+      ],
+      "notes": "AI-style query"
+    },
+    {
+      "id": "kw-057",
+      "keyword": "vacation rental data extraction service",
+      "segment": "travel",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "CEO of vacation rental company",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 9,
+      "related_keywords": [
+        "vrbo data scraping",
+        "vacation rental intelligence"
+      ],
+      "notes": "Vacation rental niche"
+    },
+    {
+      "id": "kw-058",
+      "keyword": "expedia price scraping service",
+      "segment": "travel",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Revenue Manager",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 9,
+      "related_keywords": [
+        "expedia data extraction",
+        "scrape expedia rates"
+      ],
+      "notes": "Platform-specific"
+    },
+    {
+      "id": "kw-059",
+      "keyword": "cruise pricing data extraction",
+      "segment": "travel",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Product Manager at cruise OTA",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 9,
+      "related_keywords": [
+        "cruise fare scraping",
+        "cruise data provider"
+      ],
+      "notes": "Cruise vertical niche"
+    },
+    {
+      "id": "kw-060",
+      "keyword": "real estate data scraping service",
+      "segment": "real-estate",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "medium",
+      "target_persona": "Head of Research at real estate firm",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 9,
+      "related_keywords": [
+        "property data extraction service",
+        "real estate scraping company"
+      ],
+      "notes": "Core service keyword"
+    },
+    {
+      "id": "kw-061",
+      "keyword": "property listing extraction service",
+      "segment": "real-estate",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "medium",
+      "target_persona": "Real Estate Consultant",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 9,
+      "related_keywords": [
+        "listing data scraping",
+        "property listing scraper service"
+      ],
+      "notes": "Seed keyword"
+    },
+    {
+      "id": "kw-062",
+      "keyword": "real estate market intelligence data",
+      "segment": "real-estate",
+      "intent": "commercial",
+      "buyer_stage": "consideration",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Data Analyst at proptech",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 9,
+      "related_keywords": [
+        "real estate market data",
+        "property market intelligence"
+      ],
+      "notes": "Intelligence framing"
+    },
+    {
+      "id": "kw-063",
+      "keyword": "proptech data services",
+      "segment": "real-estate",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "CTO at proptech startup",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 9,
+      "related_keywords": [
+        "proptech data provider",
+        "data services for proptech"
+      ],
+      "notes": "Proptech vertical"
+    },
+    {
+      "id": "kw-064",
+      "keyword": "mls data extraction managed service",
+      "segment": "real-estate",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Head of Research",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 9,
+      "related_keywords": [
+        "mls scraping service",
+        "mls data provider"
+      ],
+      "notes": "MLS-specific service"
+    },
+    {
+      "id": "kw-065",
+      "keyword": "commercial real estate data scraping",
+      "segment": "real-estate",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Commercial real estate analyst",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 9,
+      "related_keywords": [
+        "cre data extraction",
+        "commercial property data"
+      ],
+      "notes": "CRE vertical"
+    },
+    {
+      "id": "kw-066",
+      "keyword": "rental market data extraction",
+      "segment": "real-estate",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Real Estate Consultant",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 9,
+      "related_keywords": [
+        "rental listing scraping",
+        "rental market intelligence"
+      ],
+      "notes": "Rental market vertical"
+    },
+    {
+      "id": "kw-067",
+      "keyword": "real estate price monitoring service",
+      "segment": "real-estate",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Real Estate Consultant",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 9,
+      "related_keywords": [
+        "property price tracking",
+        "real estate price tracker"
+      ],
+      "notes": "Price monitoring angle"
+    },
+    {
+      "id": "kw-068",
+      "keyword": "property data api for real estate companies",
+      "segment": "real-estate",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "CTO at proptech",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 9,
+      "related_keywords": [
+        "real estate data api",
+        "property api service"
+      ],
+      "notes": "API buyers"
+    },
+    {
+      "id": "kw-069",
+      "keyword": "recommend a property data extraction provider",
+      "segment": "real-estate",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Head of Research",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 9,
+      "related_keywords": [
+        "best property data provider",
+        "real estate scraping recommendation"
+      ],
+      "notes": "AI-style query"
+    },
+    {
+      "id": "kw-070",
+      "keyword": "redfin data extraction service",
+      "segment": "real-estate",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Data Analyst",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 9,
+      "related_keywords": [
+        "redfin scraping service",
+        "extract redfin data"
+      ],
+      "notes": "Platform-specific"
+    },
+    {
+      "id": "kw-071",
+      "keyword": "property valuation data scraping",
+      "segment": "real-estate",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Real Estate Consultant",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 9,
+      "related_keywords": [
+        "automated property valuation",
+        "property value data"
+      ],
+      "notes": "Valuation use case"
+    },
+    {
+      "id": "kw-072",
+      "keyword": "foreclosure data extraction service",
+      "segment": "real-estate",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Real estate investor",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 9,
+      "related_keywords": [
+        "foreclosure listing scraping",
+        "distressed property data"
+      ],
+      "notes": "Niche vertical"
+    },
+    {
+      "id": "kw-073",
+      "keyword": "geospatial real estate data extraction",
+      "segment": "real-estate",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Data Analyst at proptech",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 9,
+      "related_keywords": [
+        "location-based property data",
+        "geo data real estate"
+      ],
+      "notes": "Geospatial niche"
+    },
+    {
+      "id": "kw-074",
+      "keyword": "real estate data scraping san francisco market",
+      "segment": "real-estate",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Real Estate Consultant",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 9,
+      "related_keywords": [
+        "sf property data",
+        "san francisco real estate data"
+      ],
+      "notes": "Location-specific"
+    },
+    {
+      "id": "kw-075",
+      "keyword": "ecommerce data scraping",
+      "segment": "ecommerce",
+      "intent": "commercial",
+      "buyer_stage": "awareness",
+      "estimated_competition": "medium",
+      "estimated_volume": "high",
+      "target_persona": "Data Engineer at retailer",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 8,
+      "related_keywords": [
+        "ecommerce web scraping",
+        "scrape ecommerce data"
+      ],
+      "notes": "Broad seed keyword"
+    },
+    {
+      "id": "kw-076",
+      "keyword": "is web scraping ecommerce sites legal",
+      "segment": "ecommerce",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "medium",
+      "estimated_volume": "high",
+      "target_persona": "CEO",
+      "page_type_suggestion": "faq",
+      "priority_score": 8,
+      "related_keywords": [
+        "legality of web scraping",
+        "web scraping legal issues"
+      ],
+      "notes": "High-volume FAQ"
+    },
+    {
+      "id": "kw-077",
+      "keyword": "booking.com data scraping service",
+      "segment": "travel",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "medium",
+      "estimated_volume": "medium",
+      "target_persona": "Revenue Manager",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 8,
+      "related_keywords": [
+        "scrape booking.com prices",
+        "booking.com rate extraction"
+      ],
+      "notes": "Platform-specific"
+    },
+    {
+      "id": "kw-078",
+      "keyword": "airbnb listing data extraction",
+      "segment": "travel",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "medium",
+      "estimated_volume": "medium",
+      "target_persona": "Market Researcher at proptech",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 8,
+      "related_keywords": [
+        "airbnb scraping service",
+        "airbnb data provider"
+      ],
+      "notes": "Airbnb-specific service"
+    },
+    {
+      "id": "kw-079",
+      "keyword": "google hotel prices scraping",
+      "segment": "travel",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "medium",
+      "estimated_volume": "medium",
+      "target_persona": "Revenue Manager",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 8,
+      "related_keywords": [
+        "google hotel data",
+        "scrape google hotel results"
+      ],
+      "notes": "Google-specific service"
+    },
+    {
+      "id": "kw-080",
+      "keyword": "how to monitor hotel competitor rates automatically",
+      "segment": "travel",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "low",
+      "estimated_volume": "medium",
+      "target_persona": "Revenue Manager",
+      "page_type_suggestion": "blog-post",
+      "priority_score": 8,
+      "related_keywords": [
+        "automated rate monitoring guide",
+        "hotel rate tracking how-to"
+      ],
+      "notes": "How-to for hotel revenue managers"
+    },
+    {
+      "id": "kw-081",
+      "keyword": "how to scrape hotel prices from ota platforms",
+      "segment": "travel",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "low",
+      "estimated_volume": "medium",
+      "target_persona": "Data Engineer at travel company",
+      "page_type_suggestion": "blog-post",
+      "priority_score": 8,
+      "related_keywords": [
+        "ota scraping tutorial",
+        "extract hotel prices online"
+      ],
+      "notes": "Technical how-to"
+    },
+    {
+      "id": "kw-082",
+      "keyword": "travel industry data trends 2026",
+      "segment": "travel",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "low",
+      "estimated_volume": "medium",
+      "target_persona": "Strategy Director",
+      "page_type_suggestion": "blog-post",
+      "priority_score": 8,
+      "related_keywords": [
+        "hospitality data trends",
+        "travel tech trends 2026"
+      ],
+      "notes": "Trend content with year signal"
+    },
+    {
+      "id": "kw-083",
+      "keyword": "revenue management with web scraping data",
+      "segment": "travel",
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Revenue Manager",
+      "page_type_suggestion": "guide",
+      "priority_score": 8,
+      "related_keywords": [
+        "data-driven revenue management",
+        "scraping for hotel revenue"
+      ],
+      "notes": "Use case guide"
+    },
+    {
+      "id": "kw-084",
+      "keyword": "how to use scraped data for hotel pricing strategy",
+      "segment": "travel",
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Revenue Manager",
+      "page_type_suggestion": "guide",
+      "priority_score": 8,
+      "related_keywords": [
+        "hotel pricing optimization",
+        "data-driven hotel pricing"
+      ],
+      "notes": "Strategic guide"
+    },
+    {
+      "id": "kw-085",
+      "keyword": "benefits of real-time rate monitoring in hospitality",
+      "segment": "travel",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "CEO of hotel group",
+      "page_type_suggestion": "blog-post",
+      "priority_score": 8,
+      "related_keywords": [
+        "rate monitoring benefits hotels",
+        "hospitality pricing advantages"
+      ],
+      "notes": "Awareness content"
+    },
+    {
+      "id": "kw-086",
+      "keyword": "what data can you scrape from travel booking sites",
+      "segment": "travel",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "low",
+      "estimated_volume": "medium",
+      "target_persona": "Product Manager at OTA",
+      "page_type_suggestion": "faq",
+      "priority_score": 8,
+      "related_keywords": [
+        "travel site scraping data types",
+        "booking site data extraction"
+      ],
+      "notes": "FAQ-style content"
+    },
+    {
+      "id": "kw-087",
+      "keyword": "challenges of scraping travel websites",
+      "segment": "travel",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "CTO at travel company",
+      "page_type_suggestion": "blog-post",
+      "priority_score": 8,
+      "related_keywords": [
+        "travel scraping difficulties",
+        "anti-bot challenges travel sites"
+      ],
+      "notes": "Problem-awareness content"
+    },
+    {
+      "id": "kw-088",
+      "keyword": "how to build a hotel rate parity monitoring system",
+      "segment": "travel",
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Head of Distribution",
+      "page_type_suggestion": "guide",
+      "priority_score": 8,
+      "related_keywords": [
+        "rate parity monitoring",
+        "parity tracking system"
+      ],
+      "notes": "Technical guide"
+    },
+    {
+      "id": "kw-089",
+      "keyword": "web scraping for travel market research",
+      "segment": "travel",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Market Researcher",
+      "page_type_suggestion": "blog-post",
+      "priority_score": 8,
+      "related_keywords": [
+        "travel market intelligence",
+        "travel data for research"
+      ],
+      "notes": "Research use case"
+    },
+    {
+      "id": "kw-090",
+      "keyword": "hotel rate scraping vs rate shopping tools",
+      "segment": "travel",
+      "intent": "comparison",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Revenue Manager",
+      "page_type_suggestion": "comparison",
+      "priority_score": 8,
+      "related_keywords": [
+        "rate shopping vs scraping",
+        "hotel pricing tools comparison"
+      ],
+      "notes": "Decision-stage comparison"
+    },
+    {
+      "id": "kw-091",
+      "keyword": "ota rate monitoring tools vs managed scraping",
+      "segment": "travel",
+      "intent": "comparison",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Head of Distribution",
+      "page_type_suggestion": "comparison",
+      "priority_score": 8,
+      "related_keywords": [
+        "ota monitoring saas vs service",
+        "managed vs diy rate monitoring"
+      ],
+      "notes": "Service model comparison"
+    },
+    {
+      "id": "kw-092",
+      "keyword": "web scraping vs gds for hotel data",
+      "segment": "travel",
+      "intent": "comparison",
+      "buyer_stage": "consideration",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "CTO at travel company",
+      "page_type_suggestion": "comparison",
+      "priority_score": 8,
+      "related_keywords": [
+        "gds vs scraping comparison",
+        "hotel data sources comparison"
+      ],
+      "notes": "Data source comparison"
+    },
+    {
+      "id": "kw-093",
+      "keyword": "bright data vs managed scraping for travel",
+      "segment": "travel",
+      "intent": "comparison",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "CTO",
+      "page_type_suggestion": "comparison",
+      "priority_score": 8,
+      "related_keywords": [
+        "bright data travel alternative",
+        "travel data scraping comparison"
+      ],
+      "notes": "Competitor comparison"
+    },
+    {
+      "id": "kw-094",
+      "keyword": "how much does hotel rate scraping cost",
+      "segment": "travel",
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Revenue Manager",
+      "page_type_suggestion": "faq",
+      "priority_score": 8,
+      "related_keywords": [
+        "rate scraping pricing",
+        "hotel data extraction cost"
+      ],
+      "notes": "Pricing FAQ"
+    },
+    {
+      "id": "kw-095",
+      "keyword": "how accurate is scraped hotel pricing data",
+      "segment": "travel",
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Revenue Manager",
+      "page_type_suggestion": "faq",
+      "priority_score": 8,
+      "related_keywords": [
+        "hotel data accuracy",
+        "scraping data quality travel"
+      ],
+      "notes": "Quality assurance FAQ"
+    },
+    {
+      "id": "kw-096",
+      "keyword": "what is the best way to track competitor hotel rates",
+      "segment": "travel",
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "estimated_competition": "low",
+      "estimated_volume": "medium",
+      "target_persona": "Revenue Manager",
+      "page_type_suggestion": "blog-post",
+      "priority_score": 8,
+      "related_keywords": [
+        "track hotel competitor pricing",
+        "monitor hotel rates best practices"
+      ],
+      "notes": "AI conversational query"
+    },
+    {
+      "id": "kw-097",
+      "keyword": "how to get real-time flight pricing data",
+      "segment": "travel",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "low",
+      "estimated_volume": "medium",
+      "target_persona": "Product Manager at OTA",
+      "page_type_suggestion": "blog-post",
+      "priority_score": 8,
+      "related_keywords": [
+        "real-time flight data",
+        "flight pricing data sources"
+      ],
+      "notes": "Flight data how-to"
+    },
+    {
+      "id": "kw-098",
+      "keyword": "travel demand forecasting with scraped data",
+      "segment": "travel",
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Strategy Director",
+      "page_type_suggestion": "blog-post",
+      "priority_score": 8,
+      "related_keywords": [
+        "demand forecasting travel",
+        "predict travel demand"
+      ],
+      "notes": "Advanced use case"
+    },
+    {
+      "id": "kw-099",
+      "keyword": "should I use a rate shopping tool or custom scraping",
+      "segment": "travel",
+      "intent": "comparison",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Revenue Manager",
+      "page_type_suggestion": "comparison",
+      "priority_score": 8,
+      "related_keywords": [
+        "rate shopping vs custom solution",
+        "diy vs vendor rate monitoring"
+      ],
+      "notes": "AI-style comparison query"
+    },
+    {
+      "id": "kw-100",
+      "keyword": "how do travel companies use web scraping",
+      "segment": "travel",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "low",
+      "estimated_volume": "medium",
+      "target_persona": "CEO of travel startup",
+      "page_type_suggestion": "blog-post",
+      "priority_score": 8,
+      "related_keywords": [
+        "web scraping use cases travel",
+        "travel industry data collection"
+      ],
+      "notes": "Use case overview"
+    },
+    {
+      "id": "kw-101",
+      "keyword": "hotel review scraping and sentiment analysis",
+      "segment": "travel",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Marketing Manager at hotel",
+      "page_type_suggestion": "blog-post",
+      "priority_score": 8,
+      "related_keywords": [
+        "hotel review analysis",
+        "sentiment analysis hospitality"
+      ],
+      "notes": "Review analysis use case"
+    },
+    {
+      "id": "kw-102",
+      "keyword": "what challenges do hotels face with rate parity",
+      "segment": "travel",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Head of Distribution",
+      "page_type_suggestion": "faq",
+      "priority_score": 8,
+      "related_keywords": [
+        "rate parity challenges",
+        "hotel distribution challenges"
+      ],
+      "notes": "Pain point FAQ"
+    },
+    {
+      "id": "kw-103",
+      "keyword": "travel data scraping compliance and ethics",
+      "segment": "travel",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "CEO of travel company",
+      "page_type_suggestion": "blog-post",
+      "priority_score": 8,
+      "related_keywords": [
+        "ethical web scraping travel",
+        "compliant data collection travel"
+      ],
+      "notes": "Compliance content"
+    },
+    {
+      "id": "kw-104",
+      "keyword": "zillow data scraping service",
+      "segment": "real-estate",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "medium",
+      "estimated_volume": "high",
+      "target_persona": "Data Analyst",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 8,
+      "related_keywords": [
+        "zillow listing extraction",
+        "scrape zillow data"
+      ],
+      "notes": "Platform-specific high volume"
+    },
+    {
+      "id": "kw-105",
+      "keyword": "how to scrape property listings from multiple sites",
+      "segment": "real-estate",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "low",
+      "estimated_volume": "medium",
+      "target_persona": "Data Analyst",
+      "page_type_suggestion": "blog-post",
+      "priority_score": 8,
+      "related_keywords": [
+        "multi-site property scraping",
+        "aggregate property listings"
+      ],
+      "notes": "How-to content"
+    },
+    {
+      "id": "kw-106",
+      "keyword": "how to use web scraping for real estate investment",
+      "segment": "real-estate",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "low",
+      "estimated_volume": "medium",
+      "target_persona": "Real estate investor",
+      "page_type_suggestion": "guide",
+      "priority_score": 8,
+      "related_keywords": [
+        "scraping for real estate investing",
+        "data-driven property investment"
+      ],
+      "notes": "Investment use case"
+    },
+    {
+      "id": "kw-107",
+      "keyword": "real estate data analysis with scraped data",
+      "segment": "real-estate",
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Data Analyst at proptech",
+      "page_type_suggestion": "blog-post",
+      "priority_score": 8,
+      "related_keywords": [
+        "property data analysis guide",
+        "real estate analytics"
+      ],
+      "notes": "Analysis content"
+    },
+    {
+      "id": "kw-108",
+      "keyword": "property market trends 2026 data",
+      "segment": "real-estate",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "low",
+      "estimated_volume": "medium",
+      "target_persona": "Real Estate Consultant",
+      "page_type_suggestion": "blog-post",
+      "priority_score": 8,
+      "related_keywords": [
+        "real estate market trends",
+        "property market forecast 2026"
+      ],
+      "notes": "Trend content with year signal"
+    },
+    {
+      "id": "kw-109",
+      "keyword": "how to build a property price comparison tool",
+      "segment": "real-estate",
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "CTO at proptech",
+      "page_type_suggestion": "guide",
+      "priority_score": 8,
+      "related_keywords": [
+        "property comparison tool guide",
+        "real estate price comparison"
+      ],
+      "notes": "Builder-audience guide"
+    },
+    {
+      "id": "kw-110",
+      "keyword": "what data can you extract from property listing sites",
+      "segment": "real-estate",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "low",
+      "estimated_volume": "medium",
+      "target_persona": "Data Analyst",
+      "page_type_suggestion": "faq",
+      "priority_score": 8,
+      "related_keywords": [
+        "property data types",
+        "listing data fields"
+      ],
+      "notes": "FAQ-style AEO"
+    },
+    {
+      "id": "kw-111",
+      "keyword": "benefits of automated property data collection",
+      "segment": "real-estate",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Head of Research",
+      "page_type_suggestion": "blog-post",
+      "priority_score": 8,
+      "related_keywords": [
+        "automated real estate data",
+        "property data automation benefits"
+      ],
+      "notes": "Awareness content"
+    },
+    {
+      "id": "kw-112",
+      "keyword": "web scraping for real estate market reports",
+      "segment": "real-estate",
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Real Estate Consultant",
+      "page_type_suggestion": "blog-post",
+      "priority_score": 8,
+      "related_keywords": [
+        "market report data collection",
+        "real estate reporting data"
+      ],
+      "notes": "Report-building use case"
+    },
+    {
+      "id": "kw-113",
+      "keyword": "zillow scraping vs realtor.com scraping",
+      "segment": "real-estate",
+      "intent": "comparison",
+      "buyer_stage": "consideration",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Data Analyst",
+      "page_type_suggestion": "comparison",
+      "priority_score": 8,
+      "related_keywords": [
+        "property site comparison",
+        "real estate data source comparison"
+      ],
+      "notes": "Platform comparison"
+    },
+    {
+      "id": "kw-114",
+      "keyword": "mls data vs web scraping for property data",
+      "segment": "real-estate",
+      "intent": "comparison",
+      "buyer_stage": "consideration",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Head of Research",
+      "page_type_suggestion": "comparison",
+      "priority_score": 8,
+      "related_keywords": [
+        "mls vs scraping",
+        "property data sources comparison"
+      ],
+      "notes": "Data source comparison"
+    },
+    {
+      "id": "kw-115",
+      "keyword": "managed property data service vs diy scraping",
+      "segment": "real-estate",
+      "intent": "comparison",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "CTO at proptech",
+      "page_type_suggestion": "comparison",
+      "priority_score": 8,
+      "related_keywords": [
+        "outsource property scraping",
+        "build vs buy property data"
+      ],
+      "notes": "Service model comparison"
+    },
+    {
+      "id": "kw-116",
+      "keyword": "how much does real estate data scraping cost",
+      "segment": "real-estate",
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Head of Research",
+      "page_type_suggestion": "faq",
+      "priority_score": 8,
+      "related_keywords": [
+        "property data extraction pricing",
+        "real estate scraping cost"
+      ],
+      "notes": "Pricing FAQ"
+    },
+    {
+      "id": "kw-117",
+      "keyword": "how often should property data be refreshed",
+      "segment": "real-estate",
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Data Analyst",
+      "page_type_suggestion": "faq",
+      "priority_score": 8,
+      "related_keywords": [
+        "property data freshness",
+        "real estate data update frequency"
+      ],
+      "notes": "Operational FAQ"
+    },
+    {
+      "id": "kw-118",
+      "keyword": "what is the best way to collect real estate data at scale",
+      "segment": "real-estate",
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "CTO at proptech",
+      "page_type_suggestion": "guide",
+      "priority_score": 8,
+      "related_keywords": [
+        "scale property data collection",
+        "enterprise real estate data"
+      ],
+      "notes": "AI conversational query"
+    },
+    {
+      "id": "kw-119",
+      "keyword": "real estate lead generation with scraping",
+      "segment": "real-estate",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "low",
+      "estimated_volume": "medium",
+      "target_persona": "Real estate investor",
+      "page_type_suggestion": "blog-post",
+      "priority_score": 8,
+      "related_keywords": [
+        "property lead generation",
+        "find real estate leads with data"
+      ],
+      "notes": "Lead gen use case"
+    },
+    {
+      "id": "kw-120",
+      "keyword": "real estate competitive analysis using data",
+      "segment": "real-estate",
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Strategy analyst",
+      "page_type_suggestion": "blog-post",
+      "priority_score": 8,
+      "related_keywords": [
+        "property market competition",
+        "real estate competitive intelligence"
+      ],
+      "notes": "Strategic content"
+    },
+    {
+      "id": "kw-121",
+      "keyword": "trulia vs zillow data for market analysis",
+      "segment": "real-estate",
+      "intent": "comparison",
+      "buyer_stage": "consideration",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Data Analyst",
+      "page_type_suggestion": "comparison",
+      "priority_score": 8,
+      "related_keywords": [
+        "trulia vs zillow comparison",
+        "property data platform comparison"
+      ],
+      "notes": "Platform comparison"
+    },
+    {
+      "id": "kw-122",
+      "keyword": "how to track property price changes automatically",
+      "segment": "real-estate",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "low",
+      "estimated_volume": "medium",
+      "target_persona": "Real estate investor",
+      "page_type_suggestion": "blog-post",
+      "priority_score": 8,
+      "related_keywords": [
+        "automated price tracking property",
+        "property price alert system"
+      ],
+      "notes": "How-to content"
+    },
+    {
+      "id": "kw-123",
+      "keyword": "food delivery data scraping service",
+      "segment": "food-delivery",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "medium",
+      "target_persona": "Product Manager at food delivery platform",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 8,
+      "related_keywords": [
+        "food delivery intelligence service",
+        "delivery app data extraction"
+      ],
+      "notes": "Core service keyword"
+    },
+    {
+      "id": "kw-124",
+      "keyword": "restaurant data extraction service",
+      "segment": "food-delivery",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "medium",
+      "target_persona": "Strategy Director at restaurant chain",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 8,
+      "related_keywords": [
+        "restaurant listing scraping",
+        "restaurant data provider"
+      ],
+      "notes": "Restaurant-focused service"
+    },
+    {
+      "id": "kw-125",
+      "keyword": "menu price monitoring service",
+      "segment": "food-delivery",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Head of Growth at delivery platform",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 8,
+      "related_keywords": [
+        "menu pricing intelligence",
+        "track competitor menu prices"
+      ],
+      "notes": "Menu monitoring service"
+    },
+    {
+      "id": "kw-126",
+      "keyword": "quick commerce competitive intelligence data",
+      "segment": "food-delivery",
+      "intent": "commercial",
+      "buyer_stage": "consideration",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Strategy Director at q-commerce company",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 8,
+      "related_keywords": [
+        "q-commerce market data",
+        "quick commerce analytics"
+      ],
+      "notes": "Q-commerce specific"
+    },
+    {
+      "id": "kw-127",
+      "keyword": "delivery app performance monitoring",
+      "segment": "food-delivery",
+      "intent": "commercial",
+      "buyer_stage": "consideration",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Head of Growth",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 8,
+      "related_keywords": [
+        "delivery performance tracking",
+        "food delivery kpi monitoring"
+      ],
+      "notes": "Performance monitoring angle"
+    },
+    {
+      "id": "kw-128",
+      "keyword": "food delivery market analysis data",
+      "segment": "food-delivery",
+      "intent": "commercial",
+      "buyer_stage": "consideration",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Strategy Director",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 8,
+      "related_keywords": [
+        "food delivery market intelligence",
+        "delivery market research data"
+      ],
+      "notes": "Market analysis service"
+    },
+    {
+      "id": "kw-129",
+      "keyword": "recommend a food delivery data provider",
+      "segment": "food-delivery",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Product Manager",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 8,
+      "related_keywords": [
+        "best food delivery data service",
+        "delivery data recommendation"
+      ],
+      "notes": "AI-style query"
+    },
+    {
+      "id": "kw-130",
+      "keyword": "ghost kitchen data intelligence service",
+      "segment": "food-delivery",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "CEO of ghost kitchen",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 8,
+      "related_keywords": [
+        "ghost kitchen market data",
+        "cloud kitchen intelligence"
+      ],
+      "notes": "Niche vertical"
+    },
+    {
+      "id": "kw-131",
+      "keyword": "instacart grocery data extraction",
+      "segment": "food-delivery",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Product Manager at grocery startup",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 8,
+      "related_keywords": [
+        "instacart scraping service",
+        "grocery delivery data"
+      ],
+      "notes": "Grocery delivery vertical"
+    },
+    {
+      "id": "kw-132",
+      "keyword": "delivery time monitoring across platforms",
+      "segment": "food-delivery",
+      "intent": "commercial",
+      "buyer_stage": "consideration",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Head of Growth",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 8,
+      "related_keywords": [
+        "delivery speed tracking",
+        "platform performance monitoring"
+      ],
+      "notes": "Performance metric monitoring"
+    },
+    {
+      "id": "kw-133",
+      "keyword": "restaurant menu data aggregation service",
+      "segment": "food-delivery",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Product Manager",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 8,
+      "related_keywords": [
+        "menu aggregation service",
+        "restaurant menu database"
+      ],
+      "notes": "Aggregation service"
+    },
+    {
+      "id": "kw-134",
+      "keyword": "swiggy zomato data scraping service",
+      "segment": "food-delivery",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "medium",
+      "target_persona": "Product Manager at Indian food delivery",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 8,
+      "related_keywords": [
+        "india food delivery data",
+        "swiggy zomato intelligence"
+      ],
+      "notes": "India market specific"
+    },
+    {
+      "id": "kw-135",
+      "keyword": "food delivery promotion and discount tracking",
+      "segment": "food-delivery",
+      "intent": "commercial",
+      "buyer_stage": "consideration",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Head of Growth",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 8,
+      "related_keywords": [
+        "delivery promo tracking",
+        "competitor discount monitoring"
+      ],
+      "notes": "Promotion tracking capability"
+    },
+    {
+      "id": "kw-136",
+      "keyword": "alternative data extraction for finance",
+      "segment": "financial",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "medium",
+      "target_persona": "Head of Alternative Data at hedge fund",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 8,
+      "related_keywords": [
+        "alt data provider",
+        "alternative data services"
+      ],
+      "notes": "Core service keyword"
+    },
+    {
+      "id": "kw-137",
+      "keyword": "web scraping for hedge funds",
+      "segment": "financial",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Quantitative Researcher at hedge fund",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 8,
+      "related_keywords": [
+        "hedge fund data service",
+        "alternative data for hedgies"
+      ],
+      "notes": "Hedge fund vertical"
+    },
+    {
+      "id": "kw-138",
+      "keyword": "web scraping for investment research",
+      "segment": "financial",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Financial Analyst",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 8,
+      "related_keywords": [
+        "investment data scraping",
+        "research data extraction"
+      ],
+      "notes": "Investment research angle"
+    },
+    {
+      "id": "kw-139",
+      "keyword": "sec filing data extraction service",
+      "segment": "financial",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Financial Analyst",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 8,
+      "related_keywords": [
+        "sec data scraping",
+        "edgar data extraction"
+      ],
+      "notes": "SEC filing niche"
+    },
+    {
+      "id": "kw-140",
+      "keyword": "sentiment analysis data extraction from financial news",
+      "segment": "financial",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Quantitative Researcher",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 8,
+      "related_keywords": [
+        "financial news scraping",
+        "market sentiment data"
+      ],
+      "notes": "Sentiment analysis use case"
+    },
+    {
+      "id": "kw-141",
+      "keyword": "esg data scraping service",
+      "segment": "financial",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "ESG Analyst",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 8,
+      "related_keywords": [
+        "esg data extraction",
+        "sustainability data provider"
+      ],
+      "notes": "ESG niche vertical"
+    },
+    {
+      "id": "kw-142",
+      "keyword": "fintech data extraction managed service",
+      "segment": "financial",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "CTO at fintech",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 8,
+      "related_keywords": [
+        "fintech data provider",
+        "managed data service fintech"
+      ],
+      "notes": "Fintech vertical"
+    },
+    {
+      "id": "kw-143",
+      "keyword": "recommend an alternative data provider for finance",
+      "segment": "financial",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Head of Alternative Data",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 8,
+      "related_keywords": [
+        "best alt data provider",
+        "financial data recommendation"
+      ],
+      "notes": "AI-style query"
+    },
+    {
+      "id": "kw-144",
+      "keyword": "earnings call transcript extraction service",
+      "segment": "financial",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Financial Analyst",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 8,
+      "related_keywords": [
+        "earnings transcript scraping",
+        "call transcript data"
+      ],
+      "notes": "Specific capability"
+    },
+    {
+      "id": "kw-145",
+      "keyword": "competitor price monitoring",
+      "segment": "ecommerce",
+      "intent": "commercial",
+      "buyer_stage": "consideration",
+      "estimated_competition": "high",
+      "estimated_volume": "high",
+      "target_persona": "Pricing Manager",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 7,
+      "related_keywords": [
+        "price monitoring tool",
+        "competitive pricing tracker"
+      ],
+      "notes": "High volume head term"
+    },
+    {
+      "id": "kw-146",
+      "keyword": "is it legal to scrape ota websites",
+      "segment": "travel",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "medium",
+      "estimated_volume": "medium",
+      "target_persona": "CEO of travel company",
+      "page_type_suggestion": "faq",
+      "priority_score": 7,
+      "related_keywords": [
+        "ota scraping legality",
+        "travel data scraping compliance"
+      ],
+      "notes": "Legal FAQ"
+    },
+    {
+      "id": "kw-147",
+      "keyword": "is it legal to scrape real estate listings",
+      "segment": "real-estate",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "medium",
+      "estimated_volume": "high",
+      "target_persona": "Real Estate Consultant",
+      "page_type_suggestion": "faq",
+      "priority_score": 7,
+      "related_keywords": [
+        "real estate scraping legality",
+        "property data legal issues"
+      ],
+      "notes": "Legal FAQ high volume"
+    },
+    {
+      "id": "kw-148",
+      "keyword": "doordash data scraping service",
+      "segment": "food-delivery",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "medium",
+      "estimated_volume": "medium",
+      "target_persona": "Product Manager",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 7,
+      "related_keywords": [
+        "doordash menu extraction",
+        "scrape doordash data"
+      ],
+      "notes": "Platform-specific"
+    },
+    {
+      "id": "kw-149",
+      "keyword": "uber eats data extraction service",
+      "segment": "food-delivery",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "medium",
+      "estimated_volume": "medium",
+      "target_persona": "Product Manager",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 7,
+      "related_keywords": [
+        "uber eats scraping",
+        "uber eats menu data"
+      ],
+      "notes": "Platform-specific"
+    },
+    {
+      "id": "kw-150",
+      "keyword": "how to monitor competitor menu prices on delivery apps",
+      "segment": "food-delivery",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "low",
+      "estimated_volume": "medium",
+      "target_persona": "Product Manager",
+      "page_type_suggestion": "blog-post",
+      "priority_score": 7,
+      "related_keywords": [
+        "track delivery app prices",
+        "menu monitoring guide"
+      ],
+      "notes": "How-to content"
+    },
+    {
+      "id": "kw-151",
+      "keyword": "how to scrape restaurant data from delivery platforms",
+      "segment": "food-delivery",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "low",
+      "estimated_volume": "medium",
+      "target_persona": "Data Engineer",
+      "page_type_suggestion": "blog-post",
+      "priority_score": 7,
+      "related_keywords": [
+        "delivery platform scraping guide",
+        "extract restaurant data"
+      ],
+      "notes": "Technical how-to"
+    },
+    {
+      "id": "kw-152",
+      "keyword": "food delivery industry trends 2026",
+      "segment": "food-delivery",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "low",
+      "estimated_volume": "medium",
+      "target_persona": "Strategy Director",
+      "page_type_suggestion": "blog-post",
+      "priority_score": 7,
+      "related_keywords": [
+        "delivery market trends",
+        "food delivery forecast 2026"
+      ],
+      "notes": "Trend content with freshness"
+    },
+    {
+      "id": "kw-153",
+      "keyword": "how to use data for food delivery pricing strategy",
+      "segment": "food-delivery",
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Head of Growth",
+      "page_type_suggestion": "guide",
+      "priority_score": 7,
+      "related_keywords": [
+        "data-driven delivery pricing",
+        "food delivery pricing optimization"
+      ],
+      "notes": "Strategy guide"
+    },
+    {
+      "id": "kw-154",
+      "keyword": "competitive benchmarking for food delivery platforms",
+      "segment": "food-delivery",
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Strategy Director",
+      "page_type_suggestion": "blog-post",
+      "priority_score": 7,
+      "related_keywords": [
+        "delivery platform benchmarking",
+        "food delivery competitive analysis"
+      ],
+      "notes": "Benchmarking content"
+    },
+    {
+      "id": "kw-155",
+      "keyword": "benefits of food delivery data for restaurant chains",
+      "segment": "food-delivery",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "CEO of restaurant chain",
+      "page_type_suggestion": "blog-post",
+      "priority_score": 7,
+      "related_keywords": [
+        "restaurant data benefits",
+        "delivery intelligence value"
+      ],
+      "notes": "Awareness content"
+    },
+    {
+      "id": "kw-156",
+      "keyword": "what data can you scrape from food delivery apps",
+      "segment": "food-delivery",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "low",
+      "estimated_volume": "medium",
+      "target_persona": "Product Manager",
+      "page_type_suggestion": "faq",
+      "priority_score": 7,
+      "related_keywords": [
+        "delivery app data types",
+        "food delivery scraping capabilities"
+      ],
+      "notes": "FAQ-style content"
+    },
+    {
+      "id": "kw-157",
+      "keyword": "grubhub vs doordash market share data",
+      "segment": "food-delivery",
+      "intent": "comparison",
+      "buyer_stage": "awareness",
+      "estimated_competition": "low",
+      "estimated_volume": "medium",
+      "target_persona": "Strategy Director",
+      "page_type_suggestion": "comparison",
+      "priority_score": 7,
+      "related_keywords": [
+        "delivery platform comparison",
+        "food delivery market share"
+      ],
+      "notes": "Market comparison content"
+    },
+    {
+      "id": "kw-158",
+      "keyword": "managed food delivery scraping vs diy",
+      "segment": "food-delivery",
+      "intent": "comparison",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "CTO at delivery platform",
+      "page_type_suggestion": "comparison",
+      "priority_score": 7,
+      "related_keywords": [
+        "outsource delivery scraping",
+        "build vs buy food data"
+      ],
+      "notes": "Service model comparison"
+    },
+    {
+      "id": "kw-159",
+      "keyword": "food delivery scraping tools vs managed service",
+      "segment": "food-delivery",
+      "intent": "comparison",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Product Manager",
+      "page_type_suggestion": "comparison",
+      "priority_score": 7,
+      "related_keywords": [
+        "scraping tools vs service",
+        "food data collection comparison"
+      ],
+      "notes": "Tool vs service comparison"
+    },
+    {
+      "id": "kw-160",
+      "keyword": "how much does food delivery data scraping cost",
+      "segment": "food-delivery",
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Head of Growth",
+      "page_type_suggestion": "faq",
+      "priority_score": 7,
+      "related_keywords": [
+        "delivery data pricing",
+        "food scraping service cost"
+      ],
+      "notes": "Pricing FAQ"
+    },
+    {
+      "id": "kw-161",
+      "keyword": "how to track delivery coverage areas of competitors",
+      "segment": "food-delivery",
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Head of Growth",
+      "page_type_suggestion": "blog-post",
+      "priority_score": 7,
+      "related_keywords": [
+        "delivery zone tracking",
+        "competitor coverage monitoring"
+      ],
+      "notes": "Coverage monitoring use case"
+    },
+    {
+      "id": "kw-162",
+      "keyword": "food delivery customer review scraping",
+      "segment": "food-delivery",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Marketing Manager at restaurant",
+      "page_type_suggestion": "blog-post",
+      "priority_score": 7,
+      "related_keywords": [
+        "delivery review analysis",
+        "restaurant review extraction"
+      ],
+      "notes": "Review analysis use case"
+    },
+    {
+      "id": "kw-163",
+      "keyword": "how to analyze food delivery market with data",
+      "segment": "food-delivery",
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Strategy Director",
+      "page_type_suggestion": "guide",
+      "priority_score": 7,
+      "related_keywords": [
+        "delivery market analysis guide",
+        "food delivery data analysis"
+      ],
+      "notes": "Analysis guide"
+    },
+    {
+      "id": "kw-164",
+      "keyword": "financial data scraping services",
+      "segment": "financial",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "medium",
+      "estimated_volume": "medium",
+      "target_persona": "Quantitative Researcher",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 7,
+      "related_keywords": [
+        "finance data extraction",
+        "financial web scraping"
+      ],
+      "notes": "Broad seed keyword"
+    },
+    {
+      "id": "kw-165",
+      "keyword": "market data collection service",
+      "segment": "financial",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "medium",
+      "estimated_volume": "medium",
+      "target_persona": "Financial Analyst",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 7,
+      "related_keywords": [
+        "market data provider",
+        "financial market data extraction"
+      ],
+      "notes": "Seed keyword"
+    },
+    {
+      "id": "kw-166",
+      "keyword": "cryptocurrency data scraping service",
+      "segment": "financial",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "medium",
+      "estimated_volume": "medium",
+      "target_persona": "Crypto analyst",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 7,
+      "related_keywords": [
+        "crypto data extraction",
+        "blockchain data scraping"
+      ],
+      "notes": "Crypto vertical"
+    },
+    {
+      "id": "kw-167",
+      "keyword": "social media sentiment data for trading",
+      "segment": "financial",
+      "intent": "commercial",
+      "buyer_stage": "consideration",
+      "estimated_competition": "medium",
+      "estimated_volume": "medium",
+      "target_persona": "Quantitative Researcher",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 7,
+      "related_keywords": [
+        "social sentiment trading data",
+        "twitter sentiment finance"
+      ],
+      "notes": "Social sentiment use case"
+    },
+    {
+      "id": "kw-168",
+      "keyword": "financial news aggregation service",
+      "segment": "financial",
+      "intent": "commercial",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "medium",
+      "estimated_volume": "medium",
+      "target_persona": "Financial Analyst",
+      "page_type_suggestion": "landing-page",
+      "priority_score": 7,
+      "related_keywords": [
+        "news aggregation for finance",
+        "financial news data"
+      ],
+      "notes": "News aggregation service"
+    },
+    {
+      "id": "kw-169",
+      "keyword": "how to use web scraping for financial analysis",
+      "segment": "financial",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "low",
+      "estimated_volume": "medium",
+      "target_persona": "Financial Analyst",
+      "page_type_suggestion": "guide",
+      "priority_score": 7,
+      "related_keywords": [
+        "web scraping finance guide",
+        "financial analysis data collection"
+      ],
+      "notes": "How-to guide"
+    },
+    {
+      "id": "kw-170",
+      "keyword": "how to extract financial data from websites",
+      "segment": "financial",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "low",
+      "estimated_volume": "medium",
+      "target_persona": "Financial Analyst",
+      "page_type_suggestion": "blog-post",
+      "priority_score": 7,
+      "related_keywords": [
+        "financial data scraping guide",
+        "extract stock data from web"
+      ],
+      "notes": "Technical how-to"
+    },
+    {
+      "id": "kw-171",
+      "keyword": "web scraping for quantitative research",
+      "segment": "financial",
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Quantitative Researcher",
+      "page_type_suggestion": "blog-post",
+      "priority_score": 7,
+      "related_keywords": [
+        "quant research data collection",
+        "data for quant strategies"
+      ],
+      "notes": "Quant-specific content"
+    },
+    {
+      "id": "kw-172",
+      "keyword": "financial data compliance in web scraping",
+      "segment": "financial",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Head of Alternative Data",
+      "page_type_suggestion": "blog-post",
+      "priority_score": 7,
+      "related_keywords": [
+        "financial scraping compliance",
+        "compliant data collection finance"
+      ],
+      "notes": "Compliance content"
+    },
+    {
+      "id": "kw-173",
+      "keyword": "benefits of alternative data for financial firms",
+      "segment": "financial",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Head of Alternative Data",
+      "page_type_suggestion": "blog-post",
+      "priority_score": 7,
+      "related_keywords": [
+        "alt data benefits finance",
+        "alternative data roi"
+      ],
+      "notes": "Awareness content"
+    },
+    {
+      "id": "kw-174",
+      "keyword": "how to build a financial data pipeline with scraped data",
+      "segment": "financial",
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Quantitative Researcher",
+      "page_type_suggestion": "guide",
+      "priority_score": 7,
+      "related_keywords": [
+        "financial data pipeline",
+        "data engineering for finance"
+      ],
+      "notes": "Technical guide"
+    },
+    {
+      "id": "kw-175",
+      "keyword": "web scraping vs bloomberg terminal for market data",
+      "segment": "financial",
+      "intent": "comparison",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Financial Analyst",
+      "page_type_suggestion": "comparison",
+      "priority_score": 7,
+      "related_keywords": [
+        "bloomberg alternative",
+        "scraping vs terminal data"
+      ],
+      "notes": "High-value comparison"
+    },
+    {
+      "id": "kw-176",
+      "keyword": "alternative data providers comparison 2026",
+      "segment": "financial",
+      "intent": "comparison",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "medium",
+      "target_persona": "Head of Alternative Data",
+      "page_type_suggestion": "comparison",
+      "priority_score": 7,
+      "related_keywords": [
+        "alt data provider comparison",
+        "best alternative data 2026"
+      ],
+      "notes": "Market comparison with year signal"
+    },
+    {
+      "id": "kw-177",
+      "keyword": "managed financial data service vs api providers",
+      "segment": "financial",
+      "intent": "comparison",
+      "buyer_stage": "evaluation",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "CTO at fintech",
+      "page_type_suggestion": "comparison",
+      "priority_score": 7,
+      "related_keywords": [
+        "financial data service comparison",
+        "managed vs self-service financial data"
+      ],
+      "notes": "Service model comparison"
+    },
+    {
+      "id": "kw-178",
+      "keyword": "how much does financial data scraping cost",
+      "segment": "financial",
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Financial Analyst",
+      "page_type_suggestion": "faq",
+      "priority_score": 7,
+      "related_keywords": [
+        "alt data pricing",
+        "financial data extraction cost"
+      ],
+      "notes": "Pricing FAQ"
+    },
+    {
+      "id": "kw-179",
+      "keyword": "what types of alternative data can be scraped",
+      "segment": "financial",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "low",
+      "estimated_volume": "medium",
+      "target_persona": "Quantitative Researcher",
+      "page_type_suggestion": "faq",
+      "priority_score": 7,
+      "related_keywords": [
+        "alt data categories",
+        "alternative data types"
+      ],
+      "notes": "Category FAQ"
+    },
+    {
+      "id": "kw-180",
+      "keyword": "how do hedge funds use web scraping",
+      "segment": "financial",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "low",
+      "estimated_volume": "medium",
+      "target_persona": "Financial Analyst",
+      "page_type_suggestion": "blog-post",
+      "priority_score": 7,
+      "related_keywords": [
+        "hedge fund data practices",
+        "scraping for hedge funds"
+      ],
+      "notes": "Use case overview"
+    },
+    {
+      "id": "kw-181",
+      "keyword": "web scraping for credit risk assessment",
+      "segment": "financial",
+      "intent": "informational",
+      "buyer_stage": "consideration",
+      "estimated_competition": "low",
+      "estimated_volume": "low",
+      "target_persona": "Risk Analyst",
+      "page_type_suggestion": "blog-post",
+      "priority_score": 7,
+      "related_keywords": [
+        "credit risk data collection",
+        "alternative credit data"
+      ],
+      "notes": "Risk assessment use case"
+    },
+    {
+      "id": "kw-182",
+      "keyword": "is it legal to scrape food delivery platforms",
+      "segment": "food-delivery",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "medium",
+      "estimated_volume": "medium",
+      "target_persona": "CEO",
+      "page_type_suggestion": "faq",
+      "priority_score": 6,
+      "related_keywords": [
+        "delivery app scraping legality",
+        "food data scraping compliance"
+      ],
+      "notes": "Legal FAQ"
+    },
+    {
+      "id": "kw-183",
+      "keyword": "alternative data sources for investment decisions",
+      "segment": "financial",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "medium",
+      "estimated_volume": "medium",
+      "target_persona": "Quantitative Researcher",
+      "page_type_suggestion": "blog-post",
+      "priority_score": 6,
+      "related_keywords": [
+        "alt data for investing",
+        "non-traditional data sources"
+      ],
+      "notes": "Broad awareness content"
+    },
+    {
+      "id": "kw-184",
+      "keyword": "real-time stock data scraping methods",
+      "segment": "financial",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "medium",
+      "estimated_volume": "medium",
+      "target_persona": "Financial Analyst",
+      "page_type_suggestion": "blog-post",
+      "priority_score": 6,
+      "related_keywords": [
+        "stock data extraction methods",
+        "real-time market data"
+      ],
+      "notes": "Technical content"
+    },
+    {
+      "id": "kw-185",
+      "keyword": "is web scraping financial data legal",
+      "segment": "financial",
+      "intent": "informational",
+      "buyer_stage": "awareness",
+      "estimated_competition": "medium",
+      "estimated_volume": "high",
+      "target_persona": "Head of Alternative Data",
+      "page_type_suggestion": "faq",
+      "priority_score": 6,
+      "related_keywords": [
+        "financial scraping legality",
+        "legal issues scraping finance"
+      ],
+      "notes": "Legal FAQ high volume"
+    }
+  ]
+}

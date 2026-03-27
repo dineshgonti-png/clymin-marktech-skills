@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#1a1a3e;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="funnelGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B35;stop-opacity:0.4"/>
+      <stop offset="100%" style="stop-color:#FFD166;stop-opacity:0.1"/>
+    </linearGradient>
+    <linearGradient id="tagGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B35;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#FFD166;stop-opacity:0.8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg4)"/>
+
+  <!-- Hex pattern background -->
+  <g opacity="0.04" stroke="#FFFFFF" stroke-width="0.8" fill="none">
+    <polygon points="80,80 110,65 140,80 140,110 110,125 80,110"/>
+    <polygon points="140,80 170,65 200,80 200,110 170,125 140,110"/>
+    <polygon points="200,80 230,65 260,80 260,110 230,125 200,110"/>
+    <polygon points="110,125 140,110 170,125 170,155 140,170 110,155"/>
+    <polygon points="170,125 200,110 230,125 230,155 200,170 170,155"/>
+    <polygon points="950,480 980,465 1010,480 1010,510 980,525 950,510"/>
+    <polygon points="1010,480 1040,465 1070,480 1070,510 1040,525 1010,510"/>
+    <polygon points="980,525 1010,510 1040,525 1040,555 1010,570 980,555"/>
+    <polygon points="1040,525 1070,510 1100,525 1100,555 1070,570 1040,555"/>
+    <polygon points="1070,480 1100,465 1130,480 1130,510 1100,525 1070,510"/>
+  </g>
+
+  <!-- Title -->
+  <text x="600" y="90" font-family="Inter, system-ui, sans-serif" font-size="48" font-weight="700" fill="#FFFFFF" text-anchor="middle">Price Scraping Service</text>
+  <text x="600" y="130" font-family="Inter, system-ui, sans-serif" font-size="18" fill="#F8F9FA" text-anchor="middle" opacity="0.5">E-commerce Intelligence Pipeline</text>
+
+  <!-- PRICE TAGS floating - left side -->
+  <!-- Tag 1 -->
+  <g transform="translate(120, 220) rotate(-15)">
+    <rect x="0" y="0" width="80" height="40" rx="4" fill="url(#tagGrad)" opacity="0.25" stroke="#FF6B35" stroke-width="1" stroke-opacity="0.5"/>
+    <circle cx="12" cy="12" r="4" fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.5"/>
+    <text x="40" y="28" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF" text-anchor="middle" opacity="0.8">$29.99</text>
+  </g>
+
+  <!-- Tag 2 -->
+  <g transform="translate(80, 310) rotate(5)">
+    <rect x="0" y="0" width="80" height="40" rx="4" fill="url(#tagGrad)" opacity="0.2" stroke="#FFD166" stroke-width="1" stroke-opacity="0.4"/>
+    <circle cx="12" cy="12" r="4" fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.5"/>
+    <text x="40" y="28" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF" text-anchor="middle" opacity="0.7">$14.50</text>
+  </g>
+
+  <!-- Tag 3 -->
+  <g transform="translate(200, 260) rotate(-8)">
+    <rect x="0" y="0" width="80" height="40" rx="4" fill="url(#tagGrad)" opacity="0.22" stroke="#FF6B35" stroke-width="1" stroke-opacity="0.4"/>
+    <circle cx="12" cy="12" r="4" fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.5"/>
+    <text x="40" y="28" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF" text-anchor="middle" opacity="0.75">$89.00</text>
+  </g>
+
+  <!-- Tag 4 -->
+  <g transform="translate(160, 370) rotate(10)">
+    <rect x="0" y="0" width="80" height="40" rx="4" fill="url(#tagGrad)" opacity="0.18" stroke="#FFD166" stroke-width="1" stroke-opacity="0.35"/>
+    <circle cx="12" cy="12" r="4" fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.5"/>
+    <text x="40" y="28" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF" text-anchor="middle" opacity="0.7">$42.99</text>
+  </g>
+
+  <!-- Tag 5 -->
+  <g transform="translate(260, 340) rotate(-3)">
+    <rect x="0" y="0" width="80" height="40" rx="4" fill="url(#tagGrad)" opacity="0.2" stroke="#FF6B35" stroke-width="1" stroke-opacity="0.4"/>
+    <circle cx="12" cy="12" r="4" fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.5"/>
+    <text x="40" y="28" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF" text-anchor="middle" opacity="0.75">$7.25</text>
+  </g>
+
+  <!-- Flow lines from tags to funnel -->
+  <path d="M200,250 Q350,270 450,280" fill="none" stroke="#FF6B35" stroke-width="1" opacity="0.3" stroke-dasharray="4,4"/>
+  <path d="M170,330 Q320,330 450,310" fill="none" stroke="#FFD166" stroke-width="1" opacity="0.25" stroke-dasharray="4,4"/>
+  <path d="M280,280 Q380,290 450,295" fill="none" stroke="#FF6B35" stroke-width="1" opacity="0.3" stroke-dasharray="4,4"/>
+  <path d="M250,380 Q360,370 450,340" fill="none" stroke="#FFD166" stroke-width="1" opacity="0.25" stroke-dasharray="4,4"/>
+  <path d="M340,365 Q400,360 450,330" fill="none" stroke="#FF6B35" stroke-width="1" opacity="0.2" stroke-dasharray="4,4"/>
+
+  <!-- Data particles along flow -->
+  <circle cx="320" cy="272" r="2" fill="#FF6B35" opacity="0.6"/>
+  <circle cx="370" cy="285" r="2.5" fill="#FFD166" opacity="0.5"/>
+  <circle cx="400" cy="305" r="2" fill="#FF6B35" opacity="0.5"/>
+  <circle cx="350" cy="340" r="2" fill="#FFD166" opacity="0.4"/>
+  <circle cx="390" cy="325" r="2.5" fill="#FF6B35" opacity="0.5"/>
+
+  <!-- FUNNEL - center -->
+  <polygon points="460,220 680,220 640,420 500,420" fill="url(#funnelGrad)" stroke="#FF6B35" stroke-width="1.5" stroke-opacity="0.5"/>
+  <!-- Funnel horizontal lines -->
+  <line x1="468" y1="270" x2="672" y2="270" stroke="#FFFFFF" stroke-width="0.5" opacity="0.1"/>
+  <line x1="478" y1="320" x2="662" y2="320" stroke="#FFFFFF" stroke-width="0.5" opacity="0.1"/>
+  <line x1="488" y1="370" x2="652" y2="370" stroke="#FFFFFF" stroke-width="0.5" opacity="0.1"/>
+
+  <!-- Funnel labels -->
+  <text x="570" y="255" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="middle" opacity="0.5">Raw Prices</text>
+  <text x="570" y="305" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="middle" opacity="0.5">Normalize</text>
+  <text x="570" y="355" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="middle" opacity="0.5">Validate</text>
+  <text x="570" y="405" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#FFD166" text-anchor="middle" opacity="0.6">Output</text>
+
+  <!-- Output stream from funnel -->
+  <line x1="570" y1="425" x2="570" y2="460" stroke="#FFD166" stroke-width="2" opacity="0.5"/>
+  <polygon points="562,460 570,472 578,460" fill="#FFD166" opacity="0.5"/>
+
+  <!-- RIGHT SIDE: Charts/graphs -->
+  <!-- Chart container -->
+  <rect x="750" y="200" width="370" height="260" rx="8" fill="#FFFFFF" opacity="0.03" stroke="#FFD166" stroke-width="1" stroke-opacity="0.25"/>
+
+  <!-- Bar chart -->
+  <rect x="790" y="360" width="30" height="70" rx="2" fill="#FF6B35" opacity="0.5"/>
+  <rect x="830" y="320" width="30" height="110" rx="2" fill="#FF6B35" opacity="0.6"/>
+  <rect x="870" y="340" width="30" height="90" rx="2" fill="#FFD166" opacity="0.45"/>
+  <rect x="910" y="290" width="30" height="140" rx="2" fill="#FF6B35" opacity="0.55"/>
+  <rect x="950" y="310" width="30" height="120" rx="2" fill="#FFD166" opacity="0.5"/>
+  <rect x="990" y="270" width="30" height="160" rx="2" fill="#FF6B35" opacity="0.6"/>
+  <rect x="1030" y="300" width="30" height="130" rx="2" fill="#FFD166" opacity="0.45"/>
+  <rect x="1070" y="250" width="30" height="180" rx="2" fill="#FF6B35" opacity="0.65"/>
+
+  <!-- Chart baseline -->
+  <line x1="780" y1="432" x2="1110" y2="432" stroke="#FFFFFF" stroke-width="0.8" opacity="0.2"/>
+
+  <!-- Trend line overlay -->
+  <polyline points="805,355 845,315 885,330 925,280 965,300 1005,260 1045,290 1085,240" fill="none" stroke="#FFD166" stroke-width="2" opacity="0.6"/>
+  <circle cx="805" cy="355" r="3" fill="#FFD166" opacity="0.7"/>
+  <circle cx="925" cy="280" r="3" fill="#FFD166" opacity="0.7"/>
+  <circle cx="1085" cy="240" r="3" fill="#FFD166" opacity="0.7"/>
+
+  <!-- Chart title -->
+  <text x="945" y="225" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="middle" opacity="0.5">Price Trends Analysis</text>
+
+  <!-- Data nodes scattered -->
+  <circle cx="770" y="180" r="4" fill="#FF6B35" opacity="0.4"/>
+  <circle cx="810" cy="190" r="3" fill="#FFD166" opacity="0.3"/>
+  <circle cx="1080" cy="180" r="3" fill="#FF6B35" opacity="0.3"/>
+  <circle cx="1100" cy="200" r="4" fill="#FFD166" opacity="0.35"/>
+
+  <!-- Bottom data stream nodes -->
+  <circle cx="480" cy="510" r="6" fill="#FF6B35" opacity="0.3"/>
+  <circle cx="540" cy="510" r="6" fill="#FFD166" opacity="0.25"/>
+  <circle cx="600" cy="510" r="6" fill="#FF6B35" opacity="0.3"/>
+  <circle cx="660" cy="510" r="6" fill="#FFD166" opacity="0.25"/>
+  <circle cx="720" cy="510" r="6" fill="#FF6B35" opacity="0.3"/>
+  <line x1="486" y1="510" x2="534" y2="510" stroke="#FFFFFF" stroke-width="0.8" opacity="0.15"/>
+  <line x1="546" y1="510" x2="594" y2="510" stroke="#FFFFFF" stroke-width="0.8" opacity="0.15"/>
+  <line x1="606" y1="510" x2="654" y2="510" stroke="#FFFFFF" stroke-width="0.8" opacity="0.15"/>
+  <line x1="666" y1="510" x2="714" y2="510" stroke="#FFFFFF" stroke-width="0.8" opacity="0.15"/>
+
+  <text x="600" y="545" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="middle" opacity="0.3">Structured Data Pipeline</text>
+
+  <!-- Corner accents -->
+  <path d="M40,55 L90,55" stroke="#FF6B35" stroke-width="2" opacity="0.4"/>
+  <path d="M40,55 L40,105" stroke="#FF6B35" stroke-width="2" opacity="0.4"/>
+  <path d="M1160,55 L1110,55" stroke="#FFD166" stroke-width="2" opacity="0.3"/>
+  <path d="M1160,55 L1160,105" stroke="#FFD166" stroke-width="2" opacity="0.3"/>
+
+  <!-- Clymin brand -->
+  <text x="1150" y="608" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="600" fill="#FF6B35" text-anchor="end">Clymin</text>
+</svg>

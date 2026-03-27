@@ -1,0 +1,476 @@
+# ============================================================
+# BRAND MEMORY CONFIGURATION — Clymin
+# ============================================================
+
+business:
+  name: "Clymin"
+  legal_entity: "Clymin"
+  tagline: "Supercharge Your Business With AI-Agentic Scraping Services"
+  tagline_alt: "Unlock Infinite Possibilities With AI-Powered Data Scraping"
+  description: >
+    Clymin is an AI-powered managed web and mobile app scraping service that extracts,
+    cleanses, and transforms data into actionable, real-time datasets. Our intelligent
+    AI agents empower businesses to make smarter decisions with structured, ready-to-use data.
+  positioning: "AI-agentic data extraction partner that delivers clean, structured, real-time data at scale"
+  founded: 2012
+  employee_count: "50-200"
+  experience: "12+ years of experience in data extraction and web scraping"
+  website: "https://www.clymin.ai"
+  email: "contact@clymin.com"
+  booking_link: "https://calendar.app.google/Ar5bkNN4nZpumJxN9"
+
+founders:
+  - name: "Dinesh"
+    role: "Founder"
+    linkedin: "https://www.linkedin.com/company/clymin"
+
+values:
+  - name: "Strategic Partnership"
+    description: "We are not just a service provider — we are a strategic partner committed to unlocking data for growth and innovation."
+  - name: "Innovation"
+    description: "AI-agentic technology that learns and adapts to deliver unparalleled accuracy."
+  - name: "Compliance & Security"
+    description: "ISO 27001 certified, AICPA SOC compliant, and GDPR ready — your data is handled with the highest security standards."
+  - name: "Results-Driven"
+    description: "Every engagement is measured by the business impact we deliver to our clients."
+
+locations:
+  primary:
+    - city: "San Francisco"
+      country: "United States"
+      address: "505 Montgomery Street, 11th Floor, San Francisco, CA 94111"
+    - city: "Hyderabad"
+      country: "India"
+      address: "4th Floor, Serenity Square, Hyderabad, Telangana 500081"
+  service_regions:
+    - "United States"
+    - "India"
+    - "Global"
+
+# ============================================================
+# CORE DIFFERENTIATOR
+# ============================================================
+differentiator:
+  name: "AI-Agentic Scraping"
+  description: >
+    Clymin uses intelligent AI agents that learn and adapt — not static scrapers.
+    Our fully managed, end-to-end service handles setup, maintenance, and delivery
+    so you get clean, structured, real-time data without any technical overhead.
+  proof_points:
+    - metric: "200+"
+      label: "Clients Served"
+      meaning: "Trusted by over 200 businesses across industries"
+      display_in_metrics_bar: true
+    - metric: "750+"
+      label: "Projects Delivered"
+      meaning: "Successfully completed over 750 data extraction projects"
+      display_in_metrics_bar: true
+    - metric: "12+"
+      label: "Years Experience"
+      meaning: "Over a decade of expertise in web scraping and data extraction"
+      display_in_metrics_bar: true
+    - metric: "100B+"
+      label: "Data Points Extracted"
+      meaning: "Over 100 billion data points extracted and delivered"
+      display_in_metrics_bar: true
+
+# ============================================================
+# PROCESS
+# ============================================================
+process:
+  - step: 1
+    name: "Initial Consultation"
+    detail: >
+      We understand your data requirements, target sources, and business goals
+      to design a custom extraction strategy.
+  - step: 2
+    name: "Custom Scraping Setup"
+    detail: >
+      Our AI agents are configured and deployed to extract data from your
+      specified web and mobile app sources with precision.
+  - step: 3
+    name: "Data Delivery & Maintenance"
+    detail: >
+      Clean, structured datasets are delivered on your schedule. We handle
+      ongoing maintenance, anti-blocking, and source changes automatically.
+
+# ============================================================
+# SERVICES
+# ============================================================
+services:
+  - name: "Web & App Scraping AI Services"
+    description: "AI-driven data extraction from websites and mobile applications"
+    typical_roles:
+      - "Data Engineer"
+      - "Business Analyst"
+      - "Marketing Manager"
+  - name: "Mobile App Scraping Services"
+    description: "Dedicated mobile app data extraction for competitive intelligence"
+    typical_roles:
+      - "Product Manager"
+      - "Market Researcher"
+  - name: "Real-Time Crawling Services"
+    description: "Continuous, real-time data collection for always-fresh insights"
+    typical_roles:
+      - "Pricing Analyst"
+      - "Operations Manager"
+  - name: "API Solutions"
+    description: "Custom APIs for seamless data integration into your existing workflows"
+    typical_roles:
+      - "Data Engineer"
+      - "CTO"
+  - name: "Data Cleansing & Transformation"
+    description: "Cleaning, structuring, and preparing raw data for analysis and decision-making"
+    typical_roles:
+      - "Data Scientist"
+      - "Business Intelligence Analyst"
+  - name: "Automated Monitoring"
+    description: "Ongoing automated alerts for critical market updates and competitor changes"
+    typical_roles:
+      - "Strategy Director"
+      - "CEO"
+
+# ============================================================
+# TARGET SEGMENTS (in priority order)
+# ============================================================
+target_segments:
+  - priority: 1
+    name: "E-Commerce Companies"
+    key: "ecommerce"
+    description: >
+      Online retailers and marketplace operators who need competitive pricing data,
+      product catalog monitoring, and market trend analysis at scale.
+    buyer_titles:
+      - "Head of E-Commerce"
+      - "Pricing Manager"
+      - "Marketing Manager"
+      - "CEO"
+    pain_points:
+      - "Manual competitor price monitoring is too slow and error-prone"
+      - "Can't track thousands of SKUs across competitors in real time"
+      - "Missing market trends and pricing opportunities"
+      - "Data from multiple sources is unstructured and unusable"
+    keywords_seed:
+      - "web scraping services for ecommerce"
+      - "competitor price monitoring"
+      - "product data extraction"
+      - "ecommerce data scraping"
+      - "price intelligence services"
+  - priority: 2
+    name: "Travel & Hospitality"
+    key: "travel"
+    description: >
+      Hotels, OTAs, and travel companies that need real-time rate monitoring,
+      availability tracking, and competitive intelligence across booking platforms.
+    buyer_titles:
+      - "Revenue Manager"
+      - "CEO"
+      - "Head of Distribution"
+    pain_points:
+      - "Competitor rates change constantly and manually tracking is impossible"
+      - "Missing revenue optimization opportunities due to stale data"
+      - "No visibility into competitor availability and pricing strategies"
+    keywords_seed:
+      - "hotel rate scraping"
+      - "travel data extraction"
+      - "OTA price monitoring"
+      - "hospitality competitive intelligence"
+  - priority: 3
+    name: "Real Estate"
+    key: "real-estate"
+    description: >
+      Real estate firms, proptech companies, and consultants who need property
+      listing data, market analytics, and pricing intelligence.
+    buyer_titles:
+      - "Real Estate Consultant"
+      - "Data Analyst"
+      - "Head of Research"
+    pain_points:
+      - "Property listings are scattered across dozens of platforms"
+      - "Market data is stale by the time it's manually compiled"
+      - "Can't scale data collection to cover full markets"
+    keywords_seed:
+      - "real estate data scraping"
+      - "property listing extraction"
+      - "real estate market intelligence"
+      - "proptech data services"
+  - priority: 4
+    name: "Food & Quick Commerce"
+    key: "food-delivery"
+    description: >
+      Food delivery platforms, restaurant chains, and quick commerce operators who
+      need menu data, pricing intelligence, and delivery performance monitoring.
+    buyer_titles:
+      - "Product Manager"
+      - "Strategy Director"
+      - "Head of Growth"
+    pain_points:
+      - "Competitor menus and pricing change daily"
+      - "No automated way to track delivery coverage and performance"
+      - "Difficult to benchmark against competitors at scale"
+    keywords_seed:
+      - "food delivery data scraping"
+      - "restaurant data extraction"
+      - "quick commerce competitive intelligence"
+      - "menu price monitoring"
+  - priority: 5
+    name: "Financial Services"
+    key: "financial"
+    description: >
+      Financial analysts, hedge funds, and fintech companies seeking alternative
+      data sources for market analysis and investment decisions.
+    buyer_titles:
+      - "Financial Analyst"
+      - "Quantitative Researcher"
+      - "Head of Alternative Data"
+    pain_points:
+      - "Need alternative data sources beyond traditional financial feeds"
+      - "Manual data collection can't keep pace with market movements"
+      - "Data quality and compliance are critical concerns"
+    keywords_seed:
+      - "alternative data extraction"
+      - "financial data scraping services"
+      - "market data collection"
+      - "web scraping for finance"
+
+# ============================================================
+# TARGET INDUSTRIES
+# ============================================================
+target_industries:
+  - "E-Commerce"
+  - "Tours & Travel"
+  - "Real Estate"
+  - "Food Delivery"
+  - "Quick Commerce"
+  - "Financial Services"
+  - "Social Media"
+  - "Entertainment"
+  - "Grocery & Retail"
+
+# ============================================================
+# BRAND VOICE
+# ============================================================
+brand_voice:
+  tone: "Confident, professional, results-oriented"
+  personality: "Strategic partner who speaks with authority about data and AI, accessible without being overly technical"
+  do:
+    - "Lead with business outcomes and metrics"
+    - "Use specific numbers and percentages to demonstrate impact"
+    - "Position Clymin as a strategic partner, not just a vendor"
+    - "Emphasize the AI-agentic advantage over static scrapers"
+    - "Mention compliance and security certifications where relevant"
+    - "Use action-oriented language — anticipate, supercharge, unlock, empower"
+  dont:
+    - "Use overly technical jargon without explaining business value"
+    - "Make generic claims without backing them with data"
+    - "Sound like a commodity scraping tool — we are a managed service"
+    - "Downplay compliance — it is a key differentiator"
+    - "Use passive or tentative language — be direct and confident"
+  sample_phrasing:
+    bad: "We can help you get some data from websites if you need it."
+    good: "Clymin's AI agents extract, cleanse, and deliver structured data from any source — so you can focus on decisions, not data collection."
+
+# ============================================================
+# CLIENTS
+# ============================================================
+clients:
+  named:
+    - name: "E-Commerce Client"
+      industry: "E-Commerce"
+      contact_name: "Sarah T."
+      contact_role: "Marketing Manager"
+      testimonial: "Clymin's data insights helped us boost revenue by 20% through real-time market trend and competitor pricing analysis."
+    - name: "Financial Services Client"
+      industry: "Financial Services"
+      contact_name: "Lisa R."
+      contact_role: "Social Media Manager"
+      testimonial: "Decision-making speed improved by 25% with Clymin's structured financial data extraction services."
+    - name: "Travel Client"
+      industry: "Tours & Travel"
+      contact_name: "David L."
+      contact_role: "CEO"
+      testimonial: "Competitive rate adjustments improved by 20% — Clymin gives us real-time visibility into the market."
+    - name: "Real Estate Client"
+      industry: "Real Estate"
+      contact_name: "Emily W."
+      contact_role: "Real Estate Consultant"
+      testimonial: "Data collection efficiency improved by 35% with Clymin's automated property listing extraction."
+  industries_served_count: "9+"
+  platforms_scanned: "Thousands"
+  parameters_evaluated: "100B+ data points"
+
+social_profiles:
+  linkedin_company: "https://www.linkedin.com/company/clymin"
+  crunchbase: ""
+  twitter: ""
+
+# ============================================================
+# COMPETITORS
+# ============================================================
+competitors:
+  primary:
+    - { name: "Bright Data", url: "https://brightdata.com" }
+    - { name: "Oxylabs", url: "https://oxylabs.io" }
+    - { name: "Apify", url: "https://apify.com" }
+  secondary:
+    - { name: "ScrapingBee", url: "https://www.scrapingbee.com" }
+    - { name: "Zyte", url: "https://www.zyte.com" }
+    - { name: "Import.io", url: "https://www.import.io" }
+
+# ============================================================
+# INTEGRATIONS
+# ============================================================
+integrations:
+  - "REST API"
+  - "Custom API Solutions"
+  - "CSV/JSON/XML Data Delivery"
+  - "Cloud Storage (S3, GCS)"
+  - "Database Direct Integration"
+
+# ============================================================
+# PRICING
+# ============================================================
+pricing:
+  model: "Custom project-based pricing"
+  note: "Pricing varies based on data volume, source complexity, and delivery frequency. Free consultation offered."
+  content_approach: >
+    Position Clymin as a premium managed service. Emphasize ROI and value
+    rather than competing on price. Offer free consultation as the conversion point.
+
+# ============================================================
+# CONTENT INFRASTRUCTURE
+# ============================================================
+content_config:
+  subdirectory: "/resources"
+  base_url: "https://www.clymin.ai/resources"
+  page_types:
+    - type: "landing-page"
+      label: "Services"
+      description: "Explore our data extraction solutions by industry and use case"
+      purpose: "Convert high-intent visitors searching for scraping services"
+      target_count: 40
+    - type: "blog-post"
+      label: "Blog"
+      description: "Data intelligence insights, trends, and strategies"
+      purpose: "Attract informational traffic and build thought leadership"
+      target_count: 40
+    - type: "guide"
+      label: "Guides"
+      description: "Comprehensive playbooks for data-driven decision making"
+      purpose: "Build authority and capture email leads"
+      target_count: 10
+    - type: "faq"
+      label: "FAQs"
+      description: "Quick answers to common data extraction questions"
+      purpose: "AI citation magnets for answer engine visibility"
+      target_count: 10
+    - type: "comparison"
+      label: "Comparisons"
+      description: "Side-by-side analysis of data extraction approaches"
+      purpose: "Capture decision-stage queries comparing solutions"
+      target_count: 10
+
+# ============================================================
+# DESIGN
+# ============================================================
+design:
+  colors:
+    primary: "#FF6B35"
+    primary_hover: "#E55A2B"
+    accent_1: "#1A1A2E"
+    accent_2: "#FF8C5A"
+    dark: "#0D0D1A"
+    bg_light: "#F8F9FA"
+    border: "#E2E8F0"
+    text_primary: "#0D0D1A"
+    text_body: "#2D3748"
+    text_secondary: "#4A5568"
+    text_muted: "#718096"
+
+  segment_colors:
+    ecommerce: ["#FF6B35", "#FFB347"]
+    travel: ["#4ECDC4", "#44B8A8"]
+    real-estate: ["#6C5CE7", "#A29BFE"]
+    food-delivery: ["#FF6B6B", "#FFA07A"]
+    financial: ["#2D9CDB", "#56CCF2"]
+    _default: ["#FF6B35", "#FF8C5A"]
+
+  fonts:
+    heading:
+      family: "Inter"
+      fallback: "sans-serif"
+      google_import: "Inter:wght@400;500;600;700"
+    body:
+      family: "Inter"
+      fallback: "sans-serif"
+      google_import: "Inter:wght@400;500;600"
+
+  radii:
+    button: "8px"
+    card: "12px"
+    small: "6px"
+
+  logo_text:
+    primary: "Clymin"
+    accent: ""
+
+# ============================================================
+# NAVIGATION
+# ============================================================
+navigation:
+  header:
+    logo_link: "https://www.clymin.ai"
+    cta_text: "Get a Free Consultation"
+    cta_link: "https://www.clymin.ai/contact-us"
+    cta2_text: "Book a Meeting"
+    cta2_link: "https://calendar.app.google/Ar5bkNN4nZpumJxN9"
+  footer:
+    links:
+      - label: "About"
+        href: "https://www.clymin.ai"
+      - label: "Services"
+        href: "https://www.clymin.ai"
+      - label: "Resources"
+        href: "/resources"
+      - label: "Contact"
+        href: "https://www.clymin.ai/contact-us"
+      - label: "LinkedIn"
+        href: "https://www.linkedin.com/company/clymin"
+    copyright_holder: "Clymin"
+
+# ============================================================
+# CTA
+# ============================================================
+cta:
+  heading: "Ready to Unlock Your Data Advantage?"
+  subheading: "Get actionable, real-time data customized to your business — schedule a free consultation today."
+  primary_button:
+    text: "Get a Free Consultation"
+    link: "https://www.clymin.ai/contact-us"
+  secondary_button:
+    text: "Book a Meeting"
+    link: "https://calendar.app.google/Ar5bkNN4nZpumJxN9"
+  tertiary_button:
+    text: "Email Us"
+    link: "mailto:contact@clymin.com"
+  hub:
+    heading: "Need Data Intelligence?"
+    subheading: "Explore our guides, FAQs, and industry insights to see how AI-powered data extraction can transform your business."
+
+# ============================================================
+# DEPLOYMENT
+# ============================================================
+deployment:
+  platform: "vercel"
+  project_name: "clymin-resources"
+  domain: "www.clymin.ai"
+
+# ============================================================
+# CANONICAL CONTENT REFERENCES
+# ============================================================
+canonical_pages:
+  main_service_page:
+    slug: "ai-web-scraping-services"
+    anchors:
+      differentiator: "ai-agentic-scraping"
+      process: "how-it-works"

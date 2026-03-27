@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#16213e;stop-opacity:0.8"/>
+      <stop offset="50%" style="stop-color:#1a1a2e;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#1a1a2e;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.08"/>
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:0.02"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg5)"/>
+
+  <!-- Circuit-like background pattern -->
+  <g opacity="0.04" stroke="#FFFFFF" stroke-width="0.8">
+    <path d="M0,200 L100,200 L100,150 L200,150" fill="none"/>
+    <path d="M0,400 L80,400 L80,450 L160,450" fill="none"/>
+    <path d="M1200,180 L1100,180 L1100,230 L1020,230" fill="none"/>
+    <path d="M1200,420 L1120,420 L1120,380 L1040,380" fill="none"/>
+    <circle cx="200" cy="150" r="3" fill="#FFFFFF"/>
+    <circle cx="160" cy="450" r="3" fill="#FFFFFF"/>
+    <circle cx="1020" cy="230" r="3" fill="#FFFFFF"/>
+    <circle cx="1040" cy="380" r="3" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Title -->
+  <text x="600" y="85" font-family="Inter, system-ui, sans-serif" font-size="48" font-weight="700" fill="#FFFFFF" text-anchor="middle">Product Data Extraction</text>
+  <text x="600" y="125" font-family="Inter, system-ui, sans-serif" font-size="18" fill="#F8F9FA" text-anchor="middle" opacity="0.5">From Unstructured to Structured</text>
+
+  <!-- LEFT SIDE: Product cards being deconstructed -->
+  <!-- Product Card 1 - full -->
+  <g transform="translate(80, 180)">
+    <rect width="170" height="200" rx="8" fill="url(#cardGrad)" stroke="#FF6B35" stroke-width="1.2" stroke-opacity="0.5"/>
+    <!-- Image placeholder -->
+    <rect x="15" y="15" width="140" height="80" rx="4" fill="#FF6B35" opacity="0.1"/>
+    <rect x="50" y="40" width="70" height="30" rx="3" fill="#FF6B35" opacity="0.15"/>
+    <text x="85" y="60" font-family="Inter, system-ui, sans-serif" font-size="10" fill="#FFFFFF" text-anchor="middle" opacity="0.4">IMAGE</text>
+    <!-- Title line -->
+    <rect x="15" y="108" width="120" height="8" rx="2" fill="#FFFFFF" opacity="0.2"/>
+    <rect x="15" y="122" width="80" height="8" rx="2" fill="#FFFFFF" opacity="0.12"/>
+    <!-- Price -->
+    <rect x="15" y="145" width="50" height="14" rx="3" fill="#FF6B35" opacity="0.25"/>
+    <text x="40" y="156" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600" fill="#FF6B35" text-anchor="middle">$49.99</text>
+    <!-- Stars -->
+    <text x="15" y="180" font-family="Inter, system-ui, sans-serif" font-size="10" fill="#FFD166" opacity="0.5">&#9733;&#9733;&#9733;&#9733;&#9734;</text>
+  </g>
+
+  <!-- Product Card 2 - partially deconstructed -->
+  <g transform="translate(280, 200)">
+    <rect width="150" height="180" rx="8" fill="url(#cardGrad)" stroke="#FFD166" stroke-width="1" stroke-opacity="0.35" stroke-dasharray="4,3"/>
+    <!-- Pieces floating away -->
+    <rect x="15" y="15" width="120" height="65" rx="4" fill="#FFD166" opacity="0.06" stroke="#FFD166" stroke-width="0.8" stroke-opacity="0.2"/>
+    <text x="75" y="52" font-family="Inter, system-ui, sans-serif" font-size="9" fill="#FFFFFF" text-anchor="middle" opacity="0.3">IMAGE</text>
+
+    <!-- Floating deconstructed pieces -->
+    <g opacity="0.6">
+      <!-- Title piece floating right -->
+      <rect x="140" y="90" width="90" height="8" rx="2" fill="#FFFFFF" opacity="0.25" transform="rotate(5, 185, 94)"/>
+      <!-- Price piece floating right -->
+      <rect x="150" y="120" width="45" height="12" rx="3" fill="#FF6B35" opacity="0.3" transform="rotate(-3, 172, 126)"/>
+      <!-- Rating floating -->
+      <rect x="145" y="145" width="55" height="10" rx="2" fill="#FFD166" opacity="0.2" transform="rotate(8, 172, 150)"/>
+    </g>
+
+    <rect x="15" y="95" width="100" height="8" rx="2" fill="#FFFFFF" opacity="0.15"/>
+    <rect x="15" y="118" width="45" height="12" rx="3" fill="#FF6B35" opacity="0.15"/>
+    <text x="15" y="155" font-family="Inter, system-ui, sans-serif" font-size="9" fill="#FFD166" opacity="0.3">&#9733;&#9733;&#9733;&#9734;&#9734;</text>
+  </g>
+
+  <!-- CENTER: Transformation arrows -->
+  <!-- Large transformation arrow zone -->
+  <g transform="translate(500, 310)">
+    <!-- Arrow body -->
+    <rect x="0" y="-15" width="120" height="30" rx="4" fill="#FF6B35" opacity="0.1"/>
+    <!-- Arrow segments -->
+    <line x1="15" y1="0" x2="45" y2="0" stroke="#FF6B35" stroke-width="2" opacity="0.5"/>
+    <line x1="55" y1="0" x2="85" y2="0" stroke="#FFD166" stroke-width="2" opacity="0.5"/>
+    <polygon points="90,0 105,-10 105,10" fill="#FF6B35" opacity="0.5" transform="translate(10,0)"/>
+
+    <!-- Transform label -->
+    <text x="60" y="-25" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#FFFFFF" text-anchor="middle" opacity="0.4">EXTRACT</text>
+  </g>
+
+  <!-- Secondary arrows -->
+  <g opacity="0.3">
+    <line x1="470" y1="250" x2="620" y2="250" stroke="#FF6B35" stroke-width="1" stroke-dasharray="6,4"/>
+    <polygon points="620,250 630,244 630,256" fill="#FF6B35" opacity="0.5"/>
+    <line x1="470" y1="380" x2="620" y2="380" stroke="#FFD166" stroke-width="1" stroke-dasharray="6,4"/>
+    <polygon points="620,380 630,374 630,386" fill="#FFD166" opacity="0.5"/>
+  </g>
+
+  <!-- RIGHT SIDE: Structured data table -->
+  <g transform="translate(660, 190)">
+    <!-- Table container -->
+    <rect width="440" height="280" rx="8" fill="#FFFFFF" opacity="0.03" stroke="#FF6B35" stroke-width="1.2" stroke-opacity="0.4"/>
+
+    <!-- Header row -->
+    <rect x="0" y="0" width="440" height="40" rx="8" fill="#FF6B35" opacity="0.12"/>
+    <text x="20" y="26" font-family="monospace" font-size="11" font-weight="600" fill="#FF6B35" opacity="0.8">NAME</text>
+    <text x="140" y="26" font-family="monospace" font-size="11" font-weight="600" fill="#FF6B35" opacity="0.8">PRICE</text>
+    <text x="230" y="26" font-family="monospace" font-size="11" font-weight="600" fill="#FF6B35" opacity="0.8">RATING</text>
+    <text x="320" y="26" font-family="monospace" font-size="11" font-weight="600" fill="#FF6B35" opacity="0.8">SKU</text>
+
+    <!-- Divider lines (columns) -->
+    <line x1="130" y1="5" x2="130" y2="275" stroke="#FFFFFF" stroke-width="0.5" opacity="0.06"/>
+    <line x1="220" y1="5" x2="220" y2="275" stroke="#FFFFFF" stroke-width="0.5" opacity="0.06"/>
+    <line x1="310" y1="5" x2="310" y2="275" stroke="#FFFFFF" stroke-width="0.5" opacity="0.06"/>
+
+    <!-- Row 1 -->
+    <rect x="0" y="45" width="440" height="35" fill="#FFFFFF" opacity="0.02"/>
+    <rect x="20" y="55" width="90" height="8" rx="2" fill="#FFFFFF" opacity="0.2"/>
+    <text x="155" y="66" font-family="monospace" font-size="11" fill="#FFD166" opacity="0.6">$49.99</text>
+    <text x="245" y="66" font-family="monospace" font-size="11" fill="#FFD166" opacity="0.6">4.2</text>
+    <text x="330" y="66" font-family="monospace" font-size="10" fill="#FFFFFF" opacity="0.35">SK-0291</text>
+
+    <!-- Row 2 -->
+    <rect x="20" y="95" width="75" height="8" rx="2" fill="#FFFFFF" opacity="0.15"/>
+    <text x="155" y="102" font-family="monospace" font-size="11" fill="#FFD166" opacity="0.6">$24.50</text>
+    <text x="245" y="102" font-family="monospace" font-size="11" fill="#FFD166" opacity="0.6">3.8</text>
+    <text x="330" y="102" font-family="monospace" font-size="10" fill="#FFFFFF" opacity="0.35">SK-1847</text>
+
+    <!-- Row 3 -->
+    <rect x="0" y="115" width="440" height="35" fill="#FFFFFF" opacity="0.02"/>
+    <rect x="20" y="130" width="100" height="8" rx="2" fill="#FFFFFF" opacity="0.2"/>
+    <text x="155" y="138" font-family="monospace" font-size="11" fill="#FFD166" opacity="0.6">$89.00</text>
+    <text x="245" y="138" font-family="monospace" font-size="11" fill="#FFD166" opacity="0.6">4.7</text>
+    <text x="330" y="138" font-family="monospace" font-size="10" fill="#FFFFFF" opacity="0.35">SK-3920</text>
+
+    <!-- Row 4 -->
+    <rect x="20" y="165" width="85" height="8" rx="2" fill="#FFFFFF" opacity="0.15"/>
+    <text x="155" y="173" font-family="monospace" font-size="11" fill="#FFD166" opacity="0.6">$7.25</text>
+    <text x="245" y="173" font-family="monospace" font-size="11" fill="#FFD166" opacity="0.6">4.0</text>
+    <text x="330" y="173" font-family="monospace" font-size="10" fill="#FFFFFF" opacity="0.35">SK-5512</text>
+
+    <!-- Row 5 -->
+    <rect x="0" y="185" width="440" height="35" fill="#FFFFFF" opacity="0.02"/>
+    <rect x="20" y="200" width="95" height="8" rx="2" fill="#FFFFFF" opacity="0.2"/>
+    <text x="155" y="208" font-family="monospace" font-size="11" fill="#FFD166" opacity="0.6">$42.99</text>
+    <text x="245" y="208" font-family="monospace" font-size="11" fill="#FFD166" opacity="0.6">3.5</text>
+    <text x="330" y="208" font-family="monospace" font-size="10" fill="#FFFFFF" opacity="0.35">SK-7744</text>
+
+    <!-- Row 6 -->
+    <rect x="20" y="235" width="70" height="8" rx="2" fill="#FFFFFF" opacity="0.12"/>
+    <text x="155" y="243" font-family="monospace" font-size="11" fill="#FFD166" opacity="0.5">$15.00</text>
+    <text x="245" y="243" font-family="monospace" font-size="11" fill="#FFD166" opacity="0.5">4.4</text>
+    <text x="330" y="243" font-family="monospace" font-size="10" fill="#FFFFFF" opacity="0.3">SK-9001</text>
+
+    <!-- Row count -->
+    <text x="20" y="270" font-family="Inter, system-ui, sans-serif" font-size="10" fill="#FFFFFF" opacity="0.25">Showing 6 of 24,518 records</text>
+  </g>
+
+  <!-- Labels -->
+  <text x="250" y="530" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#FF6B35" text-anchor="middle" opacity="0.4">PRODUCT PAGES</text>
+  <text x="880" y="530" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#FFD166" text-anchor="middle" opacity="0.4">STRUCTURED DATA</text>
+
+  <!-- Decorative corner elements -->
+  <g opacity="0.35">
+    <line x1="35" y1="35" x2="35" y2="80" stroke="#FF6B35" stroke-width="2"/>
+    <line x1="35" y1="35" x2="80" y2="35" stroke="#FF6B35" stroke-width="2"/>
+    <circle cx="35" cy="35" r="3" fill="#FF6B35"/>
+  </g>
+  <g opacity="0.25">
+    <line x1="1165" y1="35" x2="1165" y2="80" stroke="#FFD166" stroke-width="2"/>
+    <line x1="1165" y1="35" x2="1120" y2="35" stroke="#FFD166" stroke-width="2"/>
+    <circle cx="1165" cy="35" r="3" fill="#FFD166"/>
+  </g>
+
+  <!-- Bottom accent line -->
+  <line x1="200" y1="560" x2="1000" y2="560" stroke="#FF6B35" stroke-width="0.5" opacity="0.15"/>
+
+  <!-- Clymin brand -->
+  <text x="1150" y="608" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="600" fill="#FF6B35" text-anchor="end">Clymin</text>
+</svg>

@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bgGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#12122a"/>
+    </linearGradient>
+    <linearGradient id="pulseGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF6B35" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FF6B35" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#FFD166" stop-opacity="0.6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad3)"/>
+
+  <!-- Radial lines from clock center -->
+  <g opacity="0.04" stroke="#FFFFFF" stroke-width="0.5">
+    <line x1="950" y1="260" x2="950" y2="60"/>
+    <line x1="950" y1="260" x2="1100" y2="110"/>
+    <line x1="950" y1="260" x2="1150" y2="260"/>
+    <line x1="950" y1="260" x2="1100" y2="410"/>
+    <line x1="950" y1="260" x2="950" y2="460"/>
+    <line x1="950" y1="260" x2="800" y2="410"/>
+    <line x1="950" y1="260" x2="750" y2="260"/>
+    <line x1="950" y1="260" x2="800" y2="110"/>
+  </g>
+
+  <!-- Clock face -->
+  <circle cx="950" cy="260" r="140" fill="none" stroke="#FF6B35" stroke-width="2" opacity="0.15"/>
+  <circle cx="950" cy="260" r="138" fill="none" stroke="#FF6B35" stroke-width="0.5" opacity="0.1"/>
+  <circle cx="950" cy="260" r="120" fill="none" stroke="#FFD166" stroke-width="1" opacity="0.08" stroke-dasharray="8,8"/>
+
+  <!-- Clock tick marks -->
+  <g stroke="#FF6B35" stroke-width="2" opacity="0.4">
+    <line x1="950" y1="125" x2="950" y2="140"/>
+    <line x1="1085" y1="260" x2="1070" y2="260"/>
+    <line x1="950" y1="395" x2="950" y2="380"/>
+    <line x1="815" y1="260" x2="830" y2="260"/>
+  </g>
+  <g stroke="#FF6B35" stroke-width="1" opacity="0.2">
+    <line x1="1015" y1="147" x2="1008" y2="158"/>
+    <line x1="1067" y1="195" x2="1057" y2="202"/>
+    <line x1="1067" y1="325" x2="1057" y2="318"/>
+    <line x1="1015" y1="373" x2="1008" y2="362"/>
+    <line x1="885" y1="373" x2="892" y2="362"/>
+    <line x1="833" y1="325" x2="843" y2="318"/>
+    <line x1="833" y1="195" x2="843" y2="202"/>
+    <line x1="885" y1="147" x2="892" y2="158"/>
+  </g>
+
+  <!-- Clock hands -->
+  <line x1="950" y1="260" x2="950" y2="170" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  <line x1="950" y1="260" x2="1020" y2="220" stroke="#FF6B35" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <circle cx="950" cy="260" r="6" fill="#FF6B35"/>
+  <circle cx="950" cy="260" r="3" fill="#1a1a2e"/>
+
+  <!-- Refresh arrow around clock -->
+  <path d="M950,100 A160,160 0 0,1 1100,220" fill="none" stroke="#FFD166" stroke-width="2" opacity="0.3"/>
+  <polygon points="1100,210 1110,228 1092,225" fill="#FFD166" opacity="0.3"/>
+
+  <!-- Frequency bars -->
+  <g transform="translate(680, 440)">
+    <!-- Hourly -->
+    <rect x="0" y="0" width="50" height="8" rx="4" fill="#FF6B35" opacity="0.7"/>
+    <rect x="55" y="0" width="50" height="8" rx="4" fill="#FF6B35" opacity="0.7"/>
+    <rect x="110" y="0" width="50" height="8" rx="4" fill="#FF6B35" opacity="0.7"/>
+    <rect x="165" y="0" width="50" height="8" rx="4" fill="#FF6B35" opacity="0.7"/>
+    <rect x="220" y="0" width="50" height="8" rx="4" fill="#FF6B35" opacity="0.7"/>
+    <rect x="275" y="0" width="50" height="8" rx="4" fill="#FF6B35" opacity="0.5"/>
+    <rect x="330" y="0" width="50" height="8" rx="4" fill="#FF6B35" opacity="0.3"/>
+    <text x="-10" y="8" fill="#FF6B35" font-family="Inter, system-ui, sans-serif" font-size="10" text-anchor="end" font-weight="600">1H</text>
+  </g>
+  <g transform="translate(680, 460)">
+    <!-- Daily -->
+    <rect x="0" y="0" width="110" height="8" rx="4" fill="#FFD166" opacity="0.5"/>
+    <rect x="120" y="0" width="110" height="8" rx="4" fill="#FFD166" opacity="0.5"/>
+    <rect x="240" y="0" width="110" height="8" rx="4" fill="#FFD166" opacity="0.3"/>
+    <text x="-10" y="8" fill="#FFD166" font-family="Inter, system-ui, sans-serif" font-size="10" text-anchor="end" font-weight="600">1D</text>
+  </g>
+  <g transform="translate(680, 480)">
+    <!-- Weekly -->
+    <rect x="0" y="0" width="380" height="8" rx="4" fill="#FFFFFF" opacity="0.15"/>
+    <text x="-10" y="8" fill="#FFFFFF" font-family="Inter, system-ui, sans-serif" font-size="10" text-anchor="end" font-weight="600" opacity="0.5">1W</text>
+  </g>
+
+  <!-- Real-time pulse line -->
+  <g transform="translate(680, 520)">
+    <polyline points="0,15 20,15 25,15 30,0 35,30 40,10 45,20 50,15 70,15 90,15 95,15 100,2 105,28 110,12 115,18 120,15 160,15 200,15 205,15 210,0 215,30 220,8 225,22 230,15 280,15 340,15 345,15 350,2 355,28 360,15 380,15"
+      fill="none" stroke="#FF6B35" stroke-width="1.5" opacity="0.5"/>
+    <circle cx="380" cy="15" r="4" fill="#FF6B35" opacity="0.6"/>
+    <circle cx="380" cy="15" r="8" fill="#FF6B35" opacity="0.15"/>
+    <text x="-10" y="19" fill="#FF6B35" font-family="Inter, system-ui, sans-serif" font-size="9" text-anchor="end" opacity="0.6">LIVE</text>
+  </g>
+
+  <!-- Decorative accent top-right -->
+  <polygon points="1200,0 1200,120 1080,0" fill="#FFD166" opacity="0.05"/>
+
+  <!-- Floating time markers -->
+  <g opacity="0.15">
+    <rect x="700" y="100" width="55" height="24" rx="12" fill="none" stroke="#FF6B35" stroke-width="1"/>
+    <text x="727" y="117" fill="#FF6B35" font-family="Inter, system-ui, sans-serif" font-size="10" text-anchor="middle">09:00</text>
+  </g>
+  <g opacity="0.1">
+    <rect x="750" y="370" width="55" height="24" rx="12" fill="none" stroke="#FFD166" stroke-width="1"/>
+    <text x="777" y="387" fill="#FFD166" font-family="Inter, system-ui, sans-serif" font-size="10" text-anchor="middle">15:30</text>
+  </g>
+
+  <!-- Bottom accent bar -->
+  <rect x="80" y="560" width="180" height="3" rx="1.5" fill="#FF6B35" opacity="0.25"/>
+  <rect x="80" y="560" width="70" height="3" rx="1.5" fill="#FF6B35" opacity="0.6"/>
+
+  <!-- Title Text -->
+  <text x="80" y="195" fill="#FFFFFF" font-family="Inter, system-ui, sans-serif" font-size="52" font-weight="800" letter-spacing="-1">Pricing Data</text>
+  <text x="80" y="265" fill="#FFFFFF" font-family="Inter, system-ui, sans-serif" font-size="52" font-weight="800" letter-spacing="-1">Frequency</text>
+
+  <!-- Subtitle -->
+  <text x="80" y="315" fill="#FFFFFF" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="400" opacity="0.5">How often to refresh competitor pricing</text>
+
+  <!-- Frequency badge -->
+  <rect x="80" y="123" width="90" height="26" rx="13" fill="#FF6B35" opacity="0.15"/>
+  <text x="125" y="141" fill="#FF6B35" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" text-anchor="middle">SCHEDULE</text>
+
+  <!-- Clymin brand -->
+  <text x="1140" y="600" fill="#FF6B35" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" text-anchor="end" opacity="0.8">Clymin</text>
+</svg>

@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#1a1a3e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg3)"/>
+
+  <!-- Subtle radial glow -->
+  <circle cx="850" cy="300" r="300" fill="#FF6B35" opacity="0.03"/>
+  <circle cx="350" cy="400" r="200" fill="#FFD166" opacity="0.02"/>
+
+  <!-- Scales of Justice -->
+  <g transform="translate(850, 160)">
+    <!-- Center pillar -->
+    <rect x="-4" y="0" width="8" height="280" rx="4" fill="#FFFFFF" opacity="0.08"/>
+    <circle cx="0" cy="0" r="14" fill="#FF6B35" opacity="0.3"/>
+    <circle cx="0" cy="0" r="8" fill="#FF6B35" opacity="0.5"/>
+
+    <!-- Balance beam -->
+    <line x1="-180" y1="40" x2="180" y2="60" stroke="#FFFFFF" stroke-width="3" opacity="0.15" stroke-linecap="round"/>
+
+    <!-- Left pan (data/code side - heavier, lower) -->
+    <g transform="translate(-180, 40)">
+      <!-- Chains -->
+      <line x1="-40" y1="0" x2="-40" y2="60" stroke="#FFD166" stroke-width="1.5" opacity="0.2"/>
+      <line x1="40" y1="0" x2="40" y2="60" stroke="#FFD166" stroke-width="1.5" opacity="0.2"/>
+      <!-- Pan -->
+      <ellipse cx="0" cy="65" rx="60" ry="12" fill="#FFD166" opacity="0.12" stroke="#FFD166" stroke-width="1" stroke-opacity="0.2"/>
+      <!-- Code symbols on pan -->
+      <text x="0" y="55" font-family="monospace" font-size="14" fill="#FF6B35" text-anchor="middle" opacity="0.5">&lt;/&gt;</text>
+      <rect x="-25" y="30" width="12" height="12" rx="2" fill="#FF6B35" opacity="0.15"/>
+      <rect x="-8" y="25" width="12" height="12" rx="2" fill="#FFD166" opacity="0.12"/>
+      <rect x="10" y="32" width="12" height="12" rx="2" fill="#FF6B35" opacity="0.1"/>
+    </g>
+
+    <!-- Right pan (law side - lighter, higher) -->
+    <g transform="translate(180, 60)">
+      <!-- Chains -->
+      <line x1="-40" y1="0" x2="-40" y2="45" stroke="#FFD166" stroke-width="1.5" opacity="0.2"/>
+      <line x1="40" y1="0" x2="40" y2="45" stroke="#FFD166" stroke-width="1.5" opacity="0.2"/>
+      <!-- Pan -->
+      <ellipse cx="0" cy="50" rx="60" ry="12" fill="#FFD166" opacity="0.12" stroke="#FFD166" stroke-width="1" stroke-opacity="0.2"/>
+      <!-- Legal symbol -->
+      <text x="0" y="42" font-family="Inter, system-ui, sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle" opacity="0.3">&#167;</text>
+    </g>
+  </g>
+
+  <!-- Gavel -->
+  <g transform="translate(720, 380)" opacity="0.2">
+    <!-- Handle -->
+    <rect x="0" y="0" width="120" height="14" rx="7" fill="#FFD166" transform="rotate(-35 60 7)"/>
+    <!-- Head -->
+    <rect x="-15" y="-25" width="50" height="30" rx="6" fill="#FF6B35" transform="rotate(-35 10 -10)"/>
+    <!-- Strike pad -->
+    <ellipse cx="100" cy="60" rx="35" ry="8" fill="#FFFFFF" opacity="0.3"/>
+  </g>
+
+  <!-- Legal document shapes -->
+  <g transform="translate(980, 340)">
+    <rect x="0" y="0" width="90" height="120" rx="4" fill="#FFFFFF" opacity="0.05" stroke="#FFFFFF" stroke-width="0.5" stroke-opacity="0.1"/>
+    <rect x="12" y="15" width="50" height="4" rx="2" fill="#FFFFFF" opacity="0.08"/>
+    <rect x="12" y="26" width="65" height="4" rx="2" fill="#FFFFFF" opacity="0.06"/>
+    <rect x="12" y="37" width="40" height="4" rx="2" fill="#FFFFFF" opacity="0.06"/>
+    <rect x="12" y="48" width="60" height="4" rx="2" fill="#FFFFFF" opacity="0.06"/>
+    <rect x="12" y="59" width="45" height="4" rx="2" fill="#FFFFFF" opacity="0.06"/>
+    <!-- Stamp -->
+    <circle cx="60" cy="90" r="18" fill="none" stroke="#FF6B35" stroke-width="1.5" opacity="0.3"/>
+    <text x="60" y="94" font-family="Inter, system-ui, sans-serif" font-size="8" fill="#FF6B35" text-anchor="middle" opacity="0.4" font-weight="700">LEGAL</text>
+  </g>
+
+  <!-- Second document (offset) -->
+  <g transform="translate(1050, 360)">
+    <rect x="0" y="0" width="80" height="100" rx="4" fill="#FFFFFF" opacity="0.03" stroke="#FFFFFF" stroke-width="0.5" stroke-opacity="0.06"/>
+    <rect x="10" y="12" width="45" height="3" rx="1.5" fill="#FFFFFF" opacity="0.05"/>
+    <rect x="10" y="22" width="55" height="3" rx="1.5" fill="#FFFFFF" opacity="0.04"/>
+    <rect x="10" y="32" width="35" height="3" rx="1.5" fill="#FFFFFF" opacity="0.04"/>
+    <rect x="10" y="42" width="50" height="3" rx="1.5" fill="#FFFFFF" opacity="0.04"/>
+  </g>
+
+  <!-- Large question mark -->
+  <text x="640" y="240" font-family="Inter, system-ui, sans-serif" font-size="180" font-weight="900" fill="#FF6B35" opacity="0.06">?</text>
+
+  <!-- Small floating question marks -->
+  <text x="550" y="120" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="700" fill="#FFD166" opacity="0.1">?</text>
+  <text x="1100" y="180" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="700" fill="#FF6B35" opacity="0.12">?</text>
+  <text x="480" y="500" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" opacity="0.06">?</text>
+
+  <!-- Binary/data accent -->
+  <g opacity="0.06" font-family="monospace" font-size="11" fill="#FF6B35">
+    <text x="100" y="130">01101001</text>
+    <text x="80" y="145">10110100</text>
+    <text x="110" y="160">01011010</text>
+    <text x="90" y="175">11001101</text>
+  </g>
+
+  <!-- Connecting circuit lines -->
+  <g stroke="#FF6B35" stroke-width="1" opacity="0.08">
+    <line x1="60" y1="300" x2="60" y2="400"/>
+    <line x1="60" y1="400" x2="120" y2="400"/>
+    <circle cx="120" cy="400" r="3" fill="#FF6B35"/>
+    <line x1="120" y1="400" x2="120" y2="450"/>
+    <line x1="120" y1="450" x2="180" y2="450"/>
+    <circle cx="180" cy="450" r="3" fill="#FF6B35"/>
+  </g>
+
+  <!-- Orange accent bar -->
+  <rect x="80" y="270" width="60" height="5" rx="2.5" fill="#FF6B35"/>
+  <rect x="150" y="270" width="30" height="5" rx="2.5" fill="#FFD166" opacity="0.6"/>
+
+  <!-- Title text -->
+  <text x="80" y="335" font-family="Inter, system-ui, sans-serif" font-size="52" font-weight="800" fill="#FFFFFF" letter-spacing="-1">
+    Is Web Scraping
+  </text>
+  <text x="80" y="400" font-family="Inter, system-ui, sans-serif" font-size="52" font-weight="800" fill="#FFFFFF" letter-spacing="-1">
+    Legal?
+  </text>
+
+  <!-- Subtitle -->
+  <text x="80" y="445" font-family="Inter, system-ui, sans-serif" font-size="18" fill="#FFFFFF" opacity="0.4" font-weight="400">
+    E-commerce Data Collection Legal Guide
+  </text>
+
+  <!-- Clymin brand -->
+  <text x="1140" y="600" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="700" fill="#FF6B35" text-anchor="end" letter-spacing="1">
+    Clymin
+  </text>
+</svg>

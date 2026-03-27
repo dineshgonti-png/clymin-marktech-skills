@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bgGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#1a1a3e"/>
+    </linearGradient>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B35"/>
+      <stop offset="100%" style="stop-color:#FFD166"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad3)"/>
+
+  <!-- Scan lines pattern -->
+  <g opacity="0.04" stroke="#FF6B35" stroke-width="1">
+    <line x1="0" y1="30" x2="1200" y2="30"/>
+    <line x1="0" y1="60" x2="1200" y2="60"/>
+    <line x1="0" y1="90" x2="1200" y2="90"/>
+    <line x1="0" y1="120" x2="1200" y2="120"/>
+    <line x1="0" y1="150" x2="1200" y2="150"/>
+    <line x1="0" y1="180" x2="1200" y2="180"/>
+    <line x1="0" y1="210" x2="1200" y2="210"/>
+    <line x1="0" y1="240" x2="1200" y2="240"/>
+    <line x1="0" y1="270" x2="1200" y2="270"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="0" y1="330" x2="1200" y2="330"/>
+    <line x1="0" y1="360" x2="1200" y2="360"/>
+    <line x1="0" y1="390" x2="1200" y2="390"/>
+    <line x1="0" y1="420" x2="1200" y2="420"/>
+    <line x1="0" y1="450" x2="1200" y2="450"/>
+    <line x1="0" y1="480" x2="1200" y2="480"/>
+    <line x1="0" y1="510" x2="1200" y2="510"/>
+    <line x1="0" y1="540" x2="1200" y2="540"/>
+    <line x1="0" y1="570" x2="1200" y2="570"/>
+    <line x1="0" y1="600" x2="1200" y2="600"/>
+  </g>
+
+  <!-- Large shield/compliance badge -->
+  <g transform="translate(850, 130)">
+    <path d="M100,0 L200,40 L200,130 C200,190 150,230 100,250 C50,230 0,190 0,130 L0,40 Z" fill="none" stroke="url(#shieldGrad)" stroke-width="2.5" opacity="0.5"/>
+    <path d="M100,20 L180,52 L180,128 C180,178 140,210 100,228 C60,210 20,178 20,128 L20,52 Z" fill="none" stroke="#FF6B35" stroke-width="1" opacity="0.2"/>
+    <!-- Checkmark inside shield -->
+    <polyline points="65,130 90,155 140,100" fill="none" stroke="#FFD166" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+  </g>
+
+  <!-- Price tag with checkmark (compliant) -->
+  <g transform="translate(700, 420)">
+    <polygon points="0,12 12,0 70,0 70,40 0,40" fill="none" stroke="#FFD166" stroke-width="1.5" opacity="0.6"/>
+    <circle cx="14" cy="14" r="4" fill="#FFD166" opacity="0.5"/>
+    <text x="38" y="26" fill="#FFFFFF" font-family="Inter, system-ui, sans-serif" font-size="12" text-anchor="middle" opacity="0.7">$99</text>
+    <!-- Checkmark -->
+    <g transform="translate(75, 8)">
+      <circle cx="12" cy="12" r="12" fill="none" stroke="#4CAF50" stroke-width="1.5" opacity="0.6"/>
+      <polyline points="6,12 10,16 18,8" fill="none" stroke="#4CAF50" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+    </g>
+  </g>
+
+  <!-- Price tag with X mark (non-compliant) -->
+  <g transform="translate(840, 450)">
+    <polygon points="0,12 12,0 70,0 70,40 0,40" fill="none" stroke="#FF6B35" stroke-width="1.5" opacity="0.5"/>
+    <circle cx="14" cy="14" r="4" fill="#FF6B35" opacity="0.4"/>
+    <text x="38" y="26" fill="#FFFFFF" font-family="Inter, system-ui, sans-serif" font-size="12" text-anchor="middle" opacity="0.7">$69</text>
+    <!-- X mark -->
+    <g transform="translate(75, 8)">
+      <circle cx="12" cy="12" r="12" fill="none" stroke="#e74c3c" stroke-width="1.5" opacity="0.6"/>
+      <line x1="7" y1="7" x2="17" y2="17" stroke="#e74c3c" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+      <line x1="17" y1="7" x2="7" y2="17" stroke="#e74c3c" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+    </g>
+  </g>
+
+  <!-- Price tag with checkmark (compliant) -->
+  <g transform="translate(980, 420)">
+    <polygon points="0,12 12,0 70,0 70,40 0,40" fill="none" stroke="#FFD166" stroke-width="1.5" opacity="0.4"/>
+    <circle cx="14" cy="14" r="4" fill="#FFD166" opacity="0.3"/>
+    <text x="38" y="26" fill="#FFFFFF" font-family="Inter, system-ui, sans-serif" font-size="12" text-anchor="middle" opacity="0.5">$95</text>
+    <!-- Checkmark -->
+    <g transform="translate(75, 8)">
+      <circle cx="12" cy="12" r="12" fill="none" stroke="#4CAF50" stroke-width="1.5" opacity="0.4"/>
+      <polyline points="6,12 10,16 18,8" fill="none" stroke="#4CAF50" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+    </g>
+  </g>
+
+  <!-- Scanning beam effect -->
+  <g opacity="0.15">
+    <rect x="680" y="400" width="450" height="2" fill="#FF6B35"/>
+    <rect x="680" y="400" width="450" height="30" fill="#FF6B35" opacity="0.05"/>
+  </g>
+
+  <!-- Legal/document icon -->
+  <g transform="translate(1080, 120)" opacity="0.2">
+    <rect x="0" y="0" width="60" height="80" rx="4" fill="none" stroke="#FFFFFF" stroke-width="1.5"/>
+    <rect x="10" y="15" width="40" height="4" rx="2" fill="#FFFFFF"/>
+    <rect x="10" y="25" width="30" height="4" rx="2" fill="#FFFFFF"/>
+    <rect x="10" y="35" width="35" height="4" rx="2" fill="#FFFFFF"/>
+    <rect x="10" y="50" width="15" height="4" rx="2" fill="#FF6B35"/>
+    <rect x="30" y="50" width="15" height="4" rx="2" fill="#FFD166"/>
+  </g>
+
+  <!-- Horizontal data flow lines -->
+  <g opacity="0.1">
+    <line x1="680" y1="510" x2="1150" y2="510" stroke="#FFD166" stroke-width="1" stroke-dasharray="8,4"/>
+    <line x1="680" y1="530" x2="1150" y2="530" stroke="#FF6B35" stroke-width="1" stroke-dasharray="4,8"/>
+    <line x1="680" y1="550" x2="1150" y2="550" stroke="#FFD166" stroke-width="1" stroke-dasharray="12,6"/>
+  </g>
+
+  <!-- Decorative corner bracket top-right -->
+  <g transform="translate(1120, 30)" opacity="0.15">
+    <polyline points="0,0 50,0 50,50" fill="none" stroke="#FF6B35" stroke-width="2"/>
+  </g>
+  <!-- Decorative corner bracket bottom-left -->
+  <g transform="translate(30, 550)" opacity="0.15">
+    <polyline points="50,50 0,50 0,0" fill="none" stroke="#FF6B35" stroke-width="2"/>
+  </g>
+
+  <!-- Left accent bar -->
+  <rect x="60" y="180" width="4" height="120" rx="2" fill="url(#shieldGrad)" opacity="0.6"/>
+
+  <!-- Title text -->
+  <text x="80" y="240" fill="#FFFFFF" font-family="Inter, system-ui, sans-serif" font-size="52" font-weight="700" letter-spacing="-1">MAP Pricing</text>
+  <text x="80" y="300" fill="#FFFFFF" font-family="Inter, system-ui, sans-serif" font-size="52" font-weight="700" letter-spacing="-1">Compliance</text>
+
+  <!-- Subtitle -->
+  <text x="80" y="345" fill="#FFFFFF" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="400" opacity="0.5">Automated Policy Monitoring &amp; Enforcement</text>
+
+  <!-- Orange accent line -->
+  <rect x="80" y="360" width="180" height="3" rx="1.5" fill="#FF6B35"/>
+
+  <!-- Brand text bottom-right -->
+  <text x="1140" y="600" fill="#FF6B35" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="600" text-anchor="end">Clymin</text>
+</svg>

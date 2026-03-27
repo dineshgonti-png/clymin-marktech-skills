@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&amp;display=swap');
+    </style>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- Title -->
+  <text x="600" y="55" font-family="Inter, sans-serif" font-weight="700" font-size="40" fill="#ffffff" text-anchor="middle">Google Hotel Scraping</text>
+  <text x="600" y="100" font-family="Inter, sans-serif" font-weight="400" font-size="18" fill="#ffffff" text-anchor="middle" opacity="0.6">Extract hotel prices from Google search results</text>
+  <!-- Search bar element -->
+  <rect x="200" y="140" width="800" height="45" rx="22" fill="#16213e" stroke="#FF6B35" stroke-width="1.5"/>
+  <circle cx="235" cy="162" r="10" fill="none" stroke="#FF6B35" stroke-width="1.5" opacity="0.5"/>
+  <line x1="242" y1="169" x2="250" y2="177" stroke="#FF6B35" stroke-width="1.5" opacity="0.5"/>
+  <text x="265" y="168" font-family="Inter, sans-serif" font-size="14" fill="#ffffff" opacity="0.5">hotels in new york dec 15-18</text>
+  <!-- Search results layout -->
+  <!-- Hotel rate comparison card 1 -->
+  <rect x="100" y="210" width="300" height="140" rx="8" fill="#16213e" stroke="#FF6B35" stroke-width="1.2"/>
+  <text x="120" y="238" font-family="Inter, sans-serif" font-size="14" fill="#ffffff" opacity="0.8" font-weight="700">The Grand Hyatt</text>
+  <text x="120" y="258" font-family="Inter, sans-serif" font-size="11" fill="#FF6B35" opacity="0.6">&#9733;&#9733;&#9733;&#9733;&#9733; 4.5 (2,341)</text>
+  <!-- Price comparison rows -->
+  <text x="130" y="285" font-family="Inter, sans-serif" font-size="10" fill="#ffffff" opacity="0.5">Booking.com</text>
+  <text x="300" y="285" font-family="Inter, sans-serif" font-size="12" fill="#FF6B35" text-anchor="end">$289</text>
+  <text x="130" y="305" font-family="Inter, sans-serif" font-size="10" fill="#ffffff" opacity="0.5">Expedia</text>
+  <text x="300" y="305" font-family="Inter, sans-serif" font-size="12" fill="#FF6B35" text-anchor="end">$295</text>
+  <text x="130" y="325" font-family="Inter, sans-serif" font-size="10" fill="#ffffff" opacity="0.5">Hotels.com</text>
+  <text x="300" y="325" font-family="Inter, sans-serif" font-size="12" fill="#FF6B35" text-anchor="end">$279</text>
+  <text x="130" y="345" font-family="Inter, sans-serif" font-size="10" fill="#ffffff" opacity="0.5">Direct</text>
+  <text x="300" y="345" font-family="Inter, sans-serif" font-size="12" fill="#4ade80" text-anchor="end" font-weight="700">$269</text>
+  <!-- Extraction arrow from card 1 -->
+  <line x1="370" y1="240" x2="460" y2="240" stroke="#FF6B35" stroke-width="1.5" opacity="0.5" stroke-dasharray="4,3"/>
+  <polygon points="460,236 468,240 460,244" fill="#FF6B35" opacity="0.5"/>
+  <!-- Hotel rate comparison card 2 -->
+  <rect x="100" y="370" width="300" height="140" rx="8" fill="#16213e" stroke="#FF6B35" stroke-width="1.2"/>
+  <text x="120" y="398" font-family="Inter, sans-serif" font-size="14" fill="#ffffff" opacity="0.8" font-weight="700">Marriott Times Sq</text>
+  <text x="120" y="418" font-family="Inter, sans-serif" font-size="11" fill="#FF6B35" opacity="0.6">&#9733;&#9733;&#9733;&#9733; 4.2 (1,876)</text>
+  <text x="130" y="445" font-family="Inter, sans-serif" font-size="10" fill="#ffffff" opacity="0.5">Booking.com</text>
+  <text x="300" y="445" font-family="Inter, sans-serif" font-size="12" fill="#FF6B35" text-anchor="end">$245</text>
+  <text x="130" y="465" font-family="Inter, sans-serif" font-size="10" fill="#ffffff" opacity="0.5">Expedia</text>
+  <text x="300" y="465" font-family="Inter, sans-serif" font-size="12" fill="#FF6B35" text-anchor="end">$252</text>
+  <text x="130" y="485" font-family="Inter, sans-serif" font-size="10" fill="#ffffff" opacity="0.5">Hotels.com</text>
+  <text x="300" y="485" font-family="Inter, sans-serif" font-size="12" fill="#FF6B35" text-anchor="end">$248</text>
+  <text x="130" y="505" font-family="Inter, sans-serif" font-size="10" fill="#ffffff" opacity="0.5">Direct</text>
+  <text x="300" y="505" font-family="Inter, sans-serif" font-size="12" fill="#4ade80" text-anchor="end" font-weight="700">$239</text>
+  <!-- Extraction arrow from card 2 -->
+  <line x1="370" y1="440" x2="460" y2="380" stroke="#FF6B35" stroke-width="1.5" opacity="0.5" stroke-dasharray="4,3"/>
+  <polygon points="460,376 468,380 460,384" fill="#FF6B35" opacity="0.5"/>
+  <!-- Data particles -->
+  <circle cx="420" cy="260" r="2.5" fill="#FF6B35" opacity="0.5"/>
+  <circle cx="440" cy="300" r="2" fill="#FF6B35" opacity="0.4"/>
+  <circle cx="430" cy="400" r="2.5" fill="#FF6B35" opacity="0.45"/>
+  <!-- Central extraction processor -->
+  <rect x="470" y="260" width="160" height="100" rx="10" fill="#16213e" stroke="#FF6B35" stroke-width="2"/>
+  <text x="550" y="295" font-family="Inter, sans-serif" font-size="12" fill="#FF6B35" text-anchor="middle" font-weight="700">Price Extractor</text>
+  <text x="550" y="315" font-family="Inter, sans-serif" font-size="10" fill="#ffffff" text-anchor="middle" opacity="0.5">Google SERP Parser</text>
+  <text x="550" y="345" font-family="Inter, sans-serif" font-size="10" fill="#FF6B35" text-anchor="middle" opacity="0.6">&#9679; Live</text>
+  <!-- Output arrows -->
+  <line x1="630" y1="290" x2="720" y2="250" stroke="#FF6B35" stroke-width="1.5" opacity="0.5" stroke-dasharray="4,3"/>
+  <line x1="630" y1="310" x2="720" y2="340" stroke="#FF6B35" stroke-width="1.5" opacity="0.5" stroke-dasharray="4,3"/>
+  <line x1="630" y1="330" x2="720" y2="430" stroke="#FF6B35" stroke-width="1.5" opacity="0.5" stroke-dasharray="4,3"/>
+  <!-- Output panels (right side) -->
+  <rect x="720" y="210" width="380" height="80" rx="8" fill="#16213e" stroke="#FF6B35" stroke-width="1.2"/>
+  <text x="740" y="235" font-family="Inter, sans-serif" font-size="12" fill="#FF6B35" font-weight="700">Rate Comparison</text>
+  <text x="740" y="258" font-family="Inter, sans-serif" font-size="10" fill="#ffffff" opacity="0.5">Lowest: $239 | Avg: $264 | Highest: $295</text>
+  <text x="740" y="278" font-family="Inter, sans-serif" font-size="10" fill="#ffffff" opacity="0.4">Savings opportunity: 19% via direct booking</text>
+  <rect x="720" y="310" width="380" height="80" rx="8" fill="#16213e" stroke="#FF6B35" stroke-width="1.2"/>
+  <text x="740" y="335" font-family="Inter, sans-serif" font-size="12" fill="#FF6B35" font-weight="700">OTA Distribution</text>
+  <text x="740" y="358" font-family="Inter, sans-serif" font-size="10" fill="#ffffff" opacity="0.5">Booking.com: 45% | Expedia: 28% | Hotels.com: 18%</text>
+  <text x="740" y="378" font-family="Inter, sans-serif" font-size="10" fill="#ffffff" opacity="0.4">Direct: 9% of total listings</text>
+  <rect x="720" y="410" width="380" height="80" rx="8" fill="#16213e" stroke="#FF6B35" stroke-width="1.2"/>
+  <text x="740" y="435" font-family="Inter, sans-serif" font-size="12" fill="#FF6B35" font-weight="700">Price Trend</text>
+  <!-- Mini trend line -->
+  <polyline points="740,470 770,465 800,455 830,460 860,445 890,440 920,448 950,435" fill="none" stroke="#FF6B35" stroke-width="1.5" opacity="0.6"/>
+  <text x="970" y="442" font-family="Inter, sans-serif" font-size="10" fill="#4ade80" opacity="0.6">-8%</text>
+  <!-- Clymin branding -->
+  <text x="1150" y="600" font-family="Inter, sans-serif" font-weight="700" font-size="22" fill="#FF6B35" text-anchor="end">Clymin</text>
+</svg>

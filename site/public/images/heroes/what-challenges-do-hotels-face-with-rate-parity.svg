@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&amp;display=swap');
+    </style>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- Title -->
+  <text x="600" y="55" font-family="Inter, sans-serif" font-weight="700" font-size="40" fill="#ffffff" text-anchor="middle">Rate Parity Challenges</text>
+  <text x="600" y="100" font-family="Inter, sans-serif" font-weight="400" font-size="18" fill="#ffffff" text-anchor="middle" opacity="0.6">Detecting and resolving price inconsistencies across OTAs</text>
+  <!-- Room type label (center top) -->
+  <rect x="440" y="130" width="320" height="40" rx="8" fill="#16213e" stroke="#FF6B35" stroke-width="1.5"/>
+  <text x="600" y="155" font-family="Inter, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle" opacity="0.7">Deluxe King Room - Dec 15-18, 2 Guests</text>
+  <!-- OTA Price displays -->
+  <!-- OTA 1 - Booking.com -->
+  <rect x="80" y="210" width="230" height="160" rx="10" fill="#16213e" stroke="#FF6B35" stroke-width="1.2"/>
+  <text x="195" y="240" font-family="Inter, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" opacity="0.7">Booking.com</text>
+  <line x1="100" y1="252" x2="290" y2="252" stroke="#ffffff" stroke-width="0.5" opacity="0.1"/>
+  <text x="195" y="305" font-family="Inter, sans-serif" font-size="42" fill="#FF6B35" text-anchor="middle" font-weight="700">$189</text>
+  <text x="195" y="330" font-family="Inter, sans-serif" font-size="11" fill="#ffffff" text-anchor="middle" opacity="0.4">per night</text>
+  <!-- Match indicator (green check) -->
+  <circle cx="270" cy="235" r="10" fill="#4ade80" opacity="0.2"/>
+  <text x="270" y="240" font-family="Inter, sans-serif" font-size="12" fill="#4ade80" text-anchor="middle">&#10003;</text>
+  <!-- OTA 2 - Expedia (VIOLATION) -->
+  <rect x="340" y="210" width="230" height="160" rx="10" fill="#16213e" stroke="#f87171" stroke-width="2.5"/>
+  <text x="455" y="240" font-family="Inter, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" opacity="0.7">Expedia</text>
+  <line x1="360" y1="252" x2="550" y2="252" stroke="#ffffff" stroke-width="0.5" opacity="0.1"/>
+  <text x="455" y="305" font-family="Inter, sans-serif" font-size="42" fill="#f87171" text-anchor="middle" font-weight="700">$172</text>
+  <text x="455" y="330" font-family="Inter, sans-serif" font-size="11" fill="#ffffff" text-anchor="middle" opacity="0.4">per night</text>
+  <!-- Warning icon -->
+  <polygon points="525,225 535,210 545,225" fill="none" stroke="#f87171" stroke-width="1.5"/>
+  <text x="535" y="223" font-family="Inter, sans-serif" font-weight="700" font-size="10" fill="#f87171" text-anchor="middle">!</text>
+  <!-- Violation badge -->
+  <rect x="380" y="350" width="150" height="22" rx="4" fill="#f87171" opacity="0.15" stroke="#f87171" stroke-width="1"/>
+  <text x="455" y="365" font-family="Inter, sans-serif" font-size="10" fill="#f87171" text-anchor="middle" font-weight="700">PARITY VIOLATION -9%</text>
+  <!-- OTA 3 - Hotels.com (VIOLATION) -->
+  <rect x="600" y="210" width="230" height="160" rx="10" fill="#16213e" stroke="#f87171" stroke-width="2.5"/>
+  <text x="715" y="240" font-family="Inter, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" opacity="0.7">Hotels.com</text>
+  <line x1="620" y1="252" x2="810" y2="252" stroke="#ffffff" stroke-width="0.5" opacity="0.1"/>
+  <text x="715" y="305" font-family="Inter, sans-serif" font-size="42" fill="#f87171" text-anchor="middle" font-weight="700">$195</text>
+  <text x="715" y="330" font-family="Inter, sans-serif" font-size="11" fill="#ffffff" text-anchor="middle" opacity="0.4">per night</text>
+  <polygon points="785,225 795,210 805,225" fill="none" stroke="#f87171" stroke-width="1.5"/>
+  <text x="795" y="223" font-family="Inter, sans-serif" font-weight="700" font-size="10" fill="#f87171" text-anchor="middle">!</text>
+  <rect x="640" y="350" width="150" height="22" rx="4" fill="#f87171" opacity="0.15" stroke="#f87171" stroke-width="1"/>
+  <text x="715" y="365" font-family="Inter, sans-serif" font-size="10" fill="#f87171" text-anchor="middle" font-weight="700">PARITY VIOLATION +3%</text>
+  <!-- OTA 4 - Direct (match) -->
+  <rect x="860" y="210" width="230" height="160" rx="10" fill="#16213e" stroke="#FF6B35" stroke-width="1.2"/>
+  <text x="975" y="240" font-family="Inter, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" opacity="0.7">Direct Booking</text>
+  <line x1="880" y1="252" x2="1070" y2="252" stroke="#ffffff" stroke-width="0.5" opacity="0.1"/>
+  <text x="975" y="305" font-family="Inter, sans-serif" font-size="42" fill="#FF6B35" text-anchor="middle" font-weight="700">$189</text>
+  <text x="975" y="330" font-family="Inter, sans-serif" font-size="11" fill="#ffffff" text-anchor="middle" opacity="0.4">per night</text>
+  <circle cx="1050" cy="235" r="10" fill="#4ade80" opacity="0.2"/>
+  <text x="1050" y="240" font-family="Inter, sans-serif" font-size="12" fill="#4ade80" text-anchor="middle">&#10003;</text>
+  <!-- Parity violation indicator (bottom center) -->
+  <rect x="300" y="420" width="600" height="100" rx="12" fill="#16213e" stroke="#f87171" stroke-width="1.5"/>
+  <text x="600" y="450" font-family="Inter, sans-serif" font-size="15" fill="#f87171" text-anchor="middle" font-weight="700">&#9888; Rate Parity Alert</text>
+  <text x="600" y="475" font-family="Inter, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" opacity="0.5">2 of 4 channels show price discrepancies for this room type</text>
+  <!-- Deviation bar -->
+  <rect x="370" y="490" width="460" height="12" rx="6" fill="#ffffff" opacity="0.08"/>
+  <!-- Green zone (parity) -->
+  <rect x="500" y="490" width="200" height="12" rx="6" fill="#4ade80" opacity="0.15"/>
+  <!-- Markers for each OTA price -->
+  <circle cx="449" cy="496" r="5" fill="#f87171" opacity="0.8"/>
+  <text x="449" y="515" font-family="Inter, sans-serif" font-size="8" fill="#f87171" text-anchor="middle">$172</text>
+  <circle cx="575" cy="496" r="5" fill="#4ade80" opacity="0.8"/>
+  <text x="575" y="515" font-family="Inter, sans-serif" font-size="8" fill="#4ade80" text-anchor="middle">$189</text>
+  <circle cx="575" cy="496" r="5" fill="#4ade80" opacity="0.4" stroke="#4ade80" stroke-width="1"/>
+  <circle cx="619" cy="496" r="5" fill="#f87171" opacity="0.8"/>
+  <text x="619" y="515" font-family="Inter, sans-serif" font-size="8" fill="#f87171" text-anchor="middle">$195</text>
+  <!-- Connection lines between prices showing comparison -->
+  <line x1="195" y1="370" x2="350" y2="445" stroke="#FF6B35" stroke-width="1" opacity="0.3" stroke-dasharray="3,3"/>
+  <line x1="455" y1="370" x2="480" y2="420" stroke="#f87171" stroke-width="1" opacity="0.3" stroke-dasharray="3,3"/>
+  <line x1="715" y1="370" x2="680" y2="420" stroke="#f87171" stroke-width="1" opacity="0.3" stroke-dasharray="3,3"/>
+  <line x1="975" y1="370" x2="830" y2="445" stroke="#FF6B35" stroke-width="1" opacity="0.3" stroke-dasharray="3,3"/>
+  <!-- Floating alert particles -->
+  <circle cx="330" cy="200" r="2" fill="#f87171" opacity="0.4"/>
+  <circle cx="590" cy="195" r="2.5" fill="#f87171" opacity="0.35"/>
+  <circle cx="850" cy="200" r="2" fill="#f87171" opacity="0.4"/>
+  <!-- Clymin branding -->
+  <text x="1150" y="600" font-family="Inter, sans-serif" font-weight="700" font-size="22" fill="#FF6B35" text-anchor="end">Clymin</text>
+</svg>
