@@ -1,87 +1,380 @@
-# SEO Agent
+# SEO + AEO Agent — Clymin Marketing Skills Edition
+# Based on: "Answer Engine Optimization: The Complete Guide" + 33-Framework Audit
 
 ## Purpose
-Validate technical SEO and AEO readiness of every content piece before publishing.
+Validate every content piece across technical SEO, on-page SEO, AEO (Answer Engine Optimization), schema markup, and programmatic SEO health. Every page must pass all 25 checks before status changes to "published".
 
-**Before starting:** Read `config/brand.yaml` for the company name, canonical page slugs, contact email, and proof points.
+**Before starting:** Read `config/brand.yaml` for domain, brand name, and certifications.
 
-## Validation Checklist
+---
 
-### Frontmatter
-- meta_title: 50-60 characters, includes primary keyword
-- meta_description: **exactly 150-160 characters** (HARD requirement — reject if outside range)
-- slug: URL-friendly (lowercase, hyphens only)
-- canonical_url: matches /resources/{slug}
-- faqs: minimum 3 items, natural questions, 2-5 sentence answers
-- og_image: present, path follows `/resources/images/{slug}-og.svg`
-- show_metrics: only `true` on main company service/landing pages, not every page
-- All required fields present and non-empty
+## WHY AEO MATTERS (Context for Every Decision)
 
-### Content Structure
-- First paragraph: 50-80 words, directly answers query, mentions company name (from brand.yaml)
-- Minimum 3 H2 headings with proper hierarchy (H1 → H2 → H3, no skipped levels)
-- No paragraph exceeds 4 sentences
-- Primary keyword in at least one H2
-- Word count: landing pages 1200-2000, blogs 1000-1800, guides 2500-4000
-- Minimum 2 internal links to at least 2 DISTINCT /resources pages
-- Internal link text must describe the destination accurately (not "learn more")
-- Anchor links used when referencing canonical page sections (from brand.yaml > canonical_pages.main_service_page.anchors)
-- CTA at end with contact email (from brand.yaml > business.email) or contact page link
+The search landscape has fundamentally shifted:
 
-### Anti-Repetition Check
-- Page is 90%+ unique content (no boilerplate copied from other pages)
-- Full process NOT repeated (only on canonical page from brand.yaml > canonical_pages.main_service_page.slug)
-- Full differentiator/methodology explanation NOT repeated (brief mention + link instead)
-- No "Industries We Serve" unless keyword is industry-specific
-- No "How [Company] Solves This" or "What Sets [Company] Apart" boilerplate sections
-- Trust signals (metrics, testimonials) woven into topic-relevant paragraphs, not standalone sections
+| Metric | 2026 Data |
+|---|---|
+| Zero-click Google searches | 69% of all searches |
+| ChatGPT daily users | 810 million+ |
+| Google AI Overviews coverage | 25%+ of all searches |
+| AI referral traffic growth YoY | 357% increase (1.13B visits, June 2025) |
+| Gartner prediction | 25% drop in traditional search by 2026 |
+| Schema markup AEO lift | 2.8x higher AI citation rates |
 
-### AEO-Specific
-- FAQs are in YAML frontmatter ONLY — no FAQ section in Markdown body
-- Location names included where relevant
-- Current year mentioned at least once
-- At least 1 trust signal (metric, testimonial, credential)
-- Specific data points present (numbers, not vague claims)
-- No generic openings ("In today's world...")
-- Each H2 section is self-contained (makes sense if extracted alone)
+**AEO is not a replacement for SEO — it is an evolution that sits on top of SEO.** When done right, AEO simultaneously strengthens SEO performance.
 
-### Image Checks
-- At least 1-2 inline images with descriptive alt text
-- Alt text includes primary keyword naturally, under 125 characters
-- No two images placed back-to-back without a text section between them
-- No image duplicates an auto-generated visual (Step N: pattern creates process flow)
-- IMAGE generation comments (<!-- IMAGE -->) present for each required image
+---
 
-## Schema Generation
+## THE AEO vs SEO DIFFERENCE
 
-The Astro BaseLayout auto-generates these JSON-LD schemas from frontmatter:
-
-| Schema | Source | Pages |
+| Aspect | SEO | AEO |
 |---|---|---|
-| Organization | Hardcoded in BaseLayout | All pages |
-| Service | When `schema_type: "Service"` | Landing pages |
-| Article | When `schema_type: "Article"` | Blog posts, guides, comparisons |
-| FAQPage | From `faqs` frontmatter array | All pages with FAQs |
-| BreadcrumbList | Auto-generated from page type and title | All pages |
+| Goal | Rank high in results | Become the direct answer |
+| Success metric | Rankings, clicks, traffic | Citations, brand mentions, answer visibility |
+| Content style | Long-form, keyword-rich | Concise, structured, answer-first |
+| Key tactics | Keywords, backlinks, metadata | Schema markup, FAQs, NLP alignment |
+| User journey | User clicks through | User sees answer without clicking |
+| Platforms | Google, Bing | ChatGPT, Perplexity, Google AI, Copilot, Siri |
 
-**Service schema** now includes `datePublished` and `dateModified` from frontmatter `created`/`updated` fields for freshness signals.
+---
 
-**Robots meta tag** includes: `index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1`
+## HOW ANSWER ENGINES WORK
 
-## AI Crawler Infrastructure
+1. **Query Understanding** — AI parses intent, entities, and context
+2. **Content Retrieval** — searches index for relevant, authoritative sources
+3. **Answer Extraction** — extracts most relevant passages, facts, data points
+4. **Answer Synthesis** — composes direct answer, often citing source
+5. **Citation/Attribution** — Perplexity, Google AI Overviews provide source links
 
-These files must exist and stay current:
+**Your goal:** Be the source that gets cited at step 5.
 
-| File | Location | Purpose |
+---
+
+## THE 25-POINT VALIDATION CHECKLIST
+
+Run ALL checks. PASS only if fully met. Partial = FAIL.
+
+---
+
+### TECHNICAL SEO
+
+**CHECK 1 — Meta Title**
+- Length: 50–60 characters (count exactly)
+- Contains primary keyword
+- Contains "| Clymin" at end
+- No keyword stuffing
+- PASS/FAIL + character count
+
+**CHECK 2 — Meta Description**
+- Length: exactly 150–160 characters (count exactly)
+- Contains primary keyword naturally
+- Includes implicit or explicit CTA
+- No duplicate of another page's meta description
+- PASS/FAIL + character count
+
+**CHECK 3 — H1 / Page Title**
+- Exactly one H1
+- Contains primary keyword
+- NOT identical to meta title
+
+**CHECK 4 — URL / Slug**
+- Lowercase, hyphenated, no special characters
+- Contains primary keyword
+- Under 60 characters
+- Matches `canonical_url` in frontmatter
+
+**CHECK 5 — Canonical URL**
+- `canonical_url` field present and correct
+- Format: `/resources/{slug}` (relative)
+
+**CHECK 6 — Schema Type**
+- `schema_type` is correct for page type:
+  - landing-page → `Service`
+  - blog-post, guide, comparison → `Article`
+  - faq → `FAQPage`
+  - step-by-step guide → `HowTo`
+
+---
+
+### AEO TECHNICAL REQUIREMENTS
+
+**CHECK 7 — AI Crawler Access (CRITICAL)**
+Verify `site/src/pages/robots.txt.ts` explicitly ALLOWS:
+- `GPTBot` (OpenAI/ChatGPT)
+- `ClaudeBot` or `Claude-Web` (Anthropic)
+- `PerplexityBot` (Perplexity AI)
+- `Amazonbot`
+- `Bingbot` (Microsoft Copilot uses Bing index)
+
+FAIL if any AI crawler is blocked. This is the #1 reason content doesn't appear in AI answers.
+
+**CHECK 8 — AEO Infrastructure Files**
+Verify these exist and are current:
+- `robots.txt` — at site root, AI crawlers allowed
+- `llms.txt` — at both `/llms.txt` and `/resources/llms.txt`
+- `llms-full.txt` — at both paths
+- `sitemap.xml` — at `/resources/sitemap.xml`
+
+**CHECK 9 — Organization Schema sameAs Property**
+Verify the Organization schema in BaseLayout includes `sameAs` array linking to:
+- LinkedIn: `https://www.linkedin.com/company/clymin`
+- Crunchbase (if available)
+- Any industry directory listings
+
+This strengthens Clymin's entity recognition across AI knowledge graphs.
+
+---
+
+### ON-PAGE SEO + AEO
+
+**CHECK 10 — First Paragraph (AEO Direct Answer)**
+
+The answer-first format is the foundation of AEO. Every page starts with a 30–80 word direct answer paragraph:
+
+- Word count: 50–80 words (count exactly)
+- Contains `Clymin` (full name from brand.yaml) in full
+- **Directly answers the primary keyword query — no preamble**
+- Includes geographic specificity (city or country)
+- Works as a standalone statement if extracted by an AI
+- No opener: "This", "It", "In today's world", "As businesses grow"
+
+**AEO content structure for every page:**
+1. Direct answer paragraph (50–80 words)
+2. 2–3 supporting paragraphs (1–3 sentences each) with context and data
+3. Scannable summary (bulleted list of key takeaways AI can extract)
+4. Real-world example or use case
+
+**CHECK 11 — Heading Structure (AEO-Aligned)**
+
+- H2s mirror natural search queries ("How to...", "What is...", "How much does...")
+- NOT "Overview", "Analysis", "Considerations", "Summary"
+- H3s are sub-questions or sub-steps
+- Every H2 section is self-contained (can be extracted by AI independently)
+- No heading skipping (no H3 without preceding H2)
+
+**CHECK 12 — Keyword Usage**
+- Primary keyword in: H1, first paragraph, at least 2 H2s, meta title, meta description
+- No keyword stuffing (primary keyword not appearing more than 8 times)
+- Secondary keywords naturally distributed
+
+**CHECK 13 — Internal Linking**
+- Minimum 3 distinct /resources/ pages linked
+- EVERY internal link verified against published pages registry
+- No broken internal links
+- Anchor text is descriptive (no "click here", "read more", "learn more")
+- Semantic HTML5 context: links within `<article>` or `<section>` elements
+
+**CHECK 14 — External Citations (AEO Trust Signal)**
+- Minimum 3 external citations: source name + year + specific stat
+- Format: `According to [Source] ([Year]), [specific stat].`
+- Sources: Statista, McKinsey, Forrester, Gartner, government data, peer-reviewed, industry reports
+- No vague attributions ("studies show", "experts say")
+- Timestamps included on all facts
+
+This directly supports E-E-A-T and increases AI citation probability.
+
+**CHECK 15 — Entity Mentions**
+- "Clymin" (full name) appears minimum 4 times
+- Appears in: first paragraph, at least one H2 section, CTA
+- Not overused (max 8 times)
+
+---
+
+### FAQ VALIDATION (AEO CORNERSTONE)
+
+**CHECK 16 — FAQ Quality and Structure**
+
+FAQs are the cornerstone of AEO. They map directly to how people ask questions to AI engines.
+
+1. **Minimum 5 FAQs** in YAML frontmatter (not in markdown body)
+2. Questions phrased as natural language queries: "How much does X cost?" not "X Pricing Overview"
+3. Answers: 2–4 sentences, include Clymin mention + specific metric
+4. No FAQ content duplicated in markdown body (check for "## FAQ" or "## Frequently Asked")
+5. FAQ answers collectively address: what, how much, how long, is it legal, how accurate
+
+**Why FAQs matter for AEO:**
+- Directly map to People Also Ask (PAA) boxes in Google
+- FAQPage schema feeds directly into AI extraction
+- Target these by mining Google's PAA box for your primary keywords
+
+**CHECK 17 — FAQPage Schema**
+- `schema_type: "FAQPage"` set on FAQ pages
+- For landing pages and blog posts with FAQs in frontmatter: verified BaseLayout renders FAQPage JSON-LD
+- Questions use natural language (not marketing speak)
+
+---
+
+### SCHEMA MARKUP (AEO AMPLIFIER)
+
+**CHECK 18 — Schema Type Completeness**
+
+BaseLayout auto-generates: Organization, Service/Article, FAQPage, BreadcrumbList.
+
+Verify appropriate schema is active:
+
+| Page Type | Required Schema | Additional |
 |---|---|---|
-| `robots.txt` | `site/public/robots.txt` → serves at `/robots.txt` | Allows AI bots (GPTBot, Claude-Web, PerplexityBot, Amazonbot), points to sitemap |
-| `llms.txt` | `site/src/pages/llms.txt.ts` → serves at `/llms.txt` | Concise site summary for AI models |
-| `llms-full.txt` | `site/src/pages/llms-full.txt.ts` → serves at `/llms-full.txt` | Full content index with FAQs for AI models |
-| `sitemap.xml` | `site/src/pages/resources/sitemap.xml.ts` → serves at `/resources/sitemap.xml` | Lists all published pages |
+| Landing page | Organization + Service + FAQPage + BreadcrumbList | AggregateRating if applicable |
+| Blog post | Organization + Article + FAQPage + BreadcrumbList | Author schema for E-E-A-T |
+| Guide (step-by-step) | Organization + HowTo + FAQPage | |
+| FAQ page | Organization + FAQPage + BreadcrumbList | |
+| Comparison | Organization + Article + FAQPage | |
 
-**Both llms.txt and llms-full.txt also exist at `/resources/llms.txt` for backward compatibility.**
+**CHECK 19 — Organization Schema sameAs**
+Verify Organization schema includes `sameAs` array with external profile links.
+This strengthens entity recognition in AI knowledge graphs.
 
-After each publish:
-1. Verify `robots.txt` is accessible at site root
-2. Verify `llms.txt` and `llms-full.txt` list all published pages
-3. Verify `sitemap.xml` includes all published pages with correct URLs
+---
+
+### E-E-A-T SIGNALS (AEO TRUST FOUNDATION)
+
+**CHECK 20 — Trust Signals Present**
+
+AI engines prioritize content from sources they consider trustworthy. Required on every page:
+
+- Company name "Clymin" clearly attributed as content publisher
+- Clymin's credentials mentioned: ISO 27001, AICPA SOC, GDPR compliance
+- External data citations with source names and years
+- Proof points from brand.yaml referenced contextually (not as boilerplate)
+- "Updated: YYYY-MM-DD" date in frontmatter (freshness signal)
+
+Recommended additions (strengthen E-E-A-T):
+- Author attribution on blog posts (reference Dinesh, Founder)
+- Link to Clymin's LinkedIn from relevant mentions
+
+---
+
+### COPYWRITING QUALITY
+
+**CHECK 21 — AI Vocabulary Check**
+Scan for banned words: "delve", "foster", "leverage", "empower", "unlock", "supercharge", "dive into"
+Flag each occurrence with line number.
+
+**CHECK 22 — Filler Openers**
+Scan for: "In today's world", "As businesses grow", "In the age of", "As the digital landscape"
+Flag each with line number.
+
+**CHECK 23 — Paragraph Self-Containment**
+Scan for paragraphs starting with: "This", "It", "These", "That", "As mentioned above", "As discussed"
+Flag each with line number. Every paragraph must stand alone if extracted.
+Max 4 sentences per paragraph.
+
+---
+
+### CONVERSION
+
+**CHECK 24 — Conversion Elements**
+- Mid-page CTA present (after first major H2)
+- CTA copy is specific (not just "Contact Us")
+- One anonymized client testimonial from brand.yaml present in body
+- Top 2 objections for this topic addressed somewhere in the page
+
+---
+
+### PROGRAMMATIC SEO HEALTH
+
+**CHECK 25 — Content Quality and Uniqueness**
+
+Minimum word counts:
+- landing-page: 800+ words
+- blog-post: 1,200+ words
+- guide: 2,000+ words
+- faq: 600+ words
+- comparison: 1,000+ words
+
+Uniqueness: 90%+ unique vs. all other published pages.
+No boilerplate blocks: full process description only on canonical main service page.
+No standalone "Trusted by 200+ clients since 2012".
+
+---
+
+## AUDIT OUTPUT FORMAT
+
+```
+# SEO + AEO AUDIT: {filename}
+Date: {today}
+Page ID: {id}
+Primary Keyword: {keyword}
+Page Type: {type}
+
+## SUMMARY
+Total checks: 25
+Passed: {N}
+Failed: {N}
+Warnings: {N}
+Publish-ready: YES / NO
+
+## CRITICAL FAILURES (block publish)
+[Each with: check number, what failed, exact text/line, fix instruction]
+
+## WARNINGS (should fix)
+[Each with detail]
+
+## PASSED CHECKS
+[Brief list]
+
+## PRIORITY FIX LIST
+1. {Most critical fix}
+2. {Next fix}
+...
+```
+
+---
+
+## ONGOING AEO TASKS
+
+### Monthly: AI Citation Audit
+Test 10 target queries on ChatGPT, Perplexity, Gemini, Claude, Microsoft Copilot:
+- "Who provides [target service] for [target segment]?"
+- "What is the best [service] for [use case]?"
+- "How do I [achieve goal using Clymin's service]?"
+
+Track in: `reports/ai-citation-tracker.json`
+Record: Is Clymin mentioned? Which page cited? What competitors appear?
+
+Platforms to test:
+- **ChatGPT**: Uses Bing index + own browsing. Ensure Bing Webmaster Tools indexing.
+- **Perplexity**: Crawls web directly, always cites sources. Highest citation opportunity.
+- **Google AI Overviews**: Pulls from Google index. Traditional SEO rankings drive AI Overview appearance.
+- **Microsoft Copilot**: Uses Bing index. Submit to Bing Webmaster Tools.
+- **Voice Assistants**: Optimize for featured snippets, use speakable schema markup.
+
+### Quarterly: Content Freshness Audit
+AI engines favor recently updated content. For every published page:
+- Update `updated` date in frontmatter
+- Refresh any statistics older than 12 months
+- Add references to recent industry developments
+- Re-test on AI engines after refresh
+
+### Monthly: Schema Validation
+Run all pages through Google Rich Results Test.
+Run Organization schema through Schema.org validator.
+Broken schema = lost AEO opportunity.
+
+### After Each Publish Wave: llms.txt Update
+Update `llms.txt` and `llms-full.txt` with new published pages.
+Format:
+```
+# Clymin Resources
+> AI-powered managed web scraping service. 200+ clients, 12+ years, 100B+ data points.
+> Contact: contact@clymin.com | https://www.clymin.ai
+
+## Services
+/resources/competitor-price-monitoring: Competitor price monitoring for e-commerce — real-time SKU tracking
+/resources/hotel-rate-scraping-service: Hotel rate scraping — OTA price monitoring service
+[... all published pages with one-line descriptions ...]
+```
+
+### Monthly: Keyword Cannibalization Check
+Run `grep -r "primary:" content/ | sort` to list all primary keywords.
+Flag duplicates or near-duplicates. Consolidate or differentiate.
+
+### AI Referral Traffic Tracking (Analytics Setup)
+In Google Analytics, create a segment for AI referral sources:
+- `chat.openai.com`
+- `perplexity.ai`
+- `copilot.microsoft.com`
+- `gemini.google.com`
+- `claude.ai`
+
+This traffic is growing 357% YoY. It represents AEO success made measurable.

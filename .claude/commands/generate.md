@@ -1,244 +1,261 @@
-# Content Generation Skill
+# Content Generation Skill — 33-Framework Edition
 
-Generate a single AEO-optimized content page for the resource hub.
+Generate a single AEO-optimized, 10/10-scoring content page.
 
 ## Input
-
-Page ID or slug to generate: `$ARGUMENTS`
-
+Page ID or slug: `$ARGUMENTS`
 If no argument given, read `data/content-plan.json` and pick the next planned page.
 
-## Step 1: Load ALL Context (MANDATORY — Do Not Skip)
+---
 
-Read these files in this exact order before writing anything:
+## STEP 1: Load ALL Context (MANDATORY)
 
-1. `config/brand.yaml` — brand voice, services, proof points, testimonials
-2. `data/content-plan.json` — find the page brief matching the input
-3. `agents/content/AGENT.md` — ALL formatting rules, templates, AEO rules 1-13
-4. `content/_index.json` — current inventory (to set correct counts)
+Read in this exact order:
+1. `config/brand.yaml` — full read, no skipping
+2. `data/content-plan.json` — find the matching page brief
+3. `agents/content/AGENT.md` — ALL rules, templates, AEO rules 1–13
+4. `agents/seo/AGENT.md` — 20-point validation checklist
+5. `content/_index.json` — current inventory for counts
 
-Then build the published pages registry:
-5. Run `find content -name "*.md"` and extract all slugs from published pages
-6. This registry is needed for internal linking — you can ONLY link to pages that exist
+Build published pages registry:
+6. `find content -name "*.md"` and extract all slugs
+7. This registry = the ONLY valid targets for /resources/ internal links
 
-## Step 2: Identify What Makes This Page Unique
+---
 
-Before writing, answer these questions (write them down):
-- What can this page teach that NO other page on the site teaches?
-- What unique data, analysis, or practical advice does this page offer?
-- Which 2-3 existing pages should this page link to? (ONLY from published registry)
-- Which existing pages could link back to this page?
+## STEP 2: Pre-Writing Checklist (Answer all 7 before writing)
 
-## Step 3: Write the Content
+1. What is the ONE outcome this reader needs?
+2. What fear, frustration, or desire drives this search?
+3. What makes this page 90%+ unique from all other site pages?
+4. Which 3 published pages will this link to? (verify against registry)
+5. What is the 50–80 word direct-answer opening?
+6. Which anonymized client from brand.yaml fits this topic?
+7. Which external citation (source + year + stat) anchors credibility?
+
+---
+
+## STEP 3: Write Content
 
 Follow the template from `agents/content/AGENT.md` for the page type.
 
-### Absolute Rules (Violations = Immediate Rewrite)
+### ABSOLUTE RULES — Violations = Immediate Rewrite
 
 **LINKING:**
-- ONLY link to pages that exist in your published registry from Step 1
-- NEVER link to future/planned pages that haven't been created yet
-- Every `/resources/` link must point to a real, published slug
-- If the content plan says to link to a future page that doesn't exist yet, DO NOT link to it — find an alternative published page or omit the link
-- Minimum 2 distinct published pages linked
-- Link text must describe the destination (not "learn more" or "click here")
+- ONLY link to pages in your published registry
+- NEVER link to planned/future pages
+- Every /resources/ link must point to a real published slug
+- If a planned link doesn't exist, find an alternative or omit it
+- Minimum 3 distinct published pages linked
+- Link text must describe destination (no "learn more", "click here", "read more")
 
 **FIRST PARAGRAPH:**
-- 50-80 words, directly answers the primary keyword query
-- Mentions the company name from `brand.yaml > business.name` by full name
-- Includes geographic specificity (city/country) where relevant
-- Works as a standalone statement if extracted by AI
+- 50–80 words exactly (count)
+- Contains "Clymin" (full name from brand.yaml > business.name)
+- Geographic specificity (city or country)
+- Directly answers primary keyword — no preamble
+- Standalone: works if extracted by an AI without context
 
 **META:**
-- meta_description: EXACTLY 150-160 characters (count precisely)
-- meta_title: 50-60 characters
+- meta_description: EXACTLY 150–160 characters (count precisely)
+- meta_title: 50–60 characters
 
 **FAQs:**
-- Minimum 3 FAQs in YAML frontmatter ONLY
-- NEVER add FAQ sections in the markdown body
+- Minimum 5 FAQs in YAML frontmatter ONLY
+- NEVER in markdown body
 - Questions phrased as natural search queries
+- Answers: 2–4 sentences, include Clymin mention + metric
 
-**ANTI-REPETITION:**
-- 90%+ unique content — no boilerplate sections from other pages
-- Process/differentiator details: 1-2 sentence mention + link to the canonical main service page (`brand.yaml > canonical_pages.main_service_page`), not full explanation
-- No repeated "How [Company] Solves..." boilerplate sections
-- No "Industries We Serve" unless keyword is industry-specific
+**COPYWRITING:**
+- No AI vocabulary (delve, foster, leverage, empower, unlock, supercharge)
+- No filler openers ("In today's world...", "As businesses grow...")
+- No standalone "Trusted by 200+ clients" boilerplate
+- Benefits over features throughout
+- Active voice always
 
-**AEO RULES:**
-- Rule 11: Minimum 2-3 external citations with source names and dates
-- Rule 12: No paragraph starts with "This", "It", "As mentioned above"
-- Rule 13: H2/H3 headings mirror natural query phrasing
+**AEO:**
+- Minimum 3 external citations with source name + year + specific stat
+- No paragraph starts with "This", "It", "These", "As mentioned above"
+- H2/H3 headings mirror natural search queries
 - Max 4 sentences per paragraph
-- Company name (from `brand.yaml > business.name`) mentioned 3+ times total
+- Clymin mentioned minimum 4 times total
+
+**PRICING:**
+- Landing pages: include pricing table (Clymin vs In-house vs DIY)
+- Mention "starting from $100" on relevant pages
+- Frame as ROI, not just cost
+
+**CONVERSION:**
+- Mid-page CTA (after first major section)
+- Specific CTA copy (not generic "Contact Us")
+- One anonymized client testimonial from brand.yaml before final CTA
+- Objection handling for top 2 objections on this topic
+
+**SOCIAL/DISTRIBUTION:**
+- Add social_hook to frontmatter
+- Add email_subject to frontmatter
+- Landing pages: add sales_brief to frontmatter
 
 **IMAGES:**
-- `show_metrics: true` ONLY on direct service pitch landing pages
-- `og_image` path: `/resources/images/{slug}-og.svg`
-- 1-2 inline images with descriptive alt text
+- show_metrics: true ONLY on landing pages
+- og_image path: /resources/images/{slug}-og.svg
+- 1–2 inline images with descriptive alt text
 - No two images back-to-back without text between them
 
-## Step 4: Create SVG Images
+---
 
-For each page, create:
+## STEP 4: Create SVG Images
 
-1. **OG Image** (`{slug}-og.svg`, 1200x630px)
-   - Gradient background using colors from `brand.yaml > design.colors` (primary → darker variant)
-   - Title in white, key stat in accent color (`brand.yaml > design.colors.accent_1`)
-   - Stats bar at bottom with key metrics
-   - Brand footer: use URL from `brand.yaml > content_config.base_url`
+**OG Image** ({slug}-og.svg, 1200×630px):
+- Gradient: primary color → darker variant (from brand.yaml > design.colors)
+- Title in white, key stat in accent color
+- Stats bar at bottom with relevant metrics
+- Clymin URL footer
 
-2. **1-2 Inline Infographics** (1100x400-600px)
-   - Light background (use `brand.yaml > design.colors.bg_light`)
-   - Data comparison cards, process flows, or market data
-   - Brand colors from `brand.yaml > design.colors` (primary, accent_1, accent_2)
-   - Source attribution at bottom
+**Hero/Infographic** ({slug}-hero.svg, 1100×400–600px):
+- Light background
+- Comparison table, process flow, or market data
+- Segment color from brand.yaml > design.segment_colors
+- Source attribution if showing external data
 
-Save SVGs to: `site/public/resources/images/`
+Save to: `site/public/resources/images/`
 
-## Step 5: Update Inventory
+---
+
+## STEP 5: Update Inventory
 
 Update `content/_index.json`:
-- Increment `total_pieces` by 1
-- Increment the correct `by_status.published` count
-- Increment the correct `by_type.{page-type}` count
-- Increment the correct `by_segment.{segment}` count
+- Increment total_pieces by 1
+- Increment by_status.draft (or published) by 1
+- Increment by_type.{page-type} by 1
+- Increment by_segment.{segment} by 1
 
-## Step 6: Build and Verify
+---
 
-Run `cd site && npm run build` and verify:
-- Page count incremented by 1
-- Build completes without errors
+## STEP 6: Build and Verify
 
-## Step 7: Self-Check Before Committing
+```bash
+cd site && npm run build
+```
+Verify: page count incremented, build succeeds without errors.
 
-Run through this quick checklist mentally:
-- [ ] Every `/resources/` link points to a published page (verified against registry)
-- [ ] meta_description is 150-160 characters (counted)
-- [ ] First paragraph is 50-80 words with company name and location
-- [ ] FAQs are in frontmatter ONLY, not in markdown body
-- [ ] 2+ external citations with source names and dates
-- [ ] No paragraph starts with "This", "It", or references prior context
-- [ ] All SVG image files created and referenced correctly
-- [ ] `_index.json` updated with correct counts
+---
+
+## STEP 7: Self-Check (Run Before Committing)
+
+- [ ] Every /resources/ link verified against published registry
+- [ ] meta_description is 150–160 characters (counted exactly)
+- [ ] First paragraph is 50–80 words with Clymin name and location
+- [ ] FAQs in frontmatter ONLY, minimum 5
+- [ ] 3+ external citations with source + year + stat
+- [ ] No paragraph starts with "This", "It", "These"
+- [ ] Minimum 4 Clymin mentions total
+- [ ] Social hook + email subject in frontmatter
+- [ ] Mid-page CTA with specific copy
+- [ ] Anonymized client testimonial included
+- [ ] Pricing mentioned (landing pages: full table; others: from $100 mention)
+- [ ] SVG image files created and referenced correctly
+- [ ] _index.json updated with correct counts
 - [ ] Build succeeded
 
-## Step 8: Commit (Do NOT Push Yet)
+---
 
-```
+## STEP 8: Commit (Do NOT Push Yet)
+
+```bash
 git add content/{type}/{slug}.md content/_index.json site/public/resources/images/{slug}-*.svg
 git commit -m "p-{NNN}: {Title} — {brief description}"
 ```
 
-Do NOT push yet. The audit must pass first.
+---
 
-## Step 9: Launch Independent Audit (MANDATORY — Do NOT Skip)
+## STEP 9: Launch Independent Audit (MANDATORY)
 
-You MUST launch the audit as a **separate subagent** using the Agent tool. This is critical for eliminating context bias — the auditor must NOT share your conversation context.
-
-Use the Agent tool with this exact pattern:
+Launch audit as a separate subagent via the Agent tool:
 
 ```
-Agent tool call:
+Agent tool:
   description: "Audit p-{NNN} content page"
   prompt: |
     You are an independent content auditor. You have NO knowledge of why this content
-    was written or what decisions the writer made. Your job is to be harsh and thorough.
+    was written. Be harsh and thorough.
 
     Audit the file: content/{type}/{slug}.md
 
-    Read these instruction files first:
-    - agents/seo/AGENT.md (SEO checklist)
-    - agents/content/AGENT.md (AEO rules 1-13, anti-repetition rules)
+    Read first:
+    - agents/seo/AGENT.md (20-point SEO checklist)
+    - agents/content/AGENT.md (all copywriting + AEO rules)
     - config/brand.yaml (brand voice rules)
 
-    Then run ALL 15 checks from .claude/commands/audit.md against the content file.
+    Then run ALL 20 SEO checks from agents/seo/AGENT.md AND all rules from agents/content/AGENT.md.
 
-    CRITICAL CHECKS (must verify by reading actual files, not assumptions):
+    CRITICAL CHECKS (verify by reading actual files):
     1. Build published pages registry (find content -name "*.md", extract slugs)
-    2. Validate EVERY /resources/ link against registry — read target files to confirm they exist
-    3. For anchor links (#something), read the target file and verify the anchor ID exists
+    2. Validate EVERY /resources/ link against registry
+    3. For anchor links, read target file and verify anchor ID exists
     4. Count meta_description characters precisely
     5. Count first paragraph words precisely
     6. Verify SVG image files exist at site/public/resources/images/
+    7. Check no AI vocabulary used (delve, foster, leverage, unlock, supercharge)
+    8. Verify minimum 5 FAQs in frontmatter, none in body
+    9. Count Clymin mentions (minimum 4)
+    10. Verify 3+ external citations with source + year + stat
 
-    Output a structured audit report with PASS/FAIL for each check.
-    List ALL failures with specific line references and fix instructions.
-    Do NOT be lenient. If something is borderline, flag it.
+    Output structured audit report: PASS/FAIL for each check.
+    List ALL failures with line references and fix instructions.
+    Be strict — borderline = flag.
 ```
 
-## Step 10: Handle Audit Results
+---
 
-**If audit returns 0 failures:** Skip to Step 12 (push).
+## STEP 10: Handle Audit Results
 
-**If audit returns failures:** Proceed to Step 11 (rewrite loop).
+**0 failures → push immediately.**
 
-NEVER push code that has audit failures.
+**Any failures → rewrite loop (Step 11).**
 
-## Step 11: Rewrite Loop (Only If Audit Found Failures)
+---
 
-The rewrite MUST also be done by a **separate subagent** — NOT by the original writer.
-This prevents the writer from making minimal patches based on its writing context.
+## STEP 11: Rewrite Loop (If Failures)
 
-Launch a rewriter subagent using the Agent tool:
+Launch rewriter subagent via Agent tool:
 
 ```
-Agent tool call:
+Agent tool:
   description: "Fix audit failures for p-{NNN}"
   prompt: |
-    You are a content REWRITER. You did NOT write this content. You are receiving a file
-    and an audit report, and your job is to fix every failure listed in the report.
+    You are a content REWRITER. You did NOT write this content.
+    Fix every failure in the audit report below.
 
-    FILE TO FIX: content/{type}/{slug}.md
-    SVG FILES (if image issues): site/public/resources/images/{slug}-*.svg
+    FILE: content/{type}/{slug}.md
+    SVG FILES: site/public/resources/images/{slug}-*.svg
 
-    AUDIT FAILURES TO FIX:
-    {paste the exact failure list from the audit report}
+    AUDIT FAILURES:
+    {paste exact failure list}
 
     INSTRUCTIONS:
     1. Read the file
     2. Read agents/content/AGENT.md for the rules being enforced
-    3. Fix EVERY failure listed above — do not skip any
-    4. For broken links: build the published pages registry first
-       (read all .md files in content/ subdirectories, extract slugs)
-       and replace broken links with valid published page slugs
-    5. For meta_description length: rewrite to EXACTLY 150-160 characters (count precisely)
-    6. For first paragraph issues: rewrite to 50-80 words with company name (from brand.yaml) and location
-    7. For orphaned "This"/"It" paragraph starts: rewrite opening to be self-contained
-    8. For missing external citations: add 2-3 citations with source names and dates
-    9. For image issues: create/fix SVG files as needed
-    10. After ALL fixes, re-count meta_description characters and first paragraph words
-        to verify they're in range
-
-    Use the Edit tool to make changes. Do NOT rewrite the entire file — only fix the
-    specific failures listed. Preserve all content that passed the audit.
-
-    After fixing, run: cd site && npm run build
-    Verify it builds successfully.
-
-    Then stage and commit:
-    git add content/{type}/{slug}.md [any other changed files]
-    git commit -m "p-{NNN}: fix audit failures — {brief summary of fixes}"
+    3. Fix EVERY failure — no skipping
+    4. For broken links: build published pages registry first, replace with valid slugs
+    5. For meta_description: rewrite to EXACTLY 150–160 characters
+    6. For first paragraph: rewrite to 50–80 words with Clymin name and location
+    7. For AI vocabulary: replace with plain business language
+    8. For missing citations: add 3 external citations with source + year + stat
+    9. After fixes: recount meta_description and first paragraph to verify
+    10. Run: cd site && npm run build
+    11. Commit: git add ... && git commit -m "p-{NNN}: fix audit failures"
 ```
 
-After the rewriter finishes, launch a **FRESH audit subagent** (Step 9 again — new instance,
-no context from the previous audit or the rewriter). This is the re-validation pass.
+After rewriter: launch FRESH audit subagent. Maximum 2 rewrite loops.
+If still failing after 2 loops: surface to user with failure list.
 
-**Maximum 2 rewrite loops.** If the audit still fails after 2 rewrites:
-- Do NOT push
-- Surface the remaining failures to the user with:
-  > p-{NNN} has {N} remaining audit failures after 2 rewrite attempts.
-  > Failures: {list them}
-  > Manual intervention needed. Run `/audit content/{type}/{slug}.md` to review.
+---
 
-## Step 12: Push (Only After Clean Audit)
+## STEP 12: Push (After Clean Audit)
 
-```
+```bash
 git push
 ```
 
-Tell the user:
-> p-{NNN} generated, audited (0 failures), and deployed.
-> Audit was run by an isolated subagent. {N} rewrite(s) needed before passing.
-
-If no rewrites were needed:
-> p-{NNN} generated, audited (0 failures, first pass), and deployed.
+Report: `p-{NNN} generated, audited (0 failures), pushed. {N} rewrite(s) needed.`

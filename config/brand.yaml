@@ -5,13 +5,14 @@
 business:
   name: "Clymin"
   legal_entity: "Clymin"
-  tagline: "Supercharge Your Business With AI-Agentic Scraping Services"
-  tagline_alt: "Unlock Infinite Possibilities With AI-Powered Data Scraping"
+  tagline: "Get Clean, Real-Time Competitive Data — Without Building Scrapers"
+  tagline_alt: "AI-Managed Data Extraction. Zero Technical Overhead. Actionable Results."
   description: >
     Clymin is an AI-powered managed web and mobile app scraping service that extracts,
-    cleanses, and transforms data into actionable, real-time datasets. Our intelligent
-    AI agents empower businesses to make smarter decisions with structured, ready-to-use data.
-  positioning: "AI-agentic data extraction partner that delivers clean, structured, real-time data at scale"
+    cleanses, and transforms data into actionable, real-time datasets. Trusted by 200+
+    clients across 9 industries since 2012, Clymin's intelligent AI agents empower
+    businesses to make smarter decisions with structured, ready-to-use data — starting from $100.
+  positioning: "The fully managed AI-agentic data extraction partner for businesses that need clean, structured, real-time data without the technical overhead"
   founded: 2012
   employee_count: "50-200"
   experience: "12+ years of experience in data extraction and web scraping"
@@ -254,50 +255,94 @@ brand_voice:
   tone: "Confident, professional, results-oriented"
   personality: "Strategic partner who speaks with authority about data and AI, accessible without being overly technical"
   do:
-    - "Lead with business outcomes and metrics"
-    - "Use specific numbers and percentages to demonstrate impact"
+    - "Lead with business outcomes and specific metrics"
+    - "Use exact numbers: 99.2% accuracy, 48-hour setup, from $100"
     - "Position Clymin as a strategic partner, not just a vendor"
     - "Emphasize the AI-agentic advantage over static scrapers"
-    - "Mention compliance and security certifications where relevant"
-    - "Use action-oriented language — anticipate, supercharge, unlock, empower"
+    - "Mention compliance certifications (ISO 27001, SOC 2, GDPR) where relevant"
+    - "Use plain business language: track, extract, deliver, monitor, analyze"
+    - "Name the cost of inaction: 'competitors updating prices hourly while you check weekly'"
   dont:
-    - "Use overly technical jargon without explaining business value"
+    - "Use AI vocabulary: delve, foster, leverage, empower, unlock, supercharge, dive into"
     - "Make generic claims without backing them with data"
-    - "Sound like a commodity scraping tool — we are a managed service"
+    - "Sound like a commodity scraping tool — Clymin is a fully managed service"
     - "Downplay compliance — it is a key differentiator"
-    - "Use passive or tentative language — be direct and confident"
+    - "Use tentative language: 'may help', 'can potentially', 'might be able to'"
+    - "Start paragraphs with 'This', 'It', 'These', 'As mentioned above'"
+    - "Use standalone 'Trusted by 200+ clients' boilerplate — weave into context"
   sample_phrasing:
     bad: "We can help you get some data from websites if you need it."
-    good: "Clymin's AI agents extract, cleanse, and deliver structured data from any source — so you can focus on decisions, not data collection."
+    good: "Clymin's AI agents extract, cleanse, and deliver structured data from any source — so your team focuses on decisions, not data collection."
+    bad2: "Unlock infinite possibilities with AI-powered data scraping."
+    good2: "Track competitor prices across 10,000+ SKUs — updated daily, delivered clean."
 
 # ============================================================
 # CLIENTS
 # ============================================================
 clients:
+  # IMPORTANT: Always use the anonymized_as description — never the real_name — in any published content.
   named:
-    - name: "E-Commerce Client"
+    - real_name: "[confidential]"
+      anonymized_as: "India's leading food tech platform"
+      industry: "Food & Quick Commerce"
+      segment: "food-delivery"
+      contact_role: "Head of Growth"
+      testimonial: "Clymin's food delivery data scraping helped us track competitor menu pricing across 5,000+ restaurants daily. We reduced pricing research time by 80% and improved our promotional response speed significantly."
+      result_metric: "80% reduction in pricing research time"
+
+    - real_name: "[confidential]"
+      anonymized_as: "Southeast Asia's top e-commerce company"
       industry: "E-Commerce"
-      contact_name: "Sarah T."
-      contact_role: "Marketing Manager"
-      testimonial: "Clymin's data insights helped us boost revenue by 20% through real-time market trend and competitor pricing analysis."
-    - name: "Financial Services Client"
-      industry: "Financial Services"
-      contact_name: "Lisa R."
-      contact_role: "Social Media Manager"
-      testimonial: "Decision-making speed improved by 25% with Clymin's structured financial data extraction services."
-    - name: "Travel Client"
-      industry: "Tours & Travel"
-      contact_name: "David L."
-      contact_role: "CEO"
-      testimonial: "Competitive rate adjustments improved by 20% — Clymin gives us real-time visibility into the market."
-    - name: "Real Estate Client"
-      industry: "Real Estate"
-      contact_name: "Emily W."
-      contact_role: "Real Estate Consultant"
-      testimonial: "Data collection efficiency improved by 35% with Clymin's automated property listing extraction."
+      segment: "ecommerce"
+      contact_role: "Head of E-Commerce"
+      testimonial: "Clymin's competitor price monitoring service tracks millions of SKUs across our key markets in real time. Our pricing team now reacts to competitor changes in hours, not days — contributing to a 20% revenue increase in our monitored categories."
+      result_metric: "20% revenue increase in monitored categories"
+
+    - real_name: "[confidential]"
+      anonymized_as: "A global logistics and supply chain leader"
+      industry: "E-Commerce / Logistics"
+      segment: "ecommerce"
+      contact_role: "VP of Strategy"
+      testimonial: "Clymin's managed data extraction handles our multi-market competitive intelligence across 40+ countries. The data quality and delivery reliability are exceptional — 99%+ accuracy and zero maintenance on our end."
+      result_metric: "99%+ data accuracy across 40+ countries"
+
+    - real_name: "[confidential]"
+      anonymized_as: "A leading Gulf retail conglomerate"
+      industry: "E-Commerce / Retail"
+      segment: "ecommerce"
+      contact_role: "Digital Strategy Director"
+      testimonial: "Clymin extracts product and pricing data from 200+ competitor websites across our retail categories. Our data collection efficiency improved by 35% and we now have real-time visibility into regional pricing trends we had no access to before."
+      result_metric: "35% improvement in data collection efficiency"
+
+    - real_name: "[confidential]"
+      anonymized_as: "A global precision watchmaker"
+      industry: "E-Commerce / Luxury"
+      segment: "ecommerce"
+      contact_role: "E-Commerce Manager"
+      testimonial: "Clymin monitors our authorized retailer pricing and MAP compliance across global e-commerce platforms. We identified and resolved 40+ pricing violations in the first month, protecting our brand value significantly."
+      result_metric: "40+ MAP pricing violations identified and resolved in month 1"
+
+    - real_name: "[confidential]"
+      anonymized_as: "A leading specialty pet retail brand"
+      industry: "E-Commerce / Retail"
+      segment: "ecommerce"
+      contact_role: "Pricing Manager"
+      testimonial: "We track competitor pricing on 3,000+ SKUs daily using Clymin. The structured data is delivered directly to our pricing engine — no manual work, 48-hour setup, starting from $100/month for our initial use case."
+      result_metric: "3,000+ SKUs tracked daily, 48-hour setup"
+
+    - real_name: "[confidential]"
+      anonymized_as: "A leading data analytics and process outsourcing firm"
+      industry: "Financial Services / Analytics"
+      segment: "financial"
+      contact_role: "Head of Alternative Data"
+      testimonial: "Clymin's financial data scraping delivers structured datasets from 500+ web sources daily. Decision-making speed improved by 25% and our analysts focus on insights rather than data collection."
+      result_metric: "25% faster decision-making, 500+ sources daily"
+
   industries_served_count: "9+"
   platforms_scanned: "Thousands"
   parameters_evaluated: "100B+ data points"
+  # Usage note: Pick the most industry-relevant client for each content piece.
+  # Never cluster all 7 testimonials on one page — use 1-2 per page maximum.
 
 social_profiles:
   linkedin_company: "https://www.linkedin.com/company/clymin"
@@ -331,11 +376,35 @@ integrations:
 # PRICING
 # ============================================================
 pricing:
-  model: "Custom project-based pricing"
-  note: "Pricing varies based on data volume, source complexity, and delivery frequency. Free consultation offered."
+  model: "Use-case based pricing — scales with data volume, source complexity, and delivery frequency"
+  starting_from: "$100 per project"
+  ranges:
+    small_project: "From $100 — single source, one-time or infrequent extraction"
+    monthly_monitoring: "$500–$2,000/month — continuous monitoring, 1–5 sources, standard delivery"
+    mid_market: "$2,000–$10,000/month — multi-source, daily delivery, custom API"
+    enterprise: "$10,000+/month — high-volume, real-time, dedicated infrastructure"
+  note: "Exact pricing depends on: number of sources, data volume, delivery frequency, cleaning requirements. Free consultation determines the right plan."
   content_approach: >
-    Position Clymin as a premium managed service. Emphasize ROI and value
-    rather than competing on price. Offer free consultation as the conversion point.
+    Always mention "starting from $100" to signal accessibility. Frame pricing as ROI:
+    "$500/month vs. a $50,000 pricing mistake" or "less than the cost of one analyst day per week."
+    Never publish exact enterprise pricing — always CTA to free consultation.
+    Use the in-content comparison table (Clymin vs In-house vs DIY tools) on all landing pages.
+  comparison_table:
+    - approach: "Clymin Managed Service"
+      setup: "48 hours"
+      maintenance: "Zero — fully managed"
+      accuracy: "99%+"
+      starting_cost: "From $100"
+    - approach: "In-house engineering team"
+      setup: "4–8 weeks"
+      maintenance: "Full-time (proxy management, anti-bot, source changes)"
+      accuracy: "Varies"
+      starting_cost: "$5,000+/month"
+    - approach: "DIY scraping tools (Apify, ScrapingBee)"
+      setup: "1–2 weeks"
+      maintenance: "High (user responsible)"
+      accuracy: "70–85%"
+      starting_cost: "$500+/month + developer time"
 
 # ============================================================
 # CONTENT INFRASTRUCTURE

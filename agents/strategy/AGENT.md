@@ -1,116 +1,223 @@
-# Strategy Agent
+# Strategy Agent — Clymin Marketing Skills Edition (33-Framework)
 
 ## Purpose
-Turn the keyword research into an actionable content plan. Cluster keywords, assign page types, map to buyer journey, and create a prioritized publishing schedule.
+Turn keyword research into a prioritized, conversion-optimized content plan. Every content cluster must serve a specific buyer stage, address a specific objection, and contribute to Clymin's lead generation flywheel.
 
-**Before starting:** Read `config/brand.yaml` for the company name, services, segments, and industries.
+**Before starting:** Read `config/brand.yaml` for segments, services, and canonical pages. Read `data/keywords.json` for research output.
 
 ## Inputs
 - `data/keywords.json` — from Research Agent
-- `config/brand.yaml` — services, segments, industries
+- `config/brand.yaml` — services, segments, industries, canonical pages
 - `content/_index.json` — existing content (to avoid duplicates)
 
 ## Output
-- `data/content-plan.json` — the full content blueprint
+- `data/content-plan.json` — full content blueprint
 
-## Process
+---
 
-### Step 1: Cluster Keywords into Topic Groups
+## CONTENT STRATEGY FRAMEWORK (Frameworks: content-strategy, site-architecture, marketing-ideas)
 
-Group keywords that should be served by the SAME page. A single page should target 1 primary keyword + 2-5 secondary/related keywords.
+### The Hub-and-Spoke Model
 
-**Clustering Rules:**
-- Same intent + same topic + same location → one cluster
-- Same intent + same topic + different locations → separate clusters (location pages)
-- Different intents + same topic → could be same or different pages depending on depth
-- Never put commercial and informational intent in the same cluster
+Every segment builds a hub-and-spoke content cluster:
 
-**Example Cluster:**
+```
+SEGMENT HUB (landing page — canonical)
+    ├── SPOKE 1: Problem awareness blog posts (3-5)
+    ├── SPOKE 2: How-to guides (1-2)
+    ├── SPOKE 3: FAQ pages (2-3)
+    ├── SPOKE 4: Comparison pages (2-3)
+    ├── SPOKE 5: Sub-service landing pages (2-5)
+    └── SPOKE 6: Case study / proof page (1)
+```
+
+Every spoke links back to the hub. The hub links to all spokes. This creates topical authority that AI models recognize.
+
+### Content Mix by Segment
+
+For each segment, target this distribution:
+- **Landing pages**: 6–8 (core service + city variations + sub-services)
+- **Blog posts**: 6–8 (awareness + thought leadership + trends)
+- **Guides**: 1–2 (comprehensive playbook — gated with lead magnet)
+- **FAQs**: 2–3 (cost, legality, accuracy — AI citation magnets)
+- **Comparisons**: 2–3 (vs competitors, vs DIY, vs alternatives)
+
+### Buyer Journey Mapping (Framework: sales-enablement, revops)
+
+Every page must map to a buyer stage:
+
+| Stage | Content Type | CTA Goal | Conversion Signal |
+|---|---|---|---|
+| Awareness | Blog posts, trend reports | Email capture / lead magnet | Downloaded guide or subscribed |
+| Consideration | Guides, comparisons, FAQs | Book a call | Visited pricing FAQ + comparison |
+| Evaluation | Landing pages, case studies | Free consultation | Requested sample dataset |
+| Decision | Case studies, ROI calculators | Book a meeting | Clicked "Book a Meeting" |
+
+---
+
+## PRIORITIZATION RULES (Framework: content-strategy, programmatic-seo)
+
+### Wave Assignment
+
+**Wave 1 — Highest ROI (do first):**
+- Priority 1 segment (E-Commerce) landing pages
+- Any keyword with priority_score ≥ 8.5
+- Comparison pages (rank fast, high conversion intent)
+- FAQ pages for most-asked objection questions (legality, cost, accuracy)
+
+**Wave 2:**
+- Priority 2 segment (Travel) landing pages + blog posts
+- E-Commerce blog posts + guides
+
+**Wave 3:**
+- Priority 3-4 segments (Real Estate, Food)
+- Cross-segment content (general scraping topics)
+
+**Wave 4:**
+- Priority 5 segment (Financial Services) — fill the current gap
+- Local SEO pages (city-specific)
+- Refresh underperforming Wave 1 pages
+
+### Within Each Wave, Order By:
+1. Commercial intent landing pages first (fastest to convert)
+2. Comparison pages (rank fast, high decision-stage traffic)
+3. FAQ pages (AI citation magnets, fast to rank)
+4. Blog posts (longer runway, but compound over time)
+5. Guides (most effort, gated for lead capture)
+
+---
+
+## CONTENT GAP ANALYSIS (Current Gaps to Fill)
+
+Based on the 33-framework audit, these gaps MUST be addressed:
+
+### Critical Gaps (Missing Entirely):
+1. **Financial Services guides** (0 currently — highest-value buyer segment)
+   - "How to Build an Alternative Data Pipeline for Investment Research"
+   - "ESG Data Collection: A Compliance-First Playbook for 2026"
+
+2. **Financial Services FAQs** (0 currently)
+   - "How Much Does Alternative Data Scraping Cost for Hedge Funds?"
+   - "Is Web Scraping for Investment Research Legal?"
+   - "How Accurate Is Financial Data Extracted by Web Scraping?"
+
+3. **Case studies** (0 currently — critical for enterprise buyers)
+   - One per segment (5 total), anonymized per brand.yaml client guidelines
+   - Format: Challenge → Clymin Approach → Results (with specific metrics)
+
+4. **Food & Quick Commerce comparisons** (1 currently — need 2 more)
+   - "DoorDash vs Uber Eats Data: Which Platform Delivers Better Intelligence?"
+   - "Swiggy vs Zomato Data Quality: A Side-by-Side Analysis"
+
+5. **Cross-segment authority content** (missing)
+   - "The Complete Guide to B2B Web Scraping Compliance in 2026"
+   - "How to Evaluate a Managed Scraping Service: 10 Questions to Ask"
+
+### High-Priority Additions:
+- Local SEO cluster: San Francisco, Hyderabad, Dubai, Singapore, London
+- "Alternative to {competitor}" pages: Bright Data alternative, Apify alternative, Oxylabs alternative
+- Interactive tool concept: "Data Scraping ROI Calculator" (free tool for lead gen)
+
+---
+
+## PAGE BRIEF TEMPLATE
+
+For each planned page, create a brief:
+
 ```json
 {
-  "cluster_id": "cl-001",
-  "cluster_name": "Tech Recruitment Agency Dubai",
-  "primary_keyword": "tech recruitment agency Dubai",
-  "secondary_keywords": [
-    "IT recruitment agency Dubai",
-    "technology recruitment company UAE",
-    "software recruitment agency Dubai"
-  ],
-  "intent": "commercial",
-  "segment": "middle-east",
-  "estimated_total_volume": "medium"
-}
-```
-
-### Step 2: Assign Page Type to Each Cluster
-
-| Intent | Typical Page Type |
-|---|---|
-| Commercial + specific location/service | Landing Page |
-| Informational + "how to" / trends | Blog Post |
-| Informational + comprehensive topic | Guide |
-| Question-based (what, why, how) | FAQ Page |
-| "vs" or comparison queries | Comparison Page |
-
-### Step 3: Map to Buyer Journey
-
-```
-Awareness    → Blog posts, guides (salary data, market trends, hiring challenges)
-Consideration → Comparisons, FAQs (agency vs in-house, what to look for)
-Evaluation   → Landing pages (specific service + location pages)
-Decision     → Case study references, contact CTAs
-```
-
-### Step 4: Create Page Briefs
-
-For each cluster, create a page brief:
-
-```json
-{
-  "page_id": "p-001",
-  "cluster_id": "cl-001",
-  "title_suggestion": "{Primary Keyword} | {Company Name from brand.yaml}",
-  "slug": "{url-friendly-slug}",
-  "page_type": "landing-page",
+  "page_id": "p-XXX",
+  "cluster_id": "cl-XXX",
+  "title_suggestion": "{Primary Keyword} | Clymin",
+  "slug": "{slug}",
+  "page_type": "landing-page | blog-post | guide | faq | comparison",
   "segment": "{segment from brand.yaml}",
-  "primary_keyword": "{exact primary keyword}",
-  "secondary_keywords": ["{secondary 1}", "{secondary 2}"],
-  "intent": "commercial",
-  "buyer_stage": "evaluation",
-  "target_persona": "{who this page is for}",
-  "content_angle": "Position the company using its differentiators from brand.yaml. Lead with proof points from brand.yaml > differentiators.proof_points. Address segment-specific concerns from brand.yaml > segments.",
+  "primary_keyword": "{exact keyword}",
+  "secondary_keywords": ["{kw2}", "{kw3}"],
+  "intent": "commercial | informational | comparison | faq",
+  "buyer_stage": "awareness | consideration | evaluation | decision",
+  "target_persona": "{buyer title from brand.yaml}",
+  "content_angle": "Lead with [specific differentiator]. Address [specific objection]. Include [specific proof point].",
   "must_include": [
-    "Direct answer: what the company offers for this query",
-    "Market context with growth stats",
-    "Company's unique approach (brief mention, link to canonical page)",
-    "Location/segment-specific hiring challenges",
-    "Relevant salary benchmark data",
-    "FAQ section (3-5 questions)",
-    "Contact CTA"
+    "Direct answer to primary keyword in first paragraph",
+    "External citation: [Source] + specific stat",
+    "Anonymized client reference: [which client description]",
+    "Pricing mention: starting from $100",
+    "Internal link to: [specific page slugs]",
+    "FAQ covering: [list 5 specific questions]",
+    "CTA: [specific offer]"
   ],
-  "internal_links_to": ["p-005", "p-012"],
-  "word_count_target": 1500,
-  "priority_score": 9,
+  "internal_links_to": ["slug-1", "slug-2", "slug-3"],
+  "word_count_target": 1200,
+  "priority_score": 8.5,
   "status": "planned",
   "wave": 1
 }
 ```
 
-### Step 5: Prioritize and Assign Waves
+---
 
-**Wave Assignment Rules:**
-- Wave 1: Priority 1 segment (from brand.yaml) + highest priority scores
-- Wave 2: Priority 2 segment + high priority scores
-- Wave 3: Priority 3 segment + medium-high priority
-- Wave 4: Remaining segments + cross-cutting + gap fills
+## INTERNAL LINKING STRATEGY (Framework: site-architecture)
 
-**Within each wave, order by:**
-1. Commercial intent pages first (they convert faster)
-2. Highest priority score first
-3. Landing pages before blog posts (direct lead generation)
-4. Comparison pages early (these rank fast and convert well)
+Plan internal links as you build the content plan. Every page needs outbound links TO:
 
-### Step 6: Output Format
+| Page Type | Must Link To |
+|---|---|
+| Landing page | 1 related guide + 1 related FAQ + 1 related blog post |
+| Blog post | 1 relevant landing page + 1 related blog or guide |
+| Guide | 3–5 relevant landing pages + 1 comparison |
+| FAQ page | The most relevant landing page (always) + 1 blog post |
+| Comparison | Relevant landing page as "recommended option" |
+| Case study | The relevant service landing page (always) |
+
+### Hub Page (clymin.ai/resources) Link Strategy
+Every page type should be discoverable from the hub:
+- Services tab → landing pages
+- Blog tab → blog posts
+- Guides tab → guides (with lead magnet CTAs visible in summary)
+- FAQs tab → FAQ pages
+- Comparisons tab → comparison pages
+
+**Missing from current nav:** The /resources hub is NOT in Clymin's main site navigation. This must be fixed. Document in navigation task for main site team.
+
+---
+
+## FREE TOOL STRATEGY (Framework: free-tool-strategy)
+
+High-priority free tools to plan in the content strategy:
+
+1. **Data Scraping ROI Calculator**
+   - Input: industry, current manual hours/week, data points needed
+   - Output: estimated cost savings with Clymin vs manual
+   - Lead capture: email to get the full report
+   - Placement: /resources/tools/roi-calculator
+
+2. **Scraping Compliance Checker**
+   - Input: target website type + country
+   - Output: compliance risk level + Clymin's approach
+   - Lead capture: book a consultation for complex cases
+
+These are planned pages — add to Wave 3 content plan.
+
+---
+
+## LEAD MAGNET STRATEGY (Framework: lead-magnets)
+
+One gated asset per segment (email capture):
+
+| Segment | Lead Magnet | Format |
+|---|---|---|
+| E-Commerce | "2026 Competitor Price Monitoring Playbook" | PDF guide |
+| Travel | "OTA Rate Parity Monitoring Checklist" | PDF checklist |
+| Real Estate | "Property Data Extraction: Source Comparison Guide" | PDF |
+| Food & QC | "Food Delivery Intelligence Setup Guide" | PDF |
+| Financial | "Alternative Data Due Diligence Checklist" | PDF |
+
+Add to highest-traffic guide in each segment as gated download.
+
+---
+
+## OUTPUT FORMAT
 
 Save to `data/content-plan.json`:
 
@@ -118,30 +225,31 @@ Save to `data/content-plan.json`:
 {
   "metadata": {
     "generated_date": "YYYY-MM-DD",
-    "total_pages_planned": 100,
-    "by_wave": { "1": 30, "2": 25, "3": 25, "4": 20 },
+    "total_pages_planned": 120,
+    "by_wave": { "1": 30, "2": 30, "3": 30, "4": 30 },
     "by_type": {
-      "landing-page": 36,
-      "blog-post": 36,
-      "guide": 10,
-      "faq": 10,
-      "comparison": 8
-    }
+      "landing-page": 40,
+      "blog-post": 40,
+      "guide": 12,
+      "faq": 15,
+      "comparison": 13
+    },
+    "by_segment": {
+      "ecommerce": 30,
+      "travel": 25,
+      "real-estate": 20,
+      "food-delivery": 20,
+      "financial": 20,
+      "cross-segment": 5
+    },
+    "gaps_addressed": [
+      "Financial Services guides added",
+      "Financial Services FAQs added",
+      "Case studies added for all 5 segments",
+      "Competitor alternative pages added",
+      "Free tool concepts added"
+    ]
   },
-  "pages": [
-    { "...page brief..." }
-  ]
+  "pages": [ { "...page brief..." } ]
 }
 ```
-
-## Internal Linking Strategy
-
-Plan internal links as you build the content plan:
-
-- Every **landing page** should link to 1 related guide + 1 related blog post
-- Every **blog post** should link to 1 relevant landing page + 1 related blog
-- Every **guide** should link to 3-5 relevant landing pages
-- Every **FAQ page** should link to the most relevant landing page
-- Every **comparison** should link to the relevant landing page as the "recommended option"
-
-This creates a web of internal links that both Google and AI crawlers follow to discover related content.

@@ -1,177 +1,200 @@
-# Content Audit Skill
+# Content Audit Skill — 33-Framework Edition
 
 ## IMPORTANT: Context Isolation
-
-This audit MUST be run as a **separate subagent** (via the Agent tool), NOT in the same
-conversation that generated the content. Running the audit in the same context as the
-writer creates bias — the auditor "remembers" writing decisions and is lenient on its own work.
-
-**If you are the same agent that just wrote this content, STOP. Launch a new Agent tool
-subagent to run this audit instead. Pass only the file path, not your writing context.**
+This audit MUST run as a separate subagent — NOT in the same conversation that generated the content.
 
 ## Role
-
-You are an independent AUDITOR. You have NO knowledge of why this content was written,
-what tradeoffs the writer considered, or what the "intent" behind any decision was.
-You only see the file on disk and the rules. Your job is to find problems. Be harsh.
-
-A check is PASS only if it fully meets the criteria. Partial compliance is FAIL.
+Independent AUDITOR. You did NOT write this content. You only see the file and the rules. Be harsh. A check is PASS only if fully met.
 
 ## Input
-
 Audit the content file at: `$ARGUMENTS`
 
-If no file path is given, ask which file to audit.
+---
 
-## Pre-Audit Setup
+## PRE-AUDIT SETUP
 
-1. Read the content file being audited
-2. Read `agents/seo/AGENT.md` for the full SEO checklist
-3. Read `agents/content/AGENT.md` for AEO rules 1-13 and anti-repetition rules
-4. Build a list of ALL published page slugs:
-   - Read EVERY .md file in content/landing-pages/, content/blog-posts/, content/comparisons/, content/faqs/, content/guides/
-   - Extract the `slug:` field from each file's YAML frontmatter
+1. Read the content file
+2. Read `agents/seo/AGENT.md` — 20-point SEO checklist
+3. Read `agents/content/AGENT.md` — copywriting + AEO rules
+4. Read `config/brand.yaml` — brand voice rules
+5. Build published pages registry:
+   - Read EVERY .md in content/landing-pages/, content/blog-posts/, content/comparisons/, content/faqs/, content/guides/
+   - Extract `slug:` from each frontmatter
    - This is your TRUTH SOURCE for valid internal links
-5. Read `config/brand.yaml` for brand voice rules
 
-## Audit Checks (Run ALL — Do NOT Skip Any)
+---
 
-### CHECK 1: Internal Link Validation (CRITICAL)
-For EVERY internal link (`/resources/...`) found in the content:
-1. Extract the target slug from the link URL
-2. Verify a published `.md` file exists with that exact slug
-3. If the link has an anchor (`#section-name`), read the target file and verify that anchor ID exists
-4. Flag ANY link pointing to a page that does NOT exist yet as **BROKEN LINK**
-5. Flag ANY anchor link where the anchor ID is not found in the target file as **BROKEN ANCHOR**
+## AUDIT CHECKS (Run ALL 25 — No Skipping)
 
-Report format for each link:
-```
-[PASS/FAIL] /resources/slug-name → content/type/slug-name.md (exists: yes/no)
-[PASS/FAIL] /resources/slug-name#anchor → anchor "anchor" found: yes/no
-```
+### TECHNICAL SEO
 
-### CHECK 2: Meta Description Length
-Count the EXACT character count of `meta_description` in frontmatter.
-- PASS: 150-160 characters
-- FAIL: anything outside this range
+**CHECK 1: Meta Title Length**
+Count exact characters. PASS: 50–60. FAIL: outside range.
+Report: `Meta title: {count} chars — [PASS/FAIL]`
+
+**CHECK 2: Meta Description Length**
+Count exact characters. PASS: 150–160. FAIL: outside range.
 Report: `Meta description: {count} chars — [PASS/FAIL]`
 
-### CHECK 3: Meta Title Length
-Count characters of `meta_title`.
-- PASS: 50-60 characters
-- FAIL: anything outside this range
+**CHECK 3: Canonical URL**
+Verify `canonical_url` present, format `/resources/{slug}`.
 
-### CHECK 4: First Paragraph Quality
-Read the first paragraph after the frontmatter `---`:
-1. Count words — must be 50-80
-2. Check company name (from `brand.yaml > business.name`) appears in full
-3. Check it directly answers the primary keyword query (not a preamble)
-4. Check it works as a standalone statement (no "This", "It", "As mentioned above" as openers)
-5. Check geographic specificity (city/country names present where relevant)
+**CHECK 4: Schema Type**
+Verify `schema_type` is correct for page type:
+- landing-page → Service
+- blog-post, guide, comparison → Article
+- faq → FAQPage
 
-### CHECK 5: FAQ Validation
-1. FAQs exist ONLY in YAML frontmatter — search markdown body for "## FAQ" or "## Frequently Asked" and flag as **DUPLICATE FAQ** if found
-2. Minimum 3 FAQ items
-3. Questions phrased as natural search queries (not formal/abstract)
-4. Answers are 2-5 sentences each
+### ON-PAGE SEO
 
-### CHECK 6: Internal Linking Requirements
-1. Count distinct `/resources/` links (not counting same page with different anchors as distinct)
-2. Minimum 2 distinct pages linked — flag if fewer
-3. Check link text is descriptive (flag generic text: "learn more", "click here", "read more", "this page", "here")
-4. Check for bidirectional linking opportunity — does the target page link back?
+**CHECK 5: First Paragraph Quality**
+1. Count words (must be 50–80)
+2. Contains "Clymin" (full name from brand.yaml)
+3. Directly answers primary keyword — no preamble
+4. Geographic specificity (city or country)
+5. Works standalone (no "This", "It" opener, no reference to prior context)
+Report: `First paragraph: {word count} words — [PASS/FAIL]`
 
-### CHECK 7: Anti-Repetition Check
-Read 2-3 other published pages from the same segment. Flag if:
-1. The page contains a full process description that should only be on the canonical main service page (`brand.yaml > canonical_pages.main_service_page`)
-2. The page has boilerplate "How [Company] Solves..." or "What Sets [Company] Apart" sections
-3. The page repeats a full differentiator explanation (should be 1-2 sentences + link to main service page)
-4. The page has "Industries We Serve" when keyword is NOT industry-specific
-5. Large blocks of text (3+ sentences) appear identical to another page
+**CHECK 6: Heading Structure**
+- H2s mirror natural search queries (not "Overview", "Analysis", "Summary")
+- No heading skipping (no H3 without preceding H2)
+- Each H2 section is self-contained
 
-### CHECK 8: External Citations (Rule 11)
-Count externally-sourced data points with named sources.
-- PASS: 2+ external citations with source names and dates
-- FAIL: fewer than 2, or citations without dates/specifics
+**CHECK 7: Internal Link Validation (CRITICAL)**
+For EVERY /resources/ link:
+1. Extract slug from URL
+2. Verify .md exists with that slug in published registry
+3. For anchor links (#section), verify anchor ID exists in target file
+4. Flag BROKEN LINK or BROKEN ANCHOR with details
 
-### CHECK 9: Self-Contained Paragraphs (Rule 12)
-Scan ALL paragraphs for:
-1. Paragraphs starting with "This", "It", "These", "That", "As mentioned above", "As discussed"
-2. Flag each occurrence with line number
-3. Check first paragraph under each H2 — does it make sense if extracted alone?
+Report per link:
+`[PASS/FAIL] /resources/slug → exists: yes/no`
 
-### CHECK 10: Heading Quality (Rule 13)
-For each H2/H3:
-1. Does it read like a natural search query or question?
-2. Flag formal/abstract headings: "Overview", "Analysis", "Considerations", "Framework"
-3. Good patterns: "How to...", "What is...", "Why...", "How Much Does..."
+**CHECK 8: Internal Link Count**
+Count distinct /resources/ pages linked. PASS: 3+. FAIL: fewer than 3.
 
-### CHECK 11: Image Validation
-1. For each image reference in markdown (`![alt](/resources/images/...)`):
-   - Verify the SVG file exists at `site/public/resources/images/...`
-   - Check alt text is under 125 characters and includes primary keyword
-2. Verify `og_image` in frontmatter points to an existing file
-3. Check no two images are adjacent without text between them
-4. Check no image duplicates an auto-generated visual (Step N: pattern)
+**CHECK 9: Link Anchor Text Quality**
+Flag generic anchor text: "learn more", "click here", "read more", "here", "this page"
 
-### CHECK 12: show_metrics Appropriateness
-- `show_metrics: true` should ONLY be on direct service pitch pages (landing pages)
-- Should NOT be on educational/informational pages (blog posts, FAQs, comparisons, guides)
-- Flag if `show_metrics: true` on a non-landing-page type
+**CHECK 10: External Citations**
+Count external citations with source name + year + specific stat.
+PASS: 3+. FAIL: fewer, or citations without dates/source names.
 
-### CHECK 13: Paragraph Length
-Scan for any paragraph exceeding 4 sentences. Flag with line number.
+### COPYWRITING
 
-### CHECK 14: Entity Mentions
-Count occurrences of the company name (from `brand.yaml > business.name`) in full. Must appear:
-- In first paragraph
-- 2-3 more times in body
-Flag if fewer than 3 total mentions.
+**CHECK 11: AI Vocabulary Check**
+Scan for banned words: "delve", "foster", "leverage", "empower", "unlock", "supercharge", "dive into"
+Flag each occurrence with line number.
 
-### CHECK 15: CTA Check
-Verify the last section contains:
-- Email link to the address from `brand.yaml > business.email` OR
-- Booking link from `brand.yaml > business.booking_link` OR
-- Reference to a contact page
+**CHECK 12: Filler Openers**
+Scan for paragraphs starting with: "In today's world", "As businesses grow", "In the age of", "As the digital landscape"
+Flag each with line number.
 
-## Output Format
+**CHECK 13: Self-Contained Paragraphs**
+Scan for paragraphs starting with: "This", "It", "These", "That", "As mentioned above", "As discussed"
+Flag each with line number.
 
-Produce a structured audit report:
+**CHECK 14: Paragraph Length**
+Scan for paragraphs exceeding 4 sentences. Flag with line number.
+
+**CHECK 15: Boilerplate Check**
+Check for standalone "Trusted by 200+ clients since 2012" — FAIL if present as standalone line.
+Check for copied process/differentiator block that should only be on canonical page.
+
+### AEO
+
+**CHECK 16: FAQ Validation**
+1. Minimum 5 FAQs in YAML frontmatter
+2. Search markdown body for "## FAQ" or "## Frequently" — FAIL if found (duplicate)
+3. Questions phrased as natural search queries
+4. Answers: 2–4 sentences, include Clymin mention + metric
+
+**CHECK 17: Entity Mentions**
+Count "Clymin" (full name) occurrences. PASS: 4+. FAIL: fewer.
+Verify appears in: first paragraph, at least one H2 section, CTA.
+
+**CHECK 18: show_metrics Appropriateness**
+- show_metrics: true → ONLY on landing-page type. FAIL if on blog/faq/guide/comparison.
+
+### CONVERSION
+
+**CHECK 19: Mid-Page CTA**
+Verify a CTA appears after the first major H2 section (not just at the end).
+Check CTA copy is specific (not just "Contact Us" or "Learn More").
+
+**CHECK 20: Testimonial/Social Proof**
+Verify at least one anonymized client reference or testimonial from brand.yaml appears in the page body.
+
+**CHECK 21: Pricing Mention**
+- Landing pages: verify pricing table present (Clymin vs In-house vs DIY)
+- All pages: verify "from $100" or pricing range mentioned where relevant
+
+### DISTRIBUTION
+
+**CHECK 22: Social Hook**
+Verify `social_hook` field in frontmatter, non-empty.
+
+**CHECK 23: Email Subject**
+Verify `email_subject` field in frontmatter, non-empty.
+
+### IMAGES
+
+**CHECK 24: Image File Existence**
+For each image reference in markdown (`![alt](/resources/images/...)`):
+- Verify SVG file exists at `site/public/resources/images/...`
+- Check alt text is under 125 characters and includes primary keyword
+- Check og_image in frontmatter points to existing file
+
+**CHECK 25: Minimum Word Count**
+Count total words. Check against minimums:
+- landing-page: 800+ words
+- blog-post: 1,200+ words
+- guide: 2,000+ words
+- faq: 600+ words
+- comparison: 1,000+ words
+
+---
+
+## OUTPUT FORMAT
 
 ```
 # AUDIT REPORT: {filename}
 Date: {today}
-Page ID: {id from frontmatter}
-Primary Keyword: {from frontmatter}
+Page ID: {id}
+Primary Keyword: {keyword}
+Page Type: {type}
 
 ## SUMMARY
-- Total checks: 15
-- Passed: {N}
-- Failed: {N}
-- Warnings: {N}
+Total checks: 25
+Passed: {N}
+Failed: {N}
+Warnings: {N}
+Publish-ready: YES / NO
 
 ## CRITICAL FAILURES (must fix before publish)
-{List each critical failure with specific details and line numbers}
+[Each failure: check number, what failed, exact text/line, fix instruction]
 
-## WARNINGS (should fix)
-{List each warning with details}
-
-## PASSED CHECKS
-{List passed checks briefly}
+## WARNINGS
+[Each warning with detail]
 
 ## BROKEN LINKS DETAIL
-{For each broken link, show the link, what it points to, and whether the target exists}
+[Each broken link: URL, target slug, exists: yes/no]
 
-## RECOMMENDED FIXES
-{Numbered list of specific fixes, in priority order}
+## PASSED CHECKS
+[Brief list of passed checks]
+
+## PRIORITY FIX LIST
+1. {Most critical fix with exact instruction}
+2. {Next fix}
+...
 ```
 
-## Rules for the Auditor
+## Auditor Rules
 
-1. **Be harsh, not generous.** If something is borderline, flag it as a warning.
-2. **Check EVERY link.** Don't sample — validate every single `/resources/` link.
-3. **Read actual files.** Don't assume a file exists — use Glob or Read to verify.
-4. **Show evidence.** For every failure, show the exact text/line that failed.
-5. **Don't fix anything.** Your job is to report, not to edit. The content writer fixes issues.
-6. **Check against other pages.** Anti-repetition requires comparing against existing content.
-7. **Count precisely.** Character counts and word counts must be exact, not estimated.
+1. **Be harsh.** Borderline = flag as warning minimum.
+2. **Check EVERY link.** No sampling.
+3. **Read actual files.** Don't assume existence — use Glob or Read to verify.
+4. **Show evidence.** Every failure = exact text or line number.
+5. **Don't fix anything.** Report only. Writer fixes.
+6. **Compare against other pages.** Anti-repetition check requires reading 2–3 same-segment pages.
+7. **Count precisely.** Character and word counts must be exact.
