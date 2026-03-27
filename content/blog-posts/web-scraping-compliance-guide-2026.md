@@ -2,7 +2,7 @@
 id: "bp-021"
 title: "Web Scraping Compliance Guide 2026: CFAA, GDPR, and robots.txt"
 meta_title: "Web Scraping Compliance Guide 2026: CFAA, GDPR, ToS"
-meta_description: "Your complete web scraping compliance guide for 2026. Covers CFAA, GDPR Article 6, robots.txt, ToS, the hiQ ruling, and how Clymin maintains ISO 27001 and SOC 2."
+meta_description: "Your complete web scraping compliance guide for 2026. Covers CFAA, GDPR Article 6, robots.txt, ToS, the hiQ ruling, and how Clymin maintains ISO 27001 + SOC 2."
 slug: "web-scraping-compliance-guide-2026"
 type: "blog-post"
 segment: "cross-segment"

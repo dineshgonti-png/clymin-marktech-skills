@@ -412,6 +412,7 @@ pricing:
 content_config:
   subdirectory: "/resources"
   base_url: "https://www.clymin.ai/resources"
+  hub_description: "Web scraping guides, case studies, and tools for ecommerce, travel, and finance teams. 76 expert resources. Starting from $100."
   page_types:
     - type: "landing-page"
       label: "Services"
@@ -506,6 +507,9 @@ navigation:
       - label: "LinkedIn"
         href: "https://www.linkedin.com/company/clymin"
     copyright_holder: "Clymin"
+  social_profiles:
+    linkedin: "https://www.linkedin.com/company/clymin"
+    twitter: "https://twitter.com/clyminai"
 
 # ============================================================
 # CTA
@@ -533,6 +537,13 @@ deployment:
   platform: "vercel"
   project_name: "clymin-resources"
   domain: "www.clymin.ai"
+
+# ============================================================
+# ANALYTICS
+# ============================================================
+analytics:
+  ga4_id: "G-XXXXXXXXXX"
+  search_console_verified: false
 
 # ============================================================
 # CANONICAL CONTENT REFERENCES

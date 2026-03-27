@@ -857,6 +857,14 @@ const ctaTertiaryLink = brand.cta?.tertiary_button?.link || `mailto:${brand.busi
       .header-cta { font-size: 13px; padding: 8px 16px; }
     }
   `} />
+
+  <!-- Analytics -->
+  {brand.analytics?.ga4_id && brand.analytics.ga4_id !== 'G-XXXXXXXXXX' && (
+    <>
+      <script async src={`https://www.googletagmanager.com/gtag/js?id=${brand.analytics.ga4_id}`}></script>
+      <script set:html={`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${brand.analytics.ga4_id}');`}></script>
+    </>
+  )}
 </head>
 <body>
 
@@ -904,6 +912,26 @@ const ctaTertiaryLink = brand.cta?.tertiary_button?.link || `mailto:${brand.busi
   <main class="content-wrapper">
     <article class="content">
       <Fragment set:html={enhancedHtml} />
+
+      <!-- Social Sharing -->
+      <div style="border-top: 1px solid var(--border); margin-top: 32px; padding-top: 24px; display: flex; align-items: center; gap: 16px; flex-wrap: wrap;">
+        <span style="font-size: 14px; font-weight: 600; color: var(--text-secondary);">Share this article:</span>
+        <a href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(effectiveTitle)}&url=${encodeURIComponent(fullUrl)}`}
+           target="_blank" rel="noopener noreferrer"
+           style="display: inline-flex; align-items: center; gap: 6px; padding: 8px 16px; background: #000; color: white; border-radius: 6px; font-size: 13px; font-weight: 600; text-decoration: none;">
+          𝕏 Share on X
+        </a>
+        <a href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(fullUrl)}`}
+           target="_blank" rel="noopener noreferrer"
+           style="display: inline-flex; align-items: center; gap: 6px; padding: 8px 16px; background: #0A66C2; color: white; border-radius: 6px; font-size: 13px; font-weight: 600; text-decoration: none;">
+          in Share on LinkedIn
+        </a>
+        <a href={`https://api.whatsapp.com/send?text=${encodeURIComponent(effectiveTitle + ' ' + fullUrl)}`}
+           target="_blank" rel="noopener noreferrer"
+           style="display: inline-flex; align-items: center; gap: 6px; padding: 8px 16px; background: #25D366; color: white; border-radius: 6px; font-size: 13px; font-weight: 600; text-decoration: none;">
+          WhatsApp
+        </a>
+      </div>
     </article>
   </main>
 
@@ -937,6 +965,9 @@ const ctaTertiaryLink = brand.cta?.tertiary_button?.link || `mailto:${brand.busi
     <div class="cta-inner">
       <h2>{ctaHeading}</h2>
       {ctaSubheading && <p>{ctaSubheading}</p>}
+      <p style="font-size: 13px; color: rgba(255,255,255,0.7); margin-bottom: 16px;">
+        ⚡ Most clients go live within 48 hours of their first call.
+      </p>
       <div class="cta-buttons">
         <a href={ctaPrimaryLink} class="btn-cta-primary">{ctaPrimaryText}</a>
         <a href={ctaSecondaryLink} class="btn-cta-outline">{ctaSecondaryText}</a>

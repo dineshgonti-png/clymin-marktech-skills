@@ -89,8 +89,8 @@ const headingImport = fonts.heading?.google_import || 'Outfit:wght@400;500;600;7
 const bodyImport = fonts.body?.google_import || 'Archivo:wght@400;500;600';
 const fontsUrl = `https://fonts.googleapis.com/css2?family=${headingImport}&family=${bodyImport}&display=swap`;
 
-const hubTitle = `${brand.content_config?.page_types?.[0]?.label || 'Resources'} | ${brand.business.name}`;
-const hubDescription = brand.business.description || `Resources and guides from ${brand.business.name}`;
+const hubTitle = `Resources Hub | ${brand.business.name}`;
+const hubDescription = brand.content_config?.hub_description || `Web scraping guides, case studies, and tools for ecommerce, travel, and finance teams. 76 resources. Starting from $100.`;
 ---
 
 <!DOCTYPE html>
@@ -127,6 +127,53 @@ const hubDescription = brand.business.description || `Resources and guides from 
     "url": `${siteUrl}${subdirectory}`,
     "publisher": { "@type": "Organization", "name": brand.business.name, "url": siteUrl },
     "numberOfItems": totalPages
+  })} />
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What does Clymin do?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Clymin is a fully managed web scraping service. We extract, clean, and deliver structured data from any website — competitor prices, hotel rates, real estate listings, financial data — with 99%+ accuracy and 48-hour setup. Starting from $100."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How much does Clymin cost?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Clymin pricing starts from $100 and scales based on volume, frequency, and use case. Most ecommerce and travel clients spend $300–$2,000/month. Enterprise data pipelines are priced on scope. All plans include setup, maintenance, and delivery — no technical overhead."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is web scraping legal?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, scraping publicly available data is legal in most jurisdictions. The hiQ Labs v. LinkedIn ruling (9th Circuit, 2022) confirmed that scraping publicly accessible data does not violate the CFAA. Clymin follows robots.txt, avoids personal data under GDPR Article 6, and maintains ISO 27001 compliance."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How long does setup take?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Clymin delivers production-ready data pipelines in 48 hours. Most clients receive their first data delivery within 2 business days of onboarding."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What industries does Clymin serve?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Clymin serves 9 industries: e-commerce, travel and hospitality, real estate, food delivery, financial services, retail, logistics, market research, and competitive intelligence."
+        }
+      }
+    ]
   })} />
 
   <style set:html={cssVars + `
@@ -589,6 +636,15 @@ const hubDescription = brand.business.description || `Resources and guides from 
     </div>
   </section>
 
+  <!-- Pricing strip -->
+  <div style="background: var(--primary); padding: 14px 30px; text-align: center;">
+    <p style="font-size: 14px; color: white; margin: 0;">
+      <strong>Fully managed web scraping from $100.</strong>
+      &nbsp;48-hour setup · 99%+ accuracy · zero maintenance ·
+      <a href={ctaPrimaryLink} style="color: white; font-weight: 700; text-decoration: underline;">Get a free consultation →</a>
+    </p>
+  </div>
+
   <!-- Category navigation tabs -->
   {activeGroups.length > 1 && (
     <nav class="category-nav">
@@ -644,10 +700,28 @@ const hubDescription = brand.business.description || `Resources and guides from 
     )}
   </main>
 
+  <!-- Email Capture / Lead Magnet -->
+  <section style="background: var(--bg-light); padding: 60px 30px; border-top: 1px solid var(--border);">
+    <div style="max-width: 680px; margin: 0 auto; text-align: center;">
+      <p style="font-size: 13px; font-weight: 700; letter-spacing: 1px; color: var(--primary); text-transform: uppercase; margin-bottom: 10px;">FREE RESOURCE</p>
+      <h2 style="font-family: var(--font-heading); font-size: 28px; font-weight: 700; color: var(--text-primary); letter-spacing: -0.5px; margin-bottom: 12px;">Get the Web Scraping ROI Calculator</h2>
+      <p style="font-size: 16px; color: var(--text-secondary); margin-bottom: 28px; line-height: 1.6;">See exactly how much time and money a managed scraping service saves vs. building in-house. Used by 200+ teams to justify the switch.</p>
+      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" style="display: flex; gap: 12px; max-width: 480px; margin: 0 auto; flex-wrap: wrap; justify-content: center;">
+        <input type="email" name="email" placeholder="Enter your work email" required
+          style="flex: 1; min-width: 220px; padding: 13px 18px; border: 2px solid var(--border); border-radius: var(--radius-btn); font-size: 15px; font-family: var(--font-body); outline: none; color: var(--text-primary);" />
+        <button type="submit"
+          style="padding: 13px 24px; background: var(--primary); color: white; border: none; border-radius: var(--radius-btn); font-size: 15px; font-weight: 700; font-family: var(--font-body); cursor: pointer; white-space: nowrap;">
+          Send Me the Calculator
+        </button>
+      </form>
+      <p style="font-size: 12px; color: var(--text-muted); margin-top: 12px;">No spam. Unsubscribe anytime. Trusted by 200+ data teams.</p>
+    </div>
+  </section>
+
   <!-- CTA -->
   <section class="hub-cta">
     <div class="hub-cta-inner">
-      <h2>{ctaHeading}</h2>
+      <h2>{ctaHeading || 'Ready to Stop Building Scrapers?'}</h2>
       {ctaSubheading && <p>{ctaSubheading}</p>}
       <div class="hub-cta-buttons">
         <a href={ctaPrimaryLink} class="btn-primary">{ctaPrimaryText}</a>
@@ -667,6 +741,14 @@ const hubDescription = brand.business.description || `Resources and guides from 
           ))}
         </ul>
       </nav>
+      <div style="display: flex; gap: 16px; align-items: center;">
+        <a href="https://www.linkedin.com/company/clymin" target="_blank" rel="noopener" aria-label="Clymin on LinkedIn"
+          style="color: var(--text-muted); text-decoration: none; font-size: 13px; transition: color 0.2s;"
+          onmouseover="this.style.color='white'" onmouseout="this.style.color=''">LinkedIn</a>
+        <a href="https://twitter.com/clyminai" target="_blank" rel="noopener" aria-label="Clymin on Twitter"
+          style="color: var(--text-muted); text-decoration: none; font-size: 13px; transition: color 0.2s;"
+          onmouseover="this.style.color='white'" onmouseout="this.style.color=''">Twitter</a>
+      </div>
       <div class="footer-copy">&copy; {new Date().getFullYear()} {copyrightHolder}. All rights reserved.</div>
     </div>
   </footer>

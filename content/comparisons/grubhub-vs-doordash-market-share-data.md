@@ -1,108 +1,77 @@
 ---
 id: "p-057"
-title: "Grubhub Vs DoorDash Market Share Data"
+title: "Grubhub vs DoorDash Market Share Data"
 slug: "grubhub-vs-doordash-market-share-data"
 type: "comparison"
 segment: "food-delivery"
 status: "draft"
-priority: 7
-wave: 3
-meta_title: "Grubhub vs DoorDash Market Share Data | Clymin 2026"
-meta_description: "Compare Grubhub vs DoorDash market share data through web scraping. Clymin analyzes restaurant coverage, pricing, delivery zones, and competitive insights."
+created: "2026-03-13"
+updated: "2026-03-27"
+meta_title: "Grubhub vs DoorDash Market Share Data 2026"
+meta_description: "Grubhub vs DoorDash market share 2026: platform-by-platform analysis of order volume, restaurant coverage, fee structures, and what scraped data reveals."
 target_keywords:
-  - "grubhub vs doordash market share data"
-  - "delivery platform comparison"
-  - "food delivery market share"
+  - "grubhub vs doordash market share"
+  - "doordash vs grubhub data comparison"
+  - "food delivery platform market share data"
 schema_type: "Article"
 canonical_url: "/resources/grubhub-vs-doordash-market-share-data"
+social_hook: "DoorDash holds 67% of US food delivery market share. Grubhub is down to 6%. But the platform gap for restaurants isn't about market share — it's about category density and fee structure in your market."
+email_subject: "Grubhub vs DoorDash in 2026: what the market share data actually means for restaurants"
 og_image: "/images/heroes/grubhub-vs-doordash-market-share-data.svg"
-created: "2026-03-18"
-updated: "2026-03-18"
-faqs:
-  - question: "What is the current market share split between DoorDash and Grubhub?"
-    answer: "As of early 2026, DoorDash leads the US food delivery market with approximately 67% market share, followed by Uber Eats at 23% and Grubhub at approximately 8%. These shares fluctuate by metro area — Grubhub maintains stronger positions in legacy markets like New York City and Chicago where it built early dominance."
-  - question: "What data can you scrape from DoorDash and Grubhub?"
-    answer: "Clymin extracts restaurant listings, menu items with pricing, delivery fees, estimated delivery times, promotion and discount data, delivery zone boundaries, restaurant ratings, and order minimums from both platforms. This data supports competitive analysis, market sizing, and pricing intelligence."
-  - question: "How do restaurants use DoorDash vs Grubhub comparison data?"
-    answer: "Restaurants use comparative platform data to optimize their delivery strategy — identifying which platform drives more orders in their area, comparing commission structures, analyzing competitor menu pricing, and determining which promotions generate the best ROI across platforms."
-  - question: "How often does food delivery market share data change?"
-    answer: "Market share shifts monthly at the national level and weekly in competitive metro areas. Clymin's continuous monitoring detects restaurant additions, removals, and pricing changes daily across both platforms, providing leading indicators of market share movements."
 ---
 
-DoorDash dominates the US food delivery market with approximately 67% market share in early 2026, while Grubhub holds roughly 8% after years of declining share — but metro-level data tells a different story, with Grubhub maintaining competitive positions in legacy markets like New York City and Chicago. Clymin provides granular market share intelligence by scraping restaurant coverage, menu pricing, delivery zones, and promotional activity from both platforms, enabling food delivery companies, restaurant chains, and investors to understand competitive dynamics at the zip-code level rather than relying on national averages.
+DoorDash holds approximately 67% of US food delivery order volume as of 2026, Uber Eats holds 23%, and Grubhub has declined to approximately 6% following its acquisition and restructuring — a market concentration that represents a significant shift from the three-platform balance of 2021. For restaurants and food brands analyzing platform strategy, the market share headline matters less than what scraped competitive data reveals about menu pricing, category density, and fee structures in specific markets. Clymin extracts food delivery platform data across all major platforms for restaurants and food brands in San Francisco, India, and globally.
 
-![Grubhub vs DoorDash market share data](/images/heroes/grubhub-vs-doordash-market-share-data.svg)
+## The 2026 US Food Delivery Market Share Picture
 
-## National Market Share Context
+DoorDash's market share growth accelerated through 2023–2025 driven by geographic expansion into suburban and rural markets where Grubhub had historically been weak, Dash Pass subscriber retention, and restaurant acquisition programs that gave DoorDash first-mover advantages in high-growth categories.
 
-The US food delivery market reached $218 billion in gross merchandise value during 2025, according to Edison Trends data. DoorDash's 67% share translates to approximately $146 billion in order volume. Grubhub's 8% represents roughly $17 billion — still a substantial business despite its decline from the 30%+ share it held in 2019.
+According to Bloomberg Second Measure (2025), DoorDash's market share by order volume stands at 67%, Uber Eats at 23%, and Grubhub at 6% — down from 27% in 2021. The remaining ~4% is distributed across Instacart (grocery-restaurant crossover), regional platforms, and direct ordering systems.
 
-Understanding how these shares distribute geographically matters more than national numbers for most business decisions. A restaurant choosing between platforms needs to know which delivers more orders in their specific neighborhood. An investor evaluating Grubhub's value needs to understand where it remains competitive.
+Grubhub's decline reflects compounding challenges: loss of exclusive restaurant agreements, reduced marketing investment post-acquisition by Just Eat Takeaway, and a geographic concentration in urban markets where DoorDash and Uber Eats both compete aggressively. The brand retains relative strength in specific cities (Chicago, New York) but has lost national competitive relevance.
 
-Clymin scrapes both platforms across all US markets, providing the ground-level data that national market share reports cannot capture.
+## What Market Share Data Misses for Restaurant Decision-Making
 
-## Restaurant Coverage Comparison
+**[Want category-level and market-level food delivery data for your platform strategy? Get a free Clymin consultation. →](https://www.clymin.ai/contact-us)**
 
-Restaurant coverage — the number and type of restaurants available on each platform — is the primary driver of market share and consumer preference.
+National market share figures obscure local market dynamics that matter most for restaurant platform strategy.
 
-**DoorDash restaurant coverage** spans 900,000+ restaurants across the US, including both partnered restaurants (with direct integration agreements) and non-partnered listings where DoorDash places orders on behalf of customers. This "marketplace" approach maximizes selection but creates operational complexity.
+**Category density**: In specific cuisine categories (sushi, Korean BBQ, Mediterranean), platform concentration varies significantly from the national average. Scraped data from DoorDash, Grubhub, and Uber Eats in specific metro areas reveals which platforms have higher category density — and thus more competitive fee negotiating leverage for restaurants with platform-scarce cuisine types.
 
-**Grubhub restaurant coverage** focuses primarily on partnered restaurants with approximately 365,000 listings. Grubhub's higher partnership penetration means restaurants on its platform generally have tighter integration, dedicated tablets, and optimized menus for delivery.
+**Geographic market share variation**: DoorDash's national 67% share masks significant variation by city. In specific urban neighborhoods where Grubhub built strong early network effects, local market share may still favor Grubhub for certain restaurant categories. Restaurant platform strategy based on national share data misallocates promotional investment.
 
-Clymin tracks coverage changes daily across both platforms. New restaurant additions, removals, and status changes provide leading indicators of platform strategy shifts. When DoorDash adds 50 restaurants in a zip code overnight, it signals a market expansion push that competitors should note.
+**Fee structure data**: Published commission rates from food delivery platforms don't reflect the actual take rates resulting from promotional programs, DashPass subsidies, and platform-specific advertising programs. Scraped menu pricing across platforms for the same restaurant reveals effective fee structure from the consumer price angle.
 
-## Pricing and Fee Structure Analysis
+According to Second Measure (2025), the average restaurant operating on two food delivery platforms generates 3.1x more delivery order volume than restaurants operating on one platform. Platform concentration risk — over-reliance on DoorDash's 67% share — creates revenue vulnerability if platform terms change.
 
-Scraping menu pricing and fee structures from both platforms reveals competitive positioning:
+## What Scraped Food Delivery Data Reveals
 
-**Delivery fees** vary significantly. DoorDash charges $0.99-$5.99 for DashPass members and $2.99-$7.99 for non-members. Grubhub's fees range from $0.99-$4.99 for Grubhub+ members and $1.99-$6.99 for standard orders. These fees change by market, time of day, and demand level.
+Clymin's food delivery platform data extraction captures the competitive intelligence that market share reports don't:
 
-**Menu pricing** often differs for the same restaurant across platforms. A 2025 Consumer Reports study found that identical menu items cost 3-15% more on DoorDash compared to Grubhub for the same restaurant in 8 of 10 markets tested. These differences reflect commission structures, promotional subsidies, and restaurant pricing strategies.
+**Menu price comparisons across platforms**: The same restaurant's menu prices frequently vary across DoorDash, Grubhub, and Uber Eats — both the restaurant-controlled price and the platform service fee added to the consumer price. Price differential analysis shows which platform delivers the best consumer value perception for different restaurant types.
 
-**Service fees** and **small order fees** add additional cost layers that affect consumer choice. Clymin captures all fee components to calculate true order costs across platforms.
+**Restaurant category mapping**: Extracting restaurant listings, category classifications, and review data by geographic area maps the competitive density by cuisine type — the data restaurants need to assess platform exclusivity value.
 
-**Promotional discounts** including percentage-off deals, free delivery offers, and platform-specific coupons shift effective pricing daily. Clymin monitors promotional activity to understand how each platform uses discounts to drive order volume.
+**Rating and review distribution**: Platform-by-platform review score distributions for restaurant categories enable competitive positioning analysis within each platform's ecosystem.
 
-## Delivery Zone and Speed Comparison
+**Delivery time and availability data**: Platform delivery time estimates, service area coverage, and restaurant availability status — which platforms cover which neighborhoods at which hours — is publicly visible and strategically relevant for restaurants evaluating platform mix.
 
-**DoorDash** maintains the broadest delivery zone coverage, reaching 97% of the US population including suburban and rural areas where Grubhub has limited or no presence. DoorDash's expansion into non-restaurant delivery (convenience, grocery, alcohol) extends its driver network into areas where food-only platforms struggle to maintain coverage.
+## Platform Comparison for Restaurant Strategy
 
-**Grubhub** concentrates delivery zones in dense urban and suburban areas where order density supports efficient driver economics. This focus results in faster delivery times in core markets — Grubhub's average delivery time in New York City is 28 minutes compared to DoorDash's 34 minutes, according to 2025 platform data scraped by Clymin.
+| Dimension | DoorDash | Uber Eats | Grubhub |
+|---|---|---|---|
+| US market share (2025) | 67% | 23% | 6% |
+| Geographic strength | National, suburban | Urban, airport, upscale | NYC, Chicago |
+| Loyalty program | DashPass (10M+ subs) | Uber One | Grubhub+ |
+| Restaurant fee range | 15–30% + ads | 15–30% + ads | 15–25% + ads |
+| Data collection availability | Full public menus | Full public menus | Full public menus |
 
-Delivery zone boundary data reveals where each platform is expanding or contracting. Clymin maps zone changes over time to identify market entry and exit patterns.
+## How Clymin Supports Food Delivery Intelligence
 
-## How Clymin Collects Food Delivery Market Data
+Clymin extracts publicly visible menu data, pricing, ratings, availability, and restaurant listings from food delivery platforms for restaurants evaluating platform strategy, food brands monitoring competitive presence, and investors analyzing platform-level competitive dynamics.
 
-Clymin's extraction pipeline for food delivery platforms captures:
+The extraction covers menu price comparisons across platforms for specific restaurant categories, restaurant category density by geographic area, rating distribution by platform and category, and delivery area mapping. All data is publicly visible — the same information any consumer can see when browsing platform apps and websites.
 
-**Restaurant-level data**: Name, cuisine type, address, operating hours, rating, review count, delivery radius, menu items, pricing, and promotional offers. Updated daily for active restaurants across both platforms.
+For food delivery platform data extraction scope and pricing, see Clymin's [travel data extraction services](/resources/travel-data-extraction-services) and [product data extraction services](/resources/product-data-extraction-services) for comparable managed data programs. For the cost comparison between managed and in-house food delivery data extraction, see [managed food delivery scraping vs DIY](/resources/managed-food-delivery-scraping-vs-diy).
 
-**Fee and pricing data**: Delivery fees, service fees, small order fees, and dynamic pricing changes captured hourly during peak ordering periods. This data reveals platform pricing strategies and seasonal adjustments.
-
-**Geographic coverage data**: Delivery zone boundaries, available restaurant counts by zip code, and coverage gap analysis between platforms. Updated weekly to track expansion patterns.
-
-**Promotional activity**: Active promotions, discount codes, loyalty program offers, and platform-subsidized deals scraped daily. Promotional spending patterns indicate competitive intensity in specific markets.
-
-Both DoorDash and Grubhub implement anti-scraping measures including rate limiting, geographic restrictions, and dynamic rendering. Clymin's AI-powered extraction agents handle these challenges through residential proxy networks, adaptive browser rendering, and continuous monitoring that detects and adapts to platform changes.
-
-## Use Cases for Comparative Market Share Data
-
-**Restaurant chains** use Clymin's comparative data to optimize their multi-platform strategy: which platform to prioritize in each market, how to price menus across platforms, and where exclusive promotions generate the highest incremental order volume.
-
-**Food delivery startups** entering specific markets use coverage gap data to identify underserved restaurants and neighborhoods where a new platform could differentiate.
-
-**Investors and analysts** tracking the food delivery sector use Clymin's data for market share validation, competitive trend analysis, and investment thesis development.
-
-**CPG brands** selling through delivery platforms use restaurant and menu data to understand distribution reach, pricing trends, and promotional effectiveness across platforms.
-
-## Beyond DoorDash and Grubhub
-
-Comprehensive food delivery intelligence requires data from the full platform ecosystem. Clymin also extracts from Uber Eats (23% market share), Postmates (now part of Uber), regional platforms like Slice (pizza-focused) and Caviar (now DoorDash), and emerging players targeting specific niches or markets.
-
-Multi-platform extraction through a single managed service eliminates the complexity of building and maintaining separate scrapers for each platform.
-
-## Get Food Delivery Market Intelligence
-
-Clymin configures food delivery platform data extraction within 5-7 business days, covering DoorDash, Grubhub, Uber Eats, and additional platforms across your target markets.
-
-Contact the team at [contact@clymin.com](mailto:contact@clymin.com) or [book a meeting](https://calendar.app.google/Ar5bkNN4nZpumJxN9) to discuss your food delivery data requirements.
+**[Get a Free Consultation →](https://www.clymin.ai/contact-us)** | **[Book a Meeting →](https://calendar.app.google/Ar5bkNN4nZpumJxN9)**
